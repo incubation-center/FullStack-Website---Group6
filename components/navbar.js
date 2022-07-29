@@ -10,7 +10,7 @@ function MobileNav ( { open, setOpen } )
 {
   return (
     <div className={ `absolute top-0 left-0 h-screen w-screen bg-[#30D5C8] transform ${ open ? "-translate-x-0" : "-translate-x-full" } transition-transform duration-300 ease-in-out filter drop-shadow-md ` }>
-      <div className="flex items-center filter drop-shadow-md text-[#30D5C8] bg-white text-5xl h-20 p-5"> {/*logo container*/ }
+      <div className="flex items-center filter drop-shadow-md text-[#30D5C8] bg-white text-5xl h-20 p-5"> {/*Logo Container*/ }
         <Link href="/">Growl</Link>
       </div>
       <div className="flex flex-col">
@@ -43,7 +43,7 @@ export default function Navbar ()
         {
           setOpen( !open )
         } }>
-          {/* hamburger button */ }
+          {/* Hamburger Button */ }
           <span className={ `h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${ open ? "rotate-45 translate-y-3.5" : "" }` } />
           <span className={ `h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${ open ? "w-0 " : "w-full" }` } />
           <span className={ `h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${ open ? "-rotate-45 -translate-y-3.5" : "" }` } />
