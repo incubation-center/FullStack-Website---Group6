@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  // url      = env("DATABASE_URL")
+  url = "postgresql://postgres:postgres@postgres:5432/IFood?schema=public"
+}
+
+model Recipe {
+  id Int @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  name String
+  description String?
+  categories RecipesCategoriesPivot[]
+}
+
+model RecipeCategory {
+  id Int @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  name String
+  description String?
+  recipes RecipesCategoriesPivot[]
+}
+
+model RecipesCategoriesPivot {
+  recipe Recipe  @relation(fields: [recipeId], references: [id])
+  recipeId Int 
+  recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id])
+  recipeCategoryId Int 
+  assignedAt DateTime @default(now())
+  assignedBy String
+
+  @@id([recipeId, recipeCategoryId])
+}
