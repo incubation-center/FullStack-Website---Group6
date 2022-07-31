@@ -17,14 +17,15 @@ export const CreateRecipe = () => {
   const refreshData = () => router.replace(router.asPath);
 
   const createDefaultRecipeTest = async () => {
-    console.log("creating a default recipe test object.");
-
     const body = newRecipe;
     await fetch("/api/recipe/create", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
     });
+
+    console.log("Test Recipe Object Created. 201.");
+
     refreshData();
     setNewAsset(defaultRecipe);
   };

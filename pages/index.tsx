@@ -15,8 +15,6 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <CreateRecipe />
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to iFood
@@ -50,10 +48,11 @@ const Home: NextPage = () => {
             href="#"
             className={styles.card}
           >
-            <h2>Comming Soon &rarr;</h2>
+            <h2>Create a Test recipe</h2>
             <p>
-              Currently in development
+              See the console to see the log of the called function
             </p>
+            <CreateRecipe />
           </a>
         </div>
       </main>
