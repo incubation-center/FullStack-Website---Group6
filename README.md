@@ -3,7 +3,7 @@
 
 ### Set Up Environment Variable 
 
-Rename the following 2 environment varible files:
+Rename the following 2 environment variable files:
 
 1. Rename `.env.sample` to `.env`
 2. Rename `dev.env.sample` to `dev.env`
@@ -14,14 +14,6 @@ Rename the following 2 environment varible files:
 
     ```bash
     docker-compose up
-    ```
-
-2. Migrating Your Database
-
-    **Note**: Run this command When you run the project with a fresh PostgreSQL DB
-
-    ```bash 
-    yarn prisma:migrate
     ```
 
 ### Run locally
@@ -51,9 +43,7 @@ Rename the following 2 environment varible files:
 
 These are the additional commands related to the services inside the docker container:
 
-- Database Docker Container:
-
-    Accessing the database container:
+- Accessing Database Docker Container:
 
     ```bash
     docker exec -it postgres psql IFood postgres
@@ -63,7 +53,7 @@ These are the additional commands related to the services inside the docker cont
 
 - Migrating The Database:
 
-    In case the database container is not to update with the `migrations`, we can use this command to manually migrate the database with the specified migration versions in `prisma/migrations/`
+    In case the database container is not up-to-date with the migrations, we can use this command to manually migrate the database with the specified migration versions in `prisma/migrations/`
 
     ```bash
     docker exec -it next-prisma-docker_app_1 yarn prisma:migrate
