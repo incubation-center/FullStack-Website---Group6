@@ -1,7 +1,7 @@
 export default function RecipesCard ()
 {
   return (
-    <div className="card w-fit card-side bg-base-100 shadow-md my-5">
+    <div className="card w-fit card-side bg-base-100 shadow-md">
       <figure>
         <img src="kokos_curry.png" className="w-48 h-56" alt="Kokos Curry" />
       </figure>
