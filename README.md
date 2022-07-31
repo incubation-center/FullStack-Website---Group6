@@ -71,7 +71,7 @@ These are the additional commands related to the services inside the docker cont
 
 - Reset The Database Migration:
 
-    **Note** :warning:: This command will reset all data and previous migration in the database
+    :warning: **Note** : This command will reset all data and previous migration in the database
 
     ```bash
     docker exec -it next-prisma-docker_app_1 prisma migrate reset
