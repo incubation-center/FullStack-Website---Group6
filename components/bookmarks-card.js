@@ -5,14 +5,18 @@ export default function BoomarksCard ()
       <figure>
         <img src="kokos_curry.png" alt="Kokos Curry" />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title text-white">Kokos Curry</h2>
+      <div className="card-body p-5">
+        <h2 className="card-title text-base-100 ">Kokos Curry</h2>
         <p></p>
         <div className="card-actions justify-end">
-          <button className="btn btn-circle btn-outline">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+          <button className="btn btn-circle btn-outline text-base-100">
+            <svg className="color: rgb(255, 210, 51); h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmark-x" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6.146 5.146a.5.5 0 0 1 .708 0L8 6.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 7l1.147 1.146a.5.5 0 0 1-.708.708L8 7.707 6.854 8.854a.5.5 0 1 1-.708-.708L7.293 7 6.146 5.854a.5.5 0 0 1 0-.708z" fill="#ffd233"></path>
+              <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" fill="#ffd233"></path>
             </svg>
+            {/* <svg className="color: rgb(255, 210, 51); h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bookmark-x-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM6.854 5.146a.5.5 0 1 0-.708.708L7.293 7 6.146 8.146a.5.5 0 1 0 .708.708L8 7.707l1.146 1.147a.5.5 0 1 0 .708-.708L8.707 7l1.147-1.146a.5.5 0 0 0-.708-.708L8 6.293 6.854 5.146z" fill="#ffd233"></path>
+            </svg> */}
           </button>
         </div>
       </div>
