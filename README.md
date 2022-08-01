@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack-Website---Group6
+## Development
 
-## Getting Started
+### Set Up Environment Variable 
 
-First, run the development server:
+Rename the following 2 environment variable files:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Rename `.env.sample` to `.env`
+2. Rename `dev.env.sample` to `dev.env`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run with Docker Compose
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Running The Services
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    ```bash
+    docker-compose up
+    ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Run locally
 
-## Learn More
+1. Installing The Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    yarn
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Generate The Prisma Client and Migrate 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    yarn prisma:generate 
+    yarn prisma:migrate 
+    ```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Build and Run The NEXT Application
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    yarn build
+    yarn start
+    ```
+
+### Additional Commands
+
+These are the additional commands related to the services inside the docker container:
+
+- Accessing Database Docker Container:
+
+    ```bash
+    docker exec -it postgres psql IFood postgres
+
+    # /dt
+    ```
+
+- Migrating The Database:
+
+    In case the database container is not up-to-date with the migrations, we can use this command to manually migrate the database with the specified migration versions in `prisma/migrations/`
+
+    ```bash
+    docker exec -it next-prisma-docker_app_1 yarn prisma:migrate
+    ```
+
+- Reset The Database Migration:
+
+    :warning: **Note** : This command will reset all data and previous migration in the database
+
+    ```bash
+    docker exec -it next-prisma-docker_app_1 prisma migrate reset
+    ```
+
+- Initialize The Prisma Schema
+
+    ```bash
+    npx prisma init
+    ```
