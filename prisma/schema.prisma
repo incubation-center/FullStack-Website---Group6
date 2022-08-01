@@ -8,7 +8,7 @@ datasource db {
 }
 
 model RecipeTest {
-	id Int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
   createdAt DateTime @default(now())
   updatedAt DateTime?
   name String
@@ -35,9 +35,9 @@ model RecipeCategory {
 
 model RecipesCategoriesPivot {
   recipe Recipe  @relation(fields: [recipeId], references: [id])
-  recipeId Int 
+  recipeId Int
   recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id])
-  recipeCategoryId Int 
+  recipeCategoryId Int
   assignedAt DateTime @default(now())
   assignedBy String
 
