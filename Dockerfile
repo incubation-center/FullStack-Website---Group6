@@ -33,6 +33,6 @@ COPY --from=build  /app/.next /app/.next
 COPY --from=build  /app/public /app/public
 COPY --from=build  /app/prisma /app/prisma
 
-EXPOSE 3000
+EXPOSE 3002
 
 CMD ["yarn", "start:dev"]
