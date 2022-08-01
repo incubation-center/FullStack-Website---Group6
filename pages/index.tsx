@@ -1,7 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 // import Image from 'next/image'
+
 import styles from '../styles/Home.module.css'
+import { CreateRecipe } from '../components/recipe/createRecipe'
+
 
 const Home: NextPage = () => {
   return (
@@ -45,10 +48,11 @@ const Home: NextPage = () => {
             href="#"
             className={styles.card}
           >
-            <h2>Comming Soon &rarr;</h2>
+            <h2>Create a Test recipe</h2>
             <p>
-              Currently in development
+              See the console to see the log of the called function
             </p>
+            <CreateRecipe />
           </a>
         </div>
       </main>
