@@ -1,9 +1,9 @@
 export default function RecipesCard ()
 {
   return (
-    <div className="card w-fit card-side bg-base-100 shadow-md">
+    <div className="card w-fit h-fit card-side shadow-md hover:shadow-xl m-5">
       <figure>
-        <img src="kokos_curry.png" className="w-48 h-56" alt="Kokos Curry" />
+        <img src="kokos_curry.png" className="w-48 h-full" alt="Kokos Curry" />
       </figure>
       <div className="card-body">
         <div className="flex">
@@ -25,9 +25,23 @@ export default function RecipesCard ()
             </svg> */}
           </label>
         </div>
+        
         <div className="divider"></div>
-        <p>🔥 320 Kcal</p>
-        <p>🕒 45 mins</p>
+
+        <div className="flex flex-row">
+          <svg className="color: red mx-2 w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z" fill="red"></path>
+          </svg>
+          <p className="my-1">320 Kcal</p>
+        </div>
+
+        <div className="flex flex-row">
+          <svg className="color: blue mx-3 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" fill="#0000ff"></path>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" fill="#0000ff"></path>
+          </svg>
+          <p>45 mins</p>
+        </div>
       </div>
     </div>
   )
