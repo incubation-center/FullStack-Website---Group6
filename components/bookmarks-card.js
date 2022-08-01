@@ -1,9 +1,9 @@
 export default function BoomarksCard ()
 {
   return (
-    <div className="card w-fit h-fit image-full shadow-lg hover:shadow-2xl m-5">
+    <div className="card w-fit h-fit image-full shadow-md hover:shadow-2xl m-5">
       <figure>
-        <img src="kokos_curry.png" alt="Kokos Curry" />
+        <img src="kokos_curry.png" className="w-full h-full" alt="Kokos Curry" />
       </figure>
       <div className="card-body p-5">
         <h2 className="card-title text-base-100 hover:text-primary">Kokos Curry</h2>
