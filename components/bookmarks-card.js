@@ -1,12 +1,16 @@
+import Router, { useRouter } from 'next/router';
 import Image from 'next/image'
 
 export default function BoomarksCard ()
 {
+  const router = useRouter()
+
   return (
-    <div className="card w-fit h-fit image-full shadow-md hover:shadow-2xl m-5">
+    <div className="card w-fit h-fit image-full shadow-md hover:shadow-2xl m-5" onClick={ () => router.push( "/recipes-detail" ) } >
       <figure>
         <Image src="/kokos_curry.png" width={ 250 } height={ 200 } alt="Kokos Curry" />
       </figure>
+      
       <div className="card-body p-5">
         <h2 className="card-title text-base-100 hover:text-primary">Kokos Curry</h2>
         <p></p>

@@ -9,7 +9,7 @@ function NavLink ( { to, children } )
 function MobileNav ( { open, setOpen } )
 {
   return (
-    <div className={ `absolute top-0 left-0 h-screen w-screen bg-primary transform ${ open ? "-translate-x-0" : "-translate-x-full" } transition-transform duration-300 ease-in-out filter drop-shadow-md ` }>     
+    <div className={ `absolute top-0 left-0 h-screen w-screen bg-primary transform ${ open ? "-translate-x-0" : "-translate-x-full" } transition-transform duration-300 ease-in-out filter drop-shadow-md ` }>
       <div className="flex text-primary bg-base-100 h-20 p-5">
         <input type="text" placeholder="Search" className="input input-ghost w-full max-w-xs border-x-0 border-t-0 border-b-4 border-primary text-neutral" />
         <button className="btn btn-ghost btn-circle">
@@ -31,7 +31,7 @@ function MobileNav ( { open, setOpen } )
           <Link href="/bookmarks">
             <a className="text-2xl font-bold m-5" onClick={ () => setTimeout( () => { setOpen( !open ) }, 100 ) }>
               Bookmarks
-          </a>
+            </a>
           </Link>
         </div>
         <div className="flex flex-col hover:text-neutral">
