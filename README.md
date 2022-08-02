@@ -1,12 +1,13 @@
 # Fullstack-Website---Group6
+
 ## Development
 
 ### Set Up Environment Variable 
 
-Rename the following 2 environment variable files:
+Copy the following 2 environment variable files and name the new files as described below:
 
-1. Rename `.env.sample` to `.env`
-2. Rename `dev.env.sample` to `dev.env`
+1. Copy `.env.sample` and name the new file as `.env`
+2. Copy `dev.env.sample` and name the new file as `dev.env`
 
 ### Run with Docker Compose
 
