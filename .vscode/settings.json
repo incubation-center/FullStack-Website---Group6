@@ -1,8 +1,0 @@
-{
-  "nuxt.isNuxtApp": false,
-  "formattingToggle.affects": [
-    "editor.formatOnPaste",
-    "editor.formatOnSave",
-    "editor.formatOnType"
-  ]
-}

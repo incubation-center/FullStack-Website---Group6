@@ -10,7 +10,6 @@ package-lock.json
 /coverage
 
 # next.js
-/.next/
 /out/
 
 # production
@@ -36,4 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 
 # vscode
-.vscode
+
