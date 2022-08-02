@@ -5,11 +5,11 @@ import Footer from '../components/footer'
 function MyApp ( { Component, pageProps } )
 {
   return <>
-    <Navbar />
+    {/* <Navbar /> */}
 
     <Component { ...pageProps } />
 
-    <Footer />
+    {/* <Footer /> */}
   </>
 }
 

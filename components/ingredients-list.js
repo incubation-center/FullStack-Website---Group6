@@ -1,8 +1,8 @@
 export default function IngredientsList ()
 {
   return (
-    <div className="container w-96 bg-primary my-5">
-      <div className="card w-96 bg-base-100 shadow-md">
+    <div className="container lg:w-96 bg-primary lg:my-5">
+      <div className="card lg:w-96 bg-base-100 shadow-md">
         <div className="card-body items-center text-center">
           <h2 className="card-title">Ingredients</h2>
           <p className="flex justify-end">❌ Clear all</p>

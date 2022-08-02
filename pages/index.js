@@ -1,14 +1,21 @@
-import RecipesCard from '../components/recipes-card'
-import BookmarksCard from '../components/bookmarks-card'
 import IngredientsList from '../components/ingredients-list.js'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import Ingredients from '../components/Ingredients.js';
 
-export default function Home ()
+function Home()
 {
   return (
-    <div className="m-10">
-      Welcome Home!
-      <button className="btn">Hello daisyUI</button>
-      <IngredientsList />
+    <div className='flex flex-col justify-between' style={{minHeight: "100vh"}}>
+      <Navbar/>
+      <div className='flex-1 p-8 h-full justify-center'>
+        <IngredientsList/>
+        <div className='h-4 lg:hidden'/>      
+        <Ingredients/>
+      </div>
+      <Footer/>
     </div>
   )
 }
+
+export default Home;
