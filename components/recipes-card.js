@@ -7,10 +7,9 @@ export default function RecipesCard ()
       <figure>
         <Image src="/kokos_curry.png" width={ 200 } height={ 216 } alt="Kokos Curry" />
       </figure>
-      <div className="card-body">
+      <div className="card-body w-52 p-5">
 
-        <div className="flex">
-          <h2 className="card-title">Kokos Curry</h2>
+        <div className="flex justify-end">
           <label className="swap swap-rotate">
             {/* This hidden checkbox controls the state */ }
             <input type="checkbox" />
@@ -27,7 +26,8 @@ export default function RecipesCard ()
               </svg> */}
           </label>
         </div>
-        
+   
+        <h2 className="card-title">Kokos Curry</h2>
         <div className="divider my-2"></div>
 
         <div className="flex flex-row">

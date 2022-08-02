@@ -1,7 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/recipe/create": "pages/api/recipe/create.js",
+  "/api/recipes": "pages/api/recipes.js",
+  "/bookmarks": "pages/bookmarks.js",
   "/cookbooks": "pages/cookbooks.js",
-  "/bookmarks": "pages/bookmarks.js"
+  "/": "pages/index.js",
+  "/login": "pages/login.js",
+  "/typescript/_app": "pages/typescript/_app.js",
+  "/typescript": "pages/typescript.js",
+  "/_document": "pages/_document.js"
 }
