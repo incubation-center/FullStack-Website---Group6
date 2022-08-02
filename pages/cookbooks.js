@@ -12,7 +12,7 @@ export default function Cookbooks ()
       </div>     
 
       <div className="flex flex-row justify-end m-5">
-        <select class="select ghost w-full max-w-xs shadow-md mx-5">
+        <select className="select ghost w-full max-w-xs shadow-md mx-5">
           <option disabled selected>Filter by categories</option>
           <option>Khmer</option>
           <option>Western</option>
@@ -20,7 +20,7 @@ export default function Cookbooks ()
           <option>Chinese</option>
           <option>Japanese</option>
         </select>
-        <select class="select ghost w-full max-w-xs shadow-md mx-5">
+        <select className="select ghost w-full max-w-xs shadow-md mx-5">
           <option disabled selected>Recipes Types</option>
           <option>Breakfast</option>
           <option>Lunch</option>
