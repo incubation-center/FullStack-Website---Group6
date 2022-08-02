@@ -1,14 +1,17 @@
+import Router, { useRouter } from 'next/router';
 import Image from 'next/image'
 
 export default function RecipesCard ()
 {
-  return (
-    <div className="card w-fit h-fit card-side shadow-md hover:shadow-xl m-5">
-      <figure>
-        <Image src="/kokos_curry.png" width={ 200 } height={ 216 } alt="Kokos Curry" />
-      </figure>
-      <div className="card-body w-52 p-5">
+  const router = useRouter()
 
+  return (
+    <div className="card w-fit h-fit card-side shadow-md hover:shadow-xl m-5" onClick={ () => router.push( "/recipes-detail" ) } >
+      <figure>
+        <Image src="/kokos_curry.png" width={ 216 } height={ 216 } alt="Kokos Curry" />
+      </figure>
+
+      <div className="card-body w-52 p-5">
         <div className="flex justify-end">
           <label className="swap swap-rotate">
             {/* This hidden checkbox controls the state */ }
@@ -42,7 +45,7 @@ export default function RecipesCard ()
             <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" fill="#0000ff"></path>
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" fill="#0000ff"></path>
           </svg>
-          <p>45 mins</p>
+          <p className="-my-0.5">45 mins</p>
         </div>
       </div>
     </div>
