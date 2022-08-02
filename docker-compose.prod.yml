@@ -18,17 +18,14 @@ services:
     image: next-prisma-docker
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
+      target: build
     depends_on:
       - postgres
     env_file:
       - dev.env
     ports:
-      - 3002:3002
-    volumes:
-      - .:/app
-      - /app/node_modules
-      - /app/.next
+      - 3000:3000
 
 volumes:
   postgres_data:

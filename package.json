@@ -5,11 +5,14 @@
   "description": "iFood with Next.js + Prisma",
   "license": "MIT",
   "scripts": {
-    "dev": "next -p 3002",
+    "dev": "yarn prisma:migrate && next dev -p 3002",
     "build": "next build",
-    "start:dev": "yarn prisma:migrate && next start -p 3002",
+    "start:dev": "yarn prisma:migrate && next start",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
+    "dkc:dev:up": "docker-compose -f docker-compose.yml up",
+    "dkc:dev:build": "docker-compose -f docker-compose.yml up --build",
+    "dkc:prod:up": "docker-compose -f docker-compose.prod.yml up",
     "lint": "next lint"
   },
   "dependencies": {

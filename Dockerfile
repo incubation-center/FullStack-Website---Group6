@@ -1,38 +1,20 @@
-FROM node:16-alpine AS base
+FROM node:lts AS base
 
-# Install this when deployed to production
-# RUN apt-get update && apt-get install libssl-dev ca-certificates -y
-WORKDIR /app
-
-COPY package.json yarn.lock ./
-
-FROM base as build 
+RUN mkdir -p /app
 
 RUN export NODE_ENV=production
+
+WORKDIR /app
+
+COPY package.json /app
+COPY yarn.lock /app
+
 RUN yarn
 
-COPY . .
+COPY . /app
 
 RUN yarn run prisma:generate
-
-RUN yarn build
-
-FROM base as prod-build
-
-RUN yarn install --production
-
-COPY prisma prisma
-RUN yarn run prisma:generate
-
-RUN cp -R node_modules prod_node_modules
-
-FROM base as prod
-
-COPY --from=prod-build /app/prod_node_modules /app/node_modules
-COPY --from=build  /app/.next /app/.next
-COPY --from=build  /app/public /app/public
-COPY --from=build  /app/prisma /app/prisma
 
 EXPOSE 3002
 
-CMD ["yarn", "start:dev"]
+CMD ["yarn", "dev"]

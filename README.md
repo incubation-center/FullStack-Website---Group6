@@ -13,8 +13,10 @@ Rename the following 2 environment variable files:
 1. Running The Services
 
     ```bash
-    docker-compose up
+    yarn dkc:dev:up
     ```
+    
+    > If you update the services docker images, you need to run `yarn dkc:dev:build` instead.
 
 ### Run locally
 

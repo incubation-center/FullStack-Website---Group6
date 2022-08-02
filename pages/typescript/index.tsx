@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             <p>Make sure that NEXT.js runs without any problems</p>
           </a>
 
-          <a href="api/recipe" className={styles.card}>
+          <a href="api/recipes" className={styles.card}>
             <h2>Recipe &rarr;</h2>
             <p>Make sure that Prisma is connected to PostgreSQL.</p>
           </a>

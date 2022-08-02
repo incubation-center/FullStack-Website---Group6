@@ -9,7 +9,7 @@ export default function IngredientsList ()
           <div className="form-control">
             <label className="label cursor-pointer">
               <input type="checkbox" className="checkbox" />
-              <span clasclassNames="label-text m-5">Apple</span>
+              <span className="label-text m-5">Apple</span>
             </label>
           </div>  
           <div className="card-actions">
