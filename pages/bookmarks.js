@@ -1,9 +1,13 @@
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 import BookmarksCard from '../components/bookmarks-card'
 
 export default function Bookmarks ()
 {
   return (
     <div>
+      <Navbar />
+
       <div className="flex flex-row m-5">
         <svg className="bi bi-journal-bookmark-fill color: rgb(255, 210, 51); h-10 w-10" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
           <path fillRule="evenodd" d="M6 1h6v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8V1z" fill="#ffd233"></path>
@@ -34,6 +38,8 @@ export default function Bookmarks ()
         <BookmarksCard />
         <BookmarksCard />
       </div>
+
+      <Footer />
     </div>
   )
 }
