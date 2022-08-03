@@ -8,7 +8,7 @@ function IngredientTabs() {
   };
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="h-full flex flex-col overflow-x-scroll">
       {/* Tab nav */}
       <ul className="flex text-center border-b border-gray-200">
         {ingredients.map((ingredient) => {

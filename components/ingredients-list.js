@@ -1,7 +1,9 @@
-export default function IngredientsList() {
+import Link from "next/link";
+
+export default function IngredientsList({ text }) {
   return (
-    <div className="container lg:w-96 bg-primary h-full">
-      <div className="card lg:w-96 bg-base-100 shadow-md h-full">
+    <div className="container md:w-96 bg-primary h-full">
+      <div className="card md:w-96 bg-base-100 shadow-md h-full">
         <div className="card-body items-center text-center">
           <h2 className="card-title">Ingredients</h2>
           <p className="flex justify-end">❌ Clear all</p>
@@ -12,7 +14,9 @@ export default function IngredientsList() {
             </label>
           </div>
           <div className="card-actions">
-            <button className="btn btn-primary text-white">Find Recipes</button>
+            <Link href="/recipes-result">
+              <button className="btn btn-primary text-white">{text}</button>
+            </Link>
           </div>
         </div>
       </div>
