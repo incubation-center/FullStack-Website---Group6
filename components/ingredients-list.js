@@ -1,8 +1,10 @@
-export default function IngredientsList ()
+import Link from "next/link";
+
+export default function IngredientsList ( { text } )
 {
   return (
-    <div className="container w-96 bg-primary my-5">
-      <div className="card w-96 bg-base-100 shadow-md">
+    <div className="container md:w-96 bg-primary h-full">
+      <div className="card md:w-96 bg-base-100 shadow-md h-full">
         <div className="card-body items-center text-center">
           <h2 className="card-title">Ingredients</h2>
           <p className="flex justify-end">❌ Clear all</p>
@@ -11,12 +13,14 @@ export default function IngredientsList ()
               <input type="checkbox" className="checkbox" />
               <span className="label-text m-5">Apple</span>
             </label>
-          </div>  
+          </div>
           <div className="card-actions">
-            <button className="btn btn-primary text-white">Find Recipes</button>
+            <Link href="/recipes-result">
+              <button className="btn btn-primary text-white">{ text }</button>
+            </Link>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

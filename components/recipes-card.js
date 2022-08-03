@@ -31,7 +31,7 @@ export default function RecipesCard ()
         </div>
    
         <div className="card w-full h-full" onClick={ () => router.push( "/recipes-detail" ) } >
-          <h2 className="card-title">Kokos Curry</h2>
+          <h2 className="card-title mx-px">Kokos Curry</h2>
           <div className="divider my-2"></div>
 
           <div className="flex flex-row my-1">
