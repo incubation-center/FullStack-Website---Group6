@@ -53,7 +53,7 @@ export default function Navbar ()
     <nav className="flex filter drop-shadow-md bg-primary text-base-100 font-bold p-5 h-20 items-center">
       <MobileNav open={ open } setOpen={ setOpen } />
       <div className="w-3/12 flex items-center text-5xl">
-        <Link href="/">Growl</Link>
+        <Link href="/">Appeti</Link>
       </div>
 
       <div className="w-9/12 flex justify-end items-center">

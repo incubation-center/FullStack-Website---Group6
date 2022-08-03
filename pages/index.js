@@ -1,14 +1,20 @@
-import RecipesCard from '../components/recipes-card'
-import BookmarksCard from '../components/bookmarks-card'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 import IngredientsList from '../components/ingredients-list.js'
 
 export default function Home ()
 {
   return (
-    <div className="m-10">
-      Welcome Home!
-      <button className="btn">Hello daisyUI</button>
-      <IngredientsList />
+    <div>
+      <Navbar />
+
+      <div className="m-10">
+        Welcome Home!
+        <button className="btn m-10">Hello daisyUI</button>
+        <IngredientsList />
+      </div>
+
+      <Footer />
     </div>
   )
 }
