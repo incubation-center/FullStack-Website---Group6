@@ -6,8 +6,7 @@ export default function IngredientsList({ text }) {
       <div className="card md:w-96 bg-base-100 shadow-md h-full">
         <div className="card-body items-center text-center">
           <h2 className="card-title">Ingredients</h2>
-          <p className="flex justify-end">❌ Clear all</p>
-          <div className="form-control">
+          <div className="form-control grow">
             <label className="label cursor-pointer">
               <input type="checkbox" className="checkbox" />
               <span className="label-text m-5">Apple</span>
@@ -18,6 +17,7 @@ export default function IngredientsList({ text }) {
               <button className="btn btn-primary text-white">{text}</button>
             </Link>
           </div>
+          <div className="justify-end">❌ Clear all</div>
         </div>
       </div>
     </div>
