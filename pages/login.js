@@ -1,6 +1,6 @@
 import Router, { useRouter } from 'next/router';
 
-export default function Login ()
+function Login ()
 {
   const router = useRouter()
 
@@ -37,3 +37,5 @@ export default function Login ()
     </div>
   )
 }
+
+export default Login;

@@ -1,10 +1,10 @@
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import Image from 'next/image'
-import Instruction from '../components/instruction'
-import Ingredients from '../components/ingredients'
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Instruction from '../components/instruction';
+import Ingredients from '../components/ingredients';
+import Image from 'next/image';
 
-export default function RecipesDetail ()
+function RecipesDetail ()
 { 
   return (
     <div>
@@ -78,3 +78,5 @@ export default function RecipesDetail ()
     </div>
   )
 }
+
+export default RecipesDetail;
