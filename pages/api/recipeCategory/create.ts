@@ -8,16 +8,9 @@ export default async function handle(
   res: NextApiResponse
 ) {
   if (req.method === 'POST') {
-    const { name, description, categories } = req.body;
+    const { name, description } = req.body;
 
-    const result = await prisma.recipe.create({ 
-      data: { 
-        name, description,
-        categories: {
-          create: categories
-        }
-      } 
-    });
+    const result = await prisma.recipeCategory.create({ data: { name, description } });
     res.json(result);
   }
 }

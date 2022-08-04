@@ -9,18 +9,22 @@ datasource db {
 
 model RecipeTest {
   id Int @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  updatedAt DateTime?
   name String
   description String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
 }
 
 model Recipe {
   id Int @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  updatedAt DateTime?
   name String
   description String?
+  // duration_second Int
+  // instruction String?
+  // imageLink String
+  // videoLink String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
   categories RecipesCategoriesPivot[]
 }
 
