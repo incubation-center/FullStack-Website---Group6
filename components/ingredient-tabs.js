@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function IngredientTabs ()
+function IngredientTabs ()
 {
   const [ activeTab, setActiveTab ] = useState( 1 );
 
@@ -61,6 +61,8 @@ export default function IngredientTabs ()
     </div>
   );
 }
+
+export default IngredientTabs;
 
 const ingredients = [
   {

@@ -1,4 +1,4 @@
-export default function Register ()
+function Register ()
 {
   return (
     <div>
@@ -6,3 +6,5 @@ export default function Register ()
     </div>
   )
 }
+
+export default Register; 

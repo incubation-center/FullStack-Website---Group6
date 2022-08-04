@@ -1,7 +1,7 @@
 import Router, { useRouter } from 'next/router';
-import Image from 'next/image'
+import Image from 'next/image';
 
-export default function RecipesCard ()
+function RecipesCard ()
 {
   const router = useRouter()
 
@@ -12,6 +12,7 @@ export default function RecipesCard ()
       </figure>
 
       <div className="card-body w-52 p-5">
+        {/* Bookmark Button */ }
         <div className="card-actions justify-end">
           <label className="swap">
             {/* This hidden checkbox controls the state */ }
@@ -29,7 +30,7 @@ export default function RecipesCard ()
               </svg> */}
           </label>
         </div>
-   
+
         <div className="card w-full h-full" onClick={ () => router.push( "/recipes-detail" ) } >
           <h2 className="card-title mx-px">Kokos Curry</h2>
           <div className="divider my-2"></div>
@@ -53,3 +54,5 @@ export default function RecipesCard ()
     </div>
   )
 }
+
+export default RecipesCard;

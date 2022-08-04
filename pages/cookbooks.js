@@ -1,9 +1,10 @@
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import RecipesCard from '../components/recipes-card'
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import RecipesCard from '../components/recipes-card';
 
-export default function Cookbooks ()
+function Cookbooks ()
 {
+  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
   return (
     <div>
       <Navbar />
@@ -34,21 +35,19 @@ export default function Cookbooks ()
       </div>     
 
       <div className="flex flex-wrap justify-around my-5">
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
-        <RecipesCard />
+        { result.map( ( recipe, index ) =>
+        {
+          return (
+            <div key={ index } className="flex justify-center">
+              <RecipesCard />
+            </div>
+          );
+        } ) }
       </div>  
       
       <Footer />
     </div>  
   )
 }
+
+export default Cookbooks;

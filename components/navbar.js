@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { useState } from 'react'
+import Link from 'next/link';
+import { useState } from 'react';
 
 function NavLink ( { to, children } )
 {
@@ -46,7 +46,7 @@ function MobileNav ( { open, setOpen } )
   )
 }
 
-export default function Navbar ()
+function Navbar ()
 {
   const [ open, setOpen ] = useState( false )
   return (
@@ -96,3 +96,5 @@ export default function Navbar ()
     </nav>
   )
 }
+
+export default Navbar;

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-export default function IngredientsList({ text }) {
+function IngredientsList ( { text } ) 
+{
   return (
     <div className="container md:w-96 bg-primary h-full">
       <div className="card md:w-96 bg-base-100 shadow-md h-full">
@@ -23,3 +24,5 @@ export default function IngredientsList({ text }) {
     </div>
   );
 }
+
+export default IngredientsList;
