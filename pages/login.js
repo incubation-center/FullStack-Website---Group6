@@ -1,5 +1,9 @@
+import Router, { useRouter } from 'next/router';
+
 export default function Login ()
 {
+  const router = useRouter()
+
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -25,7 +29,7 @@ export default function Login ()
               </label>
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
+              <button className="btn btn-primary" onClick={ () => router.push( "/" ) }>Login</button>
             </div>
           </div>
         </div>

@@ -1,9 +1,13 @@
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 import RecipesCard from '../components/recipes-card'
 
 export default function Cookbooks ()
 {
   return (
     <div>
+      <Navbar />
+
       <div className="flex flex-row space-x-5 m-5 justify-end">
         <h2 className="text-xl font-bold">Calories</h2>
         <input type="range" min="0" max="100" className="range range-primary range-sm w-1/4 my-1" />
@@ -42,7 +46,9 @@ export default function Cookbooks ()
         <RecipesCard />
         <RecipesCard />
         <RecipesCard />
-      </div>    
+      </div>  
+      
+      <Footer />
     </div>  
   )
 }
