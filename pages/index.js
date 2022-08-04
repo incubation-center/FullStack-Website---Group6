@@ -1,14 +1,13 @@
+import IngredientsList from "../components/ingredients-list.js";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import IngredientsList from "../components/ingredients-list.js";
-import IngredientTabs from "../components/ingredient-tabs.js";
+import IngredientTabs from "../components/IngredientTabs.js";
 
-export default function Home ()
-{
+function Home() {
   return (
     <div
       className="flex flex-col justify-between"
-      style={ { minHeight: "100vh" } }
+      style={{ minHeight: "100vh" }}
     >
       <Navbar />
       <div className="flex-1 p-8 h-full justify-center md:flex">
@@ -18,7 +17,7 @@ export default function Home ()
 
         <div className="h-4 md:hidden" />
         <div className="md:grow">
-          {/* Search Bar */ }
+          {/* Search Bar */}
           <div className="form-control mb-4">
             <div className="input-group">
               <input
@@ -45,7 +44,7 @@ export default function Home ()
             </div>
           </div>
 
-          {/* Ingredients */ }
+          {/* Ingredients */}
           <IngredientTabs />
         </div>
       </div>
@@ -53,3 +52,5 @@ export default function Home ()
     </div>
   );
 }
+
+export default Home;
