@@ -4,7 +4,7 @@ import BookmarksCard from '../components/bookmarks-card';
 
 function Bookmarks ()
 {
-  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
   return (
     <div>
       <Navbar />
@@ -16,7 +16,7 @@ function Bookmarks ()
           <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" fill="#ffd233"></path>
         </svg>
         <h1 className="text-3xl font-bold m-1">Total:</h1>
-        <h2 className="text-2xl font-bold m-2">18 bookmarked</h2>
+        <h2 className="text-2xl font-bold m-2">26 bookmarked</h2>
       </div>
 
       <div className="flex flex-wrap justify-around my-5">
