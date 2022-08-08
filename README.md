@@ -1,5 +1,13 @@
 # Fullstack-Website---Group6
 
+# TODO
+
+[] Can not delete the recipe, because of the M2M relations
+
+[] update schema
+
+[] create pages for the new tables
+
 ## Development
 
 ### Set Up Environment Variable 
