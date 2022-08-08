@@ -69,6 +69,17 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
       <h2 className="card-title">All Recipes</h2>
       <div className="overflow-x-auto">
         <table className="table w-full">
+            <thead>
+              {
+                !!allRecipes.length && (
+                  <tr>
+                    {Object.keys(allRecipes[0]).map(key => (
+                      <td key={key}>{key}</td>
+                    ))}
+                  </tr>
+                )
+              }
+            </thead>
             <tbody>
               {
                 allRecipes.map(recipe => (

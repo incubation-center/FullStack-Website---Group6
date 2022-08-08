@@ -22,13 +22,15 @@ export const CreateRecipe = ({categories}) => {
 
     const target = event.target;
 
-    const categories = target.category
+    let cates = target.category;
+    cates = cates.length ? cates : [cates];
 
     let recipe_categories = []
 
-    for (let i = 0; i < categories.length; i++) {
-      if (categories[i].checked === true) {
-        recipe_categories.push(makeRecipeCategoryPivot(categories[i].id))
+    for (let i = 0; i < cates.length; i++) {
+      
+      if (cates[i].checked === true) {
+        recipe_categories.push(makeRecipeCategoryPivot(cates[i].id))
       }
     }
 
