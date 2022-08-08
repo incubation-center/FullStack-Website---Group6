@@ -4,7 +4,7 @@ import RecipesCard from '../components/recipes-card';
 
 function Cookbooks ()
 {
-  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
   return (
     <div>
       <Navbar />
