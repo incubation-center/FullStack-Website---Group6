@@ -38,9 +38,9 @@ model RecipeCategory {
 }
 
 model RecipesCategoriesPivot {
-  recipe Recipe  @relation(fields: [recipeId], references: [id])
+  recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
   recipeId Int
-  recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id])
+  recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id], onDelete: Cascade)
   recipeCategoryId Int
   assignedAt DateTime @default(now())
   assignedBy String
