@@ -8,6 +8,11 @@ import { DeleteRecipeCategory } from '../components/recipeCategory/deleteRecipeC
 import { prisma } from '../lib/prisma';
 
 
+const stringifyRelatedObjectNames  = (objects, attr, key = "name") => {
+  return objects.map(obj => obj[attr][key]).toString();
+}
+
+
 export default function SRecipes ({allRecipes, allRecipeCategories}) {
 
   return (
@@ -68,9 +73,13 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
               {
                 allRecipes.map(recipe => (
                   <tr key={recipe.id}>
-                    {Object.keys(recipe).map((info, i) => (
-                      <td key={i}>{recipe[info]}</td>
-                    ) )}
+                    {Object.keys(recipe).map((info, i) => {
+                      if (info !== "categories") return (
+                        <td key={i}>{recipe[info]}</td>
+                      ); else return (
+                        <td key={i}>{stringifyRelatedObjectNames(recipe[info], "recipeCategory")}</td>
+                      )
+                    } )}
                   </tr>
                 ))
               }
@@ -83,7 +92,20 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
 }
 
 export async function getStaticProps() {
-  const allRecipes = await prisma.recipe.findMany();
+  const allRecipes = await prisma.recipe.findMany({
+    include: {
+      categories: {
+        select: {
+          recipeCategory: {
+            select: {
+              name: true,
+            }
+          },
+          recipeCategoryId: true,
+        }
+      },
+    }
+  });
   const allRecipeCategories = await prisma.recipeCategory.findMany();
 
   return {
