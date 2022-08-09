@@ -10,7 +10,7 @@ function RecipesDetail ()
     <div>
       <Navbar />
 
-      <div className="flex flex-row justify-around my-10">
+      <div className="flex justify-around my-10">
         <Instruction />
 
         <RecipesInfo />
