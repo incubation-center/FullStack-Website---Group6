@@ -15,7 +15,7 @@ function IngredientsList ( { text } )
           </div>
           <div className="card-actions">
             <Link href="/recipes-result">
-              <button className="btn btn-primary text-white">{text}</button>
+              <button className="btn btn-primary text-base-100">{text}</button>
             </Link>
           </div>
           <div className="justify-end">❌ Clear all</div>

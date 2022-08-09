@@ -23,7 +23,7 @@ function Navbar() {
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52 text-white"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52 text-base-100"
           >
             <li>
               <Link href="/cookbooks">
@@ -39,14 +39,14 @@ function Navbar() {
           </ul>
         </div>
         <Link href="/">
-          <a className="btn btn-ghost normal-case text-3xl text-white">
+          <a className="btn btn-ghost normal-case text-3xl text-base-100">
             Appeti
           </a>
         </Link>
       </div>
 
       {/* Desktop Navbar */}
-      <div className="navbar-center hidden lg:flex text-white font-semibold">
+      <div className="navbar-center hidden lg:flex text-base-100 font-semibold">
         <ul className="menu menu-horizontal p-0">
           <li>
             <Link href="/cookbooks">
@@ -63,7 +63,7 @@ function Navbar() {
       </div>
       <div className="navbar-end">
         <Link href="/login">
-          <a className="btn text-white">login</a>
+          <a className="btn text-base-100">login</a>
         </Link>
       </div>
     </div>
