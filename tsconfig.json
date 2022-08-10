@@ -16,6 +16,6 @@
     "incremental": true,
     "experimentalDecorators": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/**/*.ts", "**/*.tsx", "**/**/*.tsx",],
   "exclude": ["node_modules"]
 }

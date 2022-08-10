@@ -7,39 +7,94 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model RecipeTest {
-  id Int @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  updatedAt DateTime?
-  name String
-  description String?
-}
-
+// Recipe model
 model Recipe {
   id Int @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  updatedAt DateTime?
   name String
   description String?
-  categories RecipesCategoriesPivot[]
+  calories Int @default(0)
+  duration_second Int @default(0)
+  instruction String?
+  imageLink String?
+  videoLink String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  categories PivotRecipesCategories[]
+  ingredients PivotRecipesIngredients[]
+  types RecipeType[] // Implicit
+  keywords RecipeKeyword[] // Implicit
 }
 
+// Recipe Category model
 model RecipeCategory {
   id Int @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  updatedAt DateTime?
   name String
   description String?
-  recipes RecipesCategoriesPivot[]
+  recipes PivotRecipesCategories[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
 }
 
-model RecipesCategoriesPivot {
-  recipe Recipe  @relation(fields: [recipeId], references: [id])
+// Recipe and Recipe Category M2M join table
+model PivotRecipesCategories {
+  recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
   recipeId Int
-  recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id])
+  recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id], onDelete: Cascade)
   recipeCategoryId Int
   assignedAt DateTime @default(now())
-  assignedBy String
+  assignedBy String?
 
   @@id([recipeId, recipeCategoryId])
+}
+
+// Recipe Types model
+model RecipeType {
+  id Int @id @default(autoincrement())
+  name String
+  description String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  recipes Recipe[]
+}
+
+// Recipe Keywords model
+model RecipeKeyword {
+  id Int @id @default(autoincrement())
+  name String
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  recipes Recipe[]
+}
+
+// Ingredient model
+model Ingredient {
+  id Int @id @default(autoincrement())
+  name String
+  description String?
+  icon String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  recipes PivotRecipesIngredients[]
+  categories IngredientCategory[] // implicit
+}
+
+// Recipe and Ingredient M2M join table
+model PivotRecipesIngredients {
+  recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  recipeId Int
+  ingredient Ingredient  @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
+  ingredientId Int
+  assignedAt DateTime @default(now())
+
+  @@id([recipeId, ingredientId])
+}
+
+// Ingredient Category model
+model IngredientCategory {
+  id Int @id @default(autoincrement())
+  name String
+  description String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime?
+  ingredients Ingredient[]
 }

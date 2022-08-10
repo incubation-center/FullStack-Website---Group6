@@ -1,4 +1,4 @@
-export default function Ingredients ()
+function Ingredients ()
 {
   return (
     <div className="card w-1/3 h-screen outline text-primary bg-base-200">
@@ -22,3 +22,5 @@ export default function Ingredients ()
     </div>
   )
 }
+
+export default Ingredients;

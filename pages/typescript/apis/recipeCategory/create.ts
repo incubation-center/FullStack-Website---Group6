@@ -10,7 +10,7 @@ export default async function handle(
   if (req.method === 'POST') {
     const { name, description } = req.body;
 
-    const result = await prisma.recipeTest.create({ data: { name, description } });
+    const result = await prisma.recipeCategory.create({ data: { name, description } });
     res.json(result);
   }
 }

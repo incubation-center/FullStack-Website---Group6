@@ -1,4 +1,4 @@
-export default function Instruction ()
+function Instruction ()
 {
   return (
     <div className="card w-1/3 h-screen outline text-primary bg-base-200">
@@ -41,3 +41,5 @@ export default function Instruction ()
     </div>
   )
 }
+
+export default Instruction;
