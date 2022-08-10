@@ -18,10 +18,20 @@ function Cookbooks ()
           <h2 className="text-xl font-bold">Duration</h2>
           <input type="range" min="0" max="100" className="range range-primary range-sm my-1" />
         </div>
-      </div>     
+      </div>
 
       <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
-        <select className="select ghost w-full max-w-xs shadow-md mx-5">
+        <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
+          <div className="input-group">
+            <input type="text" placeholder="Search…" className="input input-bordered" />
+            <button className="btn btn-square btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-base-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
           <option disabled selected>Filter by categories</option>
           <option>Khmer</option>
           <option>Western</option>
@@ -29,14 +39,14 @@ function Cookbooks ()
           <option>Chinese</option>
           <option>Japanese</option>
         </select>
-        <select className="select ghost w-full max-w-xs shadow-md mx-5">
+        <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
           <option disabled selected>Recipes Types</option>
           <option>Breakfast</option>
           <option>Lunch</option>
           <option>Dinner</option>
           <option>Supper</option>
         </select>
-      </div>     
+      </div>
 
       <div className="flex flex-wrap justify-around my-5">
         { result.map( ( recipe, index ) =>
@@ -47,10 +57,10 @@ function Cookbooks ()
             </div>
           );
         } ) }
-      </div>  
-      
+      </div>
+
       <Footer />
-    </div>  
+    </div>
   )
 }
 

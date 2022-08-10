@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-function Navbar() {
+function Navbar ()
+{
   return (
     <div className="navbar bg-primary">
       <div className="navbar-start">
@@ -45,7 +46,7 @@ function Navbar() {
         </Link>
       </div>
 
-      {/* Desktop Navbar */}
+      {/* Desktop Navbar */ }
       <div className="navbar-center hidden md:flex text-base-100 font-semibold">
         <ul className="menu menu-horizontal p-0">
           <li>
@@ -63,7 +64,7 @@ function Navbar() {
       </div>
       <div className="navbar-end">
         <Link href="/login">
-          <a className="btn text-base-100">login</a>
+          <a className="btn btn-outline btn-accent">login</a>
         </Link>
       </div>
     </div>
