@@ -10,7 +10,10 @@ export default async function handle(req, res) {
         name, description,
         categories: {
           create: categories
-        }
+        },
+        ingredients: {
+          create: ingredients
+        },
       } 
     }); */
 
