@@ -1,3 +1,4 @@
+import ScrollToTop from "react-scroll-to-top";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import BookmarksCard from '../components/bookmarks-card';
@@ -30,6 +31,8 @@ function Bookmarks ()
         } ) }
       </div>
 
+      <ScrollToTop smooth />
+      
       <Footer />
     </div>
   )

@@ -1,7 +1,7 @@
 function Instruction ()
 {
   return (
-    <div className="card w-1/3 h-screen outline text-primary bg-base-200">
+    <div className="card w-1/3 h-screen outline text-primary bg-slate-100">
       <div className="card-body p-5 text-neutral hover:underline-offset-2">
         <h2 className="card-title justify-center px-3 underline">HOW TO COOK</h2>
 
