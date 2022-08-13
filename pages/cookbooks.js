@@ -13,15 +13,16 @@ function Cookbooks ()
       <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
         <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
           <h2 className="text-xl font-bold">Calories</h2>
-          <input type="range" min="0" max="100" className="range range-primary range-sm my-1" />
+          <input type="range" min="0" max="100" className="range range-primary range-sm my-1 cursor-grab" />
         </div>
         <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
           <h2 className="text-xl font-bold">Duration</h2>
-          <input type="range" min="0" max="100" className="range range-primary range-sm my-1" />
+          <input type="range" min="0" max="100" className="range range-primary range-sm my-1 cursor-grab" />
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
+        {/* Search Bar */ }
         <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
           <div className="input-group">
             <input type="text" placeholder="Search…" className="input input-bordered" />

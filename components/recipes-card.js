@@ -7,11 +7,11 @@ function RecipesCard ()
 
   return (
     <div className="card w-fit h-fit card-side shadow-md hover:shadow-xl bg-neutral/5 m-5"> 
-      <figure onClick={ () => router.push( "/recipes-detail" ) } >
+      <figure className="cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
         <Image src="/kokos_curry.png" width={ 216 } height={ 216 } alt="Kokos Curry" />
       </figure>
 
-      <div className="card-body w-52 p-5">
+      <div className="card-body w-52 p-5 cursor-none">
         {/* Bookmark Button */ }
         <div className="card-actions justify-end">
           <label className="swap">
@@ -34,7 +34,7 @@ function RecipesCard ()
           </label>
         </div>
 
-        <div className="card w-full h-full" onClick={ () => router.push( "/recipes-detail" ) } >
+        <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
           <h2 className="card-title mx-px">Kokos Curry</h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
