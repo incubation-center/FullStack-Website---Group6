@@ -11,11 +11,9 @@ function RecipesDetail ()
       <Navbar />
 
       <div className="flex justify-around my-10">
-        <Instruction />
-
-        <RecipesInfo />
-
-        <Ingredients />
+          <Instruction />       
+          <RecipesInfo />
+          <Ingredients />
       </div>
 
       <Footer />

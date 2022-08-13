@@ -11,7 +11,7 @@ function BoomarksCard ()
   }
 
   return (
-    <div className="card w-fit h-fit image-full shadow-md hover:shadow-2xl m-5">
+    <div className="card w-fit h-fit glass image-full shadow-md hover:shadow-2xl m-5">
       <figure>
         <Image src="/kokos_curry.png" width={ 250 } height={ 200 } alt="Kokos Curry" />
       </figure>
