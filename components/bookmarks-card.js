@@ -4,20 +4,20 @@ import Image from 'next/image'
 function BoomarksCard ()
 {
   const router = useRouter()
-  
+
   function unBookmarked()
   {
     alert("Remove from Bookmarks")
   }
 
   return (
-    <div className="card w-fit h-fit glass image-full shadow-md hover:shadow-2xl m-5">
+    <div className="card w-fit h-fit glass image-full hover:shadow-2xl m-5">
       <figure>
         <Image src="/kokos_curry.png" width={ 250 } height={ 200 } alt="Kokos Curry" />
       </figure>
       
-      <div className="card-body p-5">    
-        <div className="card w-full h-full" onClick={ () => router.push( "/recipes-detail" ) } >
+      <div className="card-body p-5 cursor-none">    
+        <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
           <h2 className="card-title text-base-100 hover:text-primary mx-px">Kokos Curry</h2>       
         </div>
 
