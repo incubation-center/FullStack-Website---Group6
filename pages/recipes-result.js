@@ -1,6 +1,6 @@
-import ScrollToTop from "react-scroll-to-top";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import ScrollTop from '../components/scroll-top';
 import RecipesCard from "../components/recipes-card";
 import IngredientsList from "../components/ingredients-list.js";
 
@@ -52,7 +52,7 @@ function RecipesResult ()
         </div>
       </div>
 
-      <ScrollToTop smooth />
+      <ScrollTop />
 
       <Footer />
     </div>

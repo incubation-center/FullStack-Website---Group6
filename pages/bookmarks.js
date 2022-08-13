@@ -1,6 +1,6 @@
-import ScrollToTop from "react-scroll-to-top";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import ScrollTop from '../components/scroll-top';
 import BookmarksCard from '../components/bookmarks-card';
 
 function Bookmarks ()
@@ -9,6 +9,7 @@ function Bookmarks ()
   return (
     <div>
       <Navbar />
+      
 
       <div className="flex flex-row mx-5 mt-5">
         <svg className="bi bi-journal-bookmark-fill color: rgb(255, 210, 51); h-11 w-12" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
@@ -19,7 +20,7 @@ function Bookmarks ()
         <h1 className="text-3xl font-bold my-2">Total:</h1>
         <h2 className="text-2xl font-bold m-3">26 bookmarked</h2>
       </div>
-
+      
       <div className="flex flex-wrap justify-around mb-5">
         { result.map( ( recipe, index ) =>
         {
@@ -31,7 +32,7 @@ function Bookmarks ()
         } ) }
       </div>
 
-      <ScrollToTop smooth />
+      <ScrollTop />
       
       <Footer />
     </div>
