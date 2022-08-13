@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import ScrollTop from '../components/scroll-top';
 import RecipesCard from "../components/recipes-card";
 import IngredientsList from "../components/ingredients-list.js";
 
@@ -10,10 +11,10 @@ function RecipesResult ()
     <div className="flex flex-col justify-between" style={ { minHeight: "100vh" } }>
       <Navbar />
 
-      <div className="flex-1 m-5 h-full justify-center md:flex">   
+      <div className="flex-1 m-5 h-full justify-center md:flex">
         <div className="md:order-last md:ml-4 mb-5">
           <IngredientsList text="Find Recipes" />
-        </div>  
+        </div>
 
         <div className="flex flex-col">
           <div className="flex flex-row">
@@ -36,7 +37,7 @@ function RecipesResult ()
             </svg>
             <h1 className="text-3xl font-bold my-4">Result:</h1>
             <h2 className="text-2xl font-bold m-5">9 recipes</h2>
-          </div>   
+          </div>
 
           <div className="flex flex-wrap justify-around">
             { result.map( ( recipe, index ) =>
@@ -50,6 +51,8 @@ function RecipesResult ()
           </div>
         </div>
       </div>
+
+      <ScrollTop />
 
       <Footer />
     </div>
