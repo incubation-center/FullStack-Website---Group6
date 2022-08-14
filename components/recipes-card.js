@@ -6,7 +6,7 @@ function RecipesCard ()
   const router = useRouter()
 
   return (
-    <div className="card w-fit h-fit card-side shadow-md hover:shadow-xl bg-neutral/5 m-5"> 
+    <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] m-5">
       <figure className="cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
         <Image src="/kokos_curry.png" width={ 216 } height={ 216 } alt="Kokos Curry" />
       </figure>

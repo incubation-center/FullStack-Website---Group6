@@ -6,6 +6,7 @@ import RecipesCard from '../components/recipes-card';
 function Cookbooks ()
 {
   let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+
   return (
     <div>
       <Navbar />
@@ -64,7 +65,7 @@ function Cookbooks ()
       <ScrollTop />
 
       <Footer />
-    </div>
+    </div >
   )
 }
 
