@@ -4,7 +4,7 @@ function IngredientsList ( { text } )
 {
   return (
     <div className="container md:w-96 bg-primary h-full">
-      <div className="card md:w-96 bg-base-100 shadow-md h-full">
+      <div className="card md:w-96 bg-accent shadow-md h-full">
         <div className="card-body items-center text-center">
           <h2 className="card-title">Ingredients</h2>
           <div className="form-control grow">
@@ -15,7 +15,7 @@ function IngredientsList ( { text } )
           </div>
           <div className="card-actions">
             <Link href="/recipes-result">
-              <button className="btn btn-primary text-base-100">{text}</button>
+              <button className="btn btn-primary text-accent">{text}</button>
             </Link>
           </div>
           <div className="justify-end">❌ Clear all</div>

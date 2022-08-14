@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import Link from "next/link";
+import Image from 'next/image';
 
 function Register() {
   const router = useRouter();

@@ -1,14 +1,17 @@
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import Link from "next/link";
+import Image from 'next/image';
 
-function Login() {
+function Login ()
+{
   const router = useRouter();
-  const [showPassword, setShowPassword] = useState(false);
+  const [ showPassword, setShowPassword ] = useState( false );
 
-  const onSubmit = (e) => {
+  const onSubmit = ( e ) =>
+  {
     e.preventDefault();
-    router.push("/");
+    router.push( "/" );
   };
 
   return (
@@ -61,14 +64,14 @@ function Login() {
             </label>
             <div className="relative">
               <input
-                type={showPassword ? "text" : "password"}
+                type={ showPassword ? "text" : "password" }
                 className="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
                 placeholder="Enter password"
               />
 
               <span
                 className="absolute inset-y-0 inline-flex items-center right-4 cursor-pointer"
-                onClick={() => setShowPassword(!showPassword)}
+                onClick={ () => setShowPassword( !showPassword ) }
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +107,7 @@ function Login() {
 
             <button
               // type="submit"
-              onClick={onSubmit}
+              onClick={ onSubmit }
               className="inline-block px-5 py-3 ml-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
             >
               Login

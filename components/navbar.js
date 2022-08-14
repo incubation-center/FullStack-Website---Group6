@@ -24,7 +24,7 @@ function Navbar ()
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52 text-base-100"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52 text-accent"
           >
             <li>
               <Link href="/cookbooks">
@@ -40,14 +40,14 @@ function Navbar ()
           </ul>
         </div>
         <Link href="/">
-          <a className="btn btn-ghost normal-case text-3xl text-base-100">
+          <a className="btn btn-ghost normal-case text-3xl text-accent">
             Appeti
           </a>
         </Link>
       </div>
 
       {/* Desktop Navbar */ }
-      <div className="navbar-center hidden md:flex text-base-100 font-semibold">
+      <div className="navbar-center hidden md:flex text-accent font-semibold">
         <ul className="menu menu-horizontal p-0">
           <li>
             <Link href="/cookbooks">
