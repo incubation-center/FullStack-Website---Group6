@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { inject, observer } from "mobx-react";
 
-function IngredientTabs() {
+function IngredientTabs(props) {
+  const { selectedIngredients, isExist, addIngredient, removeIngredient } =
+    props.ingredientCheckListStore;
   const [activeTab, setActiveTab] = useState(1);
 
   const handleSwitchTab = (id) => {
@@ -15,7 +18,7 @@ function IngredientTabs() {
           return (
             <li
               key={ingredient.id}
-              className={`flex-1 block p-4 text-sm font-medium rounded-t-lg capitalize cursor-pointer ${
+              className={`flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-lg ${
                 activeTab === ingredient.id
                   ? "relative bg-white border-t border-l border-r border-gray-200"
                   : "text-gray-500"
@@ -37,12 +40,24 @@ function IngredientTabs() {
           return (
             <div key={ingredient.id} className="flex-1">
               {ingredient.id === activeTab && (
-                <div className="form-control items-start flex border border-t-0 p-2 grow">
+                <div className="form-control items-start flex border border-t-0 p-4 px-12 grow">
                   {ingredient.items.map((item) => {
                     return (
-                      <label key={item.id} className="label cursor-pointer">
-                        <input type="checkbox" className="checkbox" />
-                        <span className="label-text ml-5 capitalize">
+                      <label
+                        key={item.id}
+                        className="label cursor-pointer py-4"
+                      >
+                        <input
+                          type="checkbox"
+                          className="checkbox"
+                          // checked={isExist(item.id)}
+                          value={isExist(item.id)}
+                          onChange={(e) => {
+                            if (e.target.checked) addIngredient(item);
+                            else removeIngredient(item);
+                          }}
+                        />
+                        <span className="label-text ml-5 capitalize text-lg">
                           {item.name}
                         </span>
                       </label>
@@ -58,7 +73,7 @@ function IngredientTabs() {
   );
 }
 
-export default IngredientTabs;
+export default inject("ingredientCheckListStore")(observer(IngredientTabs));
 
 const ingredients = [
   {
