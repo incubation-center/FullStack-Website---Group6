@@ -1,26 +1,47 @@
 import Link from "next/link";
+import { motion } from 'framer-motion';
 
 function Navbar ()
 {
+  const icon = {
+    hidden: {
+      opacity: 0,
+      pathLength: 0,
+      fill: "rgba(255, 255, 255, 0)"
+    },
+    visible: {
+      opacity: 1,
+      pathLength: 1,
+      fill: "rgba(255, 255, 255, 1)"
+    }
+  };
+
   return (
     <div className="navbar bg-primary">
       <div className="navbar-start">
-        <div className="dropdown">
+        <motion.div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost md:hidden">
-            <svg
+            <motion.svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="#fff"
             >
-              <path
+              <motion.path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
+                variants={ icon }
+                initial="hidden"
+                animate="visible"
+                transition={ {
+                  default: { duration: 1, ease: "easeInOut" },
+                  fill: { duration: 1, ease: [ 1, 0, 0.8, 1 ] }
+                } }
               />
-            </svg>
+            </motion.svg>
           </label>
           <ul
             tabIndex="0"
@@ -38,7 +59,7 @@ function Navbar ()
               </Link>
             </li>
           </ul>
-        </div>
+        </motion.div>
         <Link href="/">
           <a className="btn btn-ghost normal-case text-3xl text-accent">
             Appeti
