@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import ScrollTop from '../components/scroll-top';
@@ -5,7 +6,7 @@ import RecipesCard from '../components/recipes-card';
 
 function Cookbooks ()
 {
-  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
 
   return (
     <div>
@@ -55,9 +56,20 @@ function Cookbooks ()
         { result.map( ( recipe, index ) =>
         {
           return (
-            <div key={ index } className="flex justify-center">
+            <motion.div
+              key={ index }
+              className="flex justify-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={ { once: true } }
+              transition={ { duration: 0.5 } }
+              variants={ {
+                hidden: { opacity: 0, scale: 1 },
+                visible: { opacity: 1, scale: 1 }
+              } }
+            >
               <RecipesCard />
-            </div>
+            </motion.div>
           );
         } ) }
       </div>
