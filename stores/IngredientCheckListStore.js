@@ -1,6 +1,62 @@
 import { observable, action, computed, makeObservable } from "mobx";
 
 class IngredientCheckListStore {
+  @observable allIngredients = [
+    {
+      id: 1,
+      name: "fruits",
+      items: [
+        {
+          id: 11,
+          name: "apple",
+        },
+        {
+          id: 12,
+          name: "banana",
+        },
+        {
+          id: 13,
+          name: "orange",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "vegetables",
+      items: [
+        {
+          id: 21,
+          name: "carrot",
+        },
+        {
+          id: 22,
+          name: "potato",
+        },
+        {
+          id: 23,
+          name: "tomato",
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "meat",
+      items: [
+        {
+          id: 31,
+          name: "beef",
+        },
+        {
+          id: 32,
+          name: "pork",
+        },
+        {
+          id: 33,
+          name: "chicken",
+        },
+      ],
+    },
+  ];
   @observable selectedIngredients = [];
 
   constructor() {

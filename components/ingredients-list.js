@@ -23,7 +23,7 @@ function IngredientsList(props) {
                       className="checkbox"
                       checked
                       // value={isExist(ingredient.id)}
-                      // onChange={() => removeIngredient(ingredient)}
+                      onChange={() => removeIngredient(ingredient)}
                     />
                     <span className="label-text px-4 text-lg capitalize">
                       {ingredient.name}
