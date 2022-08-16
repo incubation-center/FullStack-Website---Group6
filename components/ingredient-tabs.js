@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { inject, observer } from "mobx-react";
 
 function IngredientTabs(props) {
@@ -15,6 +15,10 @@ function IngredientTabs(props) {
     setActiveTab(id);
   };
 
+  // const reRender = () => {
+  //   this.forceUpdate();
+  // };
+
   const TabContent = useCallback(() => {
     return (
       <div>
@@ -25,23 +29,26 @@ function IngredientTabs(props) {
                 <div className="form-control items-start flex border border-t-0 p-4 px-12 grow">
                   {ingredient.items.map((item) => {
                     return (
-                      !isExist(item.id) && (
-                        <label
-                          key={item.id}
-                          className="label cursor-pointer py-4"
-                        >
-                          <input
-                            type="checkbox"
-                            className="checkbox"
-                            // checked={isExist(item.id)}
-                            // value={isExist(item.id)}
-                            onChange={() => addIngredient(item)}
-                          />
-                          <span className="label-text ml-5 capitalize text-lg">
-                            {item.name}
-                          </span>
-                        </label>
-                      )
+                      // !isExist(item.id) && (
+                      <label
+                        key={item.id}
+                        className="label cursor-pointer py-4"
+                      >
+                        <input
+                          type="checkbox"
+                          className="checkbox"
+                          defaultChecked={isExist(item.id)}
+                          defaultValue={item.id}
+                          onChange={() => {
+                            if (isExist(item.id)) {
+                              removeIngredient(item);
+                            } else addIngredient(item);
+                          }}
+                        />
+                        <span className="label-text ml-5 capitalize text-lg">
+                          {item.name}
+                        </span>
+                      </label>
                     );
                   })}
                 </div>
@@ -51,11 +58,7 @@ function IngredientTabs(props) {
         })}
       </div>
     );
-  }, [activeTab, allIngredients, isExist, addIngredient, TabContent]);
-
-  useEffect(() => {
-    TabContent();
-  }, [TabContent]);
+  }, [activeTab, addIngredient, allIngredients, isExist, removeIngredient]);
 
   return (
     <div className="h-full flex flex-col overflow-x-scroll">

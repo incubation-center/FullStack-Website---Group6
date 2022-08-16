@@ -6,11 +6,11 @@ function IngredientsList(props) {
     props.ingredientCheckListStore;
 
   return (
-    <div className="container md:w-96 bg-primary h-full">
-      <div className="card md:w-96 bg-base-100 shadow-md h-full">
+    <div className="container md:w-96 bg-primary min-h-fit">
+      <div className="card md:w-96 bg-base-100 shadow-md min-h-fit">
         <div className="card-body items-center text-center">
           <h2 className="card-title text-xl">Ingredients</h2>
-          <div className="form-control grow">
+          <div className="form-control grow min-h-16">
             {selectedIngredients &&
               selectedIngredients.map((ingredient, index) => {
                 return (

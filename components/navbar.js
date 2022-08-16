@@ -65,13 +65,13 @@ function Navbar() {
         <Link href="/login">
           <a className="btn btn-outline btn-accent">login</a>
         </Link>
-        <label class="swap swap-rotate mx-4">
+        <label className="swap swap-rotate mx-4">
           {/* <!-- this hidden checkbox controls the state --> */}
           <input type="checkbox" />
 
           {/* <!-- sun icon --> */}
           <svg
-            class="swap-on fill-white w-10 h-10"
+            className="swap-on fill-white w-10 h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -80,7 +80,7 @@ function Navbar() {
 
           {/* <!-- moon icon --> */}
           <svg
-            class="swap-off fill-white w-10 h-10"
+            className="swap-off fill-white w-10 h-10"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
