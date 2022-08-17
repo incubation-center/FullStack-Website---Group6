@@ -8,6 +8,10 @@ import fetch from 'node-fetch';
 
 const SUGGESTIC_API = "https://production.suggestic.com/graphql";
 const PER_PAGE = 100; // maximum is 100
+const DIR_PATH = path.join(
+  path.dirname(fileURLToPath(import.meta.url)), 
+  "json_data"
+);
 
 
 const recipeSearchQueryString = (params_string) => `{
@@ -53,18 +57,14 @@ async function getData(params) {
 }
 
 async function writeJson(content, filename) {
-  const __filename = fileURLToPath(import.meta.url);
-  const __dirname = path.dirname(__filename);
-  const dir_path = path.join(__dirname, "json_data");
-
-  fs.writeFile(path.resolve(dir_path, filename), JSON.stringify(content), function(err) {
+  fs.writeFile(path.resolve(DIR_PATH, filename), JSON.stringify(content), function(err) {
     if (err) throw err;
     console.log('complete');
     }
   );
 }
 
-async function getAllData(total=1) {
+async function getRecipewithIngredientData(total=1) {
   let endCusor = "";
   let all_recipes = [];
   let all_recipe_name = {};
@@ -110,4 +110,77 @@ async function getAllData(total=1) {
   writeJson(Array.from(unique_ingredient_name), `${total * PER_PAGE}_ingredient_unique_name.json`);
 }
 
-getAllData(100)
+// get recipe and its unique ingredients
+// getRecipewithIngredientData(100)
+
+async function getIngredientCount(filename, upto=1) {
+
+  async function requestIngredientCount(upto, ingre_name) {
+    let endCusor = "";
+    let recipes_count = 0;
+
+    // loop reverse-paginating
+    for (let i = 0; i < upto; i++) {
+      let response = await getData(`filter: {must: [{ ingredients: "${ingre_name}" }]}  after: "${endCusor}"`);
+
+      let res_ingre_count = response.data["recipeSearch"];
+
+      // no response was found
+      if (!res_ingre_count) break;
+
+      let paging = res_ingre_count["pageInfo"];
+
+      let all_recipes = res_ingre_count["edges"];
+      
+      
+      recipes_count += all_recipes.length;
+
+      // the pagination ends before the total number of requests reached
+      if (!paging["hasNextPage"]) {
+        console.log("------ End of pagination. ------");
+        break
+      }
+      // update the end-cursor to go to next page
+      endCusor = paging["endCursor"];
+
+    }
+    // console.log(recipes_count);
+    return recipes_count;
+  }
+  
+  let ingredient_count = {};
+
+  // reading the JSON file and parse the ingredients array
+
+  /* fs.readFile(path.resolve(DIR_PATH, filename), (err, data) => {
+    let unique_ingre = JSON.parse(data);
+    unique_ingre.map(async ingre => {
+      var count = await requestIngredientCount(upto, ingre);
+      ingredient_count[ingre] = count;
+      // console.log(ingredient_count);
+    });
+  }) */
+  const content = fs.readFileSync(path.resolve(DIR_PATH, filename), {encoding: "utf8"});
+  let unique_ingre = JSON.parse(content);
+
+  // console.log(content);
+  let map = await Promise.all(unique_ingre.map(async ingre => {
+    var count = await requestIngredientCount(upto, ingre);
+    ingredient_count[ingre] = count;
+
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }));
+
+  if (!map) console.log("Something went wrong")
+
+  // sorting by the recipe count of each ingredient
+  const sorted_ingre_count = Object.entries(ingredient_count)
+    .sort(([,a],[,b]) => b-a)
+    .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+
+  writeJson(sorted_ingre_count, `count_ingredient_${upto * PER_PAGE}_recipes.json`);
+  
+}
+
+getIngredientCount("10000_ingredient_unique_name.json", 3);
+// getIngredientCount("test_2.json", 6);
