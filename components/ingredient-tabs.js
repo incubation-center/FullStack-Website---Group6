@@ -5,80 +5,64 @@ function IngredientTabs(props) {
   const {
     allIngredients,
     selectedIngredients,
+    remainingIngredients,
     isExist,
     addIngredient,
     removeIngredient,
-  } = props.ingredientCheckListStore;
+  } = props.ingredientStore;
+  const { categories } = props.ingredientCategoryStore;
   const [activeTab, setActiveTab] = useState(1);
 
   const handleSwitchTab = (id) => {
     setActiveTab(id);
   };
 
-  // const reRender = () => {
-  //   this.forceUpdate();
-  // };
-
   const TabContent = useCallback(() => {
     return (
-      <div>
-        {allIngredients.map((ingredient) => {
+      <div className="form-control items-start flex border border-t-0 p-4 px-12">
+        {remainingIngredients.map((ingredient) => {
           return (
             <div key={ingredient.id} className="flex-1">
-              {ingredient.id === activeTab && (
-                <div className="form-control items-start flex border border-t-0 p-4 px-12 grow">
-                  {ingredient.items.map((item) => {
-                    return (
-                      // !isExist(item.id) && (
-                      <label
-                        key={item.id}
-                        className="label cursor-pointer py-4"
-                      >
-                        <input
-                          type="checkbox"
-                          className="checkbox"
-                          defaultChecked={isExist(item.id)}
-                          defaultValue={item.id}
-                          onChange={() => {
-                            if (isExist(item.id)) {
-                              removeIngredient(item);
-                            } else addIngredient(item);
-                          }}
-                        />
-                        <span className="label-text ml-5 capitalize text-lg">
-                          {item.name}
-                        </span>
-                      </label>
-                    );
-                  })}
-                </div>
+              {ingredient.categoryId === activeTab && (
+                <label className="label cursor-pointer py-4">
+                  <input
+                    type="checkbox"
+                    className="checkbox"
+                    // defaultChecked={isExist(ingredient.id)}
+                    // defaultValue={ingredient.id}
+                    onChange={() => addIngredient(ingredient)}
+                  />
+                  <span className="label-text ml-5 capitalize text-lg">
+                    {ingredient.name}
+                  </span>
+                </label>
               )}
             </div>
           );
         })}
       </div>
     );
-  }, [activeTab, addIngredient, allIngredients, isExist, removeIngredient]);
+  }, [activeTab, addIngredient, remainingIngredients]);
 
   return (
     <div className="h-full flex flex-col overflow-x-scroll">
       {/* Tab nav */}
       <ul className="flex text-center border-b border-gray-200">
-        {allIngredients.map((ingredient) => {
+        {categories.map((category) => {
           return (
             <li
-              key={ingredient.id}
+              key={category.id}
               className={`flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-lg ${
-                activeTab === ingredient.id
+                activeTab === category.id
                   ? "relative bg-white border-t border-l border-r border-gray-200"
                   : "text-gray-500"
               }`}
-              onClick={() => handleSwitchTab(ingredient.id)}
+              onClick={() => handleSwitchTab(category.id)}
             >
-              {activeTab === ingredient.id && (
+              {activeTab === category.id && (
                 <span className="absolute inset-x-0 w-full h-px bg-white -bottom-px"></span>
               )}
-              {ingredient.name}
+              {category.name}
             </li>
           );
         })}
@@ -90,4 +74,7 @@ function IngredientTabs(props) {
   );
 }
 
-export default inject("ingredientCheckListStore")(observer(IngredientTabs));
+export default inject(
+  "ingredientStore",
+  "ingredientCategoryStore"
+)(observer(IngredientTabs));

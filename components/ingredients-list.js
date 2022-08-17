@@ -3,7 +3,7 @@ import { inject, observer } from "mobx-react";
 
 function IngredientsList(props) {
   const { selectedIngredients, removeIngredient, isExist, clearAll } =
-    props.ingredientCheckListStore;
+    props.ingredientStore;
 
   return (
     <div className="container md:w-96 bg-primary min-h-fit">
@@ -51,4 +51,4 @@ function IngredientsList(props) {
   );
 }
 
-export default inject("ingredientCheckListStore")(observer(IngredientsList));
+export default inject("ingredientStore")(observer(IngredientsList));
