@@ -13,7 +13,7 @@ function RecipesInfo ()
       <div className="flex flex-row justify-around my-10">
         <label className="swap swap-flip text-9xl">
           {/* This hidden checkbox controls the state */ }
-          <input type="checkbox" style={ { "opacity": 0 } } />
+          <input type="checkbox" style={ { opacity: 0 } } />
           {/* Avatar  */ }
           <div className="avatar placeholder swap-off">
             <div className="w-32 rounded-full ring-2 ring-error hover:ring-4">
@@ -33,7 +33,7 @@ function RecipesInfo ()
 
         <label className="swap swap-flip text-9xl">
           {/* This hidden checkbox controls the state */ }
-          <input type="checkbox" style={ { "opacity": 0 } } />
+          <input type="checkbox" style={ { opacity: 0 } } />
           {/* Avatar  */ }
           <div className="avatar placeholder swap-off">
             <div className="w-32 rounded-full ring-2 ring-secondary hover:ring-4">
