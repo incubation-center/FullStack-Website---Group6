@@ -8,15 +8,15 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          "primary": "#30D5C8",
-          "secondary": "#0000FF",
-          "accent": "#FFFFFF",
-          "neutral": "#3D4451",
+          primary: "#30D5C8",
+          secondary: "#0000FF",
+          accent: "#FFFFFF",
+          neutral: "#3D4451",
           "base-100": "#FFFFFF",
-          "info": "#3ABFF8",
-          "success": "#36D399",
-          "warning": "#FBBD23",
-          "error": "#F87272",
+          info: "#3ABFF8",
+          success: "#36D399",
+          warning: "#FBBD23",
+          error: "#F87272",
         },
       },
     ],
@@ -31,10 +31,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'display': [ 'Mervale Script' ],
-        'body': [ 'Salsa' ],
+        display: ["Mervale Script"],
+        body: ["Salsa"],
       },
     },
   },
-  plugins: [ require( "@tailwindcss/typography" ), require( "daisyui" ) ],
-}
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("daisyui"),
+  ],
+};

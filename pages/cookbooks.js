@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import ScrollTop from '../components/scroll-top';
@@ -5,7 +6,8 @@ import RecipesCard from '../components/recipes-card';
 
 function Cookbooks ()
 {
-  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+
   return (
     <div>
       <Navbar />
@@ -13,15 +15,16 @@ function Cookbooks ()
       <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
         <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
           <h2 className="text-xl font-bold">Calories</h2>
-          <input type="range" min="0" max="100" className="range range-primary range-sm my-1" />
+          <input type="range" min="0" max="100" className="range range-primary range-sm my-1 cursor-grab" />
         </div>
         <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
           <h2 className="text-xl font-bold">Duration</h2>
-          <input type="range" min="0" max="100" className="range range-primary range-sm my-1" />
+          <input type="range" min="0" max="100" className="range range-primary range-sm my-1 cursor-grab" />
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
+        {/* Search Bar */ }
         <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
           <div className="input-group">
             <input type="text" placeholder="Search…" className="input input-bordered" />
@@ -49,13 +52,24 @@ function Cookbooks ()
         </select>
       </div>
 
-      <div className="flex flex-wrap justify-around my-5">
+      <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
         { result.map( ( recipe, index ) =>
         {
           return (
-            <div key={ index } className="flex justify-center">
+            <motion.div
+              key={ index }
+              className="flex justify-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={ { once: true } }
+              transition={ { duration: 0.5 } }
+              variants={ {
+                hidden: { opacity: 0, scale: 1 },
+                visible: { opacity: 1, scale: 1 }
+              } }
+            >
               <RecipesCard />
-            </div>
+            </motion.div>
           );
         } ) }
       </div>
@@ -63,7 +77,7 @@ function Cookbooks ()
       <ScrollTop />
 
       <Footer />
-    </div>
+    </div >
   )
 }
 
