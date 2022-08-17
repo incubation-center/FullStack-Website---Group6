@@ -1,28 +1,54 @@
 import Link from "next/link";
+import { inject, observer } from "mobx-react";
 
-function IngredientsList ( { text } ) 
-{
+function IngredientsList(props) {
+  const { selectedIngredients, removeIngredient, isExist, clearAll } =
+    props.ingredientStore;
+
   return (
-    <div className="container md:w-96 bg-primary h-full">
-      <div className="card md:w-96 bg-accent shadow-md h-full">
+    <div className="container md:w-96 bg-primary min-h-fit">
+      <div className="card md:w-96 bg-accent shadow-md min-h-fit">
         <div className="card-body items-center text-center">
-          <h2 className="card-title">Ingredients</h2>
-          <div className="form-control grow">
-            <label className="label cursor-pointer">
-              <input type="checkbox" className="checkbox" />
-              <span className="label-text m-5">Apple</span>
-            </label>
+          <h2 className="card-title text-xl">Ingredients</h2>
+          <div className="form-control grow min-h-16">
+            {selectedIngredients &&
+              selectedIngredients.map((ingredient, index) => {
+                return (
+                  <label
+                    key={index}
+                    className="label cursor-pointer justify-start"
+                  >
+                    <input
+                      type="checkbox"
+                      className="checkbox"
+                      checked
+                      // value={isExist(ingredient.id)}
+                      onChange={() => removeIngredient(ingredient)}
+                    />
+                    <span className="label-text px-4 text-lg capitalize">
+                      {ingredient.name}
+                    </span>
+                  </label>
+                );
+              })}
           </div>
           <div className="card-actions">
             <Link href="/recipes-result">
-              <button className="btn btn-primary text-accent">{text}</button>
+              <button className="btn btn-primary text-accent text-lg">
+                {props.text}
+              </button>
             </Link>
           </div>
-          <div className="justify-end">❌ Clear all</div>
+          <div
+            className="justify-end text-lg cursor-pointer"
+            onClick={() => clearAll()}
+          >
+            ❌ Clear all
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
-export default IngredientsList;
+export default inject("ingredientStore")(observer(IngredientsList));
