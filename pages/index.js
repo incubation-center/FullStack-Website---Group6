@@ -4,32 +4,33 @@ import Footer from "../components/footer";
 import IngredientTabs from "../components/ingredient-tabs.js";
 import IngredientsList from "../components/ingredients-list.js";
 
-function Home() {
+function Home ()
+{
   return (
     <AnimatePresence exitBeforeEnter>
       <motion.div
         className="flex flex-col justify-between"
-        style={{ minHeight: "100vh" }}
-        initial={{ opacity: 0 }}
-        animate={{
+        style={ { minHeight: "100vh" } }
+        initial={ { opacity: 0 } }
+        animate={ {
           opacity: 1,
           transition: {
             duration: 1,
-            ease: "easeInOut",
-          },
-        }}
-        exit={{ opacity: 0 }}
+            ease: "easeInOut"
+          }
+        } }
+        exit={ { opacity: 0 } }
       >
         <Navbar />
 
-        <div className="flex-1 m-7 h-full justify-center md:flex">
+        <div className="flex-1 py-5 h-full justify-center md:flex md:px-5">
           <div className="md:order-last md:ml-4">
             <IngredientsList text="Find Recipes" />
           </div>
 
           <div className="h-4 md:hidden" />
           <div className="md:grow">
-            {/* Search Bar */}
+            {/* Search Bar */ }
             <div className="form-control mb-4">
               <div className="input-group">
                 <input
@@ -40,7 +41,7 @@ function Home() {
                 <button className="btn btn-square btn-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-accent"
+                    className="h-6 w-6 text-base-100"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -56,7 +57,7 @@ function Home() {
               </div>
             </div>
 
-            {/* Ingredients */}
+            {/* Ingredients */ }
             <IngredientTabs />
           </div>
         </div>
