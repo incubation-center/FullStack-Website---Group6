@@ -115,6 +115,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .bgImg{
+    background-image: url("https://source.unsplash.com/random/?food");
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {

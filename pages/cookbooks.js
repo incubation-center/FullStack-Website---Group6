@@ -52,7 +52,7 @@ function Cookbooks ()
         </select>
       </div>
 
-      <div className="flex flex-wrap justify-around my-5">
+      <div className="flex justify-around md:grid grid-cols-2 lg:flex-wrap my-5">
         { result.map( ( recipe, index ) =>
         {
           return (

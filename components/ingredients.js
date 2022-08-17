@@ -15,7 +15,7 @@ function Ingredients ()
         <li>1 1/2 cup green beans, ends trimmed and stringy part removed</li>
         <li>1 Japanese or Chinese eggplant, chopped</li>
         <li>8 cherry tomatoes</li>
-        <li>1 box Japanese curry roux mix (I’m using Java Curry)</li>
+        <li>1 box Japanese curry roux mix (I&apos;m using Java Curry)</li>
         <li>Cooked Japanese short grain rice</li>       
         
       </div>
