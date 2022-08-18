@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-import ScrollTop from '../components/scroll-top';
-import BookmarksCard from '../components/bookmarks-card';
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import ScrollTop from "../components/scroll-top";
+import BookmarkCard from "../components/bookmark-card";
 
 function Bookmarks ()
 {
@@ -46,7 +46,7 @@ function Bookmarks ()
                 visible: { opacity: 1, scale: 1 }
               } }
             >
-              <BookmarksCard />
+              <BookmarkCard />
             </motion.div>
           );
         } ) }

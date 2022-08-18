@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-import ScrollTop from '../components/scroll-top';
-import RecipesCard from '../components/recipes-card';
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import ScrollTop from "../components/scroll-top";
+import RecipeCard from "../components/recipe-card";
 
 function Cookbooks ()
 {
@@ -68,7 +68,7 @@ function Cookbooks ()
                 visible: { opacity: 1, scale: 1 }
               } }
             >
-              <RecipesCard />
+              <RecipeCard />
             </motion.div>
           );
         } ) }

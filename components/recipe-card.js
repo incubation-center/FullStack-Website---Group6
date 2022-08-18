@@ -1,23 +1,23 @@
-import Router, { useRouter } from 'next/router';
-import Image from 'next/image';
+import Router, { useRouter } from "next/router";
+import Image from "next/image";
 
-function RecipesCard ()
+function RecipeCard ()
 {
   const router = useRouter()
 
   return (
     <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] m-5">
-      <figure className="cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
+      <figure className="cursor-pointer" onClick={ () => router.push( "/recipe-details" ) } >
         <Image src="/kokos_curry.png" width={ 216 } height={ 216 } alt="Kokos Curry" />
       </figure>
 
       <div className="card-body w-52 p-5 cursor-none">
-        {/* Bookmark Button */ }
+        {/* Bookmark Button */}
         <div className="card-actions justify-end">
           <label className="swap">
-            {/* This hidden checkbox controls the state */ }
+            {/* This hidden checkbox controls the state */}
             <input type="checkbox" style={ { opacity: 0 } } />
-            {/* Bookmark Add  */ }
+            {/* Bookmark Add  */}
             {/* <svg className="bi bi-bookmark-plus color: rgb(255, 210, 51); swap-off fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
               <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" fill="#ffd233" /> 
               <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z" fill="#ffd233" />
@@ -26,7 +26,7 @@ function RecipesCard ()
               <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" fill="#ffc800" />
               <path d="M8 4a.5.5 0 0 1 .5.5V6H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V7H6a.5.5 0 0 1 0-1h1.5V4.5A.5.5 0 0 1 8 4z" fill="#ffc800" />
             </svg>
-            {/* Bookmark Check  */ }
+            {/* Bookmark Check  */}
             {/* <svg className="bi bi-bookmark-check-fill color: rgb(255, 210, 51); swap-on fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
               <path fillRule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" fill="#ffd233" />
             </svg> */}
@@ -36,7 +36,7 @@ function RecipesCard ()
           </label>
         </div>
 
-        <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
+        <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipe-details" ) } >
           <h2 className="card-title mx-px">Kokos Curry</h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
@@ -60,4 +60,4 @@ function RecipesCard ()
   )
 }
 
-export default RecipesCard;
+export default RecipeCard;
