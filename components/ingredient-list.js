@@ -1,15 +1,15 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { inject, observer } from "mobx-react";
 
-function IngredientsList ( props )
+function IngredientList ( props )
 {
   const { selectedIngredients, removeIngredient, isExist, clearAll } =
     props.ingredientStore;
 
   return (
-    <div className="container md:w-96 bg-primary min-h-fit">
-      <div className="card md:w-96 bg-accent shadow-md min-h-fit">
+    <div className="container bg-primary w-full md:w-96 min-h-fit">
+      <div className="card md:w-96 bg-accent rounded-3xl shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] min-h-fit">
         <div className="card-body items-center text-center">
           <h2 className="card-title text-xl">Ingredients</h2>
           <div className="form-control grow min-h-16">
@@ -57,4 +57,4 @@ function IngredientsList ( props )
   );
 }
 
-export default inject( "ingredientStore" )( observer( IngredientsList ) );
+export default inject( "ingredientStore" )( observer( IngredientList ) );

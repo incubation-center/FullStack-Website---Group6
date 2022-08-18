@@ -2,14 +2,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import IngredientTabs from "../components/ingredient-tabs.js";
-import IngredientsList from "../components/ingredients-list.js";
+import IngredientList from "../components/ingredient-list.js";
 
 function Home ()
 {
   return (
     <AnimatePresence exitBeforeEnter>
       <motion.div
-        className="flex flex-col justify-between"
+        className="flex flex-col justify-around"
         style={ { minHeight: "100vh" } }
         initial={ { opacity: 0 } }
         animate={ {
@@ -23,14 +23,13 @@ function Home ()
       >
         <Navbar />
 
-        <div className="flex-1 py-5 h-full justify-center md:flex md:px-5">
-          <div className="md:order-last md:ml-4">
-            <IngredientsList text="Find Recipes" />
+        <div className="flex-1 h-full justify-around md:flex">
+          <div className="m-5 sm:m-10 md:order-last">
+            <IngredientList text="Find Recipes" />
           </div>
 
-          <div className="h-4 md:hidden" />
-          <div className="md:grow">
-            {/* Search Bar */ }
+          <div className="m-5 sm:m-10 md:grow">
+            {/* Search Bar */}
             <div className="form-control mb-4">
               <div className="input-group">
                 <input
@@ -57,7 +56,7 @@ function Home ()
               </div>
             </div>
 
-            {/* Ingredients */ }
+            {/* Ingredients */}
             <IngredientTabs />
           </div>
         </div>

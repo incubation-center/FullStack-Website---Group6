@@ -1,24 +1,24 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from '../components/scroll-top';
-import RecipesCard from "../components/recipes-card";
-import IngredientsList from "../components/ingredients-list.js";
+import RecipeCard from "../components/recipe-card";
+import IngredientList from "../components/ingredient-list.js";
 
 function RecipesResult () 
 {
   let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
   
   return (
-    <div className="flex flex-col justify-between" style={ { minHeight: "100vh" } }>
+    <div className="flex flex-col justify-around" style={ { minHeight: "100vh" } }>
       <Navbar />
 
       <div className="flex-1 m-5 h-full justify-center md:flex">
-        <div className="md:order-last md:ml-4 mb-5">
-          <IngredientsList text="Find Recipes" />
+        <div className="m-0 sm:m-5 md:order-last">
+          <IngredientList text="Find Recipes" />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-5 sm:m-0">
           <div className="flex flex-row">
             <motion.div
               initial={ { scale: 0 } }
@@ -65,7 +65,7 @@ function RecipesResult ()
                     visible: { opacity: 1, scale: 1 }
                   } }
                 >
-                  <RecipesCard />
+                  <RecipeCard />
                 </motion.div>
               );
             } ) }

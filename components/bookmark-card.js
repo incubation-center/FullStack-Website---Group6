@@ -1,8 +1,8 @@
-import Router, { useRouter } from 'next/router';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
+import Router, { useRouter } from "next/router";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
-function BoomarksCard ()
+function BookmarkCard ()
 {
   const router = useRouter()
 
@@ -22,7 +22,7 @@ function BoomarksCard ()
       </figure>
       
       <div className="card-body p-5 cursor-none">    
-        <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipes-detail" ) } >
+        <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipe-details" ) } >
           <h2 className="card-title text-accent hover:text-primary mx-px">Kokos Curry</h2>       
         </div>
 
@@ -42,4 +42,4 @@ function BoomarksCard ()
   )
 }
 
-export default BoomarksCard;
+export default BookmarkCard;
