@@ -58,11 +58,17 @@ function Navbar ()
                 <a>BOOKMARKS</a>
               </Link>
             </li>
+
+            <li>
+              <Link href="/login">
+                <a>LOGIN</a>
+              </Link>
+            </li>
           </ul>
         </motion.div>
         <Link href="/">
           <a className="btn btn-ghost normal-case text-3xl text-accent">
-            Appeti
+            Ingredeck
           </a>
         </Link>
       </div>
@@ -85,7 +91,7 @@ function Navbar ()
       </div>
       <div className="navbar-end">
         <Link href="/login">
-          <a className="btn btn-outline btn-accent">login</a>
+          <a className="btn btn-outline btn-accent hidden md:flex">login</a>
         </Link>
         <label className="swap swap-rotate mx-4">
           {/* <!-- this hidden checkbox controls the state --> */}

@@ -1,9 +1,13 @@
 function Instructions ()
 {
   return (
-    <div className="card outline text-primary bg-slate-100">
-      <div className="card-body p-5 text-neutral hover:underline-offset-2">
-        <h2 className="card-title justify-center px-3 underline">INSTRUCTIONS</h2>
+    <div className="collapse collapse-arrow rounded-box border-2 border-primary hover:shadow-lg">
+      <input type="checkbox" className="peer" /> 
+      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 peer-checked:bg-primary peer-checked:text-white mb-2">
+        INSTRUCTIONS
+      </div>
+      
+      <div className="collapse-content"> 
         <ol>
           <li>Submerge the chopped eggplant in cold water and leave for 15 minutes. This will remove some of the bitterness.</li>
           <li>In a large pot over medium high heat, add 1 tablespoon oil, grated ginger and apple. Stir and cook for 2 minutes.</li>

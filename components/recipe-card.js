@@ -37,7 +37,7 @@ function RecipeCard ()
         </div>
 
         <div className="card w-full h-full cursor-pointer" onClick={ () => router.push( "/recipe-details" ) } >
-          <h2 className="card-title mx-px">Kokos Curry</h2>
+          <h2 className="text-lg lg:text-xl font-bold mx-px">Kokos Curry</h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
           <div className="flex flex-row my-1">

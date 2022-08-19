@@ -45,8 +45,8 @@ function RecipesResult ()
                 <path fillRule="evenodd" clipRule="evenodd" d="M27.5 15V18H29.5V15H27.5Z" fill="#ffc23a" />
               </svg>
             </motion.div>
-            <h1 className="text-3xl font-bold my-4">Result:</h1>
-            <h2 className="text-2xl font-bold m-5">9 recipes</h2>
+            <h1 className="text-2xl lg:text-3xl font-bold my-5 lg:my-4">Result:</h1>
+            <h2 className="text-xl lg:text-2xl font-bold my-6 ml-3 lg:m-5">9 recipes</h2>
           </div>
 
           <div className="flex flex-wrap justify-around">

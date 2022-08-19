@@ -1,7 +1,7 @@
 function RecipeNutrients ()
 {
   return (
-    <div className="flex flex-wrap justify-around my-10">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8">
       {/* Cook Time */}
       <label className="swap swap-flip text-9xl my-5">
         {/* This hidden checkbox controls the state */}

@@ -26,8 +26,8 @@ function Bookmarks ()
             <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" fill="#ffd233" />
           </svg>
         </motion.div>
-        <h1 className="text-3xl font-bold my-2">Total:</h1>
-        <h2 className="text-2xl font-bold m-3">26 bookmarked</h2>
+        <h1 className="text-2xl lg:text-3xl font-bold my-2">Total:</h1>
+        <h2 className="text-xl lg:text-2xl font-bold m-3">26 bookmarked</h2>
       </div>
 
       <div className="flex flex-wrap justify-around mb-5">
