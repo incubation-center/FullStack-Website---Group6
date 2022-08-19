@@ -12,24 +12,29 @@ function RecipeDetails ()
     <div>
       <Navbar />
 
-      <div className="grid grid-cols-3 my-10">
-        <div className="mx-10">
-          <Ingredients />
-        </div>
-
-        <div className="justify-center">
-          <figure className="flex justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 space-y-10">
+        <div className="row-span-3 justify-around sm:pt-10 space-y-5 sm:space-y-10">
+          <figure className="flex justify-around m-5 md:m-2 lg:ml-5 xl:m-0">
             <Image src="/kokos_curry.png" width={ 390 } height={ 390 } alt="Kokos Curry" />
           </figure>
-          <h1 className="text-3xl font-bold text-center my-10">Kokos Curry</h1>
-
-          <RecipeTags />
-          <RecipeNutrients />
+          <h1 className="text-2xl lg:text-3xl font-bold text-center m-5">Kokos Curry</h1>
           
+          <div className="m-10">
+            <RecipeTags />
+          </div>
         </div>
 
-        <div className="mx-10">
-          <Instructions />
+        <div className="col-span-3">
+          <RecipeNutrients />
+        </div>
+
+        <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 md:col-span-3 gap-6 p-5">
+          <div>
+            <Ingredients />
+          </div>
+          <div>
+            <Instructions />
+          </div>
         </div>
       </div>
 
