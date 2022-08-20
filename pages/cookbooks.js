@@ -36,19 +36,20 @@ function Cookbooks ()
           </div>
         </div>
         <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
-          <option disabled selected>Filter by categories</option>
-          <option>Khmer</option>
-          <option>Western</option>
-          <option>Indian</option>
+          <option disabled selected>Filter by cuisines</option>
+          <option>Asian</option>
           <option>Chinese</option>
-          <option>Japanese</option>
+          <option>Korean</option>
+          <option>British</option>
+          <option>American</option>
         </select>
         <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
-          <option disabled selected>Recipes Types</option>
+          <option disabled selected>Filter by meal times</option>
           <option>Breakfast</option>
           <option>Lunch</option>
           <option>Dinner</option>
-          <option>Supper</option>
+          <option>Snack</option>
+          <option>Dessert</option>
         </select>
       </div>
 
