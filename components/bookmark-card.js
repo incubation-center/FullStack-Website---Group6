@@ -27,10 +27,10 @@ function BookmarkCard(props) {
         />
       </figure>
 
-      <div className="card-body p-5 cursor-none">
+      <div className="card-body p-5">
         <div
           className="card w-full h-full cursor-pointer"
-          onClick={() => router.push("/recipes-detail")}
+          onClick={() => router.push("/recipe-details")}
         >
           <h2 className="card-title text-accent hover:text-primary mx-px">
             Kokos Curry

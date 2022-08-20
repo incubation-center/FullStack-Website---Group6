@@ -23,7 +23,7 @@ function RecipesCard(props) {
     <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] m-5">
       <figure
         className="cursor-pointer"
-        onClick={() => router.push("/recipes-detail")}
+        onClick={() => router.push("/recipe-details")}
       >
         <Image
           src="/kokos_curry.png"
@@ -33,7 +33,7 @@ function RecipesCard(props) {
         />
       </figure>
 
-      <div className="card-body w-52 p-5 cursor-none">
+      <div className="card-body w-52 p-5">
         {/* Bookmark Button */}
         <div className="card-actions justify-end">
           <label className="swap">
