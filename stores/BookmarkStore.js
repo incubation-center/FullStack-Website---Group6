@@ -2,7 +2,7 @@ import { observable, action, computed, makeObservable } from "mobx";
 
 class BookmarkStore {
   @observable bookmarks = [
-    { id: 10, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 1, title: "Kokos Curry", calories: 320, time: 45 },
     { id: 11, title: "Kokos Curry", calories: 320, time: 45 },
     { id: 12, title: "Kokos Curry", calories: 320, time: 45 },
   ];
@@ -10,6 +10,10 @@ class BookmarkStore {
   constructor() {
     makeObservable(this);
   }
+
+  @action isBookmarked = (id) => {
+    return this.bookmarks.some((b) => b.id === id);
+  };
 
   @action
   addBookmark = (bookmark) => {

@@ -20,7 +20,7 @@ function Bookmarks(props) {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="main">
+        <main className="flex flex-col flex-1">
           <div className="flex flex-row mx-5 mt-5">
             <motion.div
               initial={{ scale: 0 }}
@@ -69,7 +69,7 @@ function Bookmarks(props) {
                     visible: { opacity: 1, scale: 1 },
                   }}
                 >
-                  <BookmarksCard bookmarkedRecipe={_recipe} />
+                  <BookmarksCard bookmarked={_recipe} />
                 </motion.div>
               );
             })}

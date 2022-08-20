@@ -1,9 +1,23 @@
 import Router, { useRouter } from "next/router";
 import Image from "next/image";
 import PropTypes from "prop-types";
+import { inject, observer } from "mobx-react";
 
-function RecipesCard({ recipe }) {
+function RecipesCard(props) {
   const router = useRouter();
+  const { bookmarks, isBookmarked, addBookmark, removeBookmark } =
+    props.bookmarkStore;
+  const item = props.recipe;
+
+  function addNewBookmark() {
+    // console.log("addNewBookmark", item);
+    addBookmark(item);
+  }
+
+  function clearBookmark() {
+    // console.log("clearBookmark", item);
+    removeBookmark(item);
+  }
 
   return (
     <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] m-5">
@@ -24,7 +38,11 @@ function RecipesCard({ recipe }) {
         <div className="card-actions justify-end">
           <label className="swap">
             {/* This hidden checkbox controls the state */}
-            <input type="checkbox" style={{ opacity: 0 }} />
+            <input
+              type="checkbox"
+              style={{ opacity: 0 }}
+              defaultChecked={isBookmarked(props.recipe.id)}
+            />
 
             {/* Bookmark Add  */}
             <svg
@@ -32,6 +50,7 @@ function RecipesCard({ recipe }) {
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
               viewBox="0 0 16 16"
+              onClick={clearBookmark}
             >
               <path
                 d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
@@ -49,6 +68,7 @@ function RecipesCard({ recipe }) {
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
               viewBox="0 0 16 16"
+              onClick={addNewBookmark}
             >
               <path
                 fillRule="evenodd"
@@ -63,7 +83,7 @@ function RecipesCard({ recipe }) {
           className="card w-full h-full cursor-pointer"
           onClick={() => router.push("/recipes-detail")}
         >
-          <h2 className="card-title mx-px">{recipe.title}</h2>
+          <h2 className="card-title mx-px">{props.recipe.title}</h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
           <div className="flex flex-row my-1">
@@ -77,7 +97,7 @@ function RecipesCard({ recipe }) {
                 fill="red"
               />
             </svg>
-            <p className="my-1">{recipe.calories} Kcal</p>
+            <p className="my-1">{props.recipe.calories} Kcal</p>
           </div>
 
           <div className="flex flex-row my-1">
@@ -96,7 +116,7 @@ function RecipesCard({ recipe }) {
                 fill="#0000ff"
               />
             </svg>
-            <p className="-my-0.5">{recipe.time} mins</p>
+            <p className="-my-0.5">{props.recipe.time} mins</p>
           </div>
         </div>
       </div>
@@ -119,4 +139,4 @@ RecipesCard.defaultProps = {
   // onClick: function(){ alert("Hello"); }
 };
 
-export default RecipesCard;
+export default inject("bookmarkStore")(observer(RecipesCard));

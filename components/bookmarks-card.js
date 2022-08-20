@@ -8,7 +8,7 @@ function BookmarkCard(props) {
   const { bookmarks, removeBookmark } = props.bookmarkStore;
 
   function unBookmarked() {
-    removeBookmark(props.bookmarkedRecipe);
+    removeBookmark(props.bookmarked);
   }
 
   return (
