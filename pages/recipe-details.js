@@ -18,7 +18,7 @@ function RecipeDetails ()
             <Image src="/kokos_curry.png" width={ 390 } height={ 390 } alt="Kokos Curry" />
           </figure>
           <h1 className="text-2xl lg:text-3xl font-bold text-center m-5">Kokos Curry</h1>
-          
+
           <div className="m-10">
             <RecipeTags />
           </div>
