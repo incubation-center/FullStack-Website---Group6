@@ -81,9 +81,11 @@ function RecipesCard(props) {
 
         <div
           className="card w-full h-full cursor-pointer"
-          onClick={() => router.push("/recipes-detail")}
+          onClick={() => router.push("/recipe-details")}
         >
-          <h2 className="card-title mx-px">{props.recipe.title}</h2>
+          <h2 className="text-lg lg:text-xl font-bold mx-px">
+            {props.recipe.title}
+          </h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
           <div className="flex flex-row my-1">

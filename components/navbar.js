@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 function Navbar ()
 {
@@ -58,16 +58,22 @@ function Navbar ()
                 <a>BOOKMARKS</a>
               </Link>
             </li>
+
+            <li>
+              <Link href="/login">
+                <a>LOGIN</a>
+              </Link>
+            </li>
           </ul>
         </motion.div>
         <Link href="/">
           <a className="btn btn-ghost normal-case text-3xl text-accent">
-            Appeti
+            Ingredeck
           </a>
         </Link>
       </div>
 
-      {/* Desktop Navbar */ }
+      {/* Desktop Navbar */}
       <div className="navbar-center hidden md:flex text-accent font-semibold">
         <ul className="menu menu-horizontal p-0">
           <li>
@@ -85,12 +91,12 @@ function Navbar ()
       </div>
       <div className="navbar-end">
         <Link href="/login">
-          <a className="btn btn-outline btn-accent">login</a>
+          <a className="btn btn-outline btn-accent hidden md:flex">login</a>
         </Link>
         <label className="swap swap-rotate mx-4">
-          {/* <!-- this hidden checkbox controls the state --> */ }
+          {/* <!-- this hidden checkbox controls the state --> */}
           <input type="checkbox" style={ { opacity: 0 } } />
-          {/* <!-- sun icon --> */ }
+          {/* <!-- sun icon --> */}
           <svg
             className="swap-on fill-accent w-10 h-10"
             xmlns="http://www.w3.org/2000/svg"

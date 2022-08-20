@@ -2,7 +2,7 @@ import "../styles/Home.module.css";
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 const variants = {

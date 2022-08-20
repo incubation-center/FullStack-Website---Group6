@@ -16,11 +16,11 @@ function RecipesResult() {
       <Navbar />
 
       <div className="flex-1 m-5 h-full justify-center md:flex">
-        <div className="md:order-last md:ml-4 mb-5">
-          <IngredientsList text="Find Recipes" />
+        <div className="m-0 sm:m-5 md:order-last">
+          <IngredientList text="Find Recipes" />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-5 sm:m-0">
           <div className="flex flex-row">
             <motion.div
               initial={{ scale: 0 }}
@@ -127,8 +127,12 @@ function RecipesResult() {
                 />
               </svg>
             </motion.div>
-            <h1 className="text-3xl font-bold my-4">Result:</h1>
-            <h2 className="text-2xl font-bold m-5">{result.length} recipes</h2>
+            <h1 className="text-2xl lg:text-3xl font-bold my-5 lg:my-4">
+              Result:
+            </h1>
+            <h2 className="text-xl lg:text-2xl font-bold my-6 ml-3 lg:m-5">
+              {result.length} recipes
+            </h2>
           </div>
 
           <div className="flex flex-wrap justify-around">
@@ -146,7 +150,7 @@ function RecipesResult() {
                     visible: { opacity: 1, scale: 1 },
                   }}
                 >
-                  <RecipesCard />
+                  <RecipeCard />
                 </motion.div>
               );
             })}
