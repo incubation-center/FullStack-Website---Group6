@@ -3,7 +3,7 @@ function Ingredients ()
   return (
     <div className="collapse collapse-arrow rounded-box border-2 border-primary hover:shadow-lg">
       <input type="checkbox" className="peer" /> 
-      <div className="collapse-title font-bold underline decoration-wavy decoration-2 underline-offset-4 peer-checked:bg-primary peer-checked:text-white mb-2">
+      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 peer-checked:bg-primary peer-checked:text-white mb-2">
         INGREDIENTS
       </div>
       
