@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
-import RecipesCard from "../components/recipes-card";
+import RecipeCard from "../components/recipe-card";
 
-function Cookbooks() {
+function Cookbooks ()
+{
   let result = [
     { id: 1, title: "Kokos Curry", calories: 320, time: 45 },
     { id: 2, title: "Kokos Curry", calories: 320, time: 45 },
@@ -52,7 +53,7 @@ function Cookbooks() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
-            {/* Search Bar */}
+            {/* Search Bar */ }
             <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
               <div className="input-group">
                 <input
@@ -80,44 +81,46 @@ function Cookbooks() {
             </div>
             <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
               <option disabled selected>
-                Filter by categories
+                Filter by cuisine
               </option>
-              <option>Khmer</option>
-              <option>Western</option>
-              <option>Indian</option>
+              <option>Asian</option>
               <option>Chinese</option>
-              <option>Japanese</option>
+              <option>Korean</option>
+              <option>British</option>
+              <option>American</option>
             </select>
             <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
               <option disabled selected>
-                Recipes Types
+                Filter by meal time
               </option>
               <option>Breakfast</option>
               <option>Lunch</option>
               <option>Dinner</option>
-              <option>Supper</option>
+              <option>Snack</option>
+              <option>Dessert</option>
             </select>
           </div>
 
           <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-            {result.map((recipe) => {
+            { result.map( ( recipe ) =>
+            {
               return (
                 <motion.div
-                  key={recipe.id}
+                  key={ recipe.id }
                   className="flex justify-center"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                  variants={{
+                  viewport={ { once: true } }
+                  transition={ { duration: 0.5 } }
+                  variants={ {
                     hidden: { opacity: 0, scale: 1 },
                     visible: { opacity: 1, scale: 1 },
-                  }}
+                  } }
                 >
-                  <RecipesCard recipe={recipe} />
+                  <RecipeCard recipe={ recipe } />
                 </motion.div>
               );
-            })}
+            } ) }
           </div>
         </main>
 

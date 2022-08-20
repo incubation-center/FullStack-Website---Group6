@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
-import RecipesCard from "../components/recipes-card";
-import IngredientsList from "../components/ingredients-list.js";
+import RecipeCard from "../components/recipe-card";
+import IngredientList from "../components/ingredient-list.js";
 
 function RecipesResult() {
   let result = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];

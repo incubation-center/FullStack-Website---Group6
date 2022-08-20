@@ -5,7 +5,7 @@ import { inject, observer } from "mobx-react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
-import BookmarksCard from "../components/bookmarks-card";
+import BookmarkCard from "../components/bookmark-card";
 
 function Bookmarks(props) {
   const { bookmarks, bookmarkCount } = props.bookmarkStore;
@@ -71,7 +71,7 @@ function Bookmarks(props) {
                     visible: { opacity: 1, scale: 1 },
                   }}
                 >
-                  <BookmarksCard bookmarked={_recipe} />
+                  <BookmarkCard bookmarked={_recipe} />
                 </motion.div>
               );
             })}
