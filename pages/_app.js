@@ -3,6 +3,7 @@ import { Provider } from "mobx-react";
 import RecipeStore from "../stores/RecipeStore";
 import IngredientStore from "../stores/IngredientStore";
 import IngredientCategoryStore from "../stores/IngredientCategoryStore";
+import BookmarkStore from "../stores/BookmarkStore";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -10,6 +11,7 @@ function MyApp({ Component, pageProps }) {
       recipeStore={RecipeStore}
       ingredientStore={IngredientStore}
       ingredientCategoryStore={IngredientCategoryStore}
+      bookmarkStore={BookmarkStore}
     >
       <Component {...pageProps} />
     </Provider>

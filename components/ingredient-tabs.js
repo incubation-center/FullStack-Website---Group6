@@ -1,15 +1,8 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import { inject, observer } from "mobx-react";
 
 function IngredientTabs(props) {
-  const {
-    allIngredients,
-    selectedIngredients,
-    remainingIngredients,
-    isExist,
-    addIngredient,
-    removeIngredient,
-  } = props.ingredientStore;
+  const { remainingIngredients, addIngredient } = props.ingredientStore;
   const { categories } = props.ingredientCategoryStore;
   const [activeTab, setActiveTab] = useState(1);
 
@@ -20,26 +13,28 @@ function IngredientTabs(props) {
   const TabContent = useCallback(() => {
     return (
       <div className="form-control items-start flex border border-t-0 p-4 px-12">
-        {remainingIngredients.map((ingredient) => {
-          return (
-            <div key={ingredient.id} className="flex-1">
-              {ingredient.categoryId === activeTab && (
-                <label className="label cursor-pointer py-4">
-                  <input
-                    type="checkbox"
-                    className="checkbox"
-                    // defaultChecked={isExist(ingredient.id)}
-                    // defaultValue={ingredient.id}
-                    onChange={() => addIngredient(ingredient)}
-                  />
-                  <span className="label-text ml-5 capitalize text-lg">
-                    {ingredient.name}
-                  </span>
-                </label>
-              )}
-            </div>
-          );
-        })}
+        {remainingIngredients
+          .sort((a, b) => (a.name > b.name ? 1 : -1)) //https://bobbyhadz.com/blog/react-sort-array-of-objects
+          .map((ingredient) => {
+            return (
+              <div key={ingredient.id} className="flex-1">
+                {ingredient.categoryId === activeTab && (
+                  <label className="label cursor-pointer py-4">
+                    <input
+                      type="checkbox"
+                      className="checkbox"
+                      // defaultChecked={isExist(ingredient.id)}
+                      // defaultValue={ingredient.id}
+                      onChange={() => addIngredient(ingredient)}
+                    />
+                    <span className="label-text ml-5 capitalize text-lg">
+                      {ingredient.name}
+                    </span>
+                  </label>
+                )}
+              </div>
+            );
+          })}
       </div>
     );
   }, [activeTab, addIngredient, remainingIngredients]);
