@@ -8,7 +8,7 @@ import ScrollTop from "../components/scroll-top";
 import BookmarksCard from "../components/bookmarks-card";
 
 function Bookmarks(props) {
-  const { bookmarks, removeBookmark } = props.bookmarkStore;
+  const { bookmarks, bookmarkCount } = props.bookmarkStore;
 
   return (
     <React.Fragment>
@@ -51,7 +51,9 @@ function Bookmarks(props) {
               </svg>
             </motion.div>
             <h1 className="text-3xl font-bold my-2">Total:</h1>
-            <h2 className="text-2xl font-bold m-3">26 bookmarked</h2>
+            <h2 className="text-2xl font-bold m-3">
+              {bookmarkCount} bookmarked
+            </h2>
           </div>
 
           <div className="flex flex-wrap justify-around mb-5">

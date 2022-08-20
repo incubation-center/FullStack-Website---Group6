@@ -15,8 +15,8 @@ class RecipeStore {
     this.recipes = this.recipes.filter((r) => r !== recipe);
   };
 
-  @computed get getRecipes() {
-    return this.recipes;
+  @computed get recipeCount() {
+    return this.recipes.length;
   }
 }
 
