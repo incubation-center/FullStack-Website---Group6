@@ -9,9 +9,9 @@ function IngredientList ( props )
 
   return (
     <div className="container bg-primary w-full md:w-96 min-h-fit">
-      <div className="card md:w-96 bg-accent rounded-3xl shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] min-h-fit">
+      <div className="card md:w-96 bg-accent dark:bg-neutral rounded-3xl shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] min-h-fit">
         <div className="card-body items-center text-center">
-          <h2 className="card-title text-xl">Ingredients</h2>
+          <h2 className="card-title text-xl dark:text-accent">Ingredients</h2>
           <div className="form-control grow min-h-16">
             { selectedIngredients &&
               selectedIngredients.map( ( ingredient, index ) =>
@@ -43,7 +43,7 @@ function IngredientList ( props )
             </Link>
           </div>
           <motion.div
-            className="flex flex-row justify-end text-lg cursor-pointer hover:text-primary my-2"
+            className="flex flex-row justify-end text-lg hover:text-primary dark:text-accent dark:hover:text-primary cursor-pointer my-2"
             onClick={ () => clearAll() }
             whileTap={ { scale: 0.9 } } >
             <svg className="color: red; h-8 w-8 hover:animate-spin" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">

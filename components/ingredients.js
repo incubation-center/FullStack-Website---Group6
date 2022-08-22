@@ -3,11 +3,11 @@ function Ingredients ()
   return (
     <div className="collapse collapse-arrow rounded-box border-2 border-primary hover:shadow-lg">
       <input type="checkbox" className="peer" /> 
-      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 peer-checked:bg-primary peer-checked:text-white mb-2">
+      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent peer-checked:bg-primary peer-checked:text-white dark:peer-checked:text-neutral mb-2">
         INGREDIENTS
       </div>
       
-      <div className="collapse-content"> 
+      <div className="collapse-content dark:text-accent"> 
         <ul>
           <li>2 tablespoons vegetable oil</li>
           <li>1 thumb size fresh ginger, peeled and grated</li>
