@@ -20,7 +20,7 @@ function Bookmarks(props) {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex flex-col flex-1">
+        <main className="flex flex-col flex-1 dark:bg-neutral">
           <div className="flex flex-row mx-5 mt-5">
             <motion.div
               initial={{ scale: 0 }}
@@ -50,8 +50,8 @@ function Bookmarks(props) {
                 />
               </svg>
             </motion.div>
-            <h1 className="text-3xl font-bold my-2">Total:</h1>
-            <h2 className="text-2xl font-bold m-3">
+            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-2">Total:</h1>
+            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold m-3">
               {bookmarkCount} bookmarked
             </h2>
           </div>

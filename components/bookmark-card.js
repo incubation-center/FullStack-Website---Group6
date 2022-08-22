@@ -13,7 +13,7 @@ function BookmarkCard(props) {
 
   return (
     <motion.div
-      className="card w-fit h-fit glass image-full m-5"
+      className="card w-fit h-fit image-full m-5 shadow dark:shadow-accent"
       whileHover={{ scale: 1.1 }}
       bookmarkedRecipe
       whileTap={{ scale: 0.9, borderRadius: "10%" }}

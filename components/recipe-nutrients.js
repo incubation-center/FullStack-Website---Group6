@@ -1,18 +1,18 @@
 function RecipeNutrients ()
 {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 gap-5 lg:gap-10 xl:gap-20">
       {/* Cook Time */}
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-secondary hover:ring-4">
             <div className="flex flex-col items-center space-y-3">
-              <svg className="bi bi-clock color: blue mx-5 w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" fill="#0000ff" />
-                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" fill="#0000ff" />
+              <svg className="bi bi-clock color: rgb(87, 13, 248); w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" fill="#570df8" />
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" fill="#570df8" />
               </svg>
               <p className="text-xl font-bold text-secondary">Cook Time</p>
             </div>
@@ -25,14 +25,14 @@ function RecipeNutrients ()
       </label>
 
       {/* Calories */}
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-error hover:ring-4">
             <div className="flex flex-col items-center space-y-2">
-              <svg className="color: red mx-4 w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <svg className="color: red w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z" fill="red" />
               </svg>
               <p className="text-xl font-bold text-error">Calories</p>
@@ -46,7 +46,7 @@ function RecipeNutrients ()
       </label>
 
       {/* Protein */ }
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */ }
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */ }
@@ -67,7 +67,7 @@ function RecipeNutrients ()
       </label>
 
       {/* Carbs */ }
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */ }
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */ }
@@ -89,7 +89,7 @@ function RecipeNutrients ()
       </label>
 
       {/* Fiber */}
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */}
@@ -111,7 +111,7 @@ function RecipeNutrients ()
       </label>
 
       {/* Fat */ }
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */ }
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */ }
@@ -133,28 +133,28 @@ function RecipeNutrients ()
       </label>
 
       {/* Sugar */}
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */}
         <div className="avatar placeholder swap-off">
-          <div className="w-32 rounded-full ring-2 ring-neutral/50 hover:ring-4">
+          <div className="w-32 rounded-full ring-2 ring-neutral/50 dark:ring-accent/50 hover:ring-4">
             <div className="flex flex-col items-center space-y-2">
               <svg className="color: rgb(153, 165, 191); w-10 h-10" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#99a5bf" d="m801.728 349.184 4.48 4.48a128 128 0 0 1 0 180.992L534.656 806.144a128 128 0 0 1-181.056 0l-4.48-4.48-19.392 109.696a64 64 0 0 1-108.288 34.176L78.464 802.56a64 64 0 0 1 34.176-108.288l109.76-19.328-4.544-4.544a128 128 0 0 1 0-181.056l271.488-271.488a128 128 0 0 1 181.056 0l4.48 4.48 19.392-109.504a64 64 0 0 1 108.352-34.048l142.592 143.04a64 64 0 0 1-34.24 108.16l-109.248 19.2zm-548.8 198.72h447.168v2.24l60.8-60.8a63.808 63.808 0 0 0 18.752-44.416h-426.88l-89.664 89.728a64.064 64.064 0 0 0-10.24 13.248zm0 64c2.752 4.736 6.144 9.152 10.176 13.248l135.744 135.744a64 64 0 0 0 90.496 0L638.4 611.904H252.928zm490.048-230.976L625.152 263.104a64 64 0 0 0-90.496 0L416.768 380.928h326.208zM123.712 757.312l142.976 142.976 24.32-137.6a25.6 25.6 0 0 0-29.696-29.632l-137.6 24.256zm633.6-633.344-24.32 137.472a25.6 25.6 0 0 0 29.632 29.632l137.28-24.064-142.656-143.04z" />
               </svg>
-              <p className="text-xl font-bold text-neutral/50">Sugar</p>
+              <p className="text-xl font-bold text-neutral/50 dark:text-accent/50">Sugar</p>
             </div>
           </div>
         </div>
         {/* Radial Progress */}
-        <div className="radial-progress text-xl font-bold text-neutral/50 swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
+        <div className="radial-progress text-xl font-bold text-neutral/50 dark:text-accent/50 swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
           320
         </div>
       </label>
 
       {/* Cholesterol */}
-      <label className="swap swap-flip text-9xl my-5">
+      <label className="swap swap-flip text-9xl">
         {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */}

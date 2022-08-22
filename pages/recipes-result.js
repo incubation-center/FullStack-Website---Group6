@@ -5,29 +5,30 @@ import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import IngredientList from "../components/ingredient-list.js";
 
-function RecipesResult() {
-  let result = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
+function RecipesResult ()
+{
+  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
 
   return (
     <div
       className="flex flex-col justify-between"
-      style={{ minHeight: "100vh" }}
+      style={ { minHeight: "100vh" } }
     >
       <Navbar />
 
-      <div className="flex-1 m-5 h-full justify-center md:flex">
-        <div className="m-0 sm:m-5 md:order-last">
+      <div className="flex-1 p-5 h-full justify-center md:flex dark:bg-neutral">
+        <div className="m-0 sm:m-px md:my-5 md:ml-5 lg:m-5 md:order-last">
           <IngredientList text="Find Recipes" />
         </div>
 
         <div className="flex flex-col mt-5 sm:m-0">
           <div className="flex flex-row">
             <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: "spring", stiffness: 260, damping: 30 }}
-              whileHover={{ scaleX: 1.2 }}
-              whileTap={{ rotateY: 90 }}
+              initial={ { scale: 0 } }
+              animate={ { scale: 1 } }
+              transition={ { type: "spring", stiffness: 260, damping: 30 } }
+              whileHover={ { scaleX: 1.2 } }
+              whileTap={ { rotateY: 90 } }
             >
               <svg
                 className="color: rgb(255, 194, 58); h-16 w-16"
@@ -127,33 +128,34 @@ function RecipesResult() {
                 />
               </svg>
             </motion.div>
-            <h1 className="text-2xl lg:text-3xl font-bold my-5 lg:my-4">
+            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-5">
               Result:
             </h1>
-            <h2 className="text-xl lg:text-2xl font-bold my-6 ml-3 lg:m-5">
-              {result.length} recipes
+            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold my-6 ml-3">
+              { result.length } recipes
             </h2>
           </div>
 
-          <div className="flex flex-wrap justify-around">
-            {result.map((recipe, index) => {
+          <div className="flex flex-wrap justify-around -mx-5 sm:m-0 md:-mx-5 lg:mx-0">
+            { result.map( ( recipe, index ) =>
+            {
               return (
                 <motion.div
-                  key={index}
+                  key={ index }
                   className="flex justify-center"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                  variants={{
+                  viewport={ { once: true } }
+                  transition={ { duration: 0.5 } }
+                  variants={ {
                     hidden: { opacity: 0, scale: 1 },
                     visible: { opacity: 1, scale: 1 },
-                  }}
+                  } }
                 >
                   <RecipeCard />
                 </motion.div>
               );
-            })}
+            } ) }
           </div>
         </div>
       </div>

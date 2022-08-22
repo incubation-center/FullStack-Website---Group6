@@ -9,8 +9,7 @@ function Home ()
   return (
     <AnimatePresence exitBeforeEnter>
       <motion.div
-        className="flex flex-col justify-around"
-        style={ { minHeight: "100vh" } }
+        className="flex flex-col justify-around min-h-screen"
         initial={ { opacity: 0 } }
         animate={ {
           opacity: 1,
@@ -23,7 +22,7 @@ function Home ()
       >
         <Navbar />
 
-        <div className="flex-1 h-full justify-around md:flex">
+        <div className="flex-1 md:flex h-full justify-around dark:bg-neutral">
           <div className="m-5 sm:m-10 md:order-last">
             <IngredientList text="Find Recipes" />
           </div>
@@ -35,7 +34,7 @@ function Home ()
                 <input
                   type="text"
                   placeholder="Search…"
-                  className="input input-bordered"
+                  className="input input-bordered dark:bg-accent/10 dark:text-accent"
                 />
                 <button className="btn btn-square btn-primary">
                   <svg

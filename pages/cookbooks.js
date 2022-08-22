@@ -30,24 +30,25 @@ function Cookbooks ()
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex flex-col flex-1">
+        <main className="flex flex-col flex-1 dark:bg-neutral">
+          {/* Range */}
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-xl font-bold">Calories</h2>
+              <h2 className="text-xl font-bold dark:text-accent">Calories</h2>
               <input
                 type="range"
                 min="0"
                 max="100"
-                className="range range-primary range-sm my-1 cursor-grab"
+                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
               />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-xl font-bold">Duration</h2>
+              <h2 className="text-xl dark:text-accent font-bold">Duration</h2>
               <input
                 type="range"
                 min="0"
                 max="100"
-                className="range range-primary range-sm my-1 cursor-grab"
+                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
               />
             </div>
           </div>
@@ -59,7 +60,7 @@ function Cookbooks ()
                 <input
                   type="text"
                   placeholder="Search…"
-                  className="input input-bordered"
+                  className="input input-bordered dark:bg-accent/10 dark:text-accent"
                 />
                 <button className="btn btn-square btn-primary">
                   <svg
@@ -79,7 +80,8 @@ function Cookbooks ()
                 </button>
               </div>
             </div>
-            <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
+            {/* Select */}
+            <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5 ">
               <option disabled selected>
                 Filter by cuisine
               </option>
@@ -89,7 +91,7 @@ function Cookbooks ()
               <option>British</option>
               <option>American</option>
             </select>
-            <select className="select ghost shrink w-full max-w-xs shadow-md mx-5">
+            <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5">
               <option disabled selected>
                 Filter by meal time
               </option>

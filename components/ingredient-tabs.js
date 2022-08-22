@@ -27,7 +27,7 @@ function IngredientTabs(props) {
                       // defaultValue={ingredient.id}
                       onChange={() => addIngredient(ingredient)}
                     />
-                    <span className="label-text ml-5 capitalize text-lg">
+                    <span className="label-text capitalize text-lg dark:text-accent ml-5">
                       {ingredient.name}
                     </span>
                   </label>
@@ -50,7 +50,7 @@ function IngredientTabs(props) {
               className={`flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-lg ${
                 activeTab === category.id
                   ? "relative bg-accent border-t border-l border-r border-base-200"
-                  : "text-neutral/50"
+                : "text-neutral/50 dark:text-accent/50"
               }`}
               onClick={() => handleSwitchTab(category.id)}
             >
