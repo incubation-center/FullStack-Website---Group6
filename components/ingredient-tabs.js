@@ -49,13 +49,13 @@ function IngredientTabs(props) {
               key={category.id}
               className={`flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-lg ${
                 activeTab === category.id
-                  ? "relative bg-accent border-t border-l border-r border-base-200"
+                ? "relative bg-accent dark:bg-neutral dark:text-accent border-t border-l border-r border-base-200"
                 : "text-neutral/50 dark:text-accent/50"
               }`}
               onClick={() => handleSwitchTab(category.id)}
             >
               {activeTab === category.id && (
-                <span className="absolute inset-x-0 w-full h-px bg-accent -bottom-px"></span>
+                <span className="absolute inset-x-0 w-full h-px bg-accent dark:bg-neutral -bottom-px"></span>
               )}
               {category.name}
             </li>

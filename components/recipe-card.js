@@ -20,7 +20,7 @@ function RecipesCard(props) {
   }
 
   return (
-    <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] m-5 dark:bg-accent/5">
+    <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] dark:hover:shadow-accent/50 m-5 dark:bg-accent/5">
       <figure
         className="cursor-pointer"
         onClick={() => router.push("/recipe-details")}
