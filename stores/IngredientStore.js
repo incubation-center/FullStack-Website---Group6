@@ -59,6 +59,10 @@ class IngredientStore {
     return this.selectedIngredients.some((ingredient) => ingredient.id === id);
   };
 
+  @action setRemainingIngredients = (ingredients) => {
+    this.remainingIngredients = ingredients;
+  };
+
   @action addIngredient = (ingredient) => {
     this.selectedIngredients.push(ingredient);
     this.remainingIngredients = this.remainingIngredients.filter(
