@@ -92,7 +92,9 @@ function Navbar ()
       </div>
       <div className="navbar-end">
         <Link href="/login">
-          <a className="btn btn-outline btn-accent hidden md:flex">login</a>
+          <a className="btn border-accent bg-transparent text-accent hover:border-accent hover:bg-accent hover:text-primary hidden md:flex">
+            login
+          </a>
         </Link>
         <DarkMode />
       </div>

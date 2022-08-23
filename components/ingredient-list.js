@@ -9,7 +9,7 @@ function IngredientList ( props )
 
   return (
     <div className="container bg-primary w-full md:w-96 min-h-fit">
-      <div className="card md:w-96 bg-accent dark:bg-neutral rounded-3xl shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] min-h-fit">
+      <div className="card md:w-96 bg-accent dark:bg-neutral rounded-3xl shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] dark:shadow-accent/50 min-h-fit">
         <div className="card-body items-center text-center">
           <h2 className="card-title text-xl dark:text-accent">Ingredients</h2>
           <div className="form-control grow min-h-16">
@@ -28,7 +28,7 @@ function IngredientList ( props )
                       // value={isExist(ingredient.id)}
                       onChange={ () => removeIngredient( ingredient ) }
                     />
-                    <span className="label-text px-4 text-lg capitalize">
+                    <span className="label-text px-4 text-lg dark:text-accent capitalize">
                       { ingredient.name }
                     </span>
                   </label>
