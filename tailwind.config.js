@@ -9,7 +9,7 @@ module.exports = {
       {
         mytheme: {
           primary: "#30D5C8",
-          secondary: "#0000FF",
+          secondary: "#570DF8",
           accent: "#FFFFFF",
           neutral: "#3D4451",
           "base-100": "#FFFFFF",
@@ -26,8 +26,8 @@ module.exports = {
     logs: true,
     rtl: false,
     prefix: "",
-    darkTheme: "dark",
   },
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
