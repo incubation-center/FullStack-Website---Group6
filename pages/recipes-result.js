@@ -5,9 +5,18 @@ import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import IngredientList from "../components/ingredient-list.js";
 
-function RecipesResult ()
-{
-  let result = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ];
+function RecipesResult() {
+  let result = [
+    { id: 1, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 2, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 3, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 4, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 5, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 6, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 7, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 8, title: "Kokos Curry", calories: 320, time: 45 },
+    { id: 9, title: "Kokos Curry", calories: 320, time: 45 },
+  ];
 
   return (
     <div
@@ -152,7 +161,7 @@ function RecipesResult ()
                     visible: { opacity: 1, scale: 1 },
                   } }
                 >
-                  <RecipeCard />
+                  <RecipeCard recipe={recipe} />
                 </motion.div>
               );
             } ) }

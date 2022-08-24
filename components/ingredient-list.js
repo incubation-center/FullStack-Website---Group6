@@ -2,9 +2,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { inject, observer } from "mobx-react";
 
-function IngredientList ( props )
-{
-  const { selectedIngredients, removeIngredient, isExist, clearAll } =
+function IngredientList(props) {
+  const { selectedIngredients, removeIngredient, clearAll } =
     props.ingredientStore;
 
   return (
@@ -13,12 +12,11 @@ function IngredientList ( props )
         <div className="card-body items-center text-center">
           <h2 className="card-title text-xl dark:text-accent">Ingredients</h2>
           <div className="form-control grow min-h-16">
-            { selectedIngredients &&
-              selectedIngredients.map( ( ingredient, index ) =>
-              {
+            {selectedIngredients &&
+              selectedIngredients.map((ingredient) => {
                 return (
                   <label
-                    key={ index }
+                    key={ingredient.id}
                     className="label cursor-pointer justify-start"
                   >
                     <input
@@ -26,19 +24,19 @@ function IngredientList ( props )
                       className="checkbox"
                       checked
                       // value={isExist(ingredient.id)}
-                      onChange={ () => removeIngredient( ingredient ) }
+                      onChange={() => removeIngredient(ingredient)}
                     />
                     <span className="label-text px-4 text-lg dark:text-accent capitalize">
                       { ingredient.name }
                     </span>
                   </label>
                 );
-              } ) }
+              })}
           </div>
           <div className="card-actions">
             <Link href="/recipes-result">
               <button className="btn btn-primary text-accent text-lg">
-                { props.text }
+                {props.text}
               </button>
             </Link>
           </div>
@@ -57,4 +55,4 @@ function IngredientList ( props )
   );
 }
 
-export default inject( "ingredientStore" )( observer( IngredientList ) );
+export default inject("ingredientStore")(observer(IngredientList));

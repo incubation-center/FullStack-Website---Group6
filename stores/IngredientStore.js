@@ -48,15 +48,20 @@ class IngredientStore {
       categoryId: 3,
     },
   ];
-  @observable remainingIngredients = this.allIngredients;
+  @observable remainingIngredients = [];
   @observable selectedIngredients = [];
 
   constructor() {
     makeObservable(this);
+    this.remainingIngredients = this.allIngredients;
   }
 
   @action isExist = (id) => {
     return this.selectedIngredients.some((ingredient) => ingredient.id === id);
+  };
+
+  @action setRemainingIngredients = (ingredients) => {
+    this.remainingIngredients = ingredients;
   };
 
   @action addIngredient = (ingredient) => {
@@ -67,10 +72,10 @@ class IngredientStore {
   };
 
   @action removeIngredient = (ingredient) => {
+    this.setRemainingIngredients([...this.remainingIngredients, ingredient]);
     this.selectedIngredients = this.selectedIngredients.filter(
       (r) => r.id !== ingredient.id
     );
-    this.remainingIngredients.push(ingredient);
   };
 
   @action clearAll = () => {
