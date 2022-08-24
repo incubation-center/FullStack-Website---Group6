@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { inject, observer } from "mobx-react";
+import Image from "next/image";
 
 function IngredientTabs(props) {
   const { remainingIngredients, addIngredient, setRemainingIngredients } =
@@ -24,29 +25,41 @@ function IngredientTabs(props) {
       a.name > b.name ? 1 : -1
     );
     setRemainingIngredients(sortedIngredients);
+    const ingredientByCategory = remainingIngredients.filter(
+      (r) => r.categoryId === activeTab
+    );
 
     return (
-      <div className="form-control items-start flex border border-t-0 p-4 px-12">
-        {remainingIngredients.map((ingredient) => {
-          return (
-            <div key={ingredient.id} className="flex-1">
-              {ingredient.categoryId === activeTab && (
+      <div
+        className={`form-control flex border border-t-0 p-4 px-12 ${
+          ingredientByCategory.length > 0 ? "items-start" : "items-center"
+        }`}
+      >
+        {ingredientByCategory.length > 0 ? (
+          ingredientByCategory.map((ingredient) => {
+            return (
+              <div key={ingredient.id} className="flex-1">
                 <label className="label cursor-pointer py-4">
                   <input
                     type="checkbox"
                     className="checkbox"
-                    // defaultChecked={isExist(ingredient.id)}
-                    // defaultValue={ingredient.id}
                     onChange={() => addIngredient(ingredient)}
                   />
                   <span className="label-text ml-5 capitalize text-lg">
                     {ingredient.name}
                   </span>
                 </label>
-              )}
-            </div>
-          );
-        })}
+              </div>
+            );
+          })
+        ) : (
+          <Image
+            src="https://cdni.iconscout.com/illustration/free/thumb/empty-box-4085812-3385481.png"
+            alt="empty tab"
+            width={200}
+            height={200}
+          />
+        )}
       </div>
     );
   }, [activeTab, addIngredient, remainingIngredients, setRemainingIngredients]);
