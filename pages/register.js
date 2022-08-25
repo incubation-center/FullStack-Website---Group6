@@ -1,4 +1,3 @@
-import "../styles/Home.module.css";
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import Link from "next/link";
@@ -68,7 +67,7 @@ function Register ()
         animate={ [ "center", "scaleUp" ] }
         exit={ [ "scaleDown", "out" ] }
       >
-        
+
         <div className="relative lg:w-1/2 lg:h-full">
           <Image
             className="absolute inset-0 object-cover w-full h-full"
@@ -77,24 +76,30 @@ function Register ()
             alt="Random Food Images"
           />
         </div>
-        
-        <div className="w-full lg:w-1/2 px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24"
-          // style={ {
-          //   '@media (minWidth: 768px)' {
-          //     backgroundImage: `url("https://source.unsplash.com/random/?food")`,
-          //   }
-          // }}
-        >
-          <div className="max-w-lg mx-auto text-center text-neutral/80">
-            <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
 
-            <p className="mt-4">
-              In order to save the recipes that you like, register here with us.
-            </p>
+        <div className="flex justify-center items-center w-full lg:w-1/2 h-full px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
+          <div className="lg:hidden">
+            <Image
+              className="absolute inset-0 object-cover w-full h-full"
+              src="https://source.unsplash.com/random/?food"
+              layout="fill"
+              alt="Random Food Images"
+              style={ {
+                opacity: 0.5
+              } }
+            />
           </div>
 
-          <form className="max-w-md mx-auto mt-10 space-y-5">
-            <div>
+          <form className="relative space-y-5">
+            <div className="max-w-lg mx-auto text-center lg:text-neutral/80 mb-10">
+              <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+              <p className="mt-5">
+                In order to save the recipes that you like, register here with us.
+              </p>
+            </div>
+
+            <div className="max-w-md mx-auto">
               <label htmlFor="email" className="sr-only">
                 Email
               </label>
@@ -125,7 +130,7 @@ function Register ()
               </div>
             </div>
 
-            <div>
+            <div className="max-w-md mx-auto">
               <label htmlFor="password" className="sr-only">
                 Password
               </label>
@@ -164,8 +169,8 @@ function Register ()
               </div>
             </div>
 
-            <motion.div className="flex items-center justify-between" key="/login">
-              <p className="text-sm text-neutral/80 ">
+            <motion.div className="flex items-center justify-between max-w-md mx-auto" key="/login">
+              <p className="text-sm lg:text-neutral/80">
                 Already have an account?
                 <Link href="/login">
                   <a className="font-bold hover:text-primary underline mx-1">Sign in</a>
