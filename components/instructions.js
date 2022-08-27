@@ -2,13 +2,13 @@ function Instructions ()
 {
   return (
     <div className="collapse collapse-arrow rounded-box border-2 border-primary hover:shadow-lg">
-      <input type="checkbox" className="peer" /> 
-      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent peer-checked:bg-primary peer-checked:text-white dark:peer-checked:text-neutral mb-2">
+      <input type="checkbox" className="peer" />
+      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent peer-checked:bg-primary peer-checked:text-white dark:peer-checked:text-neutral">
         INSTRUCTIONS
       </div>
-      
-      <div className="collapse-content dark:text-accent"> 
-        <ol>
+
+      <div className="collapse-content dark:text-accent">
+        <ol className="list-decimal p-3">
           <li>Submerge the chopped eggplant in cold water and leave for 15 minutes. This will remove some of the bitterness.</li>
           <li>In a large pot over medium high heat, add 1 tablespoon oil, grated ginger and apple. Stir and cook for 2 minutes.</li>
           <li>Add onion and cook for 3 minutes, or until the slices have softened and are translucent.</li>

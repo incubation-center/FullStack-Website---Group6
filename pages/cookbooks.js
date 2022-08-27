@@ -31,7 +31,7 @@ function Cookbooks ()
         <Navbar />
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
-          {/* Range */}
+          {/* Range Filter */}
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-xl font-bold dark:text-accent">Calories</h2>
@@ -80,26 +80,26 @@ function Cookbooks ()
                 </button>
               </div>
             </div>
-            {/* Select */}
-            <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5 ">
+            {/* Select Filter */}
+            <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5">
               <option disabled selected>
                 Filter by cuisine
               </option>
-              <option>Asian</option>
-              <option>Chinese</option>
-              <option>Korean</option>
-              <option>British</option>
-              <option>American</option>
+              <option className="text-base">Asian</option>
+              <option className="text-base">Chinese</option>
+              <option className="text-base">Korean</option>
+              <option className="text-base">British</option>
+              <option className="text-base">American</option>
             </select>
             <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5">
               <option disabled selected>
-                Filter by meal time
+                Filter by meal tags
               </option>
-              <option>Breakfast</option>
-              <option>Lunch</option>
-              <option>Dinner</option>
-              <option>Snack</option>
-              <option>Dessert</option>
+              <option className="text-base">Breakfast</option>
+              <option className="text-base">Lunch</option>
+              <option className="text-base">Dinner</option>
+              <option className="text-base">Snack</option>
+              <option className="text-base">Dessert</option>
             </select>
           </div>
 
