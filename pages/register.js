@@ -83,15 +83,12 @@ function Register ()
               className="absolute inset-0 object-cover w-full h-full"
               src="https://source.unsplash.com/random/?food"
               layout="fill"
-              alt="Random Food Images"
-              style={ {
-                opacity: 0.5
-              } }
+              alt="Random Food Images"     
             />
           </div>
 
-          <form className="relative space-y-5">
-            <div className="max-w-lg mx-auto text-center lg:text-neutral/80 mb-10">
+          <form className="relative bg-accent/70 rounded-lg p-5 space-y-5">
+            <div className="max-w-lg mx-auto text-center text-neutral/80 mb-10">
               <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
 
               <p className="mt-5">
@@ -170,7 +167,7 @@ function Register ()
             </div>
 
             <motion.div className="flex items-center justify-between max-w-md mx-auto" key="/login">
-              <p className="text-sm lg:text-neutral/80">
+              <p className="text-sm text-neutral/80">
                 Already have an account?
                 <Link href="/login">
                   <a className="font-bold hover:text-primary underline mx-1">Sign in</a>

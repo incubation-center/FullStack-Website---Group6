@@ -2,13 +2,13 @@ function Ingredients ()
 {
   return (
     <div className="collapse collapse-arrow rounded-box border-2 border-primary hover:shadow-lg">
-      <input type="checkbox" className="peer" /> 
-      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent peer-checked:bg-primary peer-checked:text-white dark:peer-checked:text-neutral mb-2">
+      <input type="checkbox" className="peer" />
+      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent peer-checked:bg-primary peer-checked:text-white dark:peer-checked:text-neutral">
         INGREDIENTS
       </div>
-      
-      <div className="collapse-content dark:text-accent"> 
-        <ul>
+
+      <div className="collapse-content dark:text-accent">
+        <ul className="list-disc p-3">
           <li>2 tablespoons vegetable oil</li>
           <li>1 thumb size fresh ginger, peeled and grated</li>
           <li>1 apple such as Honeycrisp, peeled, cored, and grated</li>
@@ -21,7 +21,7 @@ function Ingredients ()
           <li>8 cherry tomatoes</li>
           <li>1 box Japanese curry roux mix (I&apos;m using Java Curry)</li>
           <li>Cooked Japanese short grain rice</li>
-         </ul>
+        </ul>
       </div>
     </div>
   )

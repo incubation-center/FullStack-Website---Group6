@@ -84,7 +84,7 @@ function RecipesCard(props) {
           onClick={() => router.push("/recipe-details")}
         >
           <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px">
-            {props.recipe.title}
+            { props.recipe.title.substring( 0, 15 ) }
           </h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
