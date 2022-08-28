@@ -13,6 +13,8 @@ const stringifyRelatedObjectNames  = (objects, attr, key = "name") => {
 }
 
 
+
+
 export default function SRecipes ({allRecipes, allRecipeCategories}) {
 
   return (
@@ -85,15 +87,22 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
                 allRecipes.map(recipe => (
                   <tr key={recipe.id}>
                     {Object.keys(recipe).map((info, i) => {
-                      if (info !== "categories") return (
+                      if (info !== "nutrientsPerServing") return (
                         <td key={i}>{recipe[info]}</td>
                       ); else return (
-                        <td key={i}>{stringifyRelatedObjectNames(recipe[info], "recipeCategory")}</td>
+                        // <td key={i}>{stringifyRelatedObjectNames(recipe[info], "recipeCategory")}</td>
+                        <td key={i}>{JSON.stringify(recipe[info])}</td>
                       )
                     } )}
                   </tr>
                 ))
               }
+              {/* <tr key={1}>
+                <td key={1}> {allRecipes[0]["ingredientLine"].split("\n").join("<br/>")} </td>
+              </tr>
+              <tr key={1}>
+                <td key={1}> {allRecipes[0]["ingredientLine"]} </td>
+              </tr> */}
             </tbody>
         </table>
       </div>
