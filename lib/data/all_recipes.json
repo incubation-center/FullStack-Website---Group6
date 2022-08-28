@@ -119,7 +119,7 @@
         ],
         "ingredients": [
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Pork sausage"
@@ -205,7 +205,7 @@
                 "name": "Beef"
             },
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Salt"
@@ -266,7 +266,7 @@
         ],
         "ingredients": [
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Butter"
@@ -301,7 +301,7 @@
         "mainImage": "https://storage.googleapis.com/sg-uploads/ec16cba38a104153b7ceab04297801e6.jpg"
     },
     {
-        "name": "Mashed Potatoes With Kale, Cabbage And Green Onions",
+        "name": "Mashed Potato With Kale, Cabbage And Green Onion",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -338,7 +338,7 @@
         ],
         "ingredients": [
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Salt"
@@ -359,7 +359,7 @@
                 "name": "Milk"
             },
             {
-                "name": "All purpose flour"
+                "name": "All-purpose flour"
             }
         ],
         "instructions": [
@@ -506,7 +506,7 @@
         "mainImage": "https://storage.googleapis.com/sg-uploads/bd1586dabf09458583be8f8875dc662c.jpg"
     },
     {
-        "name": "Hasselback Potatoes",
+        "name": "Hasselback Potato",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -543,7 +543,7 @@
         ],
         "ingredients": [
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Olive oil"
@@ -776,7 +776,7 @@
                 "name": "Onion"
             },
             {
-                "name": "All purpose flour"
+                "name": "All-purpose flour"
             },
             {
                 "name": "Salt"
@@ -945,7 +945,7 @@
                 "name": "Vegetable oil"
             },
             {
-                "name": "All purpose flour"
+                "name": "All-purpose flour"
             },
             {
                 "name": "Coconut"
@@ -1066,7 +1066,7 @@
                 "name": "Parsley"
             },
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Vegetable oil"
@@ -1203,7 +1203,7 @@
                 "name": "Hot pepper"
             },
             {
-                "name": "White sugar"
+                "name": "Sugar"
             },
             {
                 "name": "Salt"
@@ -1270,7 +1270,7 @@
                 "name": "Pork chops"
             },
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Broccoli"
@@ -1350,7 +1350,7 @@
                 "name": "Garlic"
             },
             {
-                "name": "Tomatoes"
+                "name": "Tomato"
             },
             {
                 "name": "Cabbage"
@@ -1531,7 +1531,7 @@
         "mainImage": "https://storage.googleapis.com/sg-uploads/ce101f9fa3f14625b9024a51c6990841.jpg"
     },
     {
-        "name": "Spanish-Style Tortilla With Potatoes And Spinach",
+        "name": "Spanish-Style Tortilla With Potato And Spinach",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -1570,10 +1570,10 @@
                 "name": "Olive oil"
             },
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
-                "name": "Onions"
+                "name": "Onion"
             },
             {
                 "name": "Salt"
@@ -1712,7 +1712,7 @@
         ],
         "ingredients": [
             {
-                "name": "White rice"
+                "name": "Rice"
             },
             {
                 "name": "Olive oil"
@@ -1724,7 +1724,7 @@
                 "name": "Corn"
             },
             {
-                "name": "Tomatoes"
+                "name": "Tomato"
             },
             {
                 "name": "Yellow onion"
@@ -1784,7 +1784,7 @@
                 "name": "Eggs"
             },
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Olive oil"
@@ -1960,19 +1960,19 @@
                 "name": "Olive oil"
             },
             {
-                "name": "White rice"
+                "name": "Rice"
             },
             {
-                "name": "Tomatoes"
+                "name": "Tomato"
             },
             {
-                "name": "Coriander seeds"
+                "name": "Coriander"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
-                "name": "Celery ribs"
+                "name": "Celery"
             },
             {
                 "name": "Garlic cloves"
@@ -2113,7 +2113,7 @@
         "mainImage": "https://storage.googleapis.com/sg-uploads/d3a796c288e84304a9332f16b5e49547.jpg"
     },
     {
-        "name": "Grilled Salmon With Mashed Potatoes And Spinach",
+        "name": "Grilled Salmon With Mashed Potato And Spinach",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -2150,7 +2150,7 @@
         ],
         "ingredients": [
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Milk"
@@ -2227,7 +2227,7 @@
                 "name": "Tuna"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Salt"
@@ -2471,7 +2471,7 @@
                 "name": "Shallots"
             },
             {
-                "name": "All purpose flour"
+                "name": "All-purpose flour"
             },
             {
                 "name": "Chicken broth"
@@ -2667,7 +2667,7 @@
                 "name": "Butter"
             },
             {
-                "name": "Onions"
+                "name": "Onion"
             },
             {
                 "name": "Cabbage"
@@ -2892,7 +2892,7 @@
         "mainImage": "https://storage.googleapis.com/sg-uploads/8160197654844951a21fceaa237d6f5a.jpg"
     },
     {
-        "name": "Penne With Zucchini And Tomatoes",
+        "name": "Penne With Zucchini And Tomato",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -2944,7 +2944,7 @@
                 "name": "Zucchini"
             },
             {
-                "name": "Tomatoes"
+                "name": "Tomato"
             },
             {
                 "name": "Tomato sauce"
@@ -3183,7 +3183,7 @@
                 "name": "Olive oil"
             },
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Red onion"
@@ -3438,7 +3438,7 @@
                 "name": "Cauliflower"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Salt"
@@ -3565,10 +3565,10 @@
                 "name": "Broccoli"
             },
             {
-                "name": "Extra-virgin olive oil"
+                "name": "Olive oil"
             },
             {
-                "name": "Sea salt"
+                "name": "Salt"
             },
             {
                 "name": "Black pepper"
@@ -3577,7 +3577,7 @@
                 "name": "Garlic"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             }
         ],
         "instructions": [],
@@ -3810,7 +3810,7 @@
                 "name": "Eggs"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Parsley"
@@ -4074,7 +4074,7 @@
                 "name": "Avocado"
             },
             {
-                "name": "Tomatoes"
+                "name": "Tomato"
             }
         ],
         "instructions": [
@@ -4085,7 +4085,7 @@
         "mainImage": "https://storage.googleapis.com/sg-uploads/b2bec3c5ab8a4913b193f931a09330ef.jpg"
     },
     {
-        "name": "Roasted Tomatoes And Shrimp With Zoodles",
+        "name": "Roasted Tomato And Shrimp With Zoodles",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -4140,7 +4140,7 @@
                 "name": "Garlic cloves"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Zucchini"
@@ -4433,7 +4433,7 @@
                 "name": "Black pepper"
             },
             {
-                "name": "White rice"
+                "name": "Rice"
             },
             {
                 "name": "Broccoli"
@@ -4498,7 +4498,7 @@
                 "name": "Parsley"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Salt"
@@ -4627,7 +4627,7 @@
                 "name": "Tuna"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Avocado"
@@ -4817,7 +4817,7 @@
                 "name": "Onion"
             },
             {
-                "name": "Ginger root"
+                "name": "Ginger"
             },
             {
                 "name": "Chicken"
@@ -4953,7 +4953,7 @@
                 "name": "Shrimp"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Black pepper"
@@ -5014,7 +5014,7 @@
                 "name": "Mayonnaise"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Honey"
@@ -5094,7 +5094,7 @@
                 "name": "Parsley"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             }
         ],
         "instructions": [
@@ -5340,7 +5340,7 @@
         "mainImage": "https://images.unsplash.com/photo-1469715670736-059afa7dee7c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEzMjE0Mn0"
     },
     {
-        "name": "Baked Chicken, Potatoes And Carrots",
+        "name": "Baked Chicken, Potato And Carrots",
         "cleanName": null,
         "text": null,
         "mealTags": [
@@ -5378,7 +5378,7 @@
         ],
         "ingredients": [
             {
-                "name": "Potatoes"
+                "name": "Potato"
             },
             {
                 "name": "Carrots"
@@ -5465,7 +5465,7 @@
                 "name": "Basil"
             },
             {
-                "name": "Tomatoes"
+                "name": "Tomato"
             },
             {
                 "name": "Tomato sauce"
@@ -5611,7 +5611,7 @@
                 "name": "Broccoli"
             },
             {
-                "name": "Onions"
+                "name": "Onion"
             },
             {
                 "name": "Soy sauce"
@@ -5681,7 +5681,7 @@
                 "name": "Olive oil"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Garlic cloves"
@@ -5756,7 +5756,7 @@
                 "name": "Tuna"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Avocado"
@@ -6057,7 +6057,7 @@
         ],
         "ingredients": [
             {
-                "name": "All purpose flour"
+                "name": "All-purpose flour"
             },
             {
                 "name": "Apple"
@@ -6066,7 +6066,7 @@
                 "name": "Butter"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Cinnamon"
@@ -6420,7 +6420,7 @@
                 "name": "Avocado"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             }
         ],
         "instructions": [
@@ -6476,7 +6476,7 @@
                 "name": "Parsley"
             },
             {
-                "name": "Lemon juice"
+                "name": "Lemon"
             },
             {
                 "name": "Shrimp"
@@ -6642,7 +6642,7 @@
                 "name": "Garlic"
             },
             {
-                "name": "White rice"
+                "name": "Rice"
             },
             {
                 "name": "Vegetable broth"
@@ -6985,7 +6985,7 @@
         ],
         "ingredients": [
             {
-                "name": "Broccoli florets"
+                "name": "Broccoli"
             }
         ],
         "instructions": [
