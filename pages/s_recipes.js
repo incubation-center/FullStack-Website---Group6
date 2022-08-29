@@ -12,6 +12,11 @@ const stringifyRelatedObjectNames  = (objects, attr, key = "name") => {
   return objects.map(obj => obj[attr][key]).toString();
 }
 
+const stringifyImplicitRelatedObjectNames  = (objects, attr = "name") => {
+  return objects.map(obj => obj[attr]).toString();
+}
+
+
 
 export default function SRecipes ({allRecipes, allRecipeCategories}) {
 
@@ -85,15 +90,26 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
                 allRecipes.map(recipe => (
                   <tr key={recipe.id}>
                     {Object.keys(recipe).map((info, i) => {
-                      if (info !== "categories") return (
+                      if (info === "ingredients") return (
+                        <td key={i}>
+                          {stringifyImplicitRelatedObjectNames(recipe[info])}
+                        </td>
+                      ); else if (info !== "nutrientsPerServing") return (
                         <td key={i}>{recipe[info]}</td>
                       ); else return (
-                        <td key={i}>{stringifyRelatedObjectNames(recipe[info], "recipeCategory")}</td>
+                        // <td key={i}>{stringifyRelatedObjectNames(recipe[info], "recipeCategory")}</td>
+                        <td key={i}>{JSON.stringify(recipe[info])}</td>
                       )
                     } )}
                   </tr>
                 ))
               }
+              {/* <tr key={1}>
+                <td key={1}> {allRecipes[0]["ingredientLine"].split("\n").join("<br/>")} </td>
+              </tr>
+              <tr key={1}>
+                <td key={1}> {allRecipes[0]["ingredientLine"]} </td>
+              </tr> */}
             </tbody>
         </table>
       </div>
@@ -105,6 +121,11 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
 export async function getStaticProps() {
   const allRecipes = await prisma.recipe.findMany({
     include: {
+      ingredients: {
+        select: {
+          name: true
+        }
+      },
       categories: {
         select: {
           recipeCategory: {
@@ -118,6 +139,8 @@ export async function getStaticProps() {
     }
   });
   const allRecipeCategories = await prisma.recipeCategory.findMany();
+  console.log(allRecipes);
+  console.log(allRecipes["ingredients"]);
 
   return {
     props: { 

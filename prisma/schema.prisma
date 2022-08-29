@@ -11,16 +11,25 @@ datasource db {
 model Recipe {
   id Int @id @default(autoincrement())
   name String
+  cleanName String?
+  mealTags String[]
+  cuisine String?
   description String?
-  calories Int @default(0)
-  duration_second Int @default(0)
+  durationSecond Int @default(0)
+  durationString String
+  ingredientCount Int @default(1)
+  ingredientLine String
+  ingredientLineCount Int @default(0)
+  numberOfServings Int @default(1)
   instruction String?
   imageLink String?
   videoLink String?
+  nutrientsPerServing Json
+  weightGram Float @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime?
   categories PivotRecipesCategories[]
-  ingredients PivotRecipesIngredients[]
+  ingredients Ingredient[]
   types RecipeType[] // Implicit
   keywords RecipeKeyword[] // Implicit
 }
@@ -74,20 +83,20 @@ model Ingredient {
   icon String?
   createdAt DateTime @default(now())
   updatedAt DateTime?
-  recipes PivotRecipesIngredients[]
+  recipes Recipe[]
   categories IngredientCategory[] // implicit
 }
 
 // Recipe and Ingredient M2M join table
-model PivotRecipesIngredients {
-  recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
-  recipeId Int
-  ingredient Ingredient  @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
-  ingredientId Int
-  assignedAt DateTime @default(now())
+// model PivotRecipesIngredients {
+//   recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+//   recipeId Int
+//   ingredient Ingredient  @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
+//   ingredientId Int
+//   assignedAt DateTime @default(now())
 
-  @@id([recipeId, ingredientId])
-}
+//   @@id([recipeId, ingredientId])
+// }
 
 // Ingredient Category model
 model IngredientCategory {

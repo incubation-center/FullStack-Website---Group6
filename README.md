@@ -62,6 +62,14 @@ These are the additional commands related to the services inside the docker cont
     # /dt
     ```
 
+- Count Table Rows: 
+
+    1. Display All Tables and The Total Number Of Rows In Each Table
+
+        ```sql
+        SELECT schemaname,relname,n_live_tup FROM pg_stat_user_tables ORDER BY n_live_tup DESC;
+        ```
+
 - Migrating The Database:
 
     In case the database container is not up-to-date with the migrations, we can use this command to manually migrate the database with the specified migration versions in `prisma/migrations/`
