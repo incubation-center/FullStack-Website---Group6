@@ -187,6 +187,17 @@ async function getIngredientCount(filename, upto=1) {
 // getIngredientCount("test_2.json", 6);
 
 
+async function sortChosenIngredient(filename="chosen_ingredient.json") {
+  // let filter_ingredients = "";
+  const content = fs.readFileSync(path.resolve(DIR_PATH, filename), {encoding: "utf8"});
+  writeJson(
+    JSON.parse(content).sort(), 
+    `sorted_chosen_ingredients.json`)
+  ;
+}
+
+// sortChosenIngredient();
+
 async function generateIngredientFilterString(filename="chosen_ingredient.json") {
   let filter_ingredients = "";
   const content = fs.readFileSync(path.resolve(DIR_PATH, filename), {encoding: "utf8"});
@@ -210,7 +221,9 @@ async function generateIngredientFilterString(filename="chosen_ingredient.json")
 
 /* i could make 3~400 requests at a time and save the endCursor manually */
 async function getFinalRecipeByIngredients(upto=2) {
-  const ingredient_json_file = "required_ingredient.json";
+  // const ingredient_json_file = "required_ingredient.json";
+  const ingredient_json_file = "unsanitized/all_ingredients.json";
+  
   let ingredients_filter = await generateIngredientFilterString(ingredient_json_file);
 
   const chosen_ingre_file = "chosen_ingredient.json";
@@ -307,14 +320,20 @@ async function getFinalRecipeByIngredients(upto=2) {
   let count_name = all_recipe_name.length;
     
   // writeJson(all_recipes, `final/${count_name * PER_PAGE}_recipes.json`);
-  writeJson(all_recipe_name, `final/${count_name * PER_PAGE}_recipe_name.json`);
+  writeJson(all_recipe_name, 
+    `final/${count_name * PER_PAGE}_recipe_name.json`
+  );
 
-  writeJson(Array.from(unique_ingredient_name), `final/${count_name * PER_PAGE}_ingredient_unique_name.json`);
+  writeJson(Array.from(unique_ingredient_name), 
+    `final/${count_name * PER_PAGE}_ingredient_unique_name.json`)
+  ;
 
   const sorted_ingre_count = Object.entries(ingre_not_in_data)
     .sort(([,a],[,b]) => b-a)
     .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
   writeJson(sorted_ingre_count, `final/${upto * PER_PAGE}_frequency_offset_ingredients.json`);
+
+  console.log(`End cursor ${endCusor}`);
 }
 
 // getFinalRecipeByIngredients(50);
@@ -377,5 +396,5 @@ async function getRecipeProperties() {
 
 }
 
-
-getRecipeProperties()
+// request all properties of all recipes
+// getRecipeProperties()
