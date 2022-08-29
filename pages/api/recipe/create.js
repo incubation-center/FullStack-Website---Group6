@@ -14,10 +14,6 @@ export default async function handle(req, res) {
       } 
     }); */
 
-
-    console.log('-------------- Prisma Create')
-    console.log(body);
-
     const result = await prisma.recipe.create({ 
       data: { 
         name: body["name"],
@@ -34,9 +30,10 @@ export default async function handle(req, res) {
         imageLink: body["imageLink"],
         nutrientsPerServing: body["nutrientsPerServing"],
         weightGram: body["weightGram"],
+        ingredients: body["ingredients"]
       } 
     });
     // res.json(result);
-    res.json(body);
+    res.json(result);
   }
 }
