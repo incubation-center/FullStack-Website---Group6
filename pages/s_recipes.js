@@ -90,7 +90,7 @@ export default function SRecipes ({allRecipes, allRecipeCategories}) {
                 allRecipes.map(recipe => (
                   <tr key={recipe.id}>
                     {Object.keys(recipe).map((info, i) => {
-                      if (info === "ingredients") return (
+                      if (info === "ingredients" || info === "categories" || info === "cuisines") return (
                         <td key={i}>
                           {stringifyImplicitRelatedObjectNames(recipe[info])}
                         </td>
@@ -128,19 +128,17 @@ export async function getStaticProps() {
       },
       categories: {
         select: {
-          recipeCategory: {
-            select: {
-              name: true,
-            }
-          },
-          recipeCategoryId: true,
+          name: true
+        }
+      },
+      cuisines: {
+        select: {
+          name: true
         }
       },
     }
   });
   const allRecipeCategories = await prisma.recipeCategory.findMany();
-  console.log(allRecipes);
-  console.log(allRecipes["ingredients"]);
 
   return {
     props: { 
