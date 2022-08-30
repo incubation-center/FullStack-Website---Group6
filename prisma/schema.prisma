@@ -12,8 +12,6 @@ model Recipe {
   id Int @id @default(autoincrement())
   name String
   cleanName String?
-  mealTags String[]
-  cuisine String?
   description String?
   durationSecond Int @default(0)
   durationString String
@@ -28,10 +26,10 @@ model Recipe {
   weightGram Float @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime?
-  categories PivotRecipesCategories[]
   ingredients Ingredient[]
-  types RecipeType[] // Implicit
-  keywords RecipeKeyword[] // Implicit
+  categories RecipeCategory[]
+  cuisines Cuisine[]
+  keywords RecipeKeyword[]
 }
 
 // Recipe Category model
@@ -39,25 +37,13 @@ model RecipeCategory {
   id Int @id @default(autoincrement())
   name String
   description String?
-  recipes PivotRecipesCategories[]
   createdAt DateTime @default(now())
   updatedAt DateTime?
-}
-
-// Recipe and Recipe Category M2M join table
-model PivotRecipesCategories {
-  recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
-  recipeId Int
-  recipeCategory RecipeCategory  @relation(fields: [recipeCategoryId], references: [id], onDelete: Cascade)
-  recipeCategoryId Int
-  assignedAt DateTime @default(now())
-  assignedBy String?
-
-  @@id([recipeId, recipeCategoryId])
+  recipes Recipe[]
 }
 
 // Recipe Types model
-model RecipeType {
+model Cuisine {
   id Int @id @default(autoincrement())
   name String
   description String?
@@ -84,19 +70,8 @@ model Ingredient {
   createdAt DateTime @default(now())
   updatedAt DateTime?
   recipes Recipe[]
-  categories IngredientCategory[] // implicit
+  categories IngredientCategory[] 
 }
-
-// Recipe and Ingredient M2M join table
-// model PivotRecipesIngredients {
-//   recipe Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
-//   recipeId Int
-//   ingredient Ingredient  @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
-//   ingredientId Int
-//   assignedAt DateTime @default(now())
-
-//   @@id([recipeId, ingredientId])
-// }
 
 // Ingredient Category model
 model IngredientCategory {
