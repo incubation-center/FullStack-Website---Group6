@@ -18,8 +18,6 @@ export default async function handle(req, res) {
       data: { 
         name: body["name"],
         cleanName: body["cleanName"],
-        mealTags: body["mealTags"],
-        cuisine: body["cuisine"],
         durationSecond: body["durationSecond"],
         durationString: body["durationString"],
         ingredientCount: body["ingredientCount"],
@@ -30,7 +28,9 @@ export default async function handle(req, res) {
         imageLink: body["imageLink"],
         nutrientsPerServing: body["nutrientsPerServing"],
         weightGram: body["weightGram"],
-        ingredients: body["ingredients"]
+        ingredients: body["ingredients"],
+        categories: body["categories"],
+        cuisines: body["cuisines"],
       } 
     });
     // res.json(result);
