@@ -88,8 +88,24 @@ These are the additional commands related to the services inside the docker cont
 - Exporting The Database Contents To An SQL Dump File
 
     ```bash
-    docker exec -it postgres pg_dump -U postgres ingredeck > ingredeck_20223108.pgsql
+    docker exec -it postgres pg_dump -U postgres ingredeck > exported_file.pgsql
     ```
+
+- Importing The Database Dump file Into The `postgres` container
+
+    1. Copy the dump file to the container volume:
+
+        ```bash
+        docker cp exported_file.pgsql postgres:/var/lib/postgresql/data
+        ```
+
+    2. Run the container and import the dump file
+
+        ```bash
+        docker exec -it postgres psql ingredeck postgres
+
+        root@postgres:/# psql -U postgres ingredeck < /var/lib/postgresql/data/exported_file.pgsql
+        ```
 
 - Migrating The Database:
 
