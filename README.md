@@ -57,7 +57,7 @@ These are the additional commands related to the services inside the docker cont
 - Accessing Database Docker Container:
 
     ```bash
-    docker exec -it postgres psql IFood postgres
+    docker exec -it postgres psql ingredeck postgres
 
     # /dt
     ```
@@ -70,6 +70,27 @@ These are the additional commands related to the services inside the docker cont
         SELECT schemaname,relname,n_live_tup FROM pg_stat_user_tables ORDER BY n_live_tup DESC;
         ```
 
+        A more accurate approach: 
+        ```sql
+        WITH tbl AS
+            (SELECT table_schema,
+                    TABLE_NAME
+            FROM information_schema.tables
+            WHERE TABLE_NAME not like 'pg_%'
+                AND table_schema in ('public'))
+            SELECT table_schema,
+                TABLE_NAME,
+                (xpath('/row/c/text()', query_to_xml(format('select count(*) as c from %I.%I', table_schema, TABLE_NAME), FALSE, TRUE, '')))[1]::text::int AS rows_n
+            FROM tbl
+            ORDER BY rows_n DESC;
+        ```
+
+- Exporting The Database Contents To An SQL Dump File
+
+    ```bash
+    docker exec -it postgres pg_dump -U postgres ingredeck > ingredeck_20223108.pgsql
+    ```
+
 - Migrating The Database:
 
     In case the database container is not up-to-date with the migrations, we can use this command to manually migrate the database with the specified migration versions in `prisma/migrations/`
@@ -81,6 +102,12 @@ These are the additional commands related to the services inside the docker cont
 - Reset The Database Migration:
 
     :warning: **Note** : This command will reset all data and previous migration in the database
+
+    - Delete all migrations file: 
+
+        ```bash
+        sudo rm -r prisma/migrations/
+        ```
 
     ```bash
     docker exec -it next-prisma-docker_app_1 prisma migrate reset
