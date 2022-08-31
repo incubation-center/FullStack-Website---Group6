@@ -2,12 +2,19 @@
 CREATE TABLE "Recipe" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
+    "cleanName" TEXT,
     "description" TEXT,
-    "calories" INTEGER NOT NULL DEFAULT 0,
-    "duration_second" INTEGER NOT NULL DEFAULT 0,
+    "durationSecond" INTEGER NOT NULL DEFAULT 0,
+    "durationString" TEXT NOT NULL,
+    "ingredientCount" INTEGER NOT NULL DEFAULT 1,
+    "ingredientLine" TEXT NOT NULL,
+    "ingredientLineCount" INTEGER NOT NULL DEFAULT 0,
+    "numberOfServings" INTEGER NOT NULL DEFAULT 1,
     "instruction" TEXT,
     "imageLink" TEXT,
     "videoLink" TEXT,
+    "nutrientsPerServing" JSONB NOT NULL,
+    "weightGram" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3),
 
@@ -26,24 +33,14 @@ CREATE TABLE "RecipeCategory" (
 );
 
 -- CreateTable
-CREATE TABLE "PivotRecipesCategories" (
-    "recipeId" INTEGER NOT NULL,
-    "recipeCategoryId" INTEGER NOT NULL,
-    "assignedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "assignedBy" TEXT,
-
-    CONSTRAINT "PivotRecipesCategories_pkey" PRIMARY KEY ("recipeId","recipeCategoryId")
-);
-
--- CreateTable
-CREATE TABLE "RecipeType" (
+CREATE TABLE "Cuisine" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
     "description" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3),
 
-    CONSTRAINT "RecipeType_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "Cuisine_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -69,15 +66,6 @@ CREATE TABLE "Ingredient" (
 );
 
 -- CreateTable
-CREATE TABLE "PivotRecipesIngredients" (
-    "recipeId" INTEGER NOT NULL,
-    "ingredientId" INTEGER NOT NULL,
-    "assignedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-
-    CONSTRAINT "PivotRecipesIngredients_pkey" PRIMARY KEY ("recipeId","ingredientId")
-);
-
--- CreateTable
 CREATE TABLE "IngredientCategory" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
@@ -89,7 +77,7 @@ CREATE TABLE "IngredientCategory" (
 );
 
 -- CreateTable
-CREATE TABLE "_RecipeToRecipeType" (
+CREATE TABLE "_RecipeToRecipeCategory" (
     "A" INTEGER NOT NULL,
     "B" INTEGER NOT NULL
 );
@@ -101,16 +89,28 @@ CREATE TABLE "_RecipeToRecipeKeyword" (
 );
 
 -- CreateTable
+CREATE TABLE "_CuisineToRecipe" (
+    "A" INTEGER NOT NULL,
+    "B" INTEGER NOT NULL
+);
+
+-- CreateTable
+CREATE TABLE "_IngredientToRecipe" (
+    "A" INTEGER NOT NULL,
+    "B" INTEGER NOT NULL
+);
+
+-- CreateTable
 CREATE TABLE "_IngredientToIngredientCategory" (
     "A" INTEGER NOT NULL,
     "B" INTEGER NOT NULL
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "_RecipeToRecipeType_AB_unique" ON "_RecipeToRecipeType"("A", "B");
+CREATE UNIQUE INDEX "_RecipeToRecipeCategory_AB_unique" ON "_RecipeToRecipeCategory"("A", "B");
 
 -- CreateIndex
-CREATE INDEX "_RecipeToRecipeType_B_index" ON "_RecipeToRecipeType"("B");
+CREATE INDEX "_RecipeToRecipeCategory_B_index" ON "_RecipeToRecipeCategory"("B");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "_RecipeToRecipeKeyword_AB_unique" ON "_RecipeToRecipeKeyword"("A", "B");
@@ -119,34 +119,46 @@ CREATE UNIQUE INDEX "_RecipeToRecipeKeyword_AB_unique" ON "_RecipeToRecipeKeywor
 CREATE INDEX "_RecipeToRecipeKeyword_B_index" ON "_RecipeToRecipeKeyword"("B");
 
 -- CreateIndex
+CREATE UNIQUE INDEX "_CuisineToRecipe_AB_unique" ON "_CuisineToRecipe"("A", "B");
+
+-- CreateIndex
+CREATE INDEX "_CuisineToRecipe_B_index" ON "_CuisineToRecipe"("B");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "_IngredientToRecipe_AB_unique" ON "_IngredientToRecipe"("A", "B");
+
+-- CreateIndex
+CREATE INDEX "_IngredientToRecipe_B_index" ON "_IngredientToRecipe"("B");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "_IngredientToIngredientCategory_AB_unique" ON "_IngredientToIngredientCategory"("A", "B");
 
 -- CreateIndex
 CREATE INDEX "_IngredientToIngredientCategory_B_index" ON "_IngredientToIngredientCategory"("B");
 
 -- AddForeignKey
-ALTER TABLE "PivotRecipesCategories" ADD CONSTRAINT "PivotRecipesCategories_recipeId_fkey" FOREIGN KEY ("recipeId") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "_RecipeToRecipeCategory" ADD CONSTRAINT "_RecipeToRecipeCategory_A_fkey" FOREIGN KEY ("A") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "PivotRecipesCategories" ADD CONSTRAINT "PivotRecipesCategories_recipeCategoryId_fkey" FOREIGN KEY ("recipeCategoryId") REFERENCES "RecipeCategory"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "PivotRecipesIngredients" ADD CONSTRAINT "PivotRecipesIngredients_recipeId_fkey" FOREIGN KEY ("recipeId") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "PivotRecipesIngredients" ADD CONSTRAINT "PivotRecipesIngredients_ingredientId_fkey" FOREIGN KEY ("ingredientId") REFERENCES "Ingredient"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "_RecipeToRecipeType" ADD CONSTRAINT "_RecipeToRecipeType_A_fkey" FOREIGN KEY ("A") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "_RecipeToRecipeType" ADD CONSTRAINT "_RecipeToRecipeType_B_fkey" FOREIGN KEY ("B") REFERENCES "RecipeType"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "_RecipeToRecipeCategory" ADD CONSTRAINT "_RecipeToRecipeCategory_B_fkey" FOREIGN KEY ("B") REFERENCES "RecipeCategory"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "_RecipeToRecipeKeyword" ADD CONSTRAINT "_RecipeToRecipeKeyword_A_fkey" FOREIGN KEY ("A") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "_RecipeToRecipeKeyword" ADD CONSTRAINT "_RecipeToRecipeKeyword_B_fkey" FOREIGN KEY ("B") REFERENCES "RecipeKeyword"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "_CuisineToRecipe" ADD CONSTRAINT "_CuisineToRecipe_A_fkey" FOREIGN KEY ("A") REFERENCES "Cuisine"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "_CuisineToRecipe" ADD CONSTRAINT "_CuisineToRecipe_B_fkey" FOREIGN KEY ("B") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "_IngredientToRecipe" ADD CONSTRAINT "_IngredientToRecipe_A_fkey" FOREIGN KEY ("A") REFERENCES "Ingredient"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "_IngredientToRecipe" ADD CONSTRAINT "_IngredientToRecipe_B_fkey" FOREIGN KEY ("B") REFERENCES "Recipe"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "_IngredientToIngredientCategory" ADD CONSTRAINT "_IngredientToIngredientCategory_A_fkey" FOREIGN KEY ("A") REFERENCES "Ingredient"("id") ON DELETE CASCADE ON UPDATE CASCADE;

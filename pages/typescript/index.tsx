@@ -51,7 +51,7 @@ const Home: NextPage = () => {
             <p>
               See the console to see the log of the called function
             </p>
-            <CreateRecipe />
+            {/* <CreateRecipe /> */}
           </a>
         </div>
       </main>

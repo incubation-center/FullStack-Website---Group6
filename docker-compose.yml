@@ -10,7 +10,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: IFood
+      POSTGRES_DB: ingredeck
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped

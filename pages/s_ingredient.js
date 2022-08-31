@@ -5,6 +5,10 @@ import { DeleteIngredient } from '../components/ingredient/deleteIngredient';
 import { prisma } from '../lib/prisma';
 
 
+const stringifyImplicitRelatedObjectNames  = (objects, attr = "name") => {
+  return objects.map(obj => obj[attr]).toString();
+}
+
 export default function SIngredients ({allIngredients}) {
 
   return (
@@ -40,9 +44,10 @@ export default function SIngredients ({allIngredients}) {
                   <tr key={ingredient.id}>
                     {Object.keys(ingredient).map((info, i) => {
 
-                      console.log(info)
-                      if (info !== "nutrientsPerServing") return (
-                        <td key={i}>{ingredient[info]}</td>
+                      if (info === "categories") return (
+                        <td key={i}>
+                          {stringifyImplicitRelatedObjectNames(ingredient[info])}
+                        </td>
                       ); else return (
                         // <td key={i}>{stringifyRelatedObjectNames(ingredient[info], "ingredientCategory")}</td>
                         <td key={i}>{JSON.stringify(ingredient[info])}</td>
@@ -60,7 +65,15 @@ export default function SIngredients ({allIngredients}) {
 }
 
 export async function getStaticProps() {
-  const allIngredients = await prisma.ingredient.findMany();
+  const allIngredients = await prisma.ingredient.findMany({
+    include: {
+      categories: {
+        select: {
+          name: true
+        }
+      },
+    }
+  });
 //   const allRecipeCategories = await prisma.recipeCategory.findMany();
 
   console.log(allIngredients)
