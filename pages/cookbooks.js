@@ -80,26 +80,32 @@ function Cookbooks ()
                 </button>
               </div>
             </div>
-            {/* Select Filter */}
+            {/* Select Filter */ }
             <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5">
               <option disabled selected>
-                Filter by cuisine
+                Filter by cuisines
               </option>
-              <option className="text-base">Asian</option>
-              <option className="text-base">Chinese</option>
-              <option className="text-base">Korean</option>
-              <option className="text-base">British</option>
               <option className="text-base">American</option>
+              <option className="text-base">Chinese</option>
+              <option className="text-base">Greek</option>
+              <option className="text-base">Italian</option>
+              <option className="text-base">Japanese</option>
+              <option className="text-base">Kid-Friendly</option>
+              <option className="text-base">Mediterranean</option>
+              <option className="text-base">Mexican</option>
+              <option className="text-base">Polish</option>
+              <option className="text-base">Spanish</option>
+              <option className="text-base">Turkish</option>
+              <option className="text-base">World</option>
             </select>
             <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5">
               <option disabled selected>
-                Filter by meal tags
+                Filter by recipe categories
               </option>
               <option className="text-base">Breakfast</option>
               <option className="text-base">Lunch</option>
               <option className="text-base">Dinner</option>
               <option className="text-base">Snack</option>
-              <option className="text-base">Dessert</option>
             </select>
           </div>
 
