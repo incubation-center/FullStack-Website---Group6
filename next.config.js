@@ -9,6 +9,11 @@ module.exports = {
   nextConfig,
 
   images: {
-    domains: ["source.unsplash.com", "cdni.iconscout.com"],
+    domains: [
+      "source.unsplash.com",
+      "cdni.iconscout.com",
+      "storage.googleapis.com",
+      "lh6.ggpht.com",
+    ],
   },
 };

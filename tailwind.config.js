@@ -27,7 +27,7 @@ module.exports = {
     rtl: false,
     prefix: "",
   },
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -39,6 +39,7 @@ module.exports = {
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
+    require("@tailwindcss/line-clamp"),
     require("daisyui"),
   ],
 };
