@@ -3,22 +3,29 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import IngredientTabs from "../components/ingredient-tabs.js";
 import IngredientList from "../components/ingredient-list.js";
+import { useEffect } from "react";
+import * as csv from "fast-csv";
+import path from "path";
 
-function Home ()
-{
+function Home({ allIngredients, dbIngredientCategory }) {
+  useEffect(() => {
+    console.log(allIngredients);
+    console.log(dbIngredientCategory);
+  }, []);
+
   return (
     <AnimatePresence exitBeforeEnter>
       <motion.div
         className="flex flex-col justify-around min-h-screen"
-        initial={ { opacity: 0 } }
-        animate={ {
+        initial={{ opacity: 0 }}
+        animate={{
           opacity: 1,
           transition: {
             duration: 1,
-            ease: "easeInOut"
-          }
-        } }
-        exit={ { opacity: 0 } }
+            ease: "easeInOut",
+          },
+        }}
+        exit={{ opacity: 0 }}
       >
         <Navbar />
 
@@ -56,7 +63,7 @@ function Home ()
             </div>
 
             {/* Ingredients */}
-            <IngredientTabs />
+            <IngredientTabs dbIngredientCategory={dbIngredientCategory} />
           </div>
         </div>
 
@@ -67,3 +74,57 @@ function Home ()
 }
 
 export default Home;
+
+export const getServerSideProps = async () => {
+  const DIR_PATH = "lib/data/category";
+
+  // read csv
+  const file_ingre_cate = "ingredient_categories.csv";
+
+  // use fast-csv to read and wrap in a promise to await
+  const ingre_cates = await new Promise((resolve, reject) => {
+    const rows = [];
+
+    csv
+      .parseFile(path.resolve(DIR_PATH, file_ingre_cate), { headers: true })
+      .on("error", reject)
+      .on("data", (row) => {
+        // const obj = rowProcessor(row);
+        if (row) rows.push(row);
+      })
+      .on("end", () => {
+        resolve(rows);
+      });
+  });
+
+  const dbIngredientCategory = await prisma.ingredientCategory.findMany({
+    include: {
+      ingredients: {
+        select: {
+          name: true,
+        },
+      },
+    },
+  });
+
+  const allIngredients = await prisma.ingredient.findMany({
+    include: {
+      categories: {
+        select: {
+          name: true,
+        },
+      },
+    },
+  });
+
+  return {
+    props: {
+      ingre_cates: ingre_cates,
+      categories: Object.keys(ingre_cates[0]).filter(
+        (c) => !!c && c !== "Categories"
+      ),
+      dbIngredientCategory: JSON.parse(JSON.stringify(dbIngredientCategory)),
+      allIngredients: JSON.parse(JSON.stringify(allIngredients)),
+    },
+  };
+};

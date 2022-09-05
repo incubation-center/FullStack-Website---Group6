@@ -102,7 +102,7 @@ function RecipesCard(props) {
               />
             </svg>
             <p className="my-1 dark:text-accent">
-              {props.recipe.nutrientsPerServing.calories} Kcal
+              {props.recipe.nutrientsPerServing.calories} Cal
             </p>
           </div>
 
@@ -123,7 +123,7 @@ function RecipesCard(props) {
               />
             </svg>
             <p className="-my-0.5 dark:text-accent">
-              {props.recipe.durationString}
+              {props.recipe.durationSecond / 60} Minutes
             </p>
           </div>
         </div>
