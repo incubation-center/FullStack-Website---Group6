@@ -26,7 +26,7 @@ function IngredientList(props) {
                       // value={isExist(ingredient.id)}
                       onChange={() => removeIngredient(ingredient)}
                     />
-                    <span className="label-text px-4 text-lg dark:text-accent capitalize">
+                    <span className="label-text pl-4 text-lg dark:text-accent capitalize">
                       {ingredient.name}
                     </span>
                   </label>

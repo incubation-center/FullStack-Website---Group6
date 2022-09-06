@@ -63,7 +63,10 @@ function Home({ allIngredients, dbIngredientCategory }) {
             </div>
 
             {/* Ingredients */}
-            <IngredientTabs dbIngredientCategory={dbIngredientCategory} />
+            <IngredientTabs
+              dbIngredientCategory={dbIngredientCategory}
+              allIngredients={allIngredients}
+            />
           </div>
         </div>
 
@@ -123,7 +126,9 @@ export const getServerSideProps = async () => {
       categories: Object.keys(ingre_cates[0]).filter(
         (c) => !!c && c !== "Categories"
       ),
-      dbIngredientCategory: JSON.parse(JSON.stringify(dbIngredientCategory)),
+      dbIngredientCategory: JSON.parse(
+        JSON.stringify(dbIngredientCategory)
+      ).sort((a, b) => (b["name"] == "Others" ? -1 : 0)),
       allIngredients: JSON.parse(JSON.stringify(allIngredients)),
     },
   };
