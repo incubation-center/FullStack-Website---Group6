@@ -7,8 +7,8 @@ import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import BookmarkCard from "../components/bookmark-card";
 
-function Bookmarks(props) {
-  const { bookmarks, bookmarkCount } = props.bookmarkStore;
+function Bookmarks({ bookmarkStore }) {
+  const { bookmarks, bookmarkCount } = bookmarkStore;
 
   return (
     <React.Fragment>
@@ -50,13 +50,15 @@ function Bookmarks(props) {
                 />
               </svg>
             </motion.div>
-            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-2">Total:</h1>
+            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-2">
+              Total:
+            </h1>
             <h2 className="text-xl lg:text-2xl dark:text-accent font-bold m-3">
               {bookmarkCount} bookmarked
             </h2>
           </div>
 
-          <div className="flex flex-wrap justify-around mb-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-5">
             {bookmarks.map((_recipe, index) => {
               return (
                 <motion.div

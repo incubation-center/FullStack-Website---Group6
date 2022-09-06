@@ -3,11 +3,11 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import { inject, observer } from "mobx-react";
 
-function RecipesCard(props) {
+function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
   const { bookmarks, isBookmarked, addBookmark, removeBookmark } =
-    props.bookmarkStore;
-  const item = props.recipe;
+    bookmarkStore;
+  const item = recipe;
 
   function addNewBookmark() {
     // console.log("addNewBookmark", item);
@@ -26,11 +26,11 @@ function RecipesCard(props) {
         onClick={() => router.push("/recipe-details")}
       >
         <img
-          src={props.recipe.imageLink}
+          src={recipe.imageLink}
           // width={216}
           // height={216}
           style={{ height: 216, width: 216 }}
-          alt={props.recipe.name}
+          alt={recipe.name}
         />
       </figure>
 
@@ -42,7 +42,7 @@ function RecipesCard(props) {
             <input
               type="checkbox"
               style={{ opacity: 0 }}
-              defaultChecked={isBookmarked(props.recipe.id)}
+              defaultChecked={isBookmarked(recipe.id)}
             />
 
             {/* Bookmark Add  */}
@@ -85,7 +85,7 @@ function RecipesCard(props) {
           onClick={() => router.push("/recipe-details")}
         >
           <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px line-clamp-1">
-            {props.recipe.name}
+            {recipe.name}
           </h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
@@ -102,7 +102,7 @@ function RecipesCard(props) {
               />
             </svg>
             <p className="my-1 dark:text-accent">
-              {props.recipe.nutrientsPerServing.calories} Cal
+              {recipe.nutrientsPerServing.calories} Cal
             </p>
           </div>
 
@@ -123,7 +123,7 @@ function RecipesCard(props) {
               />
             </svg>
             <p className="-my-0.5 dark:text-accent">
-              {props.recipe.durationSecond / 60} Minutes
+              {recipe.durationSecond / 60} Minutes
             </p>
           </div>
         </div>
