@@ -5,7 +5,7 @@
   "description": "Ingredeck",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn prisma:migrate && next dev -p 3002",
+    "dev": "next dev -p 3002",
     "build": "next build",
     "start:dev": "yarn prisma:migrate && next start",
     "prisma:generate": "prisma generate",

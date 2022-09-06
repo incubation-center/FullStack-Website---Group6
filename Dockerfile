@@ -7,7 +7,7 @@ RUN export NODE_ENV=production
 WORKDIR /app
 
 COPY package.json /app
-COPY yarn.lock /app
+# COPY yarn.lock /app
 
 RUN yarn
 
