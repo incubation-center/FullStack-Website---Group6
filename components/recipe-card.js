@@ -3,11 +3,11 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import { inject, observer } from "mobx-react";
 
-function RecipesCard(props) {
+function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
   const { bookmarks, isBookmarked, addBookmark, removeBookmark } =
-    props.bookmarkStore;
-  const item = props.recipe;
+    bookmarkStore;
+  const item = recipe;
 
   function addNewBookmark() {
     // console.log("addNewBookmark", item);
@@ -25,11 +25,12 @@ function RecipesCard(props) {
         className="cursor-pointer"
         onClick={() => router.push("/recipe-details")}
       >
-        <Image
-          src="/kokos_curry.png"
-          width={216}
-          height={216}
-          alt="Kokos Curry"
+        <img
+          src={recipe.imageLink}
+          // width={216}
+          // height={216}
+          style={{ height: 216, width: 216 }}
+          alt={recipe.name}
         />
       </figure>
 
@@ -41,7 +42,7 @@ function RecipesCard(props) {
             <input
               type="checkbox"
               style={{ opacity: 0 }}
-              defaultChecked={isBookmarked(props.recipe.id)}
+              defaultChecked={isBookmarked(recipe.id)}
             />
 
             {/* Bookmark Add  */}
@@ -83,24 +84,47 @@ function RecipesCard(props) {
           className="card w-full h-full cursor-pointer"
           onClick={() => router.push("/recipe-details")}
         >
-          <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px">
-            { props.recipe.title.substring( 0, 15 ) }
+          <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px line-clamp-1">
+            {recipe.name}
           </h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
           <div className="flex flex-row my-1">
-            <svg className="color: red mx-2 w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z" fill="red" y/>
+            <svg
+              className="color: red mx-2 w-7 h-7"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z"
+                fill="red"
+                y
+              />
             </svg>
-            <p className="my-1 dark:text-accent">{props.recipe.calories} Kcal</p>
+            <p className="my-1 dark:text-accent">
+              {recipe.nutrientsPerServing.calories} Cal
+            </p>
           </div>
 
           <div className="flex flex-row my-1">
-            <svg className="bi bi-clock color: rgb(87, 13, 248); mx-3 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" fill="#570df8" />
-              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" fill="#570df8" />
+            <svg
+              className="bi bi-clock color: rgb(87, 13, 248); mx-3 w-5 h-5"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                fill="#570df8"
+              />
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                fill="#570df8"
+              />
             </svg>
-            <p className="-my-0.5 dark:text-accent">{props.recipe.time} mins</p>
+            <p className="-my-0.5 dark:text-accent">
+              {recipe.durationSecond / 60} Minutes
+            </p>
           </div>
         </div>
       </div>

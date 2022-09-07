@@ -19,6 +19,10 @@ class IngredientCategoryStore {
   constructor() {
     makeObservable(this);
   }
+
+  @action setCategories = (categories) => {
+    this.categories = categories;
+  };
 }
 
 export default new IngredientCategoryStore();

@@ -53,7 +53,6 @@ class IngredientStore {
 
   constructor() {
     makeObservable(this);
-    this.remainingIngredients = this.allIngredients;
   }
 
   @action isExist = (id) => {
