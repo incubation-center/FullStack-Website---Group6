@@ -21,7 +21,7 @@ function IngredientList(props) {
                   >
                     <input
                       type="checkbox"
-                      className="checkbox"
+                      className="checkbox dark:checkbox-accent"
                       checked
                       // value={isExist(ingredient.id)}
                       onChange={() => removeIngredient(ingredient)}
