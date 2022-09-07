@@ -1,5 +1,9 @@
-function RecipeNutrients ()
+function RecipeNutrients (props)
 {
+  const cookTime = props.item.durationSecond /60
+  const nutrients = props.item.nutrientsPerServing
+
+
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 gap-5 lg:gap-10 xl:gap-20">
       {/* Cook Time */}
@@ -20,7 +24,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-secondary swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45 mins
+          {cookTime} mins
         </div>
       </label>
 
@@ -41,7 +45,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-error swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
-          320
+          {nutrients.calories}
         </div>
       </label>
 
@@ -62,7 +66,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */ }
         <div className="radial-progress text-xl font-bold text-info swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
-          320
+          {nutrients.protein}
         </div>
       </label>
 
@@ -84,7 +88,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */ }
         <div className="radial-progress text-xl font-bold text-orange-400 swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+          {nutrients.carbs}
         </div>
       </label>
 
@@ -106,7 +110,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-success swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+          {nutrients.fiber}
         </div>
       </label>
 
@@ -128,7 +132,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */ }
         <div className="radial-progress text-xl font-bold text-yellow-400 swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+          {nutrients.fat}
         </div>
       </label>
 
@@ -149,7 +153,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-neutral/50 dark:text-accent/50 swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
-          320
+          {nutrients.sugar}
         </div>
       </label>
 
@@ -171,7 +175,7 @@ function RecipeNutrients ()
         </div>
         {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-warning swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+          {nutrients.cholesterol}
         </div>
       </label>
     </div>

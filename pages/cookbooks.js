@@ -4,20 +4,14 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
+import { useEffect } from "react";
+import { prisma } from "../lib/prisma";
 
-function Cookbooks ()
-{
-  let result = [
-    { id: 1, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 2, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 3, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 4, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 5, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 6, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 7, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 8, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 9, title: "Kokos Curry", calories: 320, time: 45 },
-  ];
+function Cookbooks({ allRecipes, allRecipeCategories }) {
+
+  // useEffect(() => {
+  //   console.log(allRecipes);
+  // }, []);
 
   return (
     <>
@@ -54,7 +48,7 @@ function Cookbooks ()
           </div>
 
           <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
-            {/* Search Bar */ }
+            {/* Search Bar */}
             <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
               <div className="input-group">
                 <input
@@ -80,7 +74,7 @@ function Cookbooks ()
                 </button>
               </div>
             </div>
-            {/* Select Filter */ }
+            {/* Select Filter */}
             <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5">
               <option disabled selected>
                 Filter by cuisines
@@ -110,25 +104,24 @@ function Cookbooks ()
           </div>
 
           <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-            { result.map( ( recipe ) =>
-            {
+            {allRecipes.map((recipe) => {
               return (
                 <motion.div
-                  key={ recipe.id }
+                  key={recipe.id}
                   className="flex justify-center"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={ { once: true } }
-                  transition={ { duration: 0.5 } }
-                  variants={ {
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  variants={{
                     hidden: { opacity: 0, scale: 1 },
                     visible: { opacity: 1, scale: 1 },
-                  } }
+                  }}
                 >
-                  <RecipeCard recipe={ recipe } />
+                  <RecipeCard recipe={recipe} />
                 </motion.div>
               );
-            } ) }
+            })}
           </div>
         </main>
 
@@ -141,3 +134,33 @@ function Cookbooks ()
 }
 
 export default Cookbooks;
+
+export async function getStaticProps() {
+  const allRecipes = await prisma.recipe.findMany({
+    include: {
+      ingredients: {
+        select: {
+          name: true,
+        },
+      },
+      categories: {
+        select: {
+          name: true,
+        },
+      },
+      cuisines: {
+        select: {
+          name: true,
+        },
+      },
+    },
+  });
+  const allRecipeCategories = await prisma.recipeCategory.findMany();
+
+  return {
+    props: {
+      allRecipes: JSON.parse(JSON.stringify(allRecipes)),
+      allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
+    },
+  };
+}
