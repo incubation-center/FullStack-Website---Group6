@@ -29,12 +29,12 @@ function RecipesCard({ bookmarkStore, recipe }) {
           src={recipe.imageLink}
           // width={216}
           // height={216}
-          style={{ height: 216, width: 216 }}
+          className="w-36 sm:w-40 lg:w-52 h-52"
           alt={recipe.name}
         />
       </figure>
 
-      <div className="card-body w-52 p-5">
+      <div className="card-body w-44 sm:w-48 lg:w-52 p-5">
         {/* Bookmark Button */}
         <div className="card-actions justify-end">
           <label className="swap">
