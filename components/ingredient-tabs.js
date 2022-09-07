@@ -46,7 +46,7 @@ function IngredientTabs({
                 <label className="label cursor-pointer py-4">
                   <input
                     type="checkbox"
-                    className="checkbox"
+                    className="checkbox dark:checkbox-accent"
                     onChange={() => addIngredient(ingredient)}
                   />
                   <span className="label-text capitalize text-lg dark:text-accent ml-5">
