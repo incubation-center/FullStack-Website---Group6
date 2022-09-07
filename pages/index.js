@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import IngredientTabs from "../components/ingredient-tabs.js";
 import IngredientList from "../components/ingredient-list.js";
 import { useEffect } from "react";
+import { prisma } from "../lib/prisma";
 import * as csv from "fast-csv";
 import path from "path";
 
