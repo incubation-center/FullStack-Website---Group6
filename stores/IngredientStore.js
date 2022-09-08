@@ -20,14 +20,14 @@ class IngredientStore {
   @action addIngredient = (ingredient) => {
     this.selectedIngredients.push(ingredient);
     this.remainingIngredients = this.remainingIngredients.filter(
-      (r) => r.id !== ingredient.id
+      (r) => r.name.toLowerCase() !== ingredient.name.toLowerCase()
     );
   };
 
   @action removeIngredient = (ingredient) => {
     this.setRemainingIngredients([...this.remainingIngredients, ingredient]);
     this.selectedIngredients = this.selectedIngredients.filter(
-      (r) => r.id !== ingredient.id
+      (r) => r.name.toLowerCase() !== ingredient.name.toLowerCase()
     );
   };
 
