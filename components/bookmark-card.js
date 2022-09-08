@@ -3,12 +3,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { inject, observer } from "mobx-react";
 
-function BookmarkCard(props) {
+function BookmarkCard({ bookmarkStore, bookmarked }) {
   const router = useRouter();
-  const { bookmarks, removeBookmark } = props.bookmarkStore;
+  const { bookmarks, removeBookmark } = bookmarkStore;
 
   function unBookmarked() {
-    removeBookmark(props.bookmarked);
+    removeBookmark(bookmarked);
   }
 
   return (
@@ -19,22 +19,23 @@ function BookmarkCard(props) {
       whileTap={{ scale: 0.95, borderRadius: "10%" }}
     >
       <figure>
-        <Image
-          src="/kokos_curry.png"
-          width={250}
-          height={200}
-          alt="Kokos Curry"
+        <img
+          src={bookmarked.imageLink}
+          // width={250}
+          // height={200}
+          style={{ height: 200, width: 250, objectFit: "cover" }}
+          alt={bookmarked.name}
         />
       </figure>
 
-      <div className="card-body p-5">
+      <div className="card-body p-5" style={{ maxWidth: 250 }}>
         <div
           className="card w-full h-full cursor-pointer"
           onClick={() => router.push("/recipe-details")}
         >
-          <h2 className="card-title text-accent hover:text-primary mx-px">
-            Kokos Curry
-          </h2>
+          <div className="card-title text-accent hover:text-primary mx-px">
+            {bookmarked.name}
+          </div>
         </div>
 
         <div className="card-actions justify-end">

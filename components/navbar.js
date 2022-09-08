@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { motion } from "framer-motion";
+import Image from "next/image";
 import DarkMode from "../components/dark-mode";
+import { motion } from "framer-motion";
 
 function Navbar ()
 {
@@ -68,9 +69,7 @@ function Navbar ()
           </ul>
         </motion.div>
         <Link href="/">
-          <a className="btn btn-ghost normal-case text-3xl text-accent">
-            Ingredeck
-          </a>
+          <Image src="/logo.png" className="cursor-pointer" width={ 170 } height={ 45 } alt="Logo" />
         </Link>
       </div>
 

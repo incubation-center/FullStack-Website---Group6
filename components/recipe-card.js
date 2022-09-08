@@ -3,7 +3,7 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import { inject, observer } from "mobx-react";
 
-function RecipesCard(props) {
+function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
   const { bookmarks, isBookmarked, addBookmark, removeBookmark } = props.bookmarkStore;
   const item = props.recipe;
@@ -28,15 +28,15 @@ function RecipesCard(props) {
         })}
       >
         <img
-          src={props.recipe.imageLink}
+          src={recipe.imageLink}
           // width={216}
           // height={216}
-          style={{ height: 216, width: 216 }}
-          alt={props.recipe.name}
+          className="w-36 sm:w-40 lg:w-52 h-52"
+          alt={recipe.name}
         />
       </figure>
 
-      <div className="card-body w-52 p-5">
+      <div className="card-body w-44 sm:w-48 lg:w-52 p-5">
         {/* Bookmark Button */}
         <div className="card-actions justify-end">
           <label className="swap">
@@ -44,7 +44,7 @@ function RecipesCard(props) {
             <input
               type="checkbox"
               style={{ opacity: 0 }}
-              defaultChecked={isBookmarked(props.recipe.id)}
+              defaultChecked={isBookmarked(recipe.id)}
             />
 
             {/* Bookmark Add  */}

@@ -1,14 +1,13 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
 function Cookbooks({ allRecipes, allRecipeCategories }) {
-
   // useEffect(() => {
   //   console.log(allRecipes);
   // }, []);
@@ -19,9 +18,9 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
   return (
     <>
       <Head>
-        <title>Cookbook</title>
-        <meta name="description" content="Bookmarked Recipes" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Recipes</title>
+        <meta name="description" content="Recipes" />
+        <link rel="icon" href="/favicon.ico?" />
       </Head>
 
       <div className="flex flex-col min-h-screen">

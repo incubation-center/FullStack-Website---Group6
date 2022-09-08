@@ -7,6 +7,10 @@ class RecipeStore {
     makeObservable(this);
   }
 
+  @action setRecipes = (recipes) => {
+    this.recipes = recipes;
+  };
+
   @action addRecipe = (recipe) => {
     this.recipes.push(recipe);
   };
