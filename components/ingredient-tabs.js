@@ -9,18 +9,26 @@ function IngredientTabs({
   dbIngredientCategory,
   allIngredients,
 }) {
-  const { remainingIngredients, addIngredient, setRemainingIngredients } =
-    ingredientStore;
+  const {
+    remainingIngredients,
+    addIngredient,
+    setRemainingIngredients,
+    selectedIngredients,
+  } = ingredientStore;
   const { categories, setCategories } = ingredientCategoryStore;
   const [activeTab, setActiveTab] = useState(1);
+  const [activeCat, setActiveCat] = useState("Fruits");
 
-  const handleSwitchTab = (id) => {
+  const handleSwitchTab = (id, name) => {
     setActiveTab(id);
+    setActiveCat(name);
   };
 
   useEffect(() => {
     setCategories(dbIngredientCategory);
     setRemainingIngredients(allIngredients);
+    console.log(allIngredients);
+    // console.log(categories);
   }, []);
 
   const TabContent = useCallback(() => {
@@ -34,10 +42,26 @@ function IngredientTabs({
 
     let ingredientByCategory = dbIngredientCategory[activeTab - 1].ingredients;
 
+    // ingredientByCategory = ingredientByCategory.filter((ingredient) => {
+    //   selectedIngredients.some((item) => item.name === ingredient);
+    // });
+
+    // const ingredientByCategory = remainingIngredients.filter((f) =>
+    //   ingredient.some((item) => item.name === f.name)
+    // );
+    // console.log(JSON.stringify(remainingIngredients[0].categories[0].name));
+    // const ingredientByCategory = remainingIngredients.filter((ingredient) => {
+    //   // ingredient.name === "All-purpose flour";
+    //   ingredient.categories.name.toLowerCase() === activeCat.toLowerCase();
+    // });
+    // remainingIngredients.map((f) => console.log());
+
     return (
       <div
-        className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 form-control border border-t-0 p-4 px-12 ${
-          ingredientByCategory.length > 0 ? "items-start" : "items-center"
+        className={`grid gap-2 form-control border border-t-0 p-4 px-12 ${
+          ingredientByCategory.length > 0
+            ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+            : "items-center grid-cols-1"
         }`}
       >
         {ingredientByCategory.length > 0 ? (
@@ -58,19 +82,24 @@ function IngredientTabs({
             );
           })
         ) : (
-          <Image
-            src="https://cdni.iconscout.com/illustration/free/thumb/empty-box-4085812-3385481.png"
-            alt="empty tab"
-            width={200}
-            height={200}
-          />
+          <div className="flex justify-center">
+            <Image
+              src="https://cdni.iconscout.com/illustration/free/thumb/empty-box-4085812-3385481.png"
+              alt="empty tab"
+              width={200}
+              height={200}
+            />
+          </div>
         )}
       </div>
     );
   }, [activeTab, addIngredient, dbIngredientCategory]);
 
   const IngredientTab = useCallback(() => {
-    const filtered = remainingIngredients.filter((ingredient) =>
+    const sortedIngredients = remainingIngredients.sort((a, b) =>
+      a.name > b.name ? 1 : -1
+    );
+    const filtered = sortedIngredients.filter((ingredient) =>
       ingredient.name.toLowerCase().includes(keyword.toLowerCase())
     );
     const ingredientByCategory = filtered;
@@ -112,11 +141,11 @@ function IngredientTabs({
         )}
       </div>
     );
-  }, [addIngredient, keyword, remainingIngredients]);
+  }, [addIngredient, keyword, remainingIngredients, selectedIngredients]);
 
   return (
     <div>
-      <div className="h-full flex flex-col overflow-x-scroll">
+      <div className="h-full flex flex-col overflow-x-auto">
         {/* Tab nav */}
         {keyword == "" ? (
           <Fragment>
@@ -130,7 +159,7 @@ function IngredientTabs({
                         ? "relative bg-accent dark:bg-neutral dark:text-accent border-t border-l border-r border-base-200"
                         : "text-neutral/50 dark:text-accent/50"
                     }`}
-                    onClick={() => handleSwitchTab(category.id)}
+                    onClick={() => handleSwitchTab(category.id, category.name)}
                   >
                     {activeTab === category.id && (
                       <span className="absolute inset-x-0 w-full h-px bg-accent dark:bg-neutral -bottom-px"></span>

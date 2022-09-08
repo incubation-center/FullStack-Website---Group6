@@ -32,8 +32,9 @@ class IngredientStore {
   };
 
   @action clearAll = () => {
-    this.selectedIngredients = [];
-    this.remainingIngredients = this.allIngredients;
+    this.selectedIngredients.map((i) => {
+      this.removeIngredient(i);
+    });
   };
 
   @computed get getIngredients() {

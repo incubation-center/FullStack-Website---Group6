@@ -12,10 +12,7 @@ import { useState } from "react";
 function Home({ allIngredients, dbIngredientCategory }) {
   const [keyword, setKeyword] = useState("");
 
-  useEffect(() => {
-    console.log(allIngredients);
-    console.log(dbIngredientCategory);
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <AnimatePresence exitBeforeEnter>
