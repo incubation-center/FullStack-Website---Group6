@@ -7,8 +7,11 @@ import { useEffect } from "react";
 import { prisma } from "../lib/prisma";
 import * as csv from "fast-csv";
 import path from "path";
+import { useState } from "react";
 
 function Home({ allIngredients, dbIngredientCategory }) {
+  const [keyword, setKeyword] = useState("");
+
   useEffect(() => {
     console.log(allIngredients);
     console.log(dbIngredientCategory);
@@ -43,6 +46,8 @@ function Home({ allIngredients, dbIngredientCategory }) {
                   type="text"
                   placeholder="Search…"
                   className="input input-bordered dark:bg-accent/10 dark:text-accent"
+                  value={keyword}
+                  onChange={(e) => setKeyword(e.target.value)}
                 />
                 <button className="btn btn-square btn-primary">
                   <svg
@@ -65,6 +70,7 @@ function Home({ allIngredients, dbIngredientCategory }) {
 
             {/* Ingredients */}
             <IngredientTabs
+              keyword={keyword}
               dbIngredientCategory={dbIngredientCategory}
               allIngredients={allIngredients}
             />

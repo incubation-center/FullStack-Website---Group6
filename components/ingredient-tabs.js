@@ -5,6 +5,7 @@ import Image from "next/image";
 function IngredientTabs({
   ingredientStore,
   ingredientCategoryStore,
+  keyword,
   dbIngredientCategory,
   allIngredients,
 }) {
@@ -32,6 +33,13 @@ function IngredientTabs({
     // );
 
     let ingredientByCategory = dbIngredientCategory[activeTab - 1].ingredients;
+    if (keyword !== "") {
+      const filtered = ingredientByCategory.filter((ingredient) =>
+        ingredient.name.toLowerCase().includes(keyword.toLowerCase())
+      );
+      ingredientByCategory = filtered;
+    }
+    // setRemainingIngredients(ingredientByCategory);
 
     return (
       <div
@@ -40,9 +48,9 @@ function IngredientTabs({
         }`}
       >
         {ingredientByCategory.length > 0 ? (
-          ingredientByCategory.map((ingredient) => {
+          ingredientByCategory.map((ingredient, index) => {
             return (
-              <div key={ingredient.id} className="flex items-start">
+              <div key={index} className="flex items-start">
                 <label className="label cursor-pointer py-4">
                   <input
                     type="checkbox"
@@ -66,34 +74,37 @@ function IngredientTabs({
         )}
       </div>
     );
-  }, [activeTab, addIngredient, dbIngredientCategory]);
+  }, [activeTab, addIngredient, dbIngredientCategory, keyword]);
 
   return (
-    <div className="h-full flex flex-col overflow-x-scroll">
-      {/* Tab nav */}
-      <ul className="flex text-center border-b border-base-200">
-        {categories.map((category) => {
-          return (
-            <li
-              key={category.id}
-              className={`flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-lg ${
-                activeTab === category.id
-                  ? "relative bg-accent dark:bg-neutral dark:text-accent border-t border-l border-r border-base-200"
-                  : "text-neutral/50 dark:text-accent/50"
-              }`}
-              onClick={() => handleSwitchTab(category.id)}
-            >
-              {activeTab === category.id && (
-                <span className="absolute inset-x-0 w-full h-px bg-accent dark:bg-neutral -bottom-px"></span>
-              )}
-              {category.name}
-            </li>
-          );
-        })}
-      </ul>
-
-      {/* Tab content */}
-      <TabContent />
+    <div>
+      <div className="h-full flex flex-col overflow-x-scroll">
+        {/* Tab nav */}
+        {keyword == "" && (
+          <ul className="flex text-center border-b border-base-200">
+            {categories.map((category) => {
+              return (
+                <li
+                  key={category.id}
+                  className={`flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-lg ${
+                    activeTab === category.id
+                      ? "relative bg-accent dark:bg-neutral dark:text-accent border-t border-l border-r border-base-200"
+                      : "text-neutral/50 dark:text-accent/50"
+                  }`}
+                  onClick={() => handleSwitchTab(category.id)}
+                >
+                  {activeTab === category.id && (
+                    <span className="absolute inset-x-0 w-full h-px bg-accent dark:bg-neutral -bottom-px"></span>
+                  )}
+                  {category.name}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+        {/* Tab content */}
+        <TabContent />
+      </div>
     </div>
   );
 }

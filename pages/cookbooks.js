@@ -6,23 +6,23 @@ import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import { useEffect } from "react";
 import { prisma } from "../lib/prisma";
+import React, { useState } from "react";
 
 function Cookbooks({ allRecipes, allRecipeCategories }) {
-  let result = [
-    { id: 1, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 2, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 3, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 4, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 5, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 6, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 7, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 8, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 9, title: "Kokos Curry", calories: 320, time: 45 },
-  ];
+  const [keyword, setKeyword] = useState("");
+  const [filteredRecipe, setFilteredRecipe] = useState(allRecipes);
 
   useEffect(() => {
-    console.log(allRecipes);
-  }, []);
+    // console.log(allRecipes);
+    if (keyword !== "") {
+      const filtered = allRecipes.filter((recipe) =>
+        recipe.name.toLowerCase().includes(keyword.toLowerCase())
+      );
+      setFilteredRecipe(filtered);
+    } else {
+      setFilteredRecipe(allRecipes);
+    }
+  }, [allRecipes, keyword]);
 
   return (
     <>
@@ -66,6 +66,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                   type="text"
                   placeholder="Search…"
                   className="input input-bordered dark:bg-accent/10 dark:text-accent"
+                  value={keyword}
+                  onChange={(e) => setKeyword(e.target.value)}
                 />
                 <button className="btn btn-square btn-primary">
                   <svg
@@ -115,7 +117,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
           </div>
 
           <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-            {allRecipes.map((recipe) => {
+            {filteredRecipe.map((recipe) => {
               return (
                 <motion.div
                   key={recipe.id}
