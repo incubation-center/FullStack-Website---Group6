@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
@@ -6,10 +7,17 @@ import RecipeNutrients from "../components/recipe-nutrients";
 import Ingredients from "../components/ingredients";
 import Instructions from "../components/instructions";
 
-function RecipeDetails ()
+function RecipeDetails ( props ) 
 {
   return (
-    <div className="flex flex-col justify-around min-h-screen ">
+    <>
+      <Head>
+        <title>Recipe Details</title>
+        <meta name="description" content="Recipe Details" />
+        <link rel="icon" href="/favicon.ico?" />
+      </Head>
+      
+      <div className="flex flex-col justify-around min-h-screen ">
       <Navbar />
 
       <div className="flex-1 grid grid-cols-1 md:grid-cols-4 dark:bg-neutral">
@@ -47,7 +55,8 @@ function RecipeDetails ()
       </div>
 
       <Footer />
-    </div>
+      </div>
+    </>
   )
 }
 
