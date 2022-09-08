@@ -5,9 +5,8 @@ import { inject, observer } from "mobx-react";
 
 function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
-  const { bookmarks, isBookmarked, addBookmark, removeBookmark } =
-    bookmarkStore;
-  const item = recipe;
+  const { bookmarks, isBookmarked, addBookmark, removeBookmark } = props.bookmarkStore;
+  const item = props.recipe;
 
   function addNewBookmark() {
     // console.log("addNewBookmark", item);
@@ -23,7 +22,10 @@ function RecipesCard({ bookmarkStore, recipe }) {
     <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] dark:hover:shadow-accent/50 m-5 dark:bg-accent/5">
       <figure
         className="cursor-pointer"
-        onClick={() => router.push("/recipe-details")}
+        onClick={() => router.push({
+          pathname: "/recipe-details",
+          query: {item: JSON.stringify(item)}
+        })}
       >
         <img
           src={recipe.imageLink}
@@ -82,10 +84,13 @@ function RecipesCard({ bookmarkStore, recipe }) {
 
         <div
           className="card w-full h-full cursor-pointer"
-          onClick={() => router.push("/recipe-details")}
+          onClick={() => router.push({
+            pathname: "/recipe-details",
+            query: {item: JSON.stringify(item)}
+          })}
         >
           <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px line-clamp-1">
-            {recipe.name}
+            {props.recipe.name}
           </h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
@@ -102,7 +107,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
             <p className="my-1 dark:text-accent">
-              {recipe.nutrientsPerServing.calories} Cal
+              {props.recipe.nutrientsPerServing.calories} Cal
             </p>
           </div>
 
@@ -123,7 +128,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
             <p className="-my-0.5 dark:text-accent">
-              {recipe.durationSecond / 60} Minutes
+              {props.recipe.durationSecond / 60} Minutes
             </p>
           </div>
         </div>

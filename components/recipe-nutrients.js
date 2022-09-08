@@ -1,5 +1,19 @@
-function RecipeNutrients ()
+function RecipeNutrients (props)
 {
+  const cookTime = props.item.durationSecond /60
+  const nutrients = props.item.nutrientsPerServing
+  const nutrientsMaxValue = {
+      "durationSecond": 9900,
+      "calories": 1701.81,
+      "protein": 68.34,
+      "carbs": 122.85,
+      "fiber": 25.99,
+      "fat": 104.12,
+      "sugar": 48.91,
+      "cholesterol": 835.51
+  }
+
+
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 gap-5 lg:gap-10 xl:gap-20">
       {/* Cook Time */}
@@ -19,8 +33,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */}
-        <div className="radial-progress text-xl font-bold text-secondary swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45 mins
+        <div className="radial-progress text-xl font-bold text-secondary swap-on" style={ { "--value": (cookTime/(nutrientsMaxValue.durationSecond/60))*100 , "--size": "8rem", "--thickness": "4px" } }>
+          {cookTime} mins
         </div>
       </label>
 
@@ -40,8 +54,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */}
-        <div className="radial-progress text-xl font-bold text-error swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
-          320
+        <div className="radial-progress text-xl font-bold text-error swap-on" style={ { "--value": (nutrients.calories/nutrientsMaxValue.calories)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.calories}
         </div>
       </label>
 
@@ -61,8 +75,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */ }
-        <div className="radial-progress text-xl font-bold text-info swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
-          320
+        <div className="radial-progress text-xl font-bold text-info swap-on" style={ { "--value": (nutrients.protein/nutrientsMaxValue.protein)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.protein}
         </div>
       </label>
 
@@ -83,8 +97,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */ }
-        <div className="radial-progress text-xl font-bold text-orange-400 swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+        <div className="radial-progress text-xl font-bold text-orange-400 swap-on" style={ { "--value": (nutrients.carbs/nutrientsMaxValue.carbs)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.carbs}
         </div>
       </label>
 
@@ -105,8 +119,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */}
-        <div className="radial-progress text-xl font-bold text-success swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+        <div className="radial-progress text-xl font-bold text-success swap-on" style={ { "--value": (nutrients.fiber/nutrientsMaxValue.fiber)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.fiber}
         </div>
       </label>
 
@@ -127,8 +141,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */ }
-        <div className="radial-progress text-xl font-bold text-yellow-400 swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+        <div className="radial-progress text-xl font-bold text-yellow-400 swap-on" style={ { "--value": (nutrients.fat/nutrientsMaxValue.fat)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.fat}
         </div>
       </label>
 
@@ -148,8 +162,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */}
-        <div className="radial-progress text-xl font-bold text-neutral/50 dark:text-accent/50 swap-on" style={ { "--value": 70, "--size": "8rem", "--thickness": "4px" } }>
-          320
+        <div className="radial-progress text-xl font-bold text-neutral/50 dark:text-accent/50 swap-on" style={ { "--value": (nutrients.sugar/nutrientsMaxValue.sugar)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.sugar}
         </div>
       </label>
 
@@ -170,8 +184,8 @@ function RecipeNutrients ()
           </div>
         </div>
         {/* Radial Progress */}
-        <div className="radial-progress text-xl font-bold text-warning swap-on" style={ { "--value": 40, "--size": "8rem", "--thickness": "4px" } }>
-          45
+        <div className="radial-progress text-xl font-bold text-warning swap-on" style={ { "--value": (nutrients.cholesterol/nutrientsMaxValue.cholesterol)*100, "--size": "8rem", "--thickness": "4px" } }>
+          {nutrients.cholesterol}
         </div>
       </label>
     </div>
