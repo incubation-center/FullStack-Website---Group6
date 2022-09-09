@@ -3,12 +3,11 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import IngredientTabs from "../components/ingredient-tabs.js";
 import IngredientList from "../components/ingredient-list.js";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { prisma } from "../lib/prisma";
 import * as csv from "fast-csv";
 import path from "path";
-import { useState } from "react";
 
 function Home({ allIngredients, dbIngredientCategory }) {
   const [keyword, setKeyword] = useState("");
