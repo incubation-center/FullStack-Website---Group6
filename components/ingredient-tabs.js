@@ -1,6 +1,6 @@
-import React, { useState, useCallback, useEffect, Fragment } from "react";
-import { inject, observer } from "mobx-react";
 import Image from "next/image";
+import React, { useState, useEffect, useCallback, Fragment } from "react";
+import { inject, observer } from "mobx-react";
 
 function IngredientTabs({
   ingredientStore,
@@ -29,7 +29,7 @@ function IngredientTabs({
     setRemainingIngredients(allIngredients);
     console.log(allIngredients);
     // console.log(remainingIngredients);
-  }, []);
+  }, [allIngredients, dbIngredientCategory, setCategories, setRemainingIngredients]);
 
   const TabContent = useCallback(() => {
     // const sortedIngredients = remainingIngredients.sort((a, b) =>
@@ -78,10 +78,10 @@ function IngredientTabs({
         ) : (
           <div className="flex justify-center">
             <Image
-              src="https://cdni.iconscout.com/illustration/free/thumb/empty-box-4085812-3385481.png"
+              src="/no_ingredient.png"
               alt="empty tab"
-              width={200}
-              height={200}
+              width={700}
+              height={500}
             />
           </div>
         )}
@@ -126,10 +126,10 @@ function IngredientTabs({
         ) : (
           <div className="flex justify-center">
             <Image
-              src="https://cdni.iconscout.com/illustration/free/thumb/empty-box-4085812-3385481.png"
+                src="/no_ingredient.png"
               alt="empty tab"
-              width={200}
-              height={200}
+              width={700}
+              height={500}
             />
           </div>
         )}

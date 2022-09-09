@@ -3,8 +3,8 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
-import React, { useEffect, useState } from "react";
 import SliderFilter from "../components/slider-filter";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
