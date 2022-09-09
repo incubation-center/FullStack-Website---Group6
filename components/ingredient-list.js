@@ -13,10 +13,10 @@ function IngredientList(props) {
           <h2 className="card-title text-xl dark:text-accent">Ingredients</h2>
           <div className="form-control grow min-h-16">
             {selectedIngredients &&
-              selectedIngredients.map((ingredient) => {
+              selectedIngredients.map((ingredient, index) => {
                 return (
                   <label
-                    key={ingredient.id}
+                    key={index}
                     className="label cursor-pointer justify-start"
                   >
                     <input
