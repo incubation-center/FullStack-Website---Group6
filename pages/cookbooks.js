@@ -3,18 +3,20 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
+import SliderFilter from "../components/slider-filter";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
-function Cookbooks({ allRecipes, allRecipeCategories }) {
+function Cookbooks ( { allRecipes, allRecipeCategories } )
+{
   // useEffect(() => {
   //   console.log(allRecipes);
   // }, []);
 
-  const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes)
-  const [allRecipesAfterFilter, setAllRecipesAfterFilter] = useState(allRecipes)
-  const [categorySelected, setCategorySelected] = useState(null)
+  const [ allRecipesForFilter, setAllRecipesForFilter ] = useState( allRecipes )
+  const [ allRecipesAfterFilter, setAllRecipesAfterFilter ] = useState( allRecipes )
+  const [ categorySelected, setCategorySelected ] = useState( null )
   return (
     <>
       <Head>
@@ -27,7 +29,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
         <Navbar />
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
-          {/* Range Filter */}
+          {/* Range Slider Filter */ }
+          {/* <SliderFilter /> */}
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-xl font-bold dark:text-accent">Calories</h2>
@@ -35,7 +38,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 type="range"
                 min="0"
                 max="100"
-                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
+                className="range range-primary range-sm tooltip my-1 cursor-grab dark:bg-accent/5"
+                
               />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
@@ -50,7 +54,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
           </div>
 
           <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
-            {/* Search Bar */}
+            {/* Search Bar */ }
             <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
               <div className="input-group">
                 <input
@@ -76,62 +80,76 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 </button>
               </div>
             </div>
-            {/* Select Filter */}
+            {/* Select Filter */ }
             <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              onChange={(e)=> {
-                function filterByCuisines(data) {
-                  if (data.cuisines[0]?.name == null && e.target.value == "World" ) {
+              onChange={ ( e ) =>
+              {
+                function filterByCuisines ( data )
+                {
+                  if ( data.cuisines[ 0 ]?.name == null && e.target.value == "World" )
+                  {
                     return true;
-                  } else if (e.target.value == "All") {
+                  } else if ( e.target.value == "All" )
+                  {
                     return true;
-                  } else if (data.cuisines[0]?.name == e.target.value) {
+                  } else if ( data.cuisines[ 0 ]?.name == e.target.value )
+                  {
                     return true;
-                  } 
+                  }
                   return false;
                 }
-                var value = allRecipes.filter(filterByCuisines)
-                setAllRecipesForFilter(value)
-                setAllRecipesAfterFilter(value)
-                setCategorySelected("none")
-              }}
+                var value = allRecipes.filter( filterByCuisines )
+                setAllRecipesForFilter( value )
+                setAllRecipesAfterFilter( value )
+                setCategorySelected( "none" )
+              } }
             >
               <option disabled selected>
                 Filter by cuisines
               </option>
               <option className="text-base">All</option>
               <option className="text-base">American</option>
+              <option className="text-base">Chinese</option>
               <option className="text-base">Greek</option>
               <option className="text-base">Italian</option>
               <option className="text-base">Japanese</option>
               <option className="text-base">Kid-Friendly</option>
               <option className="text-base">Mediterranean</option>
+              <option className="text-base">Mexican</option>
               <option className="text-base">Polish</option>
+              <option className="text-base">Spanish</option>
               <option className="text-base">Turkish</option>
               <option className="text-base">World</option>
             </select>
 
             <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              value={categorySelected}
-              onChange={(e)=> {
-                setCategorySelected(e.target.value)
-                function filterByRecipeCategory(data) {
+              value={ categorySelected }
+              onChange={ ( e ) =>
+              {
+                setCategorySelected( e.target.value )
+                function filterByRecipeCategory ( data )
+                {
                   var flag = false;
-                  data.categories.map((tag)=> {
-                    if (tag.name == e.target.value) {
+                  data.categories.map( ( tag ) =>
+                  {
+                    if ( tag.name == e.target.value )
+                    {
                       flag = true
                     }
-                  })
-                  if (e.target.value == "All") {
+                  } )
+                  if ( e.target.value == "All" )
+                  {
                     return true;
-                  } else if(flag) {
+                  } else if ( flag )
+                  {
                     return true;
                   }
                   return false;
                 }
-                setAllRecipesForFilter(allRecipesAfterFilter.filter(filterByRecipeCategory))
-              }}
+                setAllRecipesForFilter( allRecipesAfterFilter.filter( filterByRecipeCategory ) )
+              } }
             >
-              <option value={"none"} disabled selected>
+              <option value={ "none" } disabled selected>
                 Filter by recipe categories
               </option>
               <option className="text-base">All</option>
@@ -143,24 +161,25 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
           </div>
 
           <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-            {allRecipesForFilter.map((recipe) => {
+            { allRecipesForFilter.map( ( recipe ) =>
+            {
               return (
                 <motion.div
-                  key={recipe.id}
+                  key={ recipe.id }
                   className="flex justify-center"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                  variants={{
+                  viewport={ { once: true } }
+                  transition={ { duration: 0.5 } }
+                  variants={ {
                     hidden: { opacity: 0, scale: 1 },
                     visible: { opacity: 1, scale: 1 },
-                  }}
+                  } }
                 >
-                  <RecipeCard recipe={recipe} />
+                  <RecipeCard recipe={ recipe } />
                 </motion.div>
               );
-            })}
+            } ) }
           </div>
         </main>
 
@@ -174,8 +193,9 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
 
 export default Cookbooks;
 
-export async function getStaticProps() {
-  const allRecipes = await prisma.recipe.findMany({
+export async function getStaticProps ()
+{
+  const allRecipes = await prisma.recipe.findMany( {
     include: {
       ingredients: {
         select: {
@@ -193,13 +213,13 @@ export async function getStaticProps() {
         },
       },
     },
-  });
+  } );
   const allRecipeCategories = await prisma.recipeCategory.findMany();
 
   return {
     props: {
-      allRecipes: JSON.parse(JSON.stringify(allRecipes)),
-      allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
+      allRecipes: JSON.parse( JSON.stringify( allRecipes ) ),
+      allRecipeCategories: JSON.parse( JSON.stringify( allRecipeCategories ) ),
     },
   };
 }

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import React, { useState, useCallback, useEffect } from "react";
 import { inject, observer } from "mobx-react";
-import Image from "next/image";
 
 function IngredientTabs({
   ingredientStore,
@@ -20,7 +20,7 @@ function IngredientTabs({
   useEffect(() => {
     setCategories(dbIngredientCategory);
     setRemainingIngredients(allIngredients);
-  }, []);
+  }, [allIngredients, dbIngredientCategory, setCategories, setRemainingIngredients]);
 
   const TabContent = useCallback(() => {
     // const sortedIngredients = remainingIngredients.sort((a, b) =>

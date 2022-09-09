@@ -13,7 +13,7 @@ function Home({ allIngredients, dbIngredientCategory }) {
   useEffect(() => {
     console.log(allIngredients);
     console.log(dbIngredientCategory);
-  }, []);
+  }, [allIngredients, dbIngredientCategory]);
 
   return (
     <>
