@@ -50,7 +50,7 @@ function RecipesResult({
         imageLink: rec["mainImage"],
         calories: nutrientsPerServing["calories"],
         protein: nutrientsPerServing["protein"],
-        carb: nutrientsPerServing["carb"],
+        carb: nutrientsPerServing["carbs"],
         fiber: nutrientsPerServing["fiber"],
         fat: nutrientsPerServing["fat"],
         sugar: nutrientsPerServing["sugar"],
