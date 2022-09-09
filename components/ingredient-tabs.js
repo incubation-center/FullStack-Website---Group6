@@ -28,34 +28,27 @@ function IngredientTabs({
     setCategories(dbIngredientCategory);
     setRemainingIngredients(allIngredients);
     console.log(allIngredients);
-    // console.log(categories);
+    // console.log(remainingIngredients);
   }, []);
 
   const TabContent = useCallback(() => {
     // const sortedIngredients = remainingIngredients.sort((a, b) =>
     //   a.name > b.name ? 1 : -1
     // );
-    // setRemainingIngredients(sortedIngredients);
-    // const ingredientByCategory = remainingIngredients.filter(
-    //   (r) => r.categoryId === activeTab
-    // );
+    let ingredientByCategory = remainingIngredients.sort((a, b) =>
+      a.name > b.name ? 1 : -1
+    );
 
-    let activeCategory = dbIngredientCategory[activeTab - 1] || {};
-    let ingredientByCategory = activeCategory.ingredients || [];
+    ingredientByCategory = ingredientByCategory.filter((ingredient) => {
+      if (ingredient.categories[0]) {
+        return (
+          ingredient.categories[0].name.toLowerCase() ===
+          activeCat.toLowerCase()
+        );
+      }
+    });
 
-    // ingredientByCategory = ingredientByCategory.filter((ingredient) => {
-    //   selectedIngredients.some((item) => item.name === ingredient);
-    // });
-
-    // const ingredientByCategory = remainingIngredients.filter((f) =>
-    //   ingredient.some((item) => item.name === f.name)
-    // );
-    // console.log(JSON.stringify(remainingIngredients[0].categories[0].name));
-    // const ingredientByCategory = remainingIngredients.filter((ingredient) => {
-    //   // ingredient.name === "All-purpose flour";
-    //   ingredient.categories.name.toLowerCase() === activeCat.toLowerCase();
-    // });
-    // remainingIngredients.map((f) => console.log());
+    // ingredientByCategory.sort((a, b) => (a.name > b.name ? 1 : -1));
 
     return (
       <div
@@ -94,7 +87,7 @@ function IngredientTabs({
         )}
       </div>
     );
-  }, [activeTab, addIngredient, dbIngredientCategory]);
+  }, [activeTab, addIngredient, dbIngredientCategory, remainingIngredients]);
 
   const IngredientTab = useCallback(() => {
     const sortedIngredients = remainingIngredients.sort((a, b) =>

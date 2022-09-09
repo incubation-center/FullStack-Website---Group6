@@ -3,10 +3,9 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
-import React, { useState } from "react";
 
 function Cookbooks({ allRecipes, allRecipeCategories }) {
   const [keyword, setKeyword] = useState("");
