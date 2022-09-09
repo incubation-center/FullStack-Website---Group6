@@ -9,7 +9,6 @@ import { prisma } from "../lib/prisma";
 
 function Cookbooks({ allRecipes, allRecipeCategories }) {
   const [keyword, setKeyword] = useState("");
-  const [filteredRecipe, setFilteredRecipe] = useState(allRecipes);
 
   const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes);
   const [allRecipesAfterFilter, setAllRecipesAfterFilter] =
@@ -17,14 +16,13 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
   const [categorySelected, setCategorySelected] = useState(null);
 
   useEffect(() => {
-    // console.log(allRecipes);
     if (keyword !== "") {
       const filtered = allRecipes.filter((recipe) =>
         recipe.name.toLowerCase().includes(keyword.toLowerCase())
       );
-      setFilteredRecipe(filtered);
+      setAllRecipesForFilter(filtered);
     } else {
-      setFilteredRecipe(allRecipes);
+      setAllRecipesForFilter(allRecipes);
     }
   }, [allRecipes, keyword]);
   return (
