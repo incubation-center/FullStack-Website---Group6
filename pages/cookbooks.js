@@ -100,15 +100,12 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
               </option>
               <option className="text-base">All</option>
               <option className="text-base">American</option>
-              <option className="text-base">Chinese</option>
               <option className="text-base">Greek</option>
               <option className="text-base">Italian</option>
               <option className="text-base">Japanese</option>
               <option className="text-base">Kid-Friendly</option>
               <option className="text-base">Mediterranean</option>
-              <option className="text-base">Mexican</option>
               <option className="text-base">Polish</option>
-              <option className="text-base">Spanish</option>
               <option className="text-base">Turkish</option>
               <option className="text-base">World</option>
             </select>
