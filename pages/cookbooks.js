@@ -20,7 +20,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
       <Head>
         <title>Recipes</title>
         <meta name="description" content="Recipes" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/cookbooks.ico?" />
       </Head>
 
       <div className="flex flex-col min-h-screen">

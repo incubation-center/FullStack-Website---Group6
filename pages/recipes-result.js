@@ -25,7 +25,7 @@ function RecipesResult ()
       <Head>
         <title>Recipe Results</title>
         <meta name="description" content="Recipe Results" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/recipe_result.ico?" />
       </Head>
       
       <div

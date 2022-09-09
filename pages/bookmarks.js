@@ -15,7 +15,7 @@ function Bookmarks({ bookmarkStore }) {
       <Head>
         <title>Bookmarked Recipes</title>
         <meta name="description" content="Bookmarked Recipes" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/bookmarks.ico?" />
       </Head>
 
       <div className="flex flex-col min-h-screen">
