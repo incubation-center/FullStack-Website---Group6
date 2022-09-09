@@ -16,9 +16,13 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
     useState(allRecipes);
   const [categorySelected, setCategorySelected] = useState(null);
 
+  function sort(items) {
+    return items.sort((a, b) => (a.name > b.name ? 1 : -1));
+  }
+
   useEffect(() => {
     if (keyword !== "") {
-      const filtered = allRecipes.filter((recipe) =>
+      const filtered = sort(allRecipes).filter((recipe) =>
         recipe.name.toLowerCase().includes(keyword.toLowerCase())
       );
       setAllRecipesForFilter(filtered);
