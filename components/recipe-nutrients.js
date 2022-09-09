@@ -1,7 +1,7 @@
 function RecipeNutrients (props)
 {
   const cookTime = props.item.durationSecond /60
-  const nutrients = props.item.nutrientsPerServing
+  const nutrients = props.item
   const nutrientsMaxValue = {
       "durationSecond": 9900,
       "calories": 1701.81,
