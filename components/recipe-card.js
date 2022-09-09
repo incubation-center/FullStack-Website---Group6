@@ -5,8 +5,7 @@ import { inject, observer } from "mobx-react";
 
 function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
-  const { bookmarks, isBookmarked, addBookmark, removeBookmark } =
-    bookmarkStore;
+  const { bookmarks, isBookmarked, addBookmark, removeBookmark } = bookmarkStore;
   const item = recipe;
 
   function addNewBookmark() {
@@ -23,18 +22,21 @@ function RecipesCard({ bookmarkStore, recipe }) {
     <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] dark:hover:shadow-accent/50 m-5 dark:bg-accent/5">
       <figure
         className="cursor-pointer"
-        onClick={() => router.push("/recipe-details")}
+        onClick={() => router.push({
+          pathname: "/recipe-details",
+          query: {item: JSON.stringify(item)}
+        })}
       >
         <img
           src={recipe.imageLink}
           // width={216}
           // height={216}
-          style={{ height: 216, width: 216 }}
+          className="w-36 sm:w-40 lg:w-52 h-52"
           alt={recipe.name}
         />
       </figure>
 
-      <div className="card-body w-52 p-5">
+      <div className="card-body w-44 sm:w-48 lg:w-52 p-5">
         {/* Bookmark Button */}
         <div className="card-actions justify-end">
           <label className="swap">
@@ -82,7 +84,10 @@ function RecipesCard({ bookmarkStore, recipe }) {
 
         <div
           className="card w-full h-full cursor-pointer"
-          onClick={() => router.push("/recipe-details")}
+          onClick={() => router.push({
+            pathname: "/recipe-details",
+            query: {item: JSON.stringify(item)}
+          })}
         >
           <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px line-clamp-1">
             {recipe.name}
@@ -102,7 +107,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
             <p className="my-1 dark:text-accent">
-              {recipe.nutrientsPerServing.calories} Cal
+              { recipe.calories } Cal
             </p>
           </div>
 

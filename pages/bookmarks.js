@@ -1,22 +1,23 @@
-import * as React from "react";
 import Head from "next/head";
-import { motion } from "framer-motion";
-import { inject, observer } from "mobx-react";
+import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import BookmarkCard from "../components/bookmark-card";
+import { inject, observer } from "mobx-react";
+import { motion } from "framer-motion";
 
 function Bookmarks({ bookmarkStore }) {
   const { bookmarks, bookmarkCount } = bookmarkStore;
 
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>Bookmarked Recipes</title>
         <meta name="description" content="Bookmarked Recipes" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bookmarks.ico?" />
       </Head>
+
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
@@ -59,6 +60,7 @@ function Bookmarks({ bookmarkStore }) {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-5">
+            {/* <Image src="/no_bookmark.png" width={ 500 } height={ 500 } alt="No Bookmark" /> */}
             {bookmarks.map((_recipe, index) => {
               return (
                 <motion.div
@@ -84,7 +86,7 @@ function Bookmarks({ bookmarkStore }) {
 
         <Footer />
       </div>
-    </React.Fragment>
+    </>
   );
 }
 

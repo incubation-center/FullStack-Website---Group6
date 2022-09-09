@@ -1,9 +1,10 @@
-import { motion, AnimatePresence } from "framer-motion";
+import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import IngredientTabs from "../components/ingredient-tabs.js";
 import IngredientList from "../components/ingredient-list.js";
 import { useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { prisma } from "../lib/prisma";
 import * as csv from "fast-csv";
 import path from "path";
@@ -15,68 +16,76 @@ function Home({ allIngredients, dbIngredientCategory }) {
   useEffect(() => {}, []);
 
   return (
-    <AnimatePresence exitBeforeEnter>
-      <motion.div
-        className="flex flex-col justify-around min-h-screen"
-        initial={{ opacity: 0 }}
-        animate={{
-          opacity: 1,
-          transition: {
-            duration: 1,
-            ease: "easeInOut",
-          },
-        }}
-        exit={{ opacity: 0 }}
-      >
-        <Navbar />
+    <>
+      <Head>
+        <title>Home</title>
+        <meta name="description" content="Ingredient Checklists" />
+        <link rel="icon" href="/favicon.ico?" />
+      </Head>
 
-        <div className="flex-1 md:flex h-full justify-around dark:bg-neutral">
-          <div className="m-5 sm:m-10 md:order-last">
-            <IngredientList text="Find Recipes" />
-          </div>
+      <AnimatePresence exitBeforeEnter>
+        <motion.div
+          className="flex flex-col justify-around min-h-screen"
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: {
+              duration: 1,
+              ease: "easeInOut",
+            },
+          }}
+          exit={{ opacity: 0 }}
+        >
+          <Navbar />
 
-          <div className="m-5 sm:m-10 md:grow">
-            {/* Search Bar */}
-            <div className="form-control mb-4">
-              <div className="input-group">
-                <input
-                  type="text"
-                  placeholder="Search…"
-                  className="input input-bordered dark:bg-accent/10 dark:text-accent"
-                  value={keyword}
-                  onChange={(e) => setKeyword(e.target.value)}
-                />
-                <button className="btn btn-square btn-primary">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-base-100"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                    />
-                  </svg>
-                </button>
-              </div>
+          <div className="flex-1 md:flex h-full justify-around dark:bg-neutral">
+            <div className="m-5 sm:m-10 md:order-last">
+              <IngredientList text="Find Recipes" />
             </div>
 
-            {/* Ingredients */}
-            <IngredientTabs
-              keyword={keyword}
-              dbIngredientCategory={dbIngredientCategory}
-              allIngredients={allIngredients}
-            />
-          </div>
-        </div>
+            <div className="m-5 sm:m-10 md:grow">
+              {/* Search Bar */}
+              <div className="form-control mb-4">
+                <div className="input-group">
+                  <input
+                    type="text"
+                    placeholder="Search…"
+                    className="input input-bordered dark:bg-accent/10 dark:text-accent"
+                    value={keyword}
+                    onChange={(e) => setKeyword(e.target.value)}
+                  />
+                  <button className="btn btn-square btn-primary">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 text-base-100"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
 
-        <Footer />
-      </motion.div>
-    </AnimatePresence>
+              {/* Ingredients */}
+              <IngredientTabs
+                keyword={keyword}
+                dbIngredientCategory={dbIngredientCategory}
+                allIngredients={allIngredients}
+              />
+            </div>
+          </div>
+
+          <Footer />
+        </motion.div>
+      </AnimatePresence>
+    </>
   );
 }
 

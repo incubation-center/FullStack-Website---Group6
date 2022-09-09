@@ -19,13 +19,24 @@ function RecipesResult({
 }) {
 
   const createRecipeFromJson = async (event) => {
-    /* console.log("------- Recipe objects -------");
-    console.log(recipes); */
+    for (const i in recipes) {
+      const rec = recipes[i];
+      if (rec["instructions"].length < 1) {
+        continue
+      }
 
-    let count = 0
+      let nutrientsPerServing = {};
+      Object.keys(rec["nutrientsPerServing"]).map(
+        (nutrient_type) => {
+          const nutrient = rec["nutrientsPerServing"][nutrient_type];
+          if (isNaN(parseInt(nutrient))) {
+            nutrientsPerServing[nutrient_type] = 0;
+          } else {
+            nutrientsPerServing[nutrient_type] = nutrient;
+          }
+        }
+      );
 
-    await Promise.all(recipes.map(async rec => {
-      // only recipe with any relations
       const rec_object = {
         name: rec["name"],
         cleanName: rec["cleanName"],
@@ -37,17 +48,15 @@ function RecipesResult({
         numberOfServings: rec["numberOfServings"],
         instruction: rec["instructions"].join("\n"),
         imageLink: rec["mainImage"],
-        nutrientsPerServing: rec["nutrientsPerServing"],
+        calories: nutrientsPerServing["calories"],
+        protein: nutrientsPerServing["protein"],
+        carb: nutrientsPerServing["carbs"],
+        fiber: nutrientsPerServing["fiber"],
+        fat: nutrientsPerServing["fat"],
+        sugar: nutrientsPerServing["sugar"],
+        cholesterol: nutrientsPerServing["cholesterol"],
         weightGram: rec["weightInGrams"],
       }
-
-      /* 
-      
-      mealTags: Array.from(rec["mealTags"] || []),
-      cuisine: (rec["cuisines"] || [null])[0],
-
-      */
-
       /* NOTE: Show the records in the database
         
         docker exec -it postgres psql ingredeck postgres
@@ -67,9 +76,6 @@ function RecipesResult({
         method: "POST",
         headers: { "Content-Type": "application/json" },
       }).then(res => res.json());
-      // console.log("------- Response -------");
-      // console.log(ingredients);
-
       rec_object["ingredients"] = {
         "connect": ingredients
       }
@@ -98,10 +104,15 @@ function RecipesResult({
 
       // query from DB the list of recipe cuisines 
       let cuisines_query = [];
-      (rec["cuisines"] || []).map(mealtag => {
-        if (mealtag) cuisines_query.push({"name": mealtag})
+
+      let cuisines_map = rec["cuisines"];
+      if (!Array.isArray(cuisines_map) || cuisines_map.filter(Boolean).length === 0) {
+        cuisines_map = ["World"];
+      }
+      cuisines_map.map(cuisine => {
+        if (cuisine) cuisines_query.push({"name": cuisine})
       });
-      
+
       let cuisines = []
       if (cuisines_query != []) {
         cuisines = await fetch("api/cuisine/all", {
@@ -117,7 +128,6 @@ function RecipesResult({
           headers: { "Content-Type": "application/json" },
         }).then(res => res.json());
       }
-
       // console.log(`categories ${categories} | cuisines ${cuisines}`)
       
       rec_object["categories"] = {
@@ -126,10 +136,6 @@ function RecipesResult({
       rec_object["cuisines"] = {
         "connect": cuisines
       }
-
-
-      
-      
       // console.log(rec_object);
       // create the recipe object in db
       const res = await fetch("api/recipe/create", {
@@ -137,7 +143,7 @@ function RecipesResult({
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });
-    }));
+    }
 
   }
 
@@ -176,7 +182,6 @@ function RecipesResult({
           method: "POST",
           headers: { "Content-Type": "application/json" },
         });
-        console.log(res);
       })
     );
   }
@@ -194,7 +199,6 @@ function RecipesResult({
           method: "POST",
           headers: { "Content-Type": "application/json" },
         });
-        console.log(res);
       })
     );
   }
@@ -264,7 +268,7 @@ function RecipesResult({
           <button
             onClick={ createRecipeFromJson }
             className="inline-block px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg"
-            // disabled={ true }
+            disabled={ true }
           >
                 Step 4: Read Json File and Add recipe
           </button>
@@ -319,22 +323,16 @@ function RecipesResult({
 export async function getServerSideProps() {
   const DIR_PATH = 'lib/data';
 
-  
-  // uncomment: generate ingredients by reading json file
   const filename_ingredients = 'all_ingredients.json';
   let ingredients = JSON.parse(
     fs.readFileSync(path.resolve(DIR_PATH, filename_ingredients), {encoding: "utf8"})
   );
-
-  // ingredients = ingredients.slice(100, 101);
 
   // Read json files and put recipe objects
   const filename = 'all_recipes.json';
   let recipes = JSON.parse(
     fs.readFileSync(path.resolve(DIR_PATH, filename), {encoding: "utf8"})
   );
-  // recipes = recipes.slice(4, 5);
-  // console.log(recipes);
 
   let recipe_category = new Set();
   let cuisines = new Set();
@@ -345,10 +343,6 @@ export async function getServerSideProps() {
 
   const dbRecipeCategory = await prisma.recipeCategory.findMany();
   const dbCuisines = await prisma.cuisine.findMany();
-
-  console.log(dbRecipeCategory);
-  console.log(cuisines);
-  
 
   return {
     props: { 
