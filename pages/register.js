@@ -64,7 +64,7 @@ function Register (props)
       <Head>
         <title>Register</title>
         <meta name="description" content="Register" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/register.ico?" />
       </Head>
       
       <AnimatePresence exitBeforeEnter>

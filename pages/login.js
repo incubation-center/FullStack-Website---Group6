@@ -49,7 +49,7 @@ function Login ()
       <Head>
         <title>Login</title>
         <meta name="description" content="Login" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/login.ico?" />
       </Head>
       
       <AnimatePresence exitBeforeEnter>

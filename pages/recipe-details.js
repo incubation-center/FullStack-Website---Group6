@@ -24,7 +24,7 @@ function RecipeDetails ( props )
       <Head>
         <title>Recipe Details</title>
         <meta name="description" content="Recipe Details" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/recipe_details.ico?" />
       </Head>
       
       <div className="flex flex-col justify-around min-h-screen ">
