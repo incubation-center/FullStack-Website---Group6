@@ -35,9 +35,6 @@ function RecipesResult({ingre_cates, categories, dbIngredientCategory}) {
       };
     });
 
-    console.log(ing_categories);
-
-
     await Promise.all(
       Object.keys(ing_categories).map(async categ => {
         // console.log(categ)
@@ -57,8 +54,6 @@ function RecipesResult({ingre_cates, categories, dbIngredientCategory}) {
           headers: { "Content-Type": "application/json" },
         }).then(res => res.json());
 
-        console.log(ingredients);
-
         const ingredient_category_object = {
           "name": categ,
           "ingredients": {
@@ -73,7 +68,6 @@ function RecipesResult({ingre_cates, categories, dbIngredientCategory}) {
           method: "POST",
           headers: { "Content-Type": "application/json" },
         });
-        console.log(res);
 
       })
     );

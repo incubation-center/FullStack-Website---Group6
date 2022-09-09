@@ -22,7 +22,13 @@ model Recipe {
   instruction String?
   imageLink String?
   videoLink String?
-  nutrientsPerServing Json
+  calories Float @default(0)
+  protein Float @default(0)
+  carb Float @default(0)
+  fiber Float @default(0)
+  fat Float @default(0)
+  sugar Float @default(0)
+  cholesterol Float @default(0)
   weightGram Float @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime?

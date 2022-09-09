@@ -31,7 +31,8 @@ function IngredientTabs({
     //   (r) => r.categoryId === activeTab
     // );
 
-    let ingredientByCategory = dbIngredientCategory[activeTab - 1].ingredients;
+    let activeCategory = dbIngredientCategory[activeTab - 1] || {};
+    let ingredientByCategory = activeCategory.ingredients || [];
 
     return (
       <div
