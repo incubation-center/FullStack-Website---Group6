@@ -5,8 +5,8 @@ import { inject, observer } from "mobx-react";
 
 function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
-  const { bookmarks, isBookmarked, addBookmark, removeBookmark } = props.bookmarkStore;
-  const item = props.recipe;
+  const { bookmarks, isBookmarked, addBookmark, removeBookmark } = bookmarkStore;
+  const item = recipe;
 
   function addNewBookmark() {
     // console.log("addNewBookmark", item);
@@ -90,7 +90,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
           })}
         >
           <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px line-clamp-1">
-            {props.recipe.name}
+            {recipe.name}
           </h2>
           <div className="divider before:bg-primary after:bg-primary my-2"></div>
 
@@ -107,7 +107,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
             <p className="my-1 dark:text-accent">
-              {props.recipe.nutrientsPerServing.calories} Cal
+              { recipe.calories } Cal
             </p>
           </div>
 
@@ -128,7 +128,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
             <p className="-my-0.5 dark:text-accent">
-              {props.recipe.durationSecond / 60} Minutes
+              {recipe.durationSecond / 60} Minutes
             </p>
           </div>
         </div>
