@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
 import Link from "next/link";
 import { inject, observer } from "mobx-react";
+import { motion } from "framer-motion";
 
 function IngredientList(props) {
   const { selectedIngredients, removeIngredient, clearAll } =

@@ -1,7 +1,7 @@
-import Router, { useRouter } from "next/router";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import { inject, observer } from "mobx-react";
+import Router, { useRouter } from "next/router";
 
 function RecipesCard({ bookmarkStore, recipe }) {
   const router = useRouter();
