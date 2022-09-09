@@ -1,7 +1,7 @@
-import Router, { useRouter } from "next/router";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import Router, { useRouter } from "next/router";
 import { inject, observer } from "mobx-react";
+import { motion } from "framer-motion";
 
 function BookmarkCard({ bookmarkStore, bookmarked }) {
   const router = useRouter();

@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import React, { useEffect, useState } from "react";
+import SliderFilter from "../components/slider-filter";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
@@ -37,7 +38,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
         <Navbar />
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
-          {/* Range Filter */}
+          {/* Range Slider Filter */}
+          {/* <SliderFilter /> */}
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-xl font-bold dark:text-accent">Calories</h2>
@@ -45,7 +47,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 type="range"
                 min="0"
                 max="100"
-                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
+                className="range range-primary range-sm tooltip my-1 cursor-grab dark:bg-accent/5"
               />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
@@ -116,12 +118,15 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
               </option>
               <option className="text-base">All</option>
               <option className="text-base">American</option>
+              <option className="text-base">Chinese</option>
               <option className="text-base">Greek</option>
               <option className="text-base">Italian</option>
               <option className="text-base">Japanese</option>
               <option className="text-base">Kid-Friendly</option>
               <option className="text-base">Mediterranean</option>
+              <option className="text-base">Mexican</option>
               <option className="text-base">Polish</option>
+              <option className="text-base">Spanish</option>
               <option className="text-base">Turkish</option>
               <option className="text-base">World</option>
             </select>

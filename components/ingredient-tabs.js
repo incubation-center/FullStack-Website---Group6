@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useEffect, Fragment } from "react";
 import { inject, observer } from "mobx-react";
-import Image from "next/image";
 
 function IngredientTabs({
   ingredientStore,

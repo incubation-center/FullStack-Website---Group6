@@ -6,9 +6,8 @@ import RecipeTags from "../components/recipe-tags";
 import RecipeNutrients from "../components/recipe-nutrients";
 import Ingredients from "../components/ingredients";
 import Instructions from "../components/instructions";
-import { useRouter } from "next/router";
 import { useEffect } from "react";
-
+import { useRouter } from "next/router";
 
 function RecipeDetails ( props ) 
 {
@@ -17,7 +16,7 @@ function RecipeDetails ( props )
   
   useEffect(()=> {
     console.log(item);
-  },[])
+  },[item])
 
   return (
     <>
