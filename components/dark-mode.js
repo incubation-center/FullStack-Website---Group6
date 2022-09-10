@@ -49,7 +49,7 @@ function DarkMode ()
   const darkModeActive = process.browser && document.documentElement.classList.contains( "dark" )
 
   return (
-    <AnimatePresence exitBeforeEnter initial={ false }>
+    <AnimatePresence mode="wait" initial={ false }>
       <motion.button
         className="mx-5"
         onClick={ () => toggleMode() }

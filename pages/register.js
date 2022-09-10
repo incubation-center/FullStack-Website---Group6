@@ -67,7 +67,7 @@ function Register (props)
         <link rel="icon" href="/register.ico?" />
       </Head>
       
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <motion.section
           className="relative flex flex-wrap items-center h-screen"
           variants={ !shouldReduceMotion ? variants : null }

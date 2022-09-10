@@ -14,7 +14,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
   const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes);
   const [allRecipesAfterFilter, setAllRecipesAfterFilter] =
     useState(allRecipes);
-  const [categorySelected, setCategorySelected] = useState(null);
+  const [categorySelected, setCategorySelected] = useState(undefined);
 
   function sort(items) {
     return items.sort((a, b) => (a.name > b.name ? 1 : -1));
@@ -86,6 +86,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
             {/* Select Filter */}
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+              defaultValue={"default"}
               onChange={(e) => {
                 function filterByCuisines(data) {
                   if (
@@ -106,7 +107,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 setCategorySelected("none");
               }}
             >
-              <option disabled selected>
+              <option disabled value={"default"}>
                 Filter by cuisines
               </option>
               <option className="text-base">All</option>
@@ -126,6 +127,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
 
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+              defaultValue={"default"}
               value={categorySelected}
               onChange={(e) => {
                 setCategorySelected(e.target.value);
@@ -148,7 +150,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 );
               }}
             >
-              <option value={"none"} disabled selected>
+              <option value={"default"} disabled>
                 Filter by recipe categories
               </option>
               <option className="text-base">All</option>
