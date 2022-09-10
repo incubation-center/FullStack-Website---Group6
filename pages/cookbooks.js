@@ -43,25 +43,14 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
           {/* Range Slider Filter */}
-          {/* <SliderFilter /> */}
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-xl font-bold dark:text-accent">Calories</h2>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                className="range range-primary range-sm tooltip my-1 cursor-grab dark:bg-accent/5"
-              />
+              <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
+              <SliderFilter />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-xl dark:text-accent font-bold">Duration</h2>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
-              />
+              <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
+              <SliderFilter />
             </div>
           </div>
 
