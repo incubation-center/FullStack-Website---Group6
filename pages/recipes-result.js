@@ -5,20 +5,79 @@ import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import IngredientList from "../components/ingredient-list.js";
 import { motion } from "framer-motion";
+import { inject, observer } from "mobx-react";
+import { useCallback, useEffect } from "react";
+import { prisma } from "../lib/prisma";
 
-function RecipesResult ()
-{
-  let result = [
-    { id: 1, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 2, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 3, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 4, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 5, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 6, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 7, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 8, title: "Kokos Curry", calories: 320, time: 45 },
-    { id: 9, title: "Kokos Curry", calories: 320, time: 45 },
-  ];
+function RecipesResult({
+  ingredientStore,
+  recipeResultStore,
+  allRecipes,
+  allRecipeCategories,
+}) {
+  const { setRecipeResult, recipeResultCount } = recipeResultStore;
+  const { selectedIngredients } = ingredientStore;
+
+  useEffect(() => {
+    console.log(allRecipes);
+  }, []);
+
+  const MatchRecipes = useCallback(() => {
+    // const result = allRecipes.filter((recipe) => {
+    //   recipe.ingredients.forEach((element) => {
+    //     return element.name.toLowerCase() !== "Basil".toLowerCase();
+    //   });
+    // });
+
+    let result = [];
+    allRecipes.map((recipe) => {
+      recipe.ingredients.forEach((element) => {
+        if (
+          selectedIngredients.some(
+            (ingredient) => ingredient.name === element.name
+          )
+        )
+          result.push(recipe);
+      });
+    });
+
+    // let unique = [];
+    // // Remove Duplicate Recipe
+    // result = result.filter(res => {
+    //   if(!unique.includes(res.name)) {
+    //     unique.push(res)
+    //   }
+    // })
+
+    // Sort by A to Z
+    result.sort((a, b) => (a.name > b.name ? 1 : -1));
+
+    setRecipeResult(result);
+    console.log(result);
+
+    return (
+      <div className="flex flex-wrap justify-around -mx-5 sm:m-0 md:-mx-5 lg:mx-0">
+        {result.map((recipe, index) => {
+          return (
+            <motion.div
+              key={index}
+              className="flex justify-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, scale: 1 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+            >
+              <RecipeCard recipe={recipe} />
+            </motion.div>
+          );
+        })}
+      </div>
+    );
+  }, [allRecipes, setRecipeResult, selectedIngredients]);
 
   return (
     <>
@@ -27,26 +86,26 @@ function RecipesResult ()
         <meta name="description" content="Recipe Results" />
         <link rel="icon" href="/recipe_result.ico?" />
       </Head>
-      
+
       <div
         className="flex flex-col justify-between"
-        style={ { minHeight: "100vh" } }
+        style={{ minHeight: "100vh" }}
       >
         <Navbar />
 
         <div className="flex-1 p-5 h-full justify-center md:flex dark:bg-neutral">
           <div className="m-0 sm:m-px md:my-5 md:ml-5 lg:m-5 md:order-last">
-            <IngredientList text="Find Recipes" />
+            <IngredientList text="Select Ingredients" />
           </div>
 
           <div className="flex flex-col mt-5 sm:m-0">
             <div className="flex flex-row">
               <motion.div
-                initial={ { scale: 0 } }
-                animate={ { scale: 1 } }
-                transition={ { type: "spring", stiffness: 260, damping: 30 } }
-                whileHover={ { scaleX: 1.2 } }
-                whileTap={ { rotateY: 90 } }
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ type: "spring", stiffness: 260, damping: 30 }}
+                whileHover={{ scaleX: 1.2 }}
+                whileTap={{ rotateY: 90 }}
               >
                 <svg
                   className="color: rgb(255, 194, 58); h-16 w-16"
@@ -150,31 +209,11 @@ function RecipesResult ()
                 Result:
               </h1>
               <h2 className="text-xl lg:text-2xl dark:text-accent font-bold my-6 ml-3">
-                { result.length } recipes
+                {recipeResultCount} recipes
               </h2>
             </div>
 
-            <div className="flex flex-wrap justify-around -mx-5 sm:m-0 md:-mx-5 lg:mx-0">
-              { result.map( ( recipe, index ) =>
-              {
-                return (
-                  <motion.div
-                    key={ index }
-                    className="flex justify-center"
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={ { once: true } }
-                    transition={ { duration: 0.5 } }
-                    variants={ {
-                      hidden: { opacity: 0, scale: 1 },
-                      visible: { opacity: 1, scale: 1 },
-                    } }
-                  >
-                    <RecipeCard recipe={ recipe } />
-                  </motion.div>
-                );
-              } ) }
-            </div>
+            <MatchRecipes />
           </div>
         </div>
 
@@ -186,4 +225,37 @@ function RecipesResult ()
   );
 }
 
-export default RecipesResult;
+export default inject(
+  "ingredientStore",
+  "recipeResultStore"
+)(observer(RecipesResult));
+
+export async function getStaticProps() {
+  const allRecipes = await prisma.recipe.findMany({
+    include: {
+      ingredients: {
+        select: {
+          name: true,
+        },
+      },
+      categories: {
+        select: {
+          name: true,
+        },
+      },
+      cuisines: {
+        select: {
+          name: true,
+        },
+      },
+    },
+  });
+  const allRecipeCategories = await prisma.recipeCategory.findMany();
+
+  return {
+    props: {
+      allRecipes: JSON.parse(JSON.stringify(allRecipes)),
+      allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
+    },
+  };
+}

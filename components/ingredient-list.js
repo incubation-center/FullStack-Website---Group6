@@ -34,7 +34,9 @@ function IngredientList(props) {
               })}
           </div>
           <div className="card-actions">
-            <Link href="/recipes-result">
+            <Link
+              href={props.text === "Find Recipes" ? "/recipes-result" : "/"}
+            >
               <button className="btn btn-primary text-accent text-lg">
                 {props.text}
               </button>
