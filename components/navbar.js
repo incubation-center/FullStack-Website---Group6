@@ -69,7 +69,9 @@ function Navbar ()
           </ul>
         </motion.div>
         <Link href="/">
-          <Image src="/logo.png" className="cursor-pointer" width={ 170 } height={ 45 } alt="Logo" />
+          <a>
+            <Image src="/logo.png" className="cursor-pointer" width={ 170 } height={ 45 } alt="Logo" />
+          </a>
         </Link>
       </div>
 

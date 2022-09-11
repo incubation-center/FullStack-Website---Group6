@@ -22,7 +22,7 @@ function Home({ allIngredients, dbIngredientCategory }) {
         <link rel="icon" href="/favicon.ico?" />
       </Head>
 
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <motion.div
           className="flex flex-col justify-around min-h-screen"
           initial={{ opacity: 0 }}

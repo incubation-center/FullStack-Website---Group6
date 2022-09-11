@@ -52,7 +52,7 @@ function Login ()
         <link rel="icon" href="/login.ico?" />
       </Head>
       
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <motion.section
           className="relative flex flex-wrap items-center h-screen"
           variants={ variants }
