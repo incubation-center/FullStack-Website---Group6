@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
@@ -9,20 +10,23 @@ import { inject, observer } from "mobx-react";
 import { useCallback, useEffect } from "react";
 import { prisma } from "../lib/prisma";
 
-function RecipesResult({
+function RecipesResult ( {
   ingredientStore,
   recipeResultStore,
   allRecipes,
   allRecipeCategories,
-}) {
+} )
+{
   const { setRecipeResult, recipeResultCount } = recipeResultStore;
   const { selectedIngredients } = ingredientStore;
 
-  useEffect(() => {
-    console.log(allRecipes);
-  }, []);
+  useEffect( () =>
+  {
+    console.log( allRecipes );
+  }, [] );
 
-  const MatchRecipes = useCallback(() => {
+  const MatchRecipes = useCallback( () =>
+  {
     // const result = allRecipes.filter((recipe) => {
     //   recipe.ingredients.forEach((element) => {
     //     return element.name.toLowerCase() !== "Basil".toLowerCase();
@@ -30,16 +34,18 @@ function RecipesResult({
     // });
 
     let result = [];
-    allRecipes.map((recipe) => {
-      recipe.ingredients.forEach((element) => {
+    allRecipes.map( ( recipe ) =>
+    {
+      recipe.ingredients.forEach( ( element ) =>
+      {
         if (
           selectedIngredients.some(
-            (ingredient) => ingredient.name === element.name
+            ( ingredient ) => ingredient.name === element.name
           )
         )
-          result.push(recipe);
-      });
-    });
+          result.push( recipe );
+      } );
+    } );
 
     // let unique = [];
     // // Remove Duplicate Recipe
@@ -50,34 +56,35 @@ function RecipesResult({
     // })
 
     // Sort by A to Z
-    result.sort((a, b) => (a.name > b.name ? 1 : -1));
+    result.sort( ( a, b ) => ( a.name > b.name ? 1 : -1 ) );
 
-    setRecipeResult(result);
-    console.log(result);
+    setRecipeResult( result );
+    console.log( result );
 
     return (
       <div className="flex flex-wrap justify-around -mx-5 sm:m-0 md:-mx-5 lg:mx-0">
-        {result.map((recipe, index) => {
+        { result.map( ( recipe, index ) =>
+        {
           return (
             <motion.div
-              key={index}
+              key={ index }
               className="flex justify-center"
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              variants={{
+              viewport={ { once: true } }
+              transition={ { duration: 0.5 } }
+              variants={ {
                 hidden: { opacity: 0, scale: 1 },
                 visible: { opacity: 1, scale: 1 },
-              }}
+              } }
             >
-              <RecipeCard recipe={recipe} />
+              <RecipeCard recipe={ recipe } />
             </motion.div>
           );
-        })}
+        } ) }
       </div>
     );
-  }, [allRecipes, setRecipeResult, selectedIngredients]);
+  }, [ allRecipes, setRecipeResult, selectedIngredients ] );
 
   return (
     <>
@@ -89,11 +96,11 @@ function RecipesResult({
 
       <div
         className="flex flex-col justify-between"
-        style={{ minHeight: "100vh" }}
+        style={ { minHeight: "100vh" } }
       >
         <Navbar />
 
-        <div className="flex-1 p-5 h-full justify-center md:flex dark:bg-neutral">
+        <div className="flex-1 p-5 h-full justify-between md:flex dark:bg-neutral">
           <div className="m-0 sm:m-px md:my-5 md:ml-5 lg:m-5 md:order-last">
             <IngredientList text="Select Ingredients" />
           </div>
@@ -101,11 +108,11 @@ function RecipesResult({
           <div className="flex flex-col mt-5 sm:m-0">
             <div className="flex flex-row">
               <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ type: "spring", stiffness: 260, damping: 30 }}
-                whileHover={{ scaleX: 1.2 }}
-                whileTap={{ rotateY: 90 }}
+                initial={ { scale: 0 } }
+                animate={ { scale: 1 } }
+                transition={ { type: "spring", stiffness: 260, damping: 30 } }
+                whileHover={ { scaleX: 1.2 } }
+                whileTap={ { rotateY: 90 } }
               >
                 <svg
                   className="color: rgb(255, 194, 58); h-16 w-16"
@@ -209,7 +216,7 @@ function RecipesResult({
                 Result:
               </h1>
               <h2 className="text-xl lg:text-2xl dark:text-accent font-bold my-6 ml-3">
-                {recipeResultCount} recipes
+                { recipeResultCount } recipes
               </h2>
             </div>
 
@@ -228,10 +235,11 @@ function RecipesResult({
 export default inject(
   "ingredientStore",
   "recipeResultStore"
-)(observer(RecipesResult));
+)( observer( RecipesResult ) );
 
-export async function getStaticProps() {
-  const allRecipes = await prisma.recipe.findMany({
+export async function getStaticProps ()
+{
+  const allRecipes = await prisma.recipe.findMany( {
     include: {
       ingredients: {
         select: {
@@ -249,13 +257,13 @@ export async function getStaticProps() {
         },
       },
     },
-  });
+  } );
   const allRecipeCategories = await prisma.recipeCategory.findMany();
 
   return {
     props: {
-      allRecipes: JSON.parse(JSON.stringify(allRecipes)),
-      allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
+      allRecipes: JSON.parse( JSON.stringify( allRecipes ) ),
+      allRecipeCategories: JSON.parse( JSON.stringify( allRecipeCategories ) ),
     },
   };
 }
