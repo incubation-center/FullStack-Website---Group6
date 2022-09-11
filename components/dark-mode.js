@@ -51,7 +51,7 @@ function DarkMode ()
   return (
     <AnimatePresence mode="wait" initial={ false }>
       <motion.button
-        className="mx-5"
+        className="mx-5 hover:animate-pulse"
         onClick={ () => toggleMode() }
         key={ darkModeActive ? "dark-icon" : "light-icon" }
         initial={ { y: -20, opacity: 0 } }
