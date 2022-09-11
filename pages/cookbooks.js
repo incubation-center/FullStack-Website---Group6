@@ -89,17 +89,18 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
               defaultValue={"default"}
               onChange={(e) => {
                 function filterByCuisines(data) {
-                  if (
-                    data.cuisines[0]?.name == null &&
-                    e.target.value == "World"
-                  ) {
-                    return true;
-                  } else if (e.target.value == "All") {
-                    return true;
-                  } else if (data.cuisines[0]?.name == e.target.value) {
-                    return true;
-                  }
-                  return false;
+                  var flag = false;
+                  data.cuisines.map( ( cuisine ) =>
+                  {
+                    if ( e.target.value == "All" )
+                    {
+                      flag = true;
+                    } else if ( cuisine.name == e.target.value )
+                    {
+                      flag = true;
+                    }
+                  } )
+                  return flag;
                 }
                 var value = allRecipes.filter(filterByCuisines);
                 setAllRecipesForFilter(value);
@@ -134,16 +135,15 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 function filterByRecipeCategory(data) {
                   var flag = false;
                   data.categories.map((tag) => {
-                    if (tag.name == e.target.value) {
-                      flag = true;
+                    if ( tag.name == e.target.value )
+                    {
+                      flag = true
+                    } else if ( e.target.value == "All" )
+                    {
+                      flag = true
                     }
-                  });
-                  if (e.target.value == "All") {
-                    return true;
-                  } else if (flag) {
-                    return true;
-                  }
-                  return false;
+                  })
+                  return flag;
                 }
                 setAllRecipesForFilter(
                   allRecipesAfterFilter.filter(filterByRecipeCategory)
