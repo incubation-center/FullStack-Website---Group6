@@ -70,7 +70,7 @@ function Navbar ()
         </motion.div>
         <Link href="/">
           <a>
-            <Image src="/logo.png" className="cursor-pointer" width={ 170 } height={ 45 } alt="Logo" />
+            <Image src="/logo.png" className="hover:scale-95 cursor-pointer" width={ 185 } height={ 45 } alt="Logo" />
           </a>
         </Link>
       </div>
