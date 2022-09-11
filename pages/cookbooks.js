@@ -3,12 +3,14 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
+import AllRecipes from "../components/recipe/allRecipe";
 import SliderFilter from "../components/slider-filter";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
-function Cookbooks({ allRecipes, allRecipeCategories }) {
+
+function Cookbooks({ allRecipes, allRecipeCategories, recipePagination }) {
   const [keyword, setKeyword] = useState("");
 
   const filteredAllRecipes = sort(allRecipes)
@@ -185,7 +187,9 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
             </select>
           </div>
 
-          <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
+          <AllRecipes currentPage={ 1 } />
+
+          {/* <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
             {allRecipesForFilter.map((recipe) => {
               return (
                 <motion.div
@@ -204,8 +208,11 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 </motion.div>
               );
             })}
-          </div>
+          </div> */}
+          
         </main>
+
+        
 
         <ScrollTop />
 
@@ -215,34 +222,42 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
   );
 }
 
-export default Cookbooks;
-
-export async function getStaticProps() {
-  const allRecipes = await prisma.recipe.findMany({
-    include: {
-      ingredients: {
-        select: {
-          name: true,
-        },
-      },
-      categories: {
-        select: {
-          name: true,
-        },
-      },
-      cuisines: {
-        select: {
-          name: true,
-        },
-      },
+// Cookbooks.getInitialProps = async (ctx) => {
+export async function getServerSideProps() {
+  /* const allRecipes = await fetch(url + '/api/recipe', {
+    method: 'POST', 
+    headers: {
+      'Content-Type': 'application/json',
     },
-  });
+    body: JSON.stringify({
+      relation: {
+        ingredients: {
+          select: {
+            name: true,
+          },
+        },
+        categories: {
+          select: {
+            name: true,
+          },
+        },
+        cuisines: {
+          select: {
+            name: true,
+          },
+        },
+      }
+    })
+  }).then(res => res.json()); */
   const allRecipeCategories = await prisma.recipeCategory.findMany();
 
   return {
     props: {
-      allRecipes: JSON.parse(JSON.stringify(allRecipes)),
+      // allRecipes: allRecipes.data,
       allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
+      // recipePagination: allRecipes.pagination
     },
   };
 }
+
+export default Cookbooks;

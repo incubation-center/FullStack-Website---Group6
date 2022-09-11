@@ -1,12 +1,16 @@
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component"
 
-import { url } from "../../lib/config";
 import RecipeCard from "../recipe-card";
 
 
+/* TODO
+  X Infinite scrolll
+  - accept filter 
+  - 
+
+*/
 const AllRecipes = ({currentPage = 1}) => {
   /* TODO: have default empty recipes for now, we can also
     have default recipes by getStaticProps and pass the result
@@ -14,62 +18,65 @@ const AllRecipes = ({currentPage = 1}) => {
   */
   const [recipes, setRecipes] = useState([]);
   const [page, setPage] = useState(currentPage);
+  const [hasMore, setHasMore] = useState(true);
   
-  console.log(currentPage)
+  const fetchRecipe = async (fromPage=page) => {
+    const res = await fetch('/api/recipe', {
+      method: 'POST', 
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        page: fromPage,
+        relation: {
+          ingredients: {
+            select: {
+              name: true,
+            },
+          },
+          categories: {
+            select: {
+              name: true,
+            },
+          },
+          cuisines: {
+            select: {
+              name: true,
+            },
+          },
+        }
+      })
+    }).then(res => res.json());
+
+    setPage(page + 1); // go to next page
+    // stop the infinite scroll on last page
+    if (page === res.pagination["totalPage"]) {
+      setHasMore(false);
+    }
+    setRecipes([...recipes, ...res.data]); // increment new recipes to the existing recipes list
+  }
 
   useEffect(() => {
-    const fetchRecipe = async (page) => {
-
-      console.log(">>>>>>>>>... all recipes")
-      const res = await fetch('/api/recipe', {
-        method: 'POST', 
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          page: page,
-          relation: {
-            ingredients: {
-              select: {
-                name: true,
-              },
-            },
-            categories: {
-              select: {
-                name: true,
-              },
-            },
-            cuisines: {
-              select: {
-                name: true,
-              },
-            },
-          }
-        })
-      }).then(res => res.json());
-
-      setRecipes(res.data);
-    }
-
     fetchRecipe(page);
-    // refreshData();
-  }, [page])
+  }, [])
   
-  const router = useRouter();
-  const refreshData = () => router.replace(router.asPath);
+  /* const router = useRouter();
+  const refreshData = () => router.replace(router.asPath); */
 
   return (
-
-    <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-      {/* <InfiniteScroll
-        dataLength={recipes.length}
-        next={getMorePost}
-        hasMore={hasMore}
-        loader={<h3> Loading...</h3>}
-        endMessage={<h4>Nothing more to show</h4>}
-      >
-        hello
-      </InfiniteScroll> */}
+    <InfiniteScroll
+      className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap"
+      dataLength={recipes.length}
+      next={fetchRecipe}
+      hasMore={hasMore}
+      endMessage={
+        <div className="container card items-center text-center">
+          <h3 className="card-title text-xl dark:text-accent">
+            No more recipe to show
+          </h3>
+        </div>
+      }
+    >
       {recipes.map((recipe) => (
         <motion.div
           key={recipe.id}
@@ -85,8 +92,8 @@ const AllRecipes = ({currentPage = 1}) => {
         >
           <RecipeCard recipe={recipe} />
         </motion.div>
-      ))}
-    </div>
+    ))}
+    </InfiniteScroll>
   );
 };
 
