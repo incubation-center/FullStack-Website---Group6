@@ -3,49 +3,54 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
-import { useEffect, useState } from "react";
+import SliderFilter from "../components/slider-filter";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
 function Cookbooks({ allRecipes, allRecipeCategories }) {
-  // useEffect(() => {
-  //   console.log(allRecipes);
-  // }, []);
+  const [keyword, setKeyword] = useState("");
 
-  const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes)
-  const [allRecipesAfterFilter, setAllRecipesAfterFilter] = useState(allRecipes)
-  const [categorySelected, setCategorySelected] = useState(null)
+  const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes);
+  const [allRecipesAfterFilter, setAllRecipesAfterFilter] =
+    useState(allRecipes);
+  const [categorySelected, setCategorySelected] = useState(undefined);
+
+  function sort(items) {
+    return items.sort((a, b) => (a.name > b.name ? 1 : -1));
+  }
+
+  useEffect(() => {
+    if (keyword !== "") {
+      const filtered = sort(allRecipes).filter((recipe) =>
+        recipe.name.toLowerCase().includes(keyword.toLowerCase())
+      );
+      setAllRecipesForFilter(filtered);
+    } else {
+      setAllRecipesForFilter(allRecipes);
+    }
+  }, [allRecipes, keyword]);
   return (
     <>
       <Head>
         <title>Recipes</title>
         <meta name="description" content="Recipes" />
-        <link rel="icon" href="/favicon.ico?" />
+        <link rel="icon" href="/cookbooks.ico?" />
       </Head>
 
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
-          {/* Range Filter */}
+          {/* Range Slider Filter */}
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-xl font-bold dark:text-accent">Calories</h2>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
-              />
+              <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
+              <SliderFilter />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-xl dark:text-accent font-bold">Duration</h2>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                className="range range-primary range-sm my-1 cursor-grab dark:bg-accent/5"
-              />
+              <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
+              <SliderFilter />
             </div>
           </div>
 
@@ -57,6 +62,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                   type="text"
                   placeholder="Search…"
                   className="input input-bordered dark:bg-accent/10 dark:text-accent"
+                  value={keyword}
+                  onChange={(e) => setKeyword(e.target.value)}
                 />
                 <button className="btn btn-square btn-primary">
                   <svg
@@ -77,60 +84,73 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
               </div>
             </div>
             {/* Select Filter */}
-            <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              onChange={(e)=> {
-                
+            <select
+              className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+              defaultValue={"default"}
+              onChange={(e) => {
                 function filterByCuisines(data) {
                   var flag = false;
-                  data.cuisines.map((cuisine)=> {
-                    if(e.target.value == "All") {
+                  data.cuisines.map( ( cuisine ) =>
+                  {
+                    if ( e.target.value == "All" )
+                    {
                       flag = true;
-                    } else if(cuisine.name  == e.target.value) {
+                    } else if ( cuisine.name == e.target.value )
+                    {
                       flag = true;
                     }
-                  })
+                  } )
                   return flag;
                 }
-                var value = allRecipes.filter(filterByCuisines)
-                setAllRecipesForFilter(value)
-                setAllRecipesAfterFilter(value)
-                setCategorySelected("none")
+                var value = allRecipes.filter(filterByCuisines);
+                setAllRecipesForFilter(value);
+                setAllRecipesAfterFilter(value);
+                setCategorySelected("none");
               }}
             >
-              <option disabled selected>
+              <option disabled value={"default"}>
                 Filter by cuisines
               </option>
               <option className="text-base">All</option>
               <option className="text-base">American</option>
+              <option className="text-base">Chinese</option>
               <option className="text-base">Greek</option>
               <option className="text-base">Italian</option>
               <option className="text-base">Japanese</option>
               <option className="text-base">Kid-Friendly</option>
               <option className="text-base">Mediterranean</option>
+              <option className="text-base">Mexican</option>
               <option className="text-base">Polish</option>
+              <option className="text-base">Spanish</option>
               <option className="text-base">Turkish</option>
               <option className="text-base">World</option>
             </select>
 
-            <select className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+            <select
+              className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+              defaultValue={"default"}
               value={categorySelected}
-              onChange={(e)=> {
-                setCategorySelected(e.target.value)
+              onChange={(e) => {
+                setCategorySelected(e.target.value);
                 function filterByRecipeCategory(data) {
                   var flag = false;
-                  data.categories.map((tag)=> {
-                    if (tag.name == e.target.value) {
+                  data.categories.map((tag) => {
+                    if ( tag.name == e.target.value )
+                    {
                       flag = true
-                    } else if (e.target.value == "All") {
+                    } else if ( e.target.value == "All" )
+                    {
                       flag = true
                     }
                   })
                   return flag;
                 }
-                setAllRecipesForFilter(allRecipesAfterFilter.filter(filterByRecipeCategory))
+                setAllRecipesForFilter(
+                  allRecipesAfterFilter.filter(filterByRecipeCategory)
+                );
               }}
             >
-              <option value={"none"} disabled selected>
+              <option value={"default"} disabled>
                 Filter by recipe categories
               </option>
               <option className="text-base">All</option>
