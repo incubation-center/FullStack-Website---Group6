@@ -11,9 +11,9 @@ function Ingredients (props)
       <div className="collapse-content dark:text-accent">
         <ul className="list-disc p-3">
           {
-            ingredientsDisc.map((i) => {
+            ingredientsDisc.map((i, index) => {
               return (
-                <li key={i}>{i}</li>
+                <li key={index}>{i}</li>
               )
             })
           }

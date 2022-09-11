@@ -59,7 +59,7 @@ function RecipeDetails ( props )
             <Ingredients item={item}/>
           </div>
           <div>
-            <Instructions />
+            <Instructions item={item}/>
           </div>
         </div>
       </div>
