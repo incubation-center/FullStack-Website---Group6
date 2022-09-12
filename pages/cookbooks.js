@@ -28,7 +28,6 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
   function handleChangeCalories(event,value) {
     setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.calories <= value))
   }
-
   
   function handleChangeDuration(event, value) {
     setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.durationSecond/60 <= value))
@@ -51,7 +50,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
     } else {
       setAllRecipesForFilter(filteredAllRecipes);
     }
-  }, [allRecipes, keyword]);
+  }, [ allRecipes, filteredAllRecipes, keyword ] );
+  
   return (
     <>
       <Head>
@@ -65,7 +65,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
           {/* Range Slider Filter */}
-          <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
+          <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-7">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
               <SliderFilter item={calories} maxValue={maxCalories} handleChangeCommitted={handleChangeCalories} handleChange={handleCaloriesBarValue} />
