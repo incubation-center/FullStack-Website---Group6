@@ -43,14 +43,18 @@ const PrettoSlider = styled( Slider )( {
   },
 } );
 
-function SlideFilter ()
-{
+function SlideFilter (props)
+{ 
   return (
     <div className="shrink w-full">  
       <PrettoSlider
         valueLabelDisplay="auto"
         aria-label="pretto slider"
-        defaultValue={ 0 }
+        min={0}
+        max={props.maxValue}
+        value={ props.item }
+        onChangeCommitted={props.handleChangeCommitted}
+        onChange={props.handleChange}
       />
     </div>
   );

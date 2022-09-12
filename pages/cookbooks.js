@@ -11,23 +11,45 @@ import { prisma } from "../lib/prisma";
 function Cookbooks({ allRecipes, allRecipeCategories }) {
   const [keyword, setKeyword] = useState("");
 
-  const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes);
-  const [allRecipesAfterFilter, setAllRecipesAfterFilter] =
-    useState(allRecipes);
+  const filteredAllRecipes = sort(allRecipes)
+  const [allRecipesForFilter, setAllRecipesForFilter] = useState(filteredAllRecipes);
+  const [allRecipesAfterFilter, setAllRecipesAfterFilter] = useState(filteredAllRecipes);
   const [categorySelected, setCategorySelected] = useState(undefined);
+
+  const maxCalories = 1702
+  const maxDuration = 9900/60
+  const [calories, setCalories] = useState(maxCalories)
+  const [duration, setDuration] = useState(maxDuration)
 
   function sort(items) {
     return items.sort((a, b) => (a.name > b.name ? 1 : -1));
   }
 
+  function handleChangeCalories(event,value) {
+    setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.calories <= value))
+  }
+
+  
+  function handleChangeDuration(event, value) {
+    setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.durationSecond/60 <= value))
+  }
+
+  function handleCaloriesBarValue(e) {
+    setCalories(e.target.value)
+  }
+
+  function handleDurationBarValue(e) {
+    setDuration(e.target.value)
+  }
+
   useEffect(() => {
     if (keyword !== "") {
-      const filtered = sort(allRecipes).filter((recipe) =>
+      const filtered = filteredAllRecipes.filter((recipe) =>
         recipe.name.toLowerCase().includes(keyword.toLowerCase())
       );
       setAllRecipesForFilter(filtered);
     } else {
-      setAllRecipesForFilter(allRecipes);
+      setAllRecipesForFilter(filteredAllRecipes);
     }
   }, [allRecipes, keyword]);
   return (
@@ -46,11 +68,11 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-5">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
-              <SliderFilter />
+              <SliderFilter item={calories} maxValue={maxCalories} handleChangeCommitted={handleChangeCalories} handleChange={handleCaloriesBarValue} />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
-              <SliderFilter />
+              <SliderFilter item={duration} maxValue={maxDuration} handleChangeCommitted={handleChangeDuration} handleChange={handleDurationBarValue}/>
             </div>
           </div>
 
@@ -106,6 +128,8 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                 setAllRecipesForFilter(value);
                 setAllRecipesAfterFilter(value);
                 setCategorySelected("none");
+                setCalories(maxCalories)
+                setDuration(maxDuration)
               }}
             >
               <option disabled value={"default"}>
