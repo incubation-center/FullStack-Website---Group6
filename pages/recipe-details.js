@@ -45,7 +45,7 @@ function RecipeDetails ( props )
           </div>
 
           <div className="mx-10 md:mx-4 lg:mx-10 ">
-            <RecipeTags item= {item}/>
+            <RecipeTags item={item} />
           </div>
     
         </div>
@@ -56,10 +56,10 @@ function RecipeDetails ( props )
 
         <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 md:col-span-3 gap-5 p-5">
           <div>
-            <Ingredients item={item}/>
+            <Ingredients item={item} />
           </div>
           <div>
-            <Instructions item={item}/>
+            <Instructions item={item} />
           </div>
         </div>
       </div>

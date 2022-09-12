@@ -38,7 +38,7 @@ function Home({ allIngredients, dbIngredientCategory }) {
           <Navbar />
 
           <div className="flex-1 md:flex h-full justify-around dark:bg-neutral">
-            <div className="m-5 sm:m-10 md:order-last">
+            <div className="m-5 sm:m-10 md:ml-0 lg:m-10 md:order-last">
               <IngredientList text="Find Recipes" />
             </div>
 
