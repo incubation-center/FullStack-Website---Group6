@@ -145,7 +145,7 @@ function IngredientTabs ( {
           <div className="flex justify-center">
             <Image
               src="/no_ingredient.png"
-              alt="empty tab"
+              alt="No Ingredient"
               width={ 700 }
               height={ 500 }
             />

@@ -91,7 +91,7 @@ function RecipesResult ( {
       <Head>
         <title>Recipe Results</title>
         <meta name="description" content="Recipe Results" />
-        <link rel="icon" href="/recipe_result.ico?" />
+        <link rel="icon" href="/recipe_results.ico?" />
       </Head>
 
       <div
@@ -218,6 +218,14 @@ function RecipesResult ( {
               <h2 className="text-xl lg:text-2xl dark:text-accent font-bold my-6 ml-3">
                 { recipeResultCount } recipes
               </h2>
+              {/* <div className="flex justify-center">
+                <Image
+                  src="/no_recipe.png"
+                  alt="No Recipes Found"
+                  width={ 500 }
+                  height={ 500 }
+                />
+              </div> */}
             </div>
 
             <MatchRecipes />

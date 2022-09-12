@@ -60,7 +60,7 @@ function Bookmarks({ bookmarkStore }) {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-5">
-            {/* <Image src="/no_bookmark.png" width={ 500 } height={ 500 } alt="No Bookmark" /> */}
+            
             {bookmarks.map((_recipe, index) => {
               return (
                 <motion.div
@@ -78,7 +78,10 @@ function Bookmarks({ bookmarkStore }) {
                   <BookmarkCard bookmarked={_recipe} />
                 </motion.div>
               );
-            })}
+            } ) }  
+            {/* <div className="flex justify-center">
+              <Image src="/no_bookmark.png" width={ 500 } height={ 500 } alt="No Bookmark Yet" />
+            </div> */}
           </div>
         </main>
 
