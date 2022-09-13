@@ -9,6 +9,7 @@ import { prisma } from "../lib/prisma";
 import * as csv from "fast-csv";
 import path from "path";
 
+
 function Home({ allIngredients, dbIngredientCategory }) {
   const [keyword, setKeyword] = useState("");
 
