@@ -1,17 +1,16 @@
 import Head from "next/head";
+import React, { useState, useEffect } from "react";
+
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
-import RecipeCard from "../components/recipe-card";
 import AllRecipes from "../components/recipe/allRecipe";
 import SliderFilter from "../components/slider-filter";
-import React, { useState, useEffect, useMemo } from "react";
-import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
-import { fetchRecipe, makeFieldFilter, makeRelatedFilterMany } from "../lib/helpers";
+import { makeFieldFilter, makeRelatedFilterMany } from "../lib/helpers";
 
 
-function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
+function Cookbooks({ allRecipeCategories, allCuisines }) {
   const maxCalories = 1702;
   const maxDuration = 9900/60;
 
@@ -33,14 +32,6 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
       ...recipeFilter,
       ...makeFieldFilter('durationSecond', value * 60, 'lte')
     });
-  }
-
-  function handleCaloriesBarValue(e) {
-    setCalories(e.target.value)
-  }
-
-  function handleDurationBarValue(e) {
-    setDuration(e.target.value)
   }
 
   useEffect(() => {
@@ -79,11 +70,21 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-7">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
-              <SliderFilter item={calories} maxValue={maxCalories} handleChangeCommitted={handleChangeCalories} handleChange={handleCaloriesBarValue} />
+              <SliderFilter 
+                item={calories} 
+                maxValue={maxCalories} 
+                handleChangeCommitted={handleChangeCalories} 
+                handleChange={(e) => setCalories(e.target.value)}
+              />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
-              <SliderFilter item={duration} maxValue={maxDuration} handleChangeCommitted={handleChangeDuration} handleChange={handleDurationBarValue}/>
+              <SliderFilter 
+                item={duration} 
+                maxValue={maxDuration} 
+                handleChangeCommitted={handleChangeDuration} 
+                handleChange={(e) => setDuration(e.target.value)}
+              />
             </div>
           </div>
 
@@ -128,8 +129,9 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
 
                 // reset components
                 setCategorySelected("none");
-                setCalories(maxCalories)
-                setDuration(maxDuration)
+                setCalories(maxCalories);
+                setDuration(maxDuration);
+                setKeyword("");
               }}
             >
               <option disabled value={"none"}>
