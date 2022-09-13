@@ -3,47 +3,8 @@ import { React, useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component"
 
 import RecipeCard from "../recipe-card";
+import { fetchRecipe } from "../../lib/helpers";
 
-
-/* TODO
-  X Infinite scrolll
-  X accept filter from select
-  - filter by search bar
-  - filter with slider
-*/
-
-
-const fetchRecipe = async (fromPage, filter) => {
-  const res = await fetch('/api/recipe', {
-    method: 'POST', 
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      page: fromPage,
-      filter: filter,
-      relation: {
-        ingredients: {
-          select: {
-            name: true,
-          },
-        },
-        categories: {
-          select: {
-            name: true,
-          },
-        },
-        cuisines: {
-          select: {
-            name: true,
-          },
-        },
-      }
-    })
-  }).then(res => res.json());
-  
-  return res;
-}
 
 const AllRecipes = ({currentPage = 1, filter}) => {
   const [recipes, setRecipes] = useState([]);
@@ -76,13 +37,10 @@ const AllRecipes = ({currentPage = 1, filter}) => {
       setRecipes(recipe_result.data);
     };
 
-    getDefaultRecipe()
+    getDefaultRecipe();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter]);
-  
-  /* 
-  const router = useRouter();
-  const refreshData = () => router.replace(router.asPath); 
-  */
+
 
   return (
     <InfiniteScroll

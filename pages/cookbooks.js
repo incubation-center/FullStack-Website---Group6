@@ -8,37 +8,31 @@ import SliderFilter from "../components/slider-filter";
 import React, { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
-import { fetchRecipe } from "../lib/helpers";
+import { fetchRecipe, makeFieldFilter, makeRelatedFilterMany } from "../lib/helpers";
 
 
 function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
-  const [keyword, setKeyword] = useState("");
+  const maxCalories = 1702;
+  const maxDuration = 9900/60;
 
   const [recipeFilter, setRecipeFilter] = useState({});
-
-  const filteredAllRecipes = sort(allRecipes)
-  const [allRecipesForFilter, setAllRecipesForFilter] = useState(filteredAllRecipes);
-  const [allRecipesAfterFilter, setAllRecipesAfterFilter] = useState(filteredAllRecipes);
-  /* const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes);
-  const [allRecipesAfterFilter, setAllRecipesAfterFilter] =
-    useState(allRecipes); */
+  const [keyword, setKeyword] = useState("");
   const [categorySelected, setCategorySelected] = useState(undefined);
-
-  const maxCalories = 1702
-  const maxDuration = 9900/60
   const [calories, setCalories] = useState(maxCalories)
   const [duration, setDuration] = useState(maxDuration)
 
-  function sort(items) {
-    return items.sort((a, b) => (a.name > b.name ? 1 : -1));
-  }
-
-  function handleChangeCalories(event,value) {
-    setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.calories <= value))
+  function handleChangeCalories(event, value) {
+    setRecipeFilter({
+      ...recipeFilter,
+      ...makeFieldFilter('calories', value, 'lte')
+    });
   }
   
   function handleChangeDuration(event, value) {
-    setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.durationSecond/60 <= value))
+    setRecipeFilter({
+      ...recipeFilter,
+      ...makeFieldFilter('durationSecond', value * 60, 'lte')
+    });
   }
 
   function handleCaloriesBarValue(e) {
@@ -51,14 +45,23 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
 
   useEffect(() => {
     if (keyword !== "") {
-      const filtered = filteredAllRecipes.filter((recipe) =>
-        recipe.name.toLowerCase().includes(keyword.toLowerCase())
-      );
-      setAllRecipesForFilter(filtered);
+      // wait 0.5 seconds after user stop typing
+      const delayDebounceFn = setTimeout(() => {
+        const nameLikeFilter = makeFieldFilter('name', keyword.toLowerCase(), 'contains');
+        nameLikeFilter['name']['mode'] = 'insensitive';
+        setRecipeFilter({
+          ...recipeFilter,
+          ...nameLikeFilter
+        });
+      }, 500);
+      return () => clearTimeout(delayDebounceFn)
     } else {
-      setAllRecipesForFilter(filteredAllRecipes);
+      const { ['name']: _, ...withoutName } = recipeFilter;
+      setRecipeFilter(withoutName);
     }
-  }, [ allRecipes, filteredAllRecipes, keyword ] );
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [keyword])
   
   return (
     <>
@@ -93,7 +96,7 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
                   placeholder="Search…"
                   className="input input-bordered dark:bg-accent/10 dark:text-accent"
                   value={keyword}
-                  onChange={(e) => setKeyword(e.target.value)}
+                  onChange={(e) => setKeyword(e.target.value.trimStart())}
                 />
                 <button className="btn btn-square btn-primary">
                   <svg
@@ -121,8 +124,9 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
                 const value = parseInt(e.target.value);
                 // reset filter when filter by cuisine
                 if (value === 0) setRecipeFilter({});
-                else setRecipeFilter({ cuisines: [value] });
+                else setRecipeFilter(makeRelatedFilterMany('cuisines', [value]));
 
+                // reset components
                 setCategorySelected("none");
                 setCalories(maxCalories)
                 setDuration(maxDuration)
@@ -143,10 +147,12 @@ function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
               value={categorySelected}
               onChange={(e) => {
                 const value = parseInt(e.target.value);
-                const { ['categories']: _, ...withoutCategories } = recipeFilter; // get filter except for categories
                 setCategorySelected(value);
-                if (value === 0) setRecipeFilter(withoutCategories);
-                else setRecipeFilter({...recipeFilter, categories: [value] });
+                
+                if (value === 0) {
+                  const { ['categories']: _, ...withoutCategories } = recipeFilter; // get filter except for categories
+                  setRecipeFilter(withoutCategories);
+                } else setRecipeFilter({...recipeFilter, ...makeRelatedFilterMany('categories', [value])});
               }}
             >
               <option value={"none"} disabled>
