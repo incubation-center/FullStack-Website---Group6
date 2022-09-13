@@ -77,7 +77,7 @@ function IngredientTabs ( {
                   />
                   <Tooltip placement="top" content={
                     <Image 
-                      src="/no_recipes.png"
+                      src="/no_recipe.png"
                       width={ 250 }
                       height={ 200 }
                       alt="Ingredient Image"
