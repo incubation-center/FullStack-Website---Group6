@@ -1,56 +1,58 @@
 import Head from "next/head";
+import React, { useState, useEffect } from "react";
+
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
-import RecipeCard from "../components/recipe-card";
+import AllRecipes from "../components/recipe/allRecipe";
 import SliderFilter from "../components/slider-filter";
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
+import { makeFieldFilter, makeRelatedFilterMany } from "../lib/helpers";
 
-function Cookbooks({ allRecipes, allRecipeCategories }) {
+
+function Cookbooks({ allRecipeCategories, allCuisines }) {
+  const maxCalories = 1702;
+  const maxDuration = 9900/60;
+
+  const [recipeFilter, setRecipeFilter] = useState({});
   const [keyword, setKeyword] = useState("");
-
-  const filteredAllRecipes = sort(allRecipes)
-  const [allRecipesForFilter, setAllRecipesForFilter] = useState(filteredAllRecipes);
-  const [allRecipesAfterFilter, setAllRecipesAfterFilter] = useState(filteredAllRecipes);
   const [categorySelected, setCategorySelected] = useState(undefined);
-
-  const maxCalories = 1702
-  const maxDuration = 9900/60
   const [calories, setCalories] = useState(maxCalories)
   const [duration, setDuration] = useState(maxDuration)
 
-  function sort(items) {
-    return items.sort((a, b) => (a.name > b.name ? 1 : -1));
-  }
-
-  function handleChangeCalories(event,value) {
-    setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.calories <= value))
+  function handleChangeCalories(event, value) {
+    setRecipeFilter({
+      ...recipeFilter,
+      ...makeFieldFilter('calories', value, 'lte')
+    });
   }
   
   function handleChangeDuration(event, value) {
-    setAllRecipesForFilter(allRecipesAfterFilter.filter(recipe => recipe.durationSecond/60 <= value))
-  }
-
-  function handleCaloriesBarValue(e) {
-    setCalories(e.target.value)
-  }
-
-  function handleDurationBarValue(e) {
-    setDuration(e.target.value)
+    setRecipeFilter({
+      ...recipeFilter,
+      ...makeFieldFilter('durationSecond', value * 60, 'lte')
+    });
   }
 
   useEffect(() => {
     if (keyword !== "") {
-      const filtered = filteredAllRecipes.filter((recipe) =>
-        recipe.name.toLowerCase().includes(keyword.toLowerCase())
-      );
-      setAllRecipesForFilter(filtered);
+      // wait 0.5 seconds after user stop typing
+      const delayDebounceFn = setTimeout(() => {
+        const nameLikeFilter = makeFieldFilter('name', keyword.toLowerCase(), 'contains');
+        nameLikeFilter['name']['mode'] = 'insensitive';
+        setRecipeFilter({
+          ...recipeFilter,
+          ...nameLikeFilter
+        });
+      }, 500);
+      return () => clearTimeout(delayDebounceFn)
     } else {
-      setAllRecipesForFilter(filteredAllRecipes);
+      const { ['name']: _, ...withoutName } = recipeFilter;
+      setRecipeFilter(withoutName);
     }
-  }, [ allRecipes, filteredAllRecipes, keyword ] );
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [keyword])
   
   return (
     <>
@@ -68,11 +70,21 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
           <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-7">
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
-              <SliderFilter item={calories} maxValue={maxCalories} handleChangeCommitted={handleChangeCalories} handleChange={handleCaloriesBarValue} />
+              <SliderFilter 
+                item={calories} 
+                maxValue={maxCalories} 
+                handleChangeCommitted={handleChangeCalories} 
+                handleChange={(e) => setCalories(e.target.value)}
+              />
             </div>
             <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
               <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
-              <SliderFilter item={duration} maxValue={maxDuration} handleChangeCommitted={handleChangeDuration} handleChange={handleDurationBarValue}/>
+              <SliderFilter 
+                item={duration} 
+                maxValue={maxDuration} 
+                handleChangeCommitted={handleChangeDuration} 
+                handleChange={(e) => setDuration(e.target.value)}
+              />
             </div>
           </div>
 
@@ -85,7 +97,7 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
                   placeholder="Search…"
                   className="input input-bordered dark:bg-accent/10 dark:text-accent"
                   value={keyword}
-                  onChange={(e) => setKeyword(e.target.value)}
+                  onChange={(e) => setKeyword(e.target.value.trimStart())}
                 />
                 <button className="btn btn-square btn-primary">
                   <svg
@@ -108,141 +120,87 @@ function Cookbooks({ allRecipes, allRecipeCategories }) {
             {/* Select Filter */}
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              defaultValue={"default"}
+              defaultValue={"none"}
               onChange={(e) => {
-                function filterByCuisines(data) {
-                  var flag = false;
-                  data.cuisines.map( ( cuisine ) =>
-                  {
-                    if ( e.target.value == "All" )
-                    {
-                      flag = true;
-                    } else if ( cuisine.name == e.target.value )
-                    {
-                      flag = true;
-                    }
-                  } )
-                  return flag;
-                }
-                var value = allRecipes.filter(filterByCuisines);
-                setAllRecipesForFilter(value);
-                setAllRecipesAfterFilter(value);
+                const value = parseInt(e.target.value);
+                // reset filter when filter by cuisine
+                if (value === 0) setRecipeFilter({});
+                else setRecipeFilter(makeRelatedFilterMany('cuisines', [value]));
+
+                // reset components
                 setCategorySelected("none");
-                setCalories(maxCalories)
-                setDuration(maxDuration)
+                setCalories(maxCalories);
+                setDuration(maxDuration);
+                setKeyword("");
               }}
             >
-              <option disabled value={"default"}>
+              <option disabled value={"none"}>
                 Filter by cuisines
               </option>
-              <option className="text-base">All</option>
-              <option className="text-base">American</option>
-              <option className="text-base">Chinese</option>
-              <option className="text-base">Greek</option>
-              <option className="text-base">Italian</option>
-              <option className="text-base">Japanese</option>
-              <option className="text-base">Kid-Friendly</option>
-              <option className="text-base">Mediterranean</option>
-              <option className="text-base">Mexican</option>
-              <option className="text-base">Polish</option>
-              <option className="text-base">Spanish</option>
-              <option className="text-base">Turkish</option>
-              <option className="text-base">World</option>
+              <option className="text-base" value={0}>All</option>
+              {allCuisines.map(cuisine => (
+                <option className="text-base" value={cuisine.id} key={cuisine.id}>{cuisine.name}</option>
+              ))}
             </select>
 
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              defaultValue={"default"}
+              defaultValue={"none"}
               value={categorySelected}
               onChange={(e) => {
-                setCategorySelected(e.target.value);
-                function filterByRecipeCategory(data) {
-                  var flag = false;
-                  data.categories.map((tag) => {
-                    if ( tag.name == e.target.value )
-                    {
-                      flag = true
-                    } else if ( e.target.value == "All" )
-                    {
-                      flag = true
-                    }
-                  })
-                  return flag;
-                }
-                setAllRecipesForFilter(
-                  allRecipesAfterFilter.filter(filterByRecipeCategory)
-                );
+                const value = parseInt(e.target.value);
+                setCategorySelected(value);
+                
+                if (value === 0) {
+                  const { ['categories']: _, ...withoutCategories } = recipeFilter; // get filter except for categories
+                  setRecipeFilter(withoutCategories);
+                } else setRecipeFilter({...recipeFilter, ...makeRelatedFilterMany('categories', [value])});
               }}
             >
-              <option value={"default"} disabled>
+              <option value={"none"} disabled>
                 Filter by recipe categories
               </option>
-              <option className="text-base">All</option>
-              <option className="text-base">Breakfast</option>
-              <option className="text-base">Lunch</option>
-              <option className="text-base">Dinner</option>
-              <option className="text-base">Snack</option>
+              <option className="text-base" value={0}>All</option>
+              {allRecipeCategories.map(category => (
+                <option className="text-base" value={category.id} key={category.id}>{category.name}</option>
+              ))}
             </select>
           </div>
 
-          <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-            {allRecipesForFilter.map((recipe) => {
-              return (
-                <motion.div
-                  key={recipe.id}
-                  className="flex justify-center"
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                  variants={{
-                    hidden: { opacity: 0, scale: 1 },
-                    visible: { opacity: 1, scale: 1 },
-                  }}
-                >
-                  <RecipeCard recipe={recipe} />
-                </motion.div>
-              );
-            })}
-          </div>
+          <AllRecipes currentPage={1} filter={recipeFilter} />
         </main>
 
         <ScrollTop />
-
         <Footer />
       </div>
     </>
   );
 }
 
-export default Cookbooks;
-
-export async function getStaticProps() {
-  const allRecipes = await prisma.recipe.findMany({
-    include: {
-      ingredients: {
-        select: {
-          name: true,
-        },
-      },
-      categories: {
-        select: {
-          name: true,
-        },
-      },
-      cuisines: {
-        select: {
-          name: true,
-        },
-      },
+// Cookbooks.getInitialProps = async (ctx) => {
+export async function getServerSideProps() {
+  const queryContaineRecipeSelect = {
+    where: {
+      recipes: {
+        some: {
+          id: { not: 0 }
+        }
+      }
     },
-  });
-  const allRecipeCategories = await prisma.recipeCategory.findMany();
+    select: {
+      id: true,
+      name: true
+    }
+  }
+  const allCuisines = await prisma.cuisine.findMany(queryContaineRecipeSelect);
+  const allRecipeCategories = await prisma.recipeCategory.findMany(queryContaineRecipeSelect);
 
   return {
     props: {
-      allRecipes: JSON.parse(JSON.stringify(allRecipes)),
       allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
+      allCuisines: JSON.parse(JSON.stringify(allCuisines)),
     },
   };
 }
+
+export default Cookbooks;
