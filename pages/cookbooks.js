@@ -5,17 +5,23 @@ import ScrollTop from "../components/scroll-top";
 import RecipeCard from "../components/recipe-card";
 import AllRecipes from "../components/recipe/allRecipe";
 import SliderFilter from "../components/slider-filter";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { motion } from "framer-motion";
 import { prisma } from "../lib/prisma";
+import { fetchRecipe } from "../lib/helpers";
 
 
-function Cookbooks({ allRecipes, allRecipeCategories, recipePagination }) {
+function Cookbooks({ allRecipes, allRecipeCategories, allCuisines }) {
   const [keyword, setKeyword] = useState("");
+
+  const [recipeFilter, setRecipeFilter] = useState({});
 
   const filteredAllRecipes = sort(allRecipes)
   const [allRecipesForFilter, setAllRecipesForFilter] = useState(filteredAllRecipes);
   const [allRecipesAfterFilter, setAllRecipesAfterFilter] = useState(filteredAllRecipes);
+  /* const [allRecipesForFilter, setAllRecipesForFilter] = useState(allRecipes);
+  const [allRecipesAfterFilter, setAllRecipesAfterFilter] =
+    useState(allRecipes); */
   const [categorySelected, setCategorySelected] = useState(undefined);
 
   const maxCalories = 1702
@@ -110,112 +116,53 @@ function Cookbooks({ allRecipes, allRecipeCategories, recipePagination }) {
             {/* Select Filter */}
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              defaultValue={"default"}
+              defaultValue={"none"}
               onChange={(e) => {
-                function filterByCuisines(data) {
-                  var flag = false;
-                  data.cuisines.map( ( cuisine ) =>
-                  {
-                    if ( e.target.value == "All" )
-                    {
-                      flag = true;
-                    } else if ( cuisine.name == e.target.value )
-                    {
-                      flag = true;
-                    }
-                  } )
-                  return flag;
-                }
-                var value = allRecipes.filter(filterByCuisines);
-                setAllRecipesForFilter(value);
-                setAllRecipesAfterFilter(value);
+                const value = parseInt(e.target.value);
+                // reset filter when filter by cuisine
+                if (value === 0) setRecipeFilter({});
+                else setRecipeFilter({ cuisines: [value] });
+
                 setCategorySelected("none");
                 setCalories(maxCalories)
                 setDuration(maxDuration)
               }}
             >
-              <option disabled value={"default"}>
+              <option disabled value={"none"}>
                 Filter by cuisines
               </option>
-              <option className="text-base">All</option>
-              <option className="text-base">American</option>
-              <option className="text-base">Chinese</option>
-              <option className="text-base">Greek</option>
-              <option className="text-base">Italian</option>
-              <option className="text-base">Japanese</option>
-              <option className="text-base">Kid-Friendly</option>
-              <option className="text-base">Mediterranean</option>
-              <option className="text-base">Mexican</option>
-              <option className="text-base">Polish</option>
-              <option className="text-base">Spanish</option>
-              <option className="text-base">Turkish</option>
-              <option className="text-base">World</option>
+              <option className="text-base" value={0}>All</option>
+              {allCuisines.map(cuisine => (
+                <option className="text-base" value={cuisine.id} key={cuisine.id}>{cuisine.name}</option>
+              ))}
             </select>
 
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
-              defaultValue={"default"}
+              defaultValue={"none"}
               value={categorySelected}
               onChange={(e) => {
-                setCategorySelected(e.target.value);
-                function filterByRecipeCategory(data) {
-                  var flag = false;
-                  data.categories.map((tag) => {
-                    if ( tag.name == e.target.value )
-                    {
-                      flag = true
-                    } else if ( e.target.value == "All" )
-                    {
-                      flag = true
-                    }
-                  })
-                  return flag;
-                }
-                setAllRecipesForFilter(
-                  allRecipesAfterFilter.filter(filterByRecipeCategory)
-                );
+                const value = parseInt(e.target.value);
+                const { ['categories']: _, ...withoutCategories } = recipeFilter; // get filter except for categories
+                setCategorySelected(value);
+                if (value === 0) setRecipeFilter(withoutCategories);
+                else setRecipeFilter({...recipeFilter, categories: [value] });
               }}
             >
-              <option value={"default"} disabled>
+              <option value={"none"} disabled>
                 Filter by recipe categories
               </option>
-              <option className="text-base">All</option>
-              <option className="text-base">Breakfast</option>
-              <option className="text-base">Lunch</option>
-              <option className="text-base">Dinner</option>
-              <option className="text-base">Snack</option>
+              <option className="text-base" value={0}>All</option>
+              {allRecipeCategories.map(category => (
+                <option className="text-base" value={category.id} key={category.id}>{category.name}</option>
+              ))}
             </select>
           </div>
 
-          <AllRecipes currentPage={ 1 } />
-
-          {/* <div className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap">
-            {allRecipesForFilter.map((recipe) => {
-              return (
-                <motion.div
-                  key={recipe.id}
-                  className="flex justify-center"
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                  variants={{
-                    hidden: { opacity: 0, scale: 1 },
-                    visible: { opacity: 1, scale: 1 },
-                  }}
-                >
-                  <RecipeCard recipe={recipe} />
-                </motion.div>
-              );
-            })}
-          </div> */}
-          
+          <AllRecipes currentPage={1} filter={recipeFilter} />
         </main>
 
-        
-
         <ScrollTop />
-
         <Footer />
       </div>
     </>
@@ -224,38 +171,26 @@ function Cookbooks({ allRecipes, allRecipeCategories, recipePagination }) {
 
 // Cookbooks.getInitialProps = async (ctx) => {
 export async function getServerSideProps() {
-  /* const allRecipes = await fetch(url + '/api/recipe', {
-    method: 'POST', 
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      relation: {
-        ingredients: {
-          select: {
-            name: true,
-          },
-        },
-        categories: {
-          select: {
-            name: true,
-          },
-        },
-        cuisines: {
-          select: {
-            name: true,
-          },
-        },
+  const queryContaineRecipeSelect = {
+    where: {
+      recipes: {
+        some: {
+          id: { not: 0 }
+        }
       }
-    })
-  }).then(res => res.json()); */
-  const allRecipeCategories = await prisma.recipeCategory.findMany();
+    },
+    select: {
+      id: true,
+      name: true
+    }
+  }
+  const allCuisines = await prisma.cuisine.findMany(queryContaineRecipeSelect);
+  const allRecipeCategories = await prisma.recipeCategory.findMany(queryContaineRecipeSelect);
 
   return {
     props: {
-      // allRecipes: allRecipes.data,
       allRecipeCategories: JSON.parse(JSON.stringify(allRecipeCategories)),
-      // recipePagination: allRecipes.pagination
+      allCuisines: JSON.parse(JSON.stringify(allCuisines)),
     },
   };
 }
