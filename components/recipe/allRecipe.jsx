@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { React, useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component"
 
 import RecipeCard from "../recipe-card";
@@ -7,67 +7,88 @@ import RecipeCard from "../recipe-card";
 
 /* TODO
   X Infinite scrolll
-  - accept filter 
-  - 
-
+  X accept filter from select
+  - filter by search bar
+  - filter with slider
 */
-const AllRecipes = ({currentPage = 1}) => {
-  /* TODO: have default empty recipes for now, we can also
-    have default recipes by getStaticProps and pass the result
-    from the page 
-  */
+
+
+const fetchRecipe = async (fromPage, filter) => {
+  const res = await fetch('/api/recipe', {
+    method: 'POST', 
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      page: fromPage,
+      filter: filter,
+      relation: {
+        ingredients: {
+          select: {
+            name: true,
+          },
+        },
+        categories: {
+          select: {
+            name: true,
+          },
+        },
+        cuisines: {
+          select: {
+            name: true,
+          },
+        },
+      }
+    })
+  }).then(res => res.json());
+  
+  return res;
+}
+
+const AllRecipes = ({currentPage = 1, filter}) => {
   const [recipes, setRecipes] = useState([]);
   const [page, setPage] = useState(currentPage);
   const [hasMore, setHasMore] = useState(true);
-  
-  const fetchRecipe = async (fromPage=page) => {
-    const res = await fetch('/api/recipe', {
-      method: 'POST', 
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        page: fromPage,
-        relation: {
-          ingredients: {
-            select: {
-              name: true,
-            },
-          },
-          categories: {
-            select: {
-              name: true,
-            },
-          },
-          cuisines: {
-            select: {
-              name: true,
-            },
-          },
-        }
-      })
-    }).then(res => res.json());
 
-    setPage(page + 1); // go to next page
+  const checkNextPage = async (totalPage) => {
     // stop the infinite scroll on last page
-    if (page === res.pagination["totalPage"]) {
+    if (page === totalPage) {
       setHasMore(false);
     }
-    setRecipes([...recipes, ...res.data]); // increment new recipes to the existing recipes list
+  }
+
+  const getRecipeOnScroll = async () => {
+    const toPage = page + 1;
+    setPage(toPage); // go to next page
+
+    const recipe_result = await fetchRecipe(toPage, filter);
+    await checkNextPage(recipe_result.pagination["totalPage"]);
+    setRecipes([...recipes, ...recipe_result.data]); // increment new recipes to the existing recipes list
   }
 
   useEffect(() => {
-    fetchRecipe(page);
-  }, [])
+    const getDefaultRecipe = async () => {
+      setHasMore(true);
+      setPage(currentPage);
+
+      const recipe_result = await fetchRecipe(currentPage, filter);
+      await checkNextPage(recipe_result.pagination["totalPage"]);
+      setRecipes(recipe_result.data);
+    };
+
+    getDefaultRecipe()
+  }, [filter]);
   
-  /* const router = useRouter();
-  const refreshData = () => router.replace(router.asPath); */
+  /* 
+  const router = useRouter();
+  const refreshData = () => router.replace(router.asPath); 
+  */
 
   return (
     <InfiniteScroll
       className="flex justify-around md:grid grid-cols-2 my-5 lg:flex flex-wrap"
       dataLength={recipes.length}
-      next={fetchRecipe}
+      next={getRecipeOnScroll}
       hasMore={hasMore}
       endMessage={
         <div className="container card items-center text-center">
