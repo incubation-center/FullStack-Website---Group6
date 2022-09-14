@@ -70,36 +70,14 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
         <Navbar />
 
         <main className="flex flex-col flex-1 dark:bg-neutral">
-          {/* Range Slider Filter */ }
-          <div className="flex flex-col md:flex-row justify-end md:space-x-5 space-y-5 md:space-y-0 m-7">
-            <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
-              <SliderFilter
-                item={ calories }
-                maxValue={ maxCalories }
-                handleChangeCommitted={ handleChangeCalories }
-                handleChange={ ( e ) => setCalories( e.target.value ) }
-              />
-            </div>
-            <div className="flex flex-row space-x-5 basis-1/2 xl:basis-1/3">
-              <h2 className="text-lg lg:text-xl font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
-              <SliderFilter
-                item={ duration }
-                maxValue={ maxDuration }
-                handleChangeCommitted={ handleChangeDuration }
-                handleChange={ ( e ) => setDuration( e.target.value ) }
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 m-5">
+          <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 mx-6 md:m-5">
             {/* Search Bar */ }
-            <div className="form-control flex-1 justify-start order-last md:order-first mt-5 md:mt-0">
-              <div className="input-group">
+            <div className="form-control flex-1 items-end order-first md:order-last mt-5 md:mt-0">
+              <div className="input-group w-screen max-w-xs sm:max-w-xl md:w-fit lg:max-w-xs">
                 <input
                   type="text"
                   placeholder="Search…"
-                  className="input input-bordered dark:bg-accent/10 dark:text-accent"
+                  className="input input-bordered w-screen md:w-52 lg:w-screen dark:bg-accent/10 dark:text-accent"
                   value={ keyword }
                   onChange={ ( e ) => setKeyword( e.target.value.trimStart() ) }
                 />
@@ -123,7 +101,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
             </div>
             {/* Select Filter */ }
             <select
-              className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+              className="select shrink dark:text-accent dark:bg-neutral w-full md:w-64 xl:w-72 max-w-2xl shadow-md dark:shadow-accent/25 mx-5"
               defaultValue={ "none" }
               onChange={ ( e ) =>
               {
@@ -149,7 +127,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
             </select>
 
             <select
-              className="select shrink dark:text-accent dark:bg-neutral w-full max-w-xs shadow-md dark:shadow-accent/25 mx-5"
+              className="select shrink dark:text-accent dark:bg-neutral w-full md:w-72 max-w-2xl shadow-md dark:shadow-accent/25 mx-5"
               defaultValue={ "none" }
               value={ categorySelected }
               onChange={ ( e ) =>
@@ -172,6 +150,28 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
                 <option className="text-base" value={ category.id } key={ category.id }>{ category.name }</option>
               ) ) }
             </select>
+          </div>
+
+          {/* Range Slider Filter */ }
+          <div className="flex flex-col justify-start space-y-3 sm:space-y-10 m-6 sm:m-8">
+            <div className="flex space-x-5 md:w-2/3 xl:w-1/3">
+              <h2 className="text-lg font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
+              <SliderFilter
+                item={ calories }
+                maxValue={ maxCalories }
+                handleChangeCommitted={ handleChangeCalories }
+                handleChange={ ( e ) => setCalories( e.target.value ) }
+              />
+            </div>
+            <div className="flex space-x-5 md:w-2/3 xl:w-1/3">
+              <h2 className="text-lg font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
+              <SliderFilter
+                item={ duration }
+                maxValue={ maxDuration }
+                handleChangeCommitted={ handleChangeDuration }
+                handleChange={ ( e ) => setDuration( e.target.value ) }
+              />
+            </div>
           </div>
 
           <AllRecipes currentPage={ 1 } filter={ recipeFilter } />
