@@ -3,8 +3,12 @@ import { inject, observer } from "mobx-react";
 import { motion } from "framer-motion";
 
 function IngredientList(props) {
-  const { selectedIngredients, selectedIngredientIds, removeIngredient, clearAll } =
-    props.ingredientStore;
+  const {
+    selectedIngredients,
+    selectedIngredientIds,
+    removeIngredient,
+    clearAll,
+  } = props.ingredientStore;
 
   return (
     <div className="container bg-primary w-full md:w-60 lg:w-80 min-h-fit">
@@ -24,7 +28,12 @@ function IngredientList(props) {
                       className="checkbox dark:checkbox-accent"
                       checked
                       // value={isExist(ingredient.id)}
-                      onChange={() => removeIngredient([selectedIngredientIds[index], ingredient])}
+                      onChange={() =>
+                        removeIngredient([
+                          selectedIngredientIds[index],
+                          ingredient,
+                        ])
+                      }
                     />
                     <span className="label-text pl-4 text-lg dark:text-accent capitalize">
                       {ingredient}
@@ -37,7 +46,10 @@ function IngredientList(props) {
             <Link
               href={props.text === "Find Recipes" ? "/recipes-results" : "/"}
             >
-              <button className="btn btn-primary text-accent text-lg">
+              <button
+                className="btn btn-primary text-accent text-lg"
+                disabled={selectedIngredients.length == 0}
+              >
                 {props.text}
               </button>
             </Link>
