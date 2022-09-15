@@ -68,14 +68,6 @@ function RecipesResult ( {
               <h2 className="text-xl lg:text-2xl dark:text-accent font-bold my-6 ml-3">
                 { totalRecipeResult } recipes
               </h2>
-              {/* <div className="flex justify-center">
-                <Image
-                  src="/no_recipe.png"
-                  alt="No Recipes Found"
-                  width={ 500 }
-                  height={ 500 }
-                />
-              </div> */}
             </div>
 
             <AllRecipes filter={ recipeFilter } currentPage={ 1 } />

@@ -2,9 +2,8 @@ function Instructions (props)
 {
   const instructionDesc = props.item.instruction.split("\n")
   return (
-    <div className="collapse collapse-arrow rounded-box border-2 border-primary hover:shadow-lg">
-      <input type="checkbox" className="peer" />
-      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent peer-checked:bg-primary peer-checked:text-white dark:peer-checked:text-neutral">
+    <div tabIndex={ 0 } className="collapse collapse-arrow group rounded-box border-2 border-primary hover:shadow-lg">
+      <div className="collapse-title font-bold underline decoration-2 underline-offset-4 dark:text-accent group-focus:bg-primary group-focus:text-white dark:group-focus:text-neutral">
         INSTRUCTIONS
       </div>
 

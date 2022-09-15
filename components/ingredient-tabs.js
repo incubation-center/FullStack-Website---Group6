@@ -121,7 +121,7 @@ function IngredientTabs ( {
     // <div>
     <div className="m-5 sm:m-10 md:grow">
       {/* Search Bar */ }
-      <div className="form-control mb-4">
+      <div className="form-control mb-5">
         <div className="input-group">
           <input
             type="text"
@@ -198,7 +198,7 @@ function IngredientTabs ( {
                             [ ingredient.id, ingredient.name ]
                           ) }
                         />
-                        <Tooltip placement="top" content={
+                        <Tooltip placement="right" content={
                           <Image
                             src="/no_recipe.png"
                             width={ 250 }
@@ -273,10 +273,12 @@ function IngredientTabs ( {
         ) }
 
         {/* Pagination button */ }
-        <div className="btn-group justify-center my-5">
-          <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goPreviousPage() }>«</button>
-          <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } </button>
-          <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goNextPage() }>»</button>
+        <div className="">
+          <div className="btn-group justify-center mt-5">
+            <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goPreviousPage() }>«</button>
+            <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } / </button>
+            <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goNextPage() }>»</button>
+          </div>
         </div>
       </div>
     </div>
