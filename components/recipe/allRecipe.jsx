@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { inject, observer } from "mobx-react";
 import { React, useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component"
 
@@ -6,7 +7,9 @@ import RecipeCard from "../recipe-card";
 import { fetchRecipe } from "../../lib/helpers";
 
 
-const AllRecipes = ({currentPage = 1, filter}) => {
+const AllRecipes = ({recipeResultStore, filter, currentPage = 1}) => {
+  const { setTotalRecipeResult } = recipeResultStore;
+
   const [recipes, setRecipes] = useState([]);
   const [page, setPage] = useState(currentPage);
   const [hasMore, setHasMore] = useState(true);
@@ -34,6 +37,7 @@ const AllRecipes = ({currentPage = 1, filter}) => {
 
       const recipe_result = await fetchRecipe(currentPage, filter);
       await checkNextPage(recipe_result.pagination["totalPage"]);
+      setTotalRecipeResult(recipe_result.pagination["total"])
       setRecipes(recipe_result.data);
     };
 
@@ -48,13 +52,13 @@ const AllRecipes = ({currentPage = 1, filter}) => {
       dataLength={recipes.length}
       next={getRecipeOnScroll}
       hasMore={hasMore}
-      endMessage={
+      /* endMessage={
         <div className="container card items-center text-center">
           <h3 className="card-title text-xl dark:text-accent">
             No more recipe to show
           </h3>
         </div>
-      }
+      } */
     >
       {recipes.map((recipe) => (
         <motion.div
@@ -77,4 +81,6 @@ const AllRecipes = ({currentPage = 1, filter}) => {
 };
 
 
-export default AllRecipes;
+export default inject(
+  "recipeResultStore",
+)( observer( AllRecipes ) );
