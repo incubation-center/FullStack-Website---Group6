@@ -1,9 +1,8 @@
 import { observable, action, computed, makeObservable } from "mobx";
 
 class IngredientStore {
-  @observable allIngredients = [];
-  @observable remainingIngredients = [];
   @observable selectedIngredients = [];
+  @observable selectedIngredientIds = [];
 
   constructor() {
     makeObservable(this);
@@ -18,23 +17,25 @@ class IngredientStore {
   };
 
   @action addIngredient = (ingredient) => {
-    this.selectedIngredients.push(ingredient);
-    this.remainingIngredients = this.remainingIngredients.filter(
-      (r) => r.name.toLowerCase() !== ingredient.name.toLowerCase()
-    );
+    this.selectedIngredientIds.push(ingredient[0]);
+    this.selectedIngredients.push(ingredient[1]);
   };
 
   @action removeIngredient = (ingredient) => {
-    this.setRemainingIngredients([...this.remainingIngredients, ingredient]);
-    this.selectedIngredients = this.selectedIngredients.filter(
-      (r) => r.name.toLowerCase() !== ingredient.name.toLowerCase()
+
+    console.log(ingredient)
+    this.selectedIngredientIds = this.selectedIngredientIds.filter(
+      (r) => r !== ingredient[0]
     );
+    this.selectedIngredients = this.selectedIngredients.filter(
+      (r) => r.toLowerCase() !== ingredient[1].toLowerCase()
+    );
+    
   };
 
   @action clearAll = () => {
-    this.selectedIngredients.map((i) => {
-      this.removeIngredient(i);
-    });
+    this.selectedIngredients = [];
+    this.selectedIngredientIds = [];
   };
 
   @computed get getIngredients() {

@@ -40,7 +40,7 @@ function RecipesResult ( {
       {
         if (
           selectedIngredients.some(
-            ( ingredient ) => ingredient.name === element.name
+            ( ingredient ) => ingredient === element.name
           )
         )
           result.push( recipe );
