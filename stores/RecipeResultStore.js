@@ -1,19 +1,16 @@
 import { observable, action, computed, makeObservable } from "mobx";
 
 class RecipeResultStore {
-  @observable recipeResult = [];
+  @observable totalRecipeResult = 0;
 
   constructor() {
     makeObservable(this);
   }
 
-  @action setRecipeResult = (recipes) => {
-    this.recipeResult = recipes;
+  @action setTotalRecipeResult = (total) => {
+    this.totalRecipeResult = total;
   };
 
-  @computed get recipeResultCount() {
-    return this.recipeResult.length;
-  }
 }
 
 export default new RecipeResultStore();
