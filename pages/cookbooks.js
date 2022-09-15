@@ -38,6 +38,9 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
   useEffect( () =>
   {
     if ( keyword !== "" )
+    /* NOTE: 
+      ask team whether keyword search should be independent like index page
+     */
     {
       // wait 0.5 seconds after user stop typing
       const delayDebounceFn = setTimeout( () =>
