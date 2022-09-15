@@ -19,7 +19,7 @@ function Navbar ()
   };
 
   return (
-    <div className="navbar bg-primary dark:bg-teal-500">
+    <div className="navbar bg-primary dark:bg-teal-500 shadow-lg shadow-primary/25 dark:shadow-teal-500/50">
       <div className="navbar-start">
         <motion.div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost md:hidden">

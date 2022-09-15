@@ -7,9 +7,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
-
 const PER_PAGE = 24;
-
 
 function Home({ dbIngredientCategory }) {
   const [ingreFilter, setIngreFilter] = useState({});
@@ -43,7 +41,6 @@ function Home({ dbIngredientCategory }) {
             <div className="m-5 sm:m-10 md:ml-0 lg:m-10 md:order-last">
               <IngredientList text="Find Recipes" />
             </div>
-
 
             {/* Ingredients */}
             <IngredientTabs
