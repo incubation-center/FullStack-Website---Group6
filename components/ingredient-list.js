@@ -3,7 +3,7 @@ import { inject, observer } from "mobx-react";
 import { motion } from "framer-motion";
 
 function IngredientList(props) {
-  const { selectedIngredients, removeIngredient, clearAll } =
+  const { selectedIngredients, selectedIngredientIds, removeIngredient, clearAll } =
     props.ingredientStore;
 
   return (
@@ -24,10 +24,10 @@ function IngredientList(props) {
                       className="checkbox dark:checkbox-accent"
                       checked
                       // value={isExist(ingredient.id)}
-                      onChange={() => removeIngredient(ingredient)}
+                      onChange={() => removeIngredient([selectedIngredientIds[index], ingredient])}
                     />
                     <span className="label-text pl-4 text-lg dark:text-accent capitalize">
-                      {ingredient.name}
+                      {ingredient}
                     </span>
                   </label>
                 );
