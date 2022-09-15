@@ -1,15 +1,15 @@
-import Head from "next/head";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import ScrollTop from "../components/scroll-top";
-import IngredientList from "../components/ingredient-list.js";
 import { motion } from "framer-motion";
 import { inject, observer } from "mobx-react";
+import Head from "next/head";
 import { useEffect, useState } from "react";
 
-import AllRecipes from "../components/recipe/allRecipe";
-import { makeRelatedFilterMany } from "../lib/helpers";
+import Footer from "../components/footer";
 import CookbookIcon from "../components/icons/cookbooks-icon";
+import IngredientList from "../components/ingredient-list.js";
+import Navbar from "../components/navbar";
+import AllRecipes from "../components/recipe/allRecipe";
+import ScrollTop from "../components/scroll-top";
+import { makeRelatedFilterMany } from "../lib/helpers";
 
 
 function RecipesResult ( {
