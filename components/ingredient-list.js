@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { inject, observer } from "mobx-react";
-import { motion } from "framer-motion";
 
 function IngredientList(props) {
   const { selectedIngredients, selectedIngredientIds, removeIngredient, clearAll } =
@@ -38,7 +37,7 @@ function IngredientList(props) {
           Clear all
         </button>
 
-        <Link href={props.text === "Find Recipes" ? "/recipes-results" : "/"}>
+        <Link href={props.text === "Find Recipes" ? "/recipe-results" : "/"}>
           <button className="btn btn-primary text-accent text-lg">
             {props.text}
           </button>
