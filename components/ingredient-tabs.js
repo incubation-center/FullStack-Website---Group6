@@ -276,7 +276,7 @@ function IngredientTabs ( {
         <div className="">
           <div className="btn-group justify-center mt-5">
             <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goPreviousPage() }>«</button>
-            <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } / </button>
+            <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } / { pagination["totalPage"] } </button>
             <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goNextPage() }>»</button>
           </div>
         </div>

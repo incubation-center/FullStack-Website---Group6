@@ -30,7 +30,7 @@ function RecipesResult ( {
     setRecipeFilter( makeRelatedFilterMany( 'ingredients', selectedIngredientIds ) );
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [totalRecipeResult] );
+  }, [totalRecipeResult, selectedIngredientIds] );
 
   return (
     <>
