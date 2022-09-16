@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
-const PER_PAGE = 24;
+const PER_PAGE = 28;
 
 function Home ( { dbIngredientCategory }, props )
 {
@@ -48,7 +48,7 @@ function Home ( { dbIngredientCategory }, props )
           </div>
 
           {/* Ingredient List */}
-          <div className="flex justify-end px-5 pb-5 dark:bg-neutral">
+          <div className="fixed bottom-7 lg:bottom-24 right-5 sm:right-10">
             <IngredientList text="Find Recipes" />
           </div>
 

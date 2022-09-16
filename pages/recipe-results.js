@@ -17,7 +17,7 @@ function RecipesResult ( {
 {
   const { totalRecipeResult } = recipeResultStore;
   const { selectedIngredientIds } = ingredientStore;
-  
+
   const [ recipeFilter, setRecipeFilter ] = useState( {} );
 
   useEffect( () =>
@@ -28,7 +28,7 @@ function RecipesResult ( {
     setRecipeFilter( makeRelatedFilterMany( 'ingredients', selectedIngredientIds ) );
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [totalRecipeResult, selectedIngredientIds] );
+  }, [ totalRecipeResult, selectedIngredientIds ] );
 
   return (
     <>
@@ -42,32 +42,30 @@ function RecipesResult ( {
         <Navbar />
 
         <main className="flex-1 flex-col dark:bg-neutral">
-          <div className="flex justify-between px-5 pt-5">
-            <div className="flex flex-row">
-              <motion.div
-                initial={ { scale: 0 } }
-                animate={ { scale: 1 } }
-                transition={ { type: "spring", stiffness: 260, damping: 30 } }
-                whileHover={ { scaleX: 1.2 } }
-                whileTap={ { rotateY: 90 } }
-              >
-                <CookbookIcon />
-              </motion.div>
-              <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-5">
-                Result:
-              </h1>
-              <h2 className="text-xl lg:text-2xl dark:text-accent font-bold my-6 ml-3">
-                { totalRecipeResult } recipes
-              </h2>
-            </div>
-
-            {/* Ingredient List */}
-            <div className="flex justify-end px-5 pt-5 dark:bg-neutral">
-              <IngredientList text="Select Ingredients" />
-            </div>
+          <div className="flex flex-row px-5 pt-5">
+            <motion.div
+              initial={ { scale: 0 } }
+              animate={ { scale: 1 } }
+              transition={ { type: "spring", stiffness: 260, damping: 30 } }
+              whileHover={ { scaleX: 1.2 } }
+              whileTap={ { rotateY: 90 } }
+            >
+              <CookbookIcon />
+            </motion.div>
+            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold pt-5">
+              Result:
+            </h1>
+            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold pt-6 pl-3">
+              { totalRecipeResult } recipes
+            </h2>
           </div>
 
           <AllRecipes filter={ recipeFilter } currentPage={ 1 } />
+
+          {/* Ingredient List */ }
+          <div className="fixed bottom-10 left-5 sm:left-10">
+            <IngredientList text="Select Ingredients" />
+          </div>
         </main>
 
         <ScrollTop />

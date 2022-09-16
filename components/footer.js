@@ -17,7 +17,7 @@ function Footer() {
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end justify-self-center">
         <a
-          className="text-base font-normal hover:text-neutral m-3"
+          className="text-base font-normal hover:text-neutral p-3"
           href="/privacypolicy"
           onClick={() =>
             setTimeout(() => {
