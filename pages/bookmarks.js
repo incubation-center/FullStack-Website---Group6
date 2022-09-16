@@ -21,8 +21,8 @@ function Bookmarks ( { bookmarkStore } )
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex flex-col flex-1 dark:bg-neutral">
-          <div className="flex flex-row mx-5 mt-5">
+        <main className="flex-1 flex-col dark:bg-neutral">
+          <div className="flex flex-row px-5 pt-5">
             <motion.div
               initial={ { scale: 0 } }
               animate={ { rotate: 360, scale: 1 } }
@@ -59,7 +59,7 @@ function Bookmarks ( { bookmarkStore } )
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 mb-5">
 
             { bookmarks.map( ( _recipe, index ) =>
             {

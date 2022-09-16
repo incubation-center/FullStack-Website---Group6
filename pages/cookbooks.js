@@ -72,7 +72,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex flex-col flex-1 dark:bg-neutral">
+        <main className="flex-1 flex-col dark:bg-neutral">
           <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 mx-6 md:m-5">
             {/* Search Bar */ }
             <div className="form-control flex-1 items-end order-first md:order-last mt-5 md:mt-0">
