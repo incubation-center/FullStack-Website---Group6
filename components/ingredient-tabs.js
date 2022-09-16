@@ -118,7 +118,6 @@ function IngredientTabs ( {
   }, [ ingredFilter, currentPage, dbIngredientCategory ] );
 
   return (
-    // <div>
     <div className="m-5 sm:m-10 md:grow">
       {/* Search Bar */ }
       <div className="form-control mb-5">
@@ -159,7 +158,7 @@ function IngredientTabs ( {
                 return (
                   <li
                     key={ category.id }
-                    className={ `flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold text-xs lg:text-lg ${ activeTab === category.id
+                    className={ `flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold md:text-lg ${ activeTab === category.id
                       ? "relative bg-accent dark:bg-neutral dark:text-accent border-t border-l border-r border-base-200"
                       : "text-neutral/50 dark:text-accent/50"
                       }` }
@@ -179,7 +178,7 @@ function IngredientTabs ( {
             <div
               className={ `grid gap-2 form-control border border-t-0 p-4 px-12 
                 ${ allIngredients.length > 0
-                  ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+                  ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
                   : "items-center grid-cols-1"
                 }` }
             >
@@ -198,7 +197,7 @@ function IngredientTabs ( {
                             [ ingredient.id, ingredient.name ]
                           ) }
                         />
-                        <Tooltip placement="right" content={
+                        {/* <Tooltip placement="right" content={
                           <Image
                             src="/no_recipe.png"
                             width={ 250 }
@@ -206,11 +205,11 @@ function IngredientTabs ( {
                             alt="Ingredient Image"
                             objectFit="cover"
                           />
-                        }>
-                          <span className="label-text capitalize text-lg md:text-sm xl:text-lg dark:text-accent ml-5">
+                        }> */}
+                          <span className="label-text capitalize text-lg dark:text-accent ml-5">
                             { ingredient.name }
                           </span>
-                        </Tooltip>
+                        {/* </Tooltip> */}
                       </label>
                     </div>
                   );
@@ -273,12 +272,10 @@ function IngredientTabs ( {
         ) }
 
         {/* Pagination button */ }
-        <div className="">
-          <div className="btn-group justify-center mt-5">
-            <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goPreviousPage() }>«</button>
-            <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } / { pagination["totalPage"] } </button>
-            <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goNextPage() }>»</button>
-          </div>
+        <div className="btn-group justify-center mt-7">
+          <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goPreviousPage() }>«</button>
+          <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } / { pagination[ "totalPage" ] } </button>
+          <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goNextPage() }>»</button>
         </div>
       </div>
     </div>
