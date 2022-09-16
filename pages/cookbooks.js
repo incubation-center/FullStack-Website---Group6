@@ -158,7 +158,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
           {/* Range Slider Filter */}
           <div className="flex flex-col justify-start space-y-3 sm:space-y-10 m-6 sm:m-8">
             <div className="flex space-x-5 md:w-2/3 xl:w-1/3">
-              <h2 className="text-lg font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
+              <h2 className="text-lg font-bold dark:text-accent pt-3.5 sm:p-0">Calories</h2>
               <SliderFilter
                 item={ calories }
                 maxValue={ maxCalories }
@@ -167,7 +167,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
               />
             </div>
             <div className="flex space-x-5 md:w-2/3 xl:w-1/3">
-              <h2 className="text-lg font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
+              <h2 className="text-lg font-bold dark:text-accent pt-3.5 sm:p-0">Duration</h2>
               <SliderFilter
                 item={ duration }
                 maxValue={ maxDuration }

@@ -51,10 +51,10 @@ function Bookmarks ( { bookmarkStore } )
                 />
               </svg>
             </motion.div>
-            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-2">
+            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold py-2">
               Total:
             </h1>
-            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold m-3">
+            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold p-3">
               { bookmarkCount } bookmarked
             </h2>
           </div>

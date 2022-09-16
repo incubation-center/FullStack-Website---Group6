@@ -118,7 +118,7 @@ function IngredientTabs ( {
   }, [ ingredFilter, currentPage, dbIngredientCategory ] );
 
   return (
-    <div className="m-5 sm:m-10 md:grow">
+    <div className="p-5 sm:p-10 md:grow">
       {/* Search Bar */}
       <div className="form-control mb-5">
         <div className="input-group">
