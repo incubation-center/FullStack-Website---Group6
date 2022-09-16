@@ -47,7 +47,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               defaultChecked={isBookmarked(recipe.id)}
             />
 
-            {/* Bookmark Add  */}
+            {/* Bookmark Add */}
             <svg
               className="color: rgb(255, 200, 0); swap-off fill-current w-7 h-7"
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
 
-            {/* Bookmark Check  */}
+            {/* Bookmark Check */}
             <svg
               className="color: rgb(255, 200, 0); swap-on fill-current w-7 h-7"
               xmlns="http://www.w3.org/2000/svg"

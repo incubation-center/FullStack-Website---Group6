@@ -119,7 +119,7 @@ function IngredientTabs ( {
 
   return (
     <div className="m-5 sm:m-10 md:grow">
-      {/* Search Bar */ }
+      {/* Search Bar */}
       <div className="form-control mb-5">
         <div className="input-group">
           <input
@@ -148,7 +148,7 @@ function IngredientTabs ( {
         </div>
       </div>
       <div className="h-full flex flex-col overflow-x-auto">
-        {/* Tab nav */ }
+        {/* Tab nav */}
         { keyword === "" ? (
           // The user is not searching
           <Fragment>
@@ -158,7 +158,7 @@ function IngredientTabs ( {
                 return (
                   <li
                     key={ category.id }
-                    className={ `flex-1 block p-4 rounded-t-lg capitalize cursor-pointer font-bold md:text-lg ${ activeTab === category.id
+                    className={ `flex-1 flex-wrap block p-4 rounded-t-lg capitalize cursor-pointer font-bold md:text-lg ${ activeTab === category.id
                       ? "relative bg-accent dark:bg-neutral dark:text-accent border-t border-l border-r border-base-200"
                       : "text-neutral/50 dark:text-accent/50"
                       }` }
@@ -174,7 +174,7 @@ function IngredientTabs ( {
               }
             </ul>
 
-            {/* <TabContent /> */ }
+            {/* <TabContent /> */}
             <div
               className={ `grid gap-2 form-control border border-t-0 p-4 px-12 
                 ${ allIngredients.length > 0
@@ -271,7 +271,7 @@ function IngredientTabs ( {
           // <IngredientTab />
         ) }
 
-        {/* Pagination button */ }
+        {/* Pagination button */}
         <div className="btn-group justify-center mt-7">
           <button className="btn btn-primary text-accent lg:text-base" onClick={ () => goPreviousPage() }>«</button>
           <button className="btn btn-primary text-accent lg:text-base sm:w-36 lg:w-56">Page { currentPage } / { pagination[ "totalPage" ] } </button>
