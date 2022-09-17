@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { authentication } from "../firebase.config";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const variants = {
   fadeIn: {
@@ -11,37 +13,47 @@ const variants = {
     opacity: 0,
     transition: {
       duration: 1,
-      ease: "easeInOut"
-    }
+      ease: "easeInOut",
+    },
   },
   inActive: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 1,
-      ease: "easeInOut"
-    }
+      ease: "easeInOut",
+    },
   },
   fadeOut: {
     opacity: 0,
     y: 20,
     transition: {
       duration: 1,
-      ease: "easeInOut"
-    }
-  }
+      ease: "easeInOut",
+    },
+  },
 };
 
-function Login ()
-{
+function Login() {
   const router = useRouter();
   const shouldReduceMotion = useReducedMotion();
-  const [ showPassword, setShowPassword ] = useState( false );
+  const [showPassword, setShowPassword] = useState(false);
 
-  const onSubmit = ( e ) =>
-  {
+  const onSubmit = (e) => {
     e.preventDefault();
-    router.push( "/" );
+    router.push("/");
+  };
+
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((res) => {
+        console.log(res);
+        router.push("/");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
@@ -51,16 +63,15 @@ function Login ()
         <meta name="description" content="Login" />
         <link rel="icon" href="/login.ico?" />
       </Head>
-      
+
       <AnimatePresence mode="wait">
         <motion.section
           className="relative flex flex-wrap items-center h-screen"
-          variants={ variants }
+          variants={variants}
           initial="fadeIn"
           animate="inActive"
           exit="fadeOut"
         >
-
           <div className="relative lg:w-1/2 lg:h-full">
             <Image
               className="absolute inset-0 object-cover w-full h-full"
@@ -76,16 +87,19 @@ function Login ()
                 className="absolute inset-0 object-cover w-full h-full"
                 src="https://source.unsplash.com/random/?food"
                 layout="fill"
-                alt="Random Food Images"     
+                alt="Random Food Images"
               />
             </div>
 
             <form className="relative bg-accent/70 rounded-lg p-5 space-y-5">
               <div className="max-w-lg mx-auto text-center text-neutral/80 mb-10">
-                <h1 className="text-2xl font-bold sm:text-3xl">Welcome back!</h1>
+                <h1 className="text-2xl font-bold sm:text-3xl">
+                  Welcome back!
+                </h1>
 
                 <p className="mt-5">
-                  In order to see the recipes that you saved, log in to your account.
+                  In order to see the recipes that you saved, log in to your
+                  account.
                 </p>
               </div>
 
@@ -126,14 +140,14 @@ function Login ()
                 </label>
                 <div className="relative">
                   <input
-                    type={ showPassword ? "text" : "password" }
+                    type={showPassword ? "text" : "password"}
                     className="w-full p-4 pr-12 text-sm border-base-200 focus:border-primary rounded-lg shadow-sm"
                     placeholder="Enter your Password"
                   />
 
                   <span
                     className="absolute inset-y-0 inline-flex items-center right-4 cursor-pointer"
-                    onClick={ () => setShowPassword( !showPassword ) }
+                    onClick={() => setShowPassword(!showPassword)}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -159,25 +173,41 @@ function Login ()
                 </div>
               </div>
 
-              <motion.div className="flex items-center justify-between max-w-md mx-auto" key="/register">
+              <motion.div
+                className="flex items-center justify-between max-w-md mx-auto"
+                key="/register"
+              >
                 <p className="text-sm text-neutral/80">
                   Don&apos;t have an account?
                   <Link href="/register">
-                    <a className="font-bold hover:text-primary underline mx-1">Register</a>
+                    <a className="font-bold hover:text-primary underline mx-1">
+                      Register
+                    </a>
                   </Link>
                 </p>
 
                 <motion.button
                   // type="submit"
-                  onClick={ onSubmit }
+                  onClick={onSubmit}
                   className="inline-block px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg"
-                  whileHover={ { scale: 1.1 } }
-                  whileTap={ { scale: 0.9 } }
-                  transition={ { type: "spring", stiffness: 400, damping: 17 } }
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 >
                   Login
                 </motion.button>
               </motion.div>
+
+              <motion.button
+                type="button"
+                onClick={signInWithGoogle}
+                className="inline-block px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              >
+                Sign In with Google
+              </motion.button>
             </form>
           </div>
         </motion.section>
