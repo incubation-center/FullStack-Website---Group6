@@ -158,7 +158,7 @@ function IngredientTabs ( {
                 return (
                   <li
                     key={ category.id }
-                    className={ `flex-1 flex-wrap block p-4 rounded-t-lg capitalize cursor-pointer font-bold md:text-lg ${ activeTab === category.id
+                    className={ `flex-1 flex-wrap block rounded-t-lg capitalize font-bold sm:text-lg p-3 cursor-pointer ${ activeTab === category.id
                       ? "relative bg-accent dark:bg-neutral dark:text-accent border-b-2 border-b-primary md:border-b-0 md:border-t md:border-l md:border-r border-base-200"
                       : "text-neutral/50 dark:text-accent/50"
                       }` }
@@ -176,9 +176,9 @@ function IngredientTabs ( {
 
             {/* <TabContent /> */ }
             <div
-              className={ `grid gap-2 form-control md:border md:border-t-0 p-2 md:p-5 md:px-12 
+              className={ `grid gap-2 form-control lg:border lg:border-t-0 p-2 md:p-5 lg:p-10 lg:px-20
                 ${ allIngredients.length > 0
-                  ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+                ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
                   : "items-center grid-cols-1"
                 }` }
             >
@@ -187,11 +187,11 @@ function IngredientTabs ( {
                 {
                   return (
                     <div key={ index } className="flex items-start">
-                      <label className="label card flex-auto md:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] md:shadow-none dark:shadow-accent/25 my-2 md:my-0 p-4 md:p-0 md:py-5 cursor-pointer">
+                      <label className="label card flex-1 lg:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] lg:shadow-none dark:shadow-accent/25 md:mx-10 lg:mx-0 my-2 md:my-1 p-4 cursor-pointer">
                         <input
                           type="checkbox"
                           checked={ selectedIngredientIds.includes( ingredient.id ) }
-                          className="checkbox order-last md:order-none dark:checkbox-accent"
+                          className="checkbox order-last lg:order-none dark:checkbox-accent"
                           onChange={ ( e ) => chooseIngredient(
                             e.target.checked,
                             [ ingredient.id, ingredient.name ]
@@ -206,7 +206,7 @@ function IngredientTabs ( {
                             objectFit="cover"
                           />
                         }> */}
-                        <span className="label-text capitalize text-lg dark:text-accent ml-0 md:ml-5">
+                        <span className="label-text flex items-start capitalize text-base sm:text-lg dark:text-accent ml-0 md:ml-5">
                           { ingredient.name }
                         </span>
                         {/* </Tooltip> */ }
@@ -229,8 +229,8 @@ function IngredientTabs ( {
         ) : (
           // Searched ingredients filtered by keyword
           <div
-            className={ `grid gap-21 form-control border rounded-t-lg p-4 px-12 ${ allIngredients.length > 0
-              ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+              className={ `grid gap-2 form-control lg:border border-t-0 p-2 md:p-5 lg:p-10 lg:px-20 ${ allIngredients.length > 0
+              ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
               : "items-center grid-cols-1"
               } ` }
           >
@@ -239,17 +239,17 @@ function IngredientTabs ( {
               {
                 return (
                   <div key={ index } className="flex items-start">
-                    <label className="label cursor-pointer py-4">
+                    <label className="label card flex-auto lg:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] lg:shadow-none dark:shadow-accent/25 md:mx-10 lg:mx-0 my-2 md:my-1 p-4 cursor-pointer">
                       <input
                         type="checkbox"
                         checked={ selectedIngredientIds.includes( ingredient.id ) }
-                        className="checkbox dark:checkbox-accent"
+                        className="checkbox order-last lg:order-none dark:checkbox-accent"
                         onChange={ ( e ) => chooseIngredient(
                           e.target.checked,
                           [ ingredient.id, ingredient.name ]
                         ) }
                       />
-                      <span className="label-text capitalize text-lg dark:text-accent ml-5">
+                      <span className="label-text capitalize text-base sm:text-lg dark:text-accent ml-0 md:ml-5">
                         { ingredient.name }
                       </span>
                     </label>
