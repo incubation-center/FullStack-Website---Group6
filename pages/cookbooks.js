@@ -72,9 +72,9 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex flex-col flex-1 dark:bg-neutral">
+        <main className="flex-1 flex-col dark:bg-neutral">
           <div className="flex flex-col md:flex-row justify-end items-center space-y-5 md:space-y-0 mx-6 md:m-5">
-            {/* Search Bar */ }
+            {/* Search Bar */}
             <div className="form-control flex-1 items-end order-first md:order-last mt-5 md:mt-0">
               <div className="input-group w-screen max-w-xs sm:max-w-xl md:w-fit lg:max-w-xs">
                 <input
@@ -102,7 +102,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
                 </button>
               </div>
             </div>
-            {/* Select Filter */ }
+            {/* Select Filter */}
             <select
               className="select shrink dark:text-accent dark:bg-neutral w-full md:w-64 xl:w-72 max-w-2xl shadow-md dark:shadow-accent/25 mx-5"
               defaultValue={ "none" }
@@ -155,10 +155,10 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
             </select>
           </div>
 
-          {/* Range Slider Filter */ }
+          {/* Range Slider Filter */}
           <div className="flex flex-col justify-start space-y-3 sm:space-y-10 m-6 sm:m-8">
             <div className="flex space-x-5 md:w-2/3 xl:w-1/3">
-              <h2 className="text-lg font-bold dark:text-accent mt-3.5 sm:m-0">Calories</h2>
+              <h2 className="text-lg font-bold dark:text-accent pt-3.5 sm:p-0">Calories</h2>
               <SliderFilter
                 item={ calories }
                 maxValue={ maxCalories }
@@ -167,7 +167,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
               />
             </div>
             <div className="flex space-x-5 md:w-2/3 xl:w-1/3">
-              <h2 className="text-lg font-bold dark:text-accent mt-3.5 sm:m-0">Duration</h2>
+              <h2 className="text-lg font-bold dark:text-accent pt-3.5 sm:p-0">Duration</h2>
               <SliderFilter
                 item={ duration }
                 maxValue={ maxDuration }

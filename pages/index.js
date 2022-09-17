@@ -7,14 +7,13 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
+const PER_PAGE = 28;
 
-const PER_PAGE = 24;
+function Home ( { dbIngredientCategory }, props )
+{
+  const [ ingreFilter, setIngreFilter ] = useState( {} );
 
-
-function Home({ dbIngredientCategory }) {
-  const [ingreFilter, setIngreFilter] = useState({});
-
-  useEffect(() => {}, []);
+  useEffect( () => { }, [] );
 
   return (
     <>
@@ -27,30 +26,30 @@ function Home({ dbIngredientCategory }) {
       <AnimatePresence mode="wait">
         <motion.div
           className="flex flex-col justify-around min-h-screen"
-          initial={{ opacity: 0 }}
-          animate={{
+          initial={ { opacity: 0 } }
+          animate={ {
             opacity: 1,
             transition: {
               duration: 1,
               ease: "easeInOut",
             },
-          }}
-          exit={{ opacity: 0 }}
+          } }
+          exit={ { opacity: 0 } }
         >
           <Navbar />
 
-          <div className="flex-1 md:flex h-full justify-around dark:bg-neutral">
-            <div className="m-5 sm:m-10 md:ml-0 lg:m-10 md:order-last">
-              <IngredientList text="Find Recipes" />
-            </div>
-
-
-            {/* Ingredients */}
+          {/* Ingredient Tabs */}
+          <div className="flex-1 h-full justify-around dark:bg-neutral">
             <IngredientTabs
-              dbIngredientCategory={dbIngredientCategory}
-              filter={ingreFilter}
-              perPage={PER_PAGE}
+              dbIngredientCategory={ dbIngredientCategory }
+              filter={ ingreFilter }
+              perPage={ PER_PAGE }
             />
+          </div>
+
+          {/* Ingredient List */}
+          <div className="fixed bottom-7 lg:bottom-24 right-5 sm:right-10">
+            <IngredientList text="Find Recipes" />
           </div>
 
           <Footer />
@@ -62,19 +61,20 @@ function Home({ dbIngredientCategory }) {
 
 export default Home;
 
-export const getServerSideProps = async () => {
-  const dbIngredientCategory = await prisma.ingredientCategory.findMany({
+export const getServerSideProps = async () =>
+{
+  const dbIngredientCategory = await prisma.ingredientCategory.findMany( {
     select: {
-      name: true, 
+      name: true,
       id: true,
     }
-  });
+  } );
 
   return {
     props: {
       dbIngredientCategory: JSON.parse(
-        JSON.stringify(dbIngredientCategory)
-      ).sort((_, b) => (b["name"] == "Others" ? -1 : 0)),
+        JSON.stringify( dbIngredientCategory )
+      ).sort( ( _, b ) => ( b[ "name" ] == "Others" ? -1 : 0 ) ),
     },
   };
 };

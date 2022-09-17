@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ScrollTop from "../components/scroll-top";
@@ -7,7 +6,8 @@ import BookmarkCard from "../components/bookmark-card";
 import { inject, observer } from "mobx-react";
 import { motion } from "framer-motion";
 
-function Bookmarks({ bookmarkStore }) {
+function Bookmarks ( { bookmarkStore } )
+{
   const { bookmarks, bookmarkCount } = bookmarkStore;
 
   return (
@@ -21,14 +21,14 @@ function Bookmarks({ bookmarkStore }) {
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
-        <main className="flex flex-col flex-1 dark:bg-neutral">
-          <div className="flex flex-row mx-5 mt-5">
+        <main className="flex-1 flex-col dark:bg-neutral">
+          <div className="flex flex-row px-5 pt-5">
             <motion.div
-              initial={{ scale: 0 }}
-              animate={{ rotate: 360, scale: 1 }}
-              transition={{ type: "spring", stiffness: 260, damping: 30 }}
-              whileHover={{ rotateY: 360 }}
-              whileTap={{ scale: 1.2 }}
+              initial={ { scale: 0 } }
+              animate={ { rotate: 360, scale: 1 } }
+              transition={ { type: "spring", stiffness: 260, damping: 30 } }
+              whileHover={ { rotateY: 360 } }
+              whileTap={ { scale: 1.2 } }
             >
               <svg
                 className="bi bi-journal-bookmark-fill color: rgb(255, 210, 51); h-11 w-12"
@@ -51,37 +51,35 @@ function Bookmarks({ bookmarkStore }) {
                 />
               </svg>
             </motion.div>
-            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold my-2">
+            <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold py-2">
               Total:
             </h1>
-            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold m-3">
-              {bookmarkCount} bookmarked
+            <h2 className="text-xl lg:text-2xl dark:text-accent font-bold p-3">
+              { bookmarkCount } bookmarked
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-5">
-            
-            {bookmarks.map((_recipe, index) => {
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 mb-5">
+
+            { bookmarks.map( ( _recipe, index ) =>
+            {
               return (
                 <motion.div
-                  key={index}
+                  key={ index }
                   className="flex justify-center"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3 }}
-                  variants={{
+                  viewport={ { once: true } }
+                  transition={ { duration: 0.3 } }
+                  variants={ {
                     hidden: { opacity: 0, scale: 0 },
                     visible: { opacity: 1, scale: 1 },
-                  }}
+                  } }
                 >
-                  <BookmarkCard bookmarked={_recipe} />
+                  <BookmarkCard bookmarked={ _recipe } />
                 </motion.div>
               );
-            } ) }  
-            {/* <div className="flex justify-center">
-              <Image src="/no_bookmark.png" width={ 500 } height={ 500 } alt="No Bookmark Yet" />
-            </div> */}
+            } ) }
           </div>
         </main>
 
@@ -93,4 +91,4 @@ function Bookmarks({ bookmarkStore }) {
   );
 }
 
-export default inject("bookmarkStore")(observer(Bookmarks));
+export default inject( "bookmarkStore" )( observer( Bookmarks ) );

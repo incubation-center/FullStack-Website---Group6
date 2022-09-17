@@ -19,7 +19,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
   }
 
   return (
-    <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] dark:hover:shadow-accent/50 m-5 dark:bg-accent/5">
+    <div className="card w-fit h-fit card-side shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.5)] dark:hover:shadow-accent/50 dark:bg-accent/5 m-5">
       <figure
         className="cursor-pointer"
         onClick={() => router.push({
@@ -47,7 +47,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               defaultChecked={isBookmarked(recipe.id)}
             />
 
-            {/* Bookmark Add  */}
+            {/* Bookmark Add */}
             <svg
               className="color: rgb(255, 200, 0); swap-off fill-current w-7 h-7"
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
               />
             </svg>
 
-            {/* Bookmark Check  */}
+            {/* Bookmark Check */}
             <svg
               className="color: rgb(255, 200, 0); swap-on fill-current w-7 h-7"
               xmlns="http://www.w3.org/2000/svg"

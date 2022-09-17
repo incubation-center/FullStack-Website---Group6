@@ -102,7 +102,7 @@ These are the additional commands related to the services inside the docker cont
     2. Run the container and import the dump file
 
         ```bash
-        docker exec -it postgres psql ingredeck postgres
+        docker exec -it postgres psql ingredeck /bin/bash
 
         root@postgres:/# psql -U postgres ingredeck < /var/lib/postgresql/data/exported_file.pgsql
         ```

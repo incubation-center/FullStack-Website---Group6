@@ -16,11 +16,11 @@ function RecipeNutrients ( props )
 
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 2xl:grid-cols-8 gap-5 lg:gap-10 xl:gap-20">
-      {/* Cook Time */ }
+      {/* Cook Time */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
-        {/* Avatar */ }
+        {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-secondary hover:ring-4">
             <div className="flex flex-col items-center space-y-3">
@@ -32,17 +32,17 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-secondary swap-on" style={ { "--value": ( cookTime / ( nutrientsMaxValue.durationSecond / 60 ) ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { cookTime } mins
         </div>
       </label>
 
-      {/* Calories */ }
+      {/* Calories */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
-        {/* Avatar */ }
+        {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-error hover:ring-4">
             <div className="flex flex-col items-center space-y-2">
@@ -53,17 +53,17 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-error swap-on" style={ { "--value": ( nutrients.calories / nutrientsMaxValue.calories ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.calories }
         </div>
       </label>
 
-      {/* Protein */ }
+      {/* Protein */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
-        {/* Avatar */ }
+        {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-info hover:ring-4">
             <div className="flex flex-col items-center">
@@ -74,15 +74,15 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-info swap-on" style={ { "--value": ( nutrients.protein / nutrientsMaxValue.protein ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.protein }
         </div>
       </label>
 
-      {/* Carb */ }
+      {/* Carb */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */ }
         <div className="avatar placeholder swap-off">
@@ -96,17 +96,17 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-orange-400 swap-on" style={ { "--value": ( nutrients.carb / nutrientsMaxValue.carb ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.carb }
         </div>
       </label>
 
-      {/* Fiber */ }
+      {/* Fiber */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
-        {/* Avatar */ }
+        {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-success hover:ring-4">
             <div className="flex flex-col items-center space-y-3">
@@ -118,17 +118,17 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-success swap-on" style={ { "--value": ( nutrients.fiber / nutrientsMaxValue.fiber ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.fiber }
         </div>
       </label>
 
-      {/* Fat */ }
+      {/* Fat */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
-        {/* Avatar */ }
+        {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-yellow-400 hover:ring-4">
             <div className="flex flex-col items-center space-y-2">
@@ -140,17 +140,17 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-yellow-400 swap-on" style={ { "--value": ( nutrients.fat / nutrientsMaxValue.fat ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.fat }
         </div>
       </label>
 
-      {/* Sugar */ }
+      {/* Sugar */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
-        {/* Avatar */ }
+        {/* Avatar */}
         <div className="avatar placeholder swap-off">
           <div className="w-32 rounded-full ring-2 ring-neutral/50 dark:ring-accent/50 hover:ring-4">
             <div className="flex flex-col items-center space-y-2">
@@ -161,15 +161,15 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-neutral/50 dark:text-accent/50 swap-on" style={ { "--value": ( nutrients.sugar / nutrientsMaxValue.sugar ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.sugar }
         </div>
       </label>
 
-      {/* Cholesterol */ }
+      {/* Cholesterol */}
       <label className="swap swap-flip text-9xl">
-        {/* This hidden checkbox controls the state */ }
+        {/* This hidden checkbox controls the state */}
         <input type="checkbox" style={ { opacity: 0 } } />
         {/* Avatar */ }
         <div className="avatar placeholder swap-off">
@@ -183,7 +183,7 @@ function RecipeNutrients ( props )
             </div>
           </div>
         </div>
-        {/* Radial Progress */ }
+        {/* Radial Progress */}
         <div className="radial-progress text-xl font-bold text-warning swap-on" style={ { "--value": ( nutrients.cholesterol / nutrientsMaxValue.cholesterol ) * 100, "--size": "8rem", "--thickness": "4px" } }>
           { nutrients.cholesterol }
         </div>
