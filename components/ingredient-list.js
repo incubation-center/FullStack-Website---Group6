@@ -43,12 +43,12 @@ function IngredientList(props) {
           </h2>
 
           <div
-            className={`form-control flex flex-row flex-wrap my-5 ${
+            className={`form-control flex flex-row flex-wrap my-10 ${
               selectedIngredients.length == 0 ? "justify-center" : ""
             }`}
           >
             {selectedIngredients.length == 0 ? (
-              <div className="text-center">No ingredient selected yet</div>
+              <div className="text-center dark:text-accent">No ingredient selected yet</div>
             ) : (
               selectedIngredients.map((ingredient, index) => {
                 return (
@@ -89,7 +89,7 @@ function IngredientList(props) {
               href={props.text === "Find Recipes" ? "/recipe-results" : "/"}
             >
               <button
-                className="btn btn-primary text-accent text-lg"
+                className="btn btn-primary text-accent text-lg dark:disabled:glass"
                 disabled={selectedIngredients.length == 0}
               >
                 {props.text}
