@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { prisma } from "../lib/prisma";
 
-const PER_PAGE = 28;
+const PER_PAGE = 24;
 
 function Home ( { dbIngredientCategory }, props )
 {
