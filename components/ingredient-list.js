@@ -42,8 +42,14 @@ function IngredientList(props) {
             Ingredients
           </h2>
 
-          <div className="form-control flex flex-row flex-wrap my-5">
-            {selectedIngredients &&
+          <div
+            className={`form-control flex flex-row flex-wrap my-5 ${
+              selectedIngredients.length == 0 ? "justify-center" : ""
+            }`}
+          >
+            {selectedIngredients.length == 0 ? (
+              <div className="text-center">No ingredient selected yet</div>
+            ) : (
               selectedIngredients.map((ingredient, index) => {
                 return (
                   <label
@@ -67,7 +73,8 @@ function IngredientList(props) {
                     </span>
                   </label>
                 );
-              })}
+              })
+            )}
           </div>
 
           <div className="flex justify-between">
@@ -81,7 +88,10 @@ function IngredientList(props) {
             <Link
               href={props.text === "Find Recipes" ? "/recipe-results" : "/"}
             >
-              <button className="btn btn-primary text-accent text-lg">
+              <button
+                className="btn btn-primary text-accent text-lg"
+                disabled={selectedIngredients.length == 0}
+              >
                 {props.text}
               </button>
             </Link>
