@@ -221,7 +221,7 @@ function find_duplicates() {
   ); */
 }
 
-find_duplicates()
+// find_duplicates()
 
 
 function combine_recipes() {
@@ -294,13 +294,13 @@ function sanitizeIngredientSingularity() {
   let singularity = JSON.parse(content);
 
   // use the already sanitized files
-  const filename_all_ingredients = 'all_recipes/all_good/all_ingredients.json';
+  const filename_all_ingredients = 'all_recipes/raw/ingredients_count_name.json';
   let ingred_content_to_write = fs.readFileSync(
     path.resolve(DIR_PATH, filename_all_ingredients), 
     {encoding: "utf8"}
   );
 
-  const filename_all_recipes = 'all_recipes/all_good/all_recipes.json';
+  const filename_all_recipes = 'all_recipes/raw/all_recipes.json';
   let recipe_content_to_write = fs.readFileSync(
     path.resolve(DIR_PATH, filename_all_recipes), 
     {encoding: "utf8"}
@@ -310,27 +310,88 @@ function sanitizeIngredientSingularity() {
   Object.keys(singularity).map(correct_name => {
     // loop all array element in value
     singularity[correct_name].map(incorrect => {
+
+      console.log(correct_name, incorrect)
+
+      let incorrect_string = `${incorrect}"`
       // replace each string
       ingred_content_to_write = ingred_content_to_write.replace(
-        new RegExp(`"${incorrect}"`, "g"), `"${correct_name}"`
+        new RegExp(incorrect, "g"), correct_name
       );
 
+      // console.log(ingred_content_to_write)
+
       recipe_content_to_write = recipe_content_to_write.replace(
-        new RegExp(`"${incorrect}"`, "g"), `"${correct_name}"`
+        new RegExp(incorrect, "g"), `${correct_name}`
       );
     });
   });
 
   // get the replaced string and write to ingredients file
   writeJson(
-    Array.from(new Set(JSON.parse(ingred_content_to_write))),
-    'final/all_ingredients.json'
+    JSON.parse(ingred_content_to_write),
+    'all_recipes/all_good/sanitized_ingredients.json'
   );
 
   writeJson(
     JSON.parse(recipe_content_to_write),
-    'final/all_recipes.json'
+    'all_recipes/all_good/all_recipes.json'
   );
   
 }
+
+// sanitizeIngredientSingularity()
+
+
+/* get the ingredient counts */
+function get_ingredient_count() {
+  let ingredient_object = {};
+  
+  let filename = `all_recipes/all_good/all_recipes.json`;
+  const content = fs.readFileSync(path.resolve(DIR_PATH, filename), {encoding: "utf8"});
+  let recipes = JSON.parse(content);
+
+  recipes.map(recipe => {
+    recipe.ingredients.map(ingredient => {
+      if (ingredient_object[ingredient.name] === undefined) ingredient_object[ingredient.name] = 1;
+      else ingredient_object[ingredient.name] += 1;
+    })
+  });
+
+  // sorting by the recipe count of each ingredient
+  const sorted_ingre_count = Object.entries(ingredient_object)
+    .sort(([,a],[,b]) => b-a)
+    .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+
+  writeJson(
+    sorted_ingre_count, 
+    `all_recipes/all_good/ingredients_count.json`
+  );
+
+  // sorting by the recipe count of each ingredient
+  const sorted_name = Object.entries(ingredient_object)
+    .sort(([a,],[b,]) => (a > b) ? 1 : (b > a) ? -1 : 0)
+    .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+
+  writeJson(
+    sorted_name, 
+    `all_recipes/all_good/ingredients_count_name.json`
+  );
+}
+
+// get_ingredient_count()
+
+function ingredient_dict_to_array() {
+  let filename = `all_recipes/all_good/ingredients_count.json`;
+  const content = fs.readFileSync(path.resolve(DIR_PATH, filename), {encoding: "utf8"});
+  let ingredients = JSON.parse(content);
+
+  let ingredient_array = Object.keys(ingredients);
+
+  writeJson(
+    Array.from(ingredient_array), 
+    `all_recipes/all_good/all_ingredients.json`
+  );
+}
+ingredient_dict_to_array();
 
