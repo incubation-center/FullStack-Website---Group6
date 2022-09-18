@@ -1,0 +1,3776 @@
+[
+    {
+        "name": "Baked Tofu",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 2,
+        "numberOfServings": 4,
+        "weightInGrams": 924.6192779609983,
+        "nutrientsPerServing": {
+            "calories": 503.66,
+            "protein": 18.08,
+            "carbs": 75.16,
+            "fiber": 6.14,
+            "fat": 14.52,
+            "sugar": 1.36,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "12 oz extra-firm tofu, cubed",
+            "2 tbsp olive oil",
+            "1/2 tsp salt",
+            "1/2 tsp ground black pepper",
+            "2 tbsp soy sauce",
+            "2 tbsp Sriracha hot sauce",
+            "1 tsp garlic sauce",
+            "1 tsp minced garlic",
+            "1 green onion, sliced",
+            "2 cups jasmine rice"
+        ],
+        "ingredients": [
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Hot sauce"
+            },
+            {
+                "name": "Garlic sauce"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Green onion"
+            },
+            {
+                "name": "Jasmine rice"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 450°F.",
+            "Cook rice in pot of water accordinf to the instructions on the packaging.",
+            "Meanwhile arrange tofu slices onto a baking sheet. Brush olive oil over the top of each slice. Sprinkle salt and pepper over the tofu.",
+            "Bake tofu in preheated oven until lightly browned on top, 8 to 10 minutes.",
+            "Stir soy sauce, Sriracha, sesame oil, chile-garlic sauce, sesame seeds and garlic in a bowl,  spoon atop the tofu slices.",
+            "Return baking sheet to oven and continue baking tofu until topping is warmed, 3 to 5 minutes more. Garnish with green onion."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/6d3a83c8f0af4782bfd2d2866ed6c466.jpg"
+    },
+    {
+        "name": "Baked Tater Tots",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 734.1914162500001,
+        "nutrientsPerServing": {
+            "calories": 404.92,
+            "protein": 24.78,
+            "carbs": 24.39,
+            "fiber": 2.84,
+            "fat": 23.14,
+            "sugar": 3.81,
+            "cholesterol": 68.67
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "10 oz ground beef",
+            "1 onion, chopped",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "8 oz tater tots",
+            "1/2 cup shredded mozzarella cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Beef"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Tater tots"
+            },
+            {
+                "name": "Mozzarella cheese"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F.",
+            "In a large skillet, cook beef and onion over medium heat until meat is no longer pink. Drain. Season with salt and pepper.",
+            "Transfer to a baking dish and top with tater tots. Sprinkle with cheese. Bake for 25 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f5886b14d7c144c48727f1bded4112c3.jpg"
+    },
+    {
+        "name": "Baked Parmesan Zucchini Sticks",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 450.39166666666665,
+        "nutrientsPerServing": {
+            "calories": 171.85,
+            "protein": 7.5,
+            "carbs": 7.17,
+            "fiber": 1.15,
+            "fat": 12.57,
+            "sugar": 3.33,
+            "cholesterol": 155.2
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "2 zucchini, cut into sticks",
+            "2 eggs, beaten",
+            "1/3 cup bread crumbs",
+            "1/3 cup shredded Parmesan",
+            "1 tsp Italian seasoning",
+            "1/2 tsp garlic powder",
+            "Salt, to taste",
+            "1/4 tsp cayenne powder"
+        ],
+        "ingredients": [
+            {
+                "name": "Zucchini"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Bread crumbs"
+            },
+            {
+                "name": "Parmesan cheese"
+            },
+            {
+                "name": "Italian seasoning blend"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Cayenne pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 425°F.",
+            "In a shallow baking dish, combine breadcrumbs, Parmesan cheese, Italian seasoning, garlic powder, salt, and pepper.",
+            "Place about 4 of the zucchini sticks into the eggs, and completely cover all sides.",
+            "Put zucchini into the bread crumb mixture and toss to completely coat. Place onto prepared baking sheet.",
+            "Bake for approximately 20 minutes or until golden."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/6107de2ffc6a46fa8c91e7f94c315ae8.jpg"
+    },
+    {
+        "name": "Baked Cheesy Gnocchi",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 834.9052216666666,
+        "nutrientsPerServing": {
+            "calories": 426.97,
+            "protein": 24.22,
+            "carbs": 33.52,
+            "fiber": 3.79,
+            "fat": 21.78,
+            "sugar": 5.57,
+            "cholesterol": 77.29
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "8 oz ground beef",
+            "8 oz gnocchi",
+            "1/3 cup grated mozzarella",
+            "8 oz canned tomato sauce",
+            "1/2 cup onion, diced",
+            "2 cloves garlic, minced",
+            "1/4 tsp dried basil",
+            "1/4 tsp dried oregano",
+            "1 tbsp fresh chopped parsley",
+            "Salt, to taste",
+            "2 tbsp olive oil"
+        ],
+        "ingredients": [
+            {
+                "name": "Beef"
+            },
+            {
+                "name": "Gnocchi"
+            },
+            {
+                "name": "Mozzarella cheese"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Basil"
+            },
+            {
+                "name": "Oregano"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Olive oil"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350°F.",
+            "In an oiled skillet over medium heat, add ground beef, and onion and season with salt. Cook for about 5 minutes.",
+            "Add garlic and cook for 1 more minute. Drain off excess grease.",
+            "Add tomato sauce and remaining seasonings and cook over low for about 5 minutes.",
+            "While sauce is on low, cook gnocchi according to the package instructions.",
+            "In a baking dish, add 1/3 of the sauce on the bottom. Toss the gnocchi on top of the sauce and then pour the remaining sauce on top.",
+            "Sprinkle the top with the mozzarella cheese. Bake in the oven for about 20 minutes. Garnish with parsley andd serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/48da5ece54744af288074389ce5c1480.jpg"
+    },
+    {
+        "name": "Banana-Oatmeal Cookies",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 2,
+        "numberOfServings": 2,
+        "weightInGrams": 230.2880988023952,
+        "nutrientsPerServing": {
+            "calories": 267.56,
+            "protein": 5.85,
+            "carbs": 38.32,
+            "fiber": 3.57,
+            "fat": 10.1,
+            "sugar": 19.32,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "1/2  banana, peeled",
+            "1 tsp vanilla extract",
+            "Salt, to taste",
+            "1/3 tsp cardamom",
+            "1/2 tsp cinnamon",
+            "1 tbsp maple syrup",
+            "1 tbsp coconut sugar",
+            "1/3 cup rolled oats",
+            "1/4 cup walnuts, chopped",
+            "1/4 cup cranberries"
+        ],
+        "ingredients": [
+            {
+                "name": "Banana"
+            },
+            {
+                "name": "Vanilla extract"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Cardamom"
+            },
+            {
+                "name": "Cinnamon"
+            },
+            {
+                "name": "Maple syrup"
+            },
+            {
+                "name": "Coconut sugar"
+            },
+            {
+                "name": "Oats"
+            },
+            {
+                "name": "Walnuts"
+            },
+            {
+                "name": "Cranberries"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350ºF. Line a baking sheet with a sheet of parchment paper.",
+            "Then, in a mixing bowl, mash the banana until it becomes a bit creamy but still has a few smallish chunks.",
+            "Next, add the vanilla, salt, cardamom, cinnamon, maple syrup, and coconut sugar to the mashed banana and stir.",
+            "And now, add the oats, cranberries, and walnuts to the mashed banana mixture and stir until combined.",
+            "Now, using a teaspoon, generously scoop the oat mixture and then, using your hands, gently shape each scoop into a ball and place on the prepared pan.",
+            "Gently pressing the top of each cookie lightly with two fingers to flatten slightly.",
+            "Bake cookies for 15 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/664ce826d789418991486a1cae29ed7d.jpg"
+    },
+    {
+        "name": "Baked Cod In Roasted Red Pepper Sauce",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Spanish"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 624.3340366666667,
+        "nutrientsPerServing": {
+            "calories": 371.71,
+            "protein": 20.66,
+            "carbs": 5.86,
+            "fiber": 0.75,
+            "fat": 29.52,
+            "sugar": 0.23,
+            "cholesterol": 49.9
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "8 oz cod fillets",
+            "4 tbsp olive oil, divided",
+            "Salt, to taste",
+            "Freshly ground black pepper, to taste",
+            "8 oz red bell pepper, halved",
+            "¼ cup almond milk",
+            "¼  cup parsley, chopped",
+            "2 tbsp lemon juice",
+            "1 garlic clove",
+            "¼ tsp cayenne pepper"
+        ],
+        "ingredients": [
+            {
+                "name": "Cod fillets"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Cayenne pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 450°F.",
+            "Add peppers to a baking tray, skin side up, and drizzle with 1 tablespoon of olive oil. Bake peppers for 20 minutes. Pull the charred skin off the peppers.",
+            "Add the peppers, 2 tbsp olive oil, almond milk, parsley, lemon juice, garlic, salt and cayenne pepper to a blender. Process until a creamy smooth sauce is formed.",
+            "Pour sauce in a baking dish. Drizzle cod fillets with the remaining oil, and season to taste. Add cod fillets to the baking dish filled with red pepper sauce.",
+            "Bake for 18 minutes. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/2ad44a57cc7a414786d6964a8d79a7a4.jpg"
+    },
+    {
+        "name": "Bagel Pizzas",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 3,
+        "numberOfServings": 2,
+        "weightInGrams": 271.5,
+        "nutrientsPerServing": {
+            "calories": 338.28,
+            "protein": 12.43,
+            "carbs": 57.36,
+            "fiber": 1.99,
+            "fat": 6.57,
+            "sugar": 9.95,
+            "cholesterol": 17.55
+        },
+        "ingredientsCount": 3,
+        "ingredientLines": [
+            "2 small bagels, split",
+            "2 tbsp pizza sauce",
+            "2 tbsp shredded Cheddar cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Bagels"
+            },
+            {
+                "name": "Pizza sauce"
+            },
+            {
+                "name": "Cheese cheddar"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 425°F. Line a baking sheet with aluminum foil.",
+            "Arrange bagels on prepared baking sheet, cut sides up. Spoon a thin layer of pizza sauce over each bagel half and sprinkle with cheese.",
+            "Bake in the preheated oven until cheese is melted and pepperoni is lightly browned, about 6 minutes. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/0d54822c2cde4a1a953cb56e633867a6.jpg"
+    },
+    {
+        "name": "Baked Eggs In Avocado With Salmon",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 882.8980925,
+        "nutrientsPerServing": {
+            "calories": 463.5,
+            "protein": 23.14,
+            "carbs": 14.17,
+            "fiber": 10.33,
+            "fat": 34.92,
+            "sugar": 1.39,
+            "cholesterol": 378.8
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "3 avocados, halved and pitted",
+            "4 oz smoked salmon, sliced",
+            "6 eggs",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "2 tbsp chopped parsley",
+            "1 tsp smoked paprika"
+        ],
+        "ingredients": [
+            {
+                "name": "Avocado"
+            },
+            {
+                "name": "Smoked salmon"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Smoked paprika"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 425°F.",
+            "Arrange the avocado halves on a cookie sheet, and line the hollows with strips of smoked salmon.",
+            "Crack eggs into avocados, add salt and pepper. Garnish with some more salmon, paprika and bake for 20 minutes.",
+            "Garnish with parsley, and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/360fea8491574f9891198a509bb22e9b.jpg"
+    },
+    {
+        "name": "Breakfast Muffins",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 495.5402360416666,
+        "nutrientsPerServing": {
+            "calories": 352.62,
+            "protein": 16.53,
+            "carbs": 5.68,
+            "fiber": 0.42,
+            "fat": 29.31,
+            "sugar": 2.94,
+            "cholesterol": 352.78
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "1/2 almond flour",
+            "1 tsp baking powder",
+            "Salt, to taste",
+            "1/2 cup almond milk",
+            "1 egg",
+            "9 quail eggs",
+            "3 oz bacon, sliced",
+            "2 tbsp butter",
+            "1/4 cup sour cream",
+            "1/3 cup crumbled cheddar",
+            "1/2 tsp vinegar"
+        ],
+        "ingredients": [
+            {
+                "name": "Almond flour"
+            },
+            {
+                "name": "Baking powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Quail eggs"
+            },
+            {
+                "name": "Bacon"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Sour cream"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Vinegar"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350°F.",
+            "Lay 9 quail eggs in a pot, cover with water and boil on low heat for 5 minutes.",
+            "Gently fry bacon in a pan to become golden and add  butter to melt.",
+            "While the eggs are boiling, combine flour, salt and baking powder in a small bowl.",
+            "In another, medium sized bowl, whisk 1 egg, milk, vinegar and sour cream.",
+            "When quail eggs are done, pour cold water over them and peel. Leave aside.",
+            "Add dry ingredients, bacon, cheddar and onion slices to wet ingredients and quickly combine.",
+            "Fill one third of each muffin cup with the batter and press boiled quail egg into the middle. Fill the cups with the rest of the batter and bake for 20 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f55a36286c7a4bbab338f6b265a5a365.jpg"
+    },
+    {
+        "name": "Broccoli Casserole",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 940.6505003340842,
+        "nutrientsPerServing": {
+            "calories": 480.65,
+            "protein": 15.06,
+            "carbs": 22.03,
+            "fiber": 7.91,
+            "fat": 36.92,
+            "sugar": 6.38,
+            "cholesterol": 69.23
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "1 lb broccoli florets",
+            "2 tbsp vegan butter",
+            "1/2 onion, chopped",
+            "4 tbsp almond flour",
+            "1 cup almond milk",
+            "2 oz cream cheese",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "1 cup shredded cheddar cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Almond flour"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Cream cheese"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Cheese cheddar"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F.",
+            "Blanch or steam broccoli florets for about 5 minutes.",
+            "In a stovetop pan melt the butter and saute the onions for about 5 minutes. Dust in the flour and stir until moisture is absorbed.",
+            "Pour in the milk a little at a time and whisk or stir until a thick roux has formed.",
+            "Stir in cream cheese, cheddar, salt, and pepper.",
+            "Add the broccoli and stir again so all florets are coated. Transfer to a casserole dish",
+            "Top the casserole and bake for 15 minutes until top is golden brown and cheese is bubbling."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/71550a359c324c319588ae5e7a0f6764.jpg"
+    },
+    {
+        "name": "Baked Macaroni And Cheese",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 597.39713875,
+        "nutrientsPerServing": {
+            "calories": 397.15,
+            "protein": 14.93,
+            "carbs": 45.45,
+            "fiber": 3.9,
+            "fat": 17.29,
+            "sugar": 3.76,
+            "cholesterol": 103.56
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "6 oz elbow pasta",
+            "1 cup milk",
+            "1 egg",
+            "1 cup shredded cheddar cheese",
+            "1 tbsp ghee",
+            "Salt, to taste",
+            "Ground black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Elbow pasta"
+            },
+            {
+                "name": "Milk"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Ghee"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F. Lightly grease a 2-quart baking dish.",
+            "Boil macaroni in a large pot of salted water until barely done, about 5 minutes. Drain and set aside.",
+            "Whisk together milk and egg in a large bowl. Stir in cheese and ghee. Place par-boiled macaroni in the prepared baking dish.",
+            "Pour milk mixture over macaroni, season with salt and pepper, and stir until combined. Press mixture evenly into the baking dish.",
+            "Bake, uncovered, in the preheated oven until top is browned, 30 to 40 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/ca75ed6d34c14c039e397244ec4ce49f.jpg"
+    },
+    {
+        "name": "Balsamic Roasted Mushrooms",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "Mediterranean"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": 2,
+        "numberOfServings": 2,
+        "weightInGrams": 539.7590375886631,
+        "nutrientsPerServing": {
+            "calories": 152.89,
+            "protein": 9.15,
+            "carbs": 12.04,
+            "fiber": 2.63,
+            "fat": 7.57,
+            "sugar": 7.19,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "1 lb mushrooms, sliced",
+            "1 tbsp olive oil",
+            "2 tbsp balsamic vinegar",
+            "2 tbsp soy sauce",
+            "1 garlic clove, minced",
+            "1 tsp dried thyme",
+            "1 tsp freshly cracked black pepper"
+        ],
+        "ingredients": [
+            {
+                "name": "Mushrooms"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Balsamic vinegar"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Thyme"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400ºF.",
+            "In a small bowl combine the olive oil, balsamic vinegar, soy sauce, garlic, thyme, and pepper. Place the mushrooms in a ceramic or glass baking dish.",
+            "Pour the marinade over top and stir to coat the mushrooms. Roast the mushrooms for about 30 minutes. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/a6ce09fd4a194caabd668eaa80228443.jpg"
+    },
+    {
+        "name": "Baked Chicken Taquitos",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 3,
+        "numberOfServings": 3,
+        "weightInGrams": 703.6848264376878,
+        "nutrientsPerServing": {
+            "calories": 309.5,
+            "protein": 16.59,
+            "carbs": 31.93,
+            "fiber": 2.58,
+            "fat": 12.82,
+            "sugar": 1.98,
+            "cholesterol": 41.5
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "1 cup shredded cooked chicken breast",
+            "¼ cup shredded cheddar cheese",
+            "2 tbsp taco sauce",
+            "½ tsp ground cumin",
+            "3 oz corn tortillas",
+            "3 oz jalapeno peppers",
+            "1 cup apple cider vinegar",
+            "Salt, to taste",
+            "3 tsp garlic powder"
+        ],
+        "ingredients": [
+            {
+                "name": "Chicken breast"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Taco sauce"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Corn tortillas"
+            },
+            {
+                "name": "Jalapeno peppers"
+            },
+            {
+                "name": "Apple cider vinegar"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Garlic powder"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 425°F. Line a baking sheet with parchment paper, set aside.",
+            "Pour everything into your blender, including peppers and vinegar. Blend it until liquefied.",
+            "Cut the tops off of your peppers and slice in half lengthwise. Pour the vinegar into a saucepan, add peppers, salt, and garlic. Cook 10 mintues.",
+            "For filling, in a medium bowl combine chicken, cheese, taco sauce and cumin, set aside.",
+            "Stack tortillas and wrap in damp paper towels. Microwave 40 seconds or until warm and softened.",
+            "Spread one-fourth of the filling onto the bottom third of each tortilla. Tightly roll up tortilla. Place, seam sides down, on the prepared baking sheet.",
+            "Bake 15 minutes or until edges of tortillas are starting to brown. Serve with the sauce."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/b536efcf3a934acb831a7efd42299cea.jpg"
+    },
+    {
+        "name": "Baked Jalapeno Poppers",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 641.686850625,
+        "nutrientsPerServing": {
+            "calories": 248.88,
+            "protein": 5.63,
+            "carbs": 22.05,
+            "fiber": 7.75,
+            "fat": 15.35,
+            "sugar": 12.72,
+            "cholesterol": 49.75
+        },
+        "ingredientsCount": 5,
+        "ingredientLines": [
+            "6 jalapeno peppers, halved lengthwise and seeded",
+            "1 oz cream cheese, softened",
+            "2 oz shredded Cheddar cheese",
+            "2 tbsp red pepper flakes",
+            "2 tbsp panko bread crumbs"
+        ],
+        "ingredients": [
+            {
+                "name": "Jalapeno peppers"
+            },
+            {
+                "name": "Cream cheese"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Red pepper flakes"
+            },
+            {
+                "name": "Bread crumbs"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F. Spray a baking sheet with cooking spray.",
+            "Fill each jalapeno pepper half with cream cheese, Cheddar cheese, and bread crumbs, and arrange peppers on the prepared baking sheet.",
+            "Bake in the preheated oven until jalapenos are tender and cheese melts, about 20 minutes. Sprinkle with red peppers flakes and serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/243b06b8ed284a6689b8493ae0cdc4cc.jpg"
+    },
+    {
+        "name": "Baked Cod",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": 4,
+        "numberOfServings": 2,
+        "weightInGrams": 1273.7928468750001,
+        "nutrientsPerServing": {
+            "calories": 406.43,
+            "protein": 44.54,
+            "carbs": 17.34,
+            "fiber": 7.28,
+            "fat": 17.66,
+            "sugar": 4.52,
+            "cholesterol": 93.55
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "2 tomatoes, cubed",
+            "1/4 cup halved black olives",
+            "2 tbsp olive oil",
+            "1 1/2 tbsp chopped basil",
+            "15 oz cod fillets",
+            "1 lemon, juiced",
+            "Salt, to taste",
+            "Ground black pepper, to taste",
+            "3 cup asparagus"
+        ],
+        "ingredients": [
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Black olives"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Basil"
+            },
+            {
+                "name": "Cod fillets"
+            },
+            {
+                "name": "Lemon"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Asparagus"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F.",
+            "Combine tomatoes, olives, olive oil, and basil in a bowl and mix well.",
+            "Lay parchment paper on a work surface and place 1 cod fillet in the center of each. Spoon tomato mixture evenly on top of the 4 fillets.",
+            "Drizzle with lemon juice and season with salt and pepper. Place a second sheet of parchment on top and seal the edges to make a parcel.",
+            "Repeat with the remaining fillets and tomato mixture.",
+            "Bake in the preheated oven until cod flakes easily with a fork and asparagus is tender, about 20 minutes.",
+            "Remove from the oven and carefully unwrap the parcels. Spoon onto warmed plates and serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f74e3c73c4244aac90ee23211eb37a79.jpg"
+    },
+    {
+        "name": "Breaded Air Fryer Pork Chops",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Central europe",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "20 minutes",
+        "totalTimeInSeconds": 1200,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 534.8428468750001,
+        "nutrientsPerServing": {
+            "calories": 827.16,
+            "protein": 17.42,
+            "carbs": 13.45,
+            "fiber": 0.67,
+            "fat": 78.19,
+            "sugar": 0.73,
+            "cholesterol": 162.64
+        },
+        "ingredientsCount": 4,
+        "ingredientLines": [
+            "15 oz boneless pork chops",
+            "1 tsp Cajun seasoning",
+            "1 cup panko",
+            "1 egg"
+        ],
+        "ingredients": [
+            {
+                "name": "Pork chops"
+            },
+            {
+                "name": "Cajun seasoning"
+            },
+            {
+                "name": "Panko"
+            },
+            {
+                "name": "Eggs"
+            }
+        ],
+        "instructions": [
+            "Preheat an air fryer to 390°F.",
+            "Place pork chops on a plate and season both sides with Cajun seasoning.",
+            "Lightly beat eggs in a separate shallow dish. Dip pork chops into eggs, letting excess drip off.",
+            "Coat chops in breading and set on a plate.",
+            "Oil air fryer basket and place chops inside, making sure to not overcrowd the fryer.",
+            "You may have to do two batches depending on the size of your air fryer.",
+            "Cook for 5 minutes. Flip chops and mist again with cooking spray if there are dry or powdery areas.",
+            "Cook 5 minutes more. Repeat with remaining chops."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/a157c296aaa245388aaf6f9458fe3dcb.jpg"
+    },
+    {
+        "name": "Bread Pavese Soup",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": 1,
+        "numberOfServings": 2,
+        "weightInGrams": 513.3657129166667,
+        "nutrientsPerServing": {
+            "calories": 272.04,
+            "protein": 16.55,
+            "carbs": 18.64,
+            "fiber": 0.99,
+            "fat": 14.59,
+            "sugar": 1.86,
+            "cholesterol": 376.99
+        },
+        "ingredientsCount": 5,
+        "ingredientLines": [
+            "4 eggs",
+            "2 oz bread, sliced",
+            "1 cup vegetable stock",
+            "2 tbsp grated Parmesan cheese",
+            "1 tsp butter"
+        ],
+        "ingredients": [
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Bread, cut french into loaf"
+            },
+            {
+                "name": "Vegetable stock"
+            },
+            {
+                "name": "Parmesan cheese"
+            },
+            {
+                "name": "Butter"
+            }
+        ],
+        "instructions": [
+            "Prepare the stock, dissolving the stock cube in 3/4 pint of boiling water.",
+            "Now, take a shallow pan and melt the butter. Fry the bread until both the sides are golden brown.",
+            "Put the bread inside the dish, pressing it down so that it stays on the bottom of the dish. Break the eggs on the bread and sprinkle with Parmesan.",
+            "The dish is ready for the adding of the stock. The stock must be boiling hot, so the heat of the stock will cook the eggs.",
+            "Sprinkle with some more Parmesan and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/8540fa382dde4e50927683d31e45be9c.jpg"
+    },
+    {
+        "name": "Basil Pesto Grilled Shrimp",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Mediterranean"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 1,
+        "numberOfServings": 2,
+        "weightInGrams": 321.521185,
+        "nutrientsPerServing": {
+            "calories": 321.37,
+            "protein": 25.48,
+            "carbs": 4.34,
+            "fiber": 0.96,
+            "fat": 22.45,
+            "sugar": 0.74,
+            "cholesterol": 176.33
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "½ cup basil",
+            "1 garlic clove",
+            "1 tbsp pine nuts",
+            "2 tbsp grated Parmesan cheese",
+            "2 tbsp olive oil",
+            "1 tbsp lemon juice",
+            "Salt, to taste",
+            "Freshly ground black pepper, to taste",
+            "½ lb shrimp, peeled and deveined"
+        ],
+        "ingredients": [
+            {
+                "name": "Basil"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Pine nuts"
+            },
+            {
+                "name": "Parmesan cheese"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Shrimp"
+            }
+        ],
+        "instructions": [
+            "Pulse the basil, garlic, pine nuts, parmesan, oil, lemon juice, salt and pepper in a blender until smooth.",
+            "Marinate the shrimp in the pesto for at least 10 minutes in the fridge.",
+            "Skewer the shrimp and grill over medium-high heat until cooked, 2 minutes per side. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/2c011d9c4b304e6495a0099fa32cc4ce.jpg"
+    },
+    {
+        "name": "Bean And Pumpkin Stew",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": 2,
+        "numberOfServings": 2,
+        "weightInGrams": 955.296185,
+        "nutrientsPerServing": {
+            "calories": 326.36,
+            "protein": 9.53,
+            "carbs": 39.3,
+            "fiber": 11.57,
+            "fat": 14.56,
+            "sugar": 9.59,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "8 oz white beans",
+            "2 tbsp olive oil",
+            "1 onion, minced",
+            "1 tbsp minced garlic",
+            "Salt, to taste",
+            "1/2 tsp sweet paprika",
+            "1 tbsp tomato paste",
+            "1 cup vegetable stock",
+            "1/4 cup chopped green onion",
+            "1 cup diced pumpkin"
+        ],
+        "ingredients": [
+            {
+                "name": "White beans"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Sweet paprika"
+            },
+            {
+                "name": "Tomato paste"
+            },
+            {
+                "name": "Vegetable stock"
+            },
+            {
+                "name": "Green onion"
+            },
+            {
+                "name": "Pumpkin"
+            }
+        ],
+        "instructions": [
+            "Place beans in a medium saucepan and cover by about 2 inches of water. Bring to a boil. Remove from heat, drain and rinse.",
+            "In a stockpot over medium-high heat, warm olive oil. Add onion, garlic, salt. Saute until onion is translucent, about 5 minutes.",
+            "Stir in sweet paprika and tomato paste. Cook for 1 minute. Add beans, vegetable stock, Bring to a boil.",
+            "Reduce heat to low and simmer, partially covered, for about 20 minutes.",
+            "Add pumpkin to bean mixture, plus additional stock or water to cover, and simmer, partially covered, until tender, about 15 minutes more.",
+            "Garnish with green onions and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/2a6990a7ca9c492690deb5e4c3c51506.jpg"
+    },
+    {
+        "name": "Black Bean Cutlets",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 5,
+        "numberOfServings": 2,
+        "weightInGrams": 522.8,
+        "nutrientsPerServing": {
+            "calories": 374.33,
+            "protein": 13.13,
+            "carbs": 45.02,
+            "fiber": 15.05,
+            "fat": 15.75,
+            "sugar": 4.76,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "1 cup black beans",
+            "1 onion, chopped",
+            "1 tsp red chili powder",
+            "Salt, to taste",
+            "1/2 cup oats",
+            "2 cloves garlic",
+            "2 tbsp olive oil",
+            "1 tbsp lemon juice"
+        ],
+        "ingredients": [
+            {
+                "name": "Black beans"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Red chili powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Oats"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lemon juice"
+            }
+        ],
+        "instructions": [
+            "Boil the beans until tender. Add oats and cook till water has dried up.",
+            "Heat a little oil in a pan over moderate flame. Fry the onions and garlic till they turn golden brown. Add this to the oats mixture.",
+            "Now add lemon juice, chili powder, salt, and masala,. Mix well and make small balls of this mixture and shape into desired cutlet shape."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/aee360a73a694e789f22ea60cdecd86a.jpg"
+    },
+    {
+        "name": "Banana Hemp Seed Smoothie",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": 3,
+        "numberOfServings": 2,
+        "weightInGrams": 1053.07404625,
+        "nutrientsPerServing": {
+            "calories": 476.89,
+            "protein": 20.25,
+            "carbs": 65.61,
+            "fiber": 5.52,
+            "fat": 14.83,
+            "sugar": 42.57,
+            "cholesterol": 33.91
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "2 bananas",
+            "1 cup peach slices",
+            "2 tbsp lamond butter",
+            "1 tbsp hemp seeds",
+            "2 cups water",
+            "2 oz protein powder"
+        ],
+        "ingredients": [
+            {
+                "name": "Bananas"
+            },
+            {
+                "name": "Peach slices"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Hemp seeds"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Protein powder"
+            }
+        ],
+        "instructions": [
+            "Layer bananas, peach slices, almond butter, and hemp seeds in a blender, pour in water. Cover and blend until smooth."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/83ed10601973400bad62def65b235df6.jpg"
+    },
+    {
+        "name": "Beefy Vegan Taquitos",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Mexican",
+            "Spanish",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 619.246185,
+        "nutrientsPerServing": {
+            "calories": 410.07,
+            "protein": 19.47,
+            "carbs": 50.94,
+            "fiber": 9.85,
+            "fat": 14.27,
+            "sugar": 3.63,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "1 1/2 tbsp olive oil",
+            "1/2 cup diced onion",
+            "1/2 tbsp minced garlic",
+            "6 oz meatless crumbles",
+            "1 chipotle chili, minced",
+            "1 tbsp adobo sauce",
+            "1/2 tsp ground cumin",
+            "1/2 tsp onion powder",
+            "2 oz vegan cream cheese",
+            "1/2 tbsp nutritional yeast",
+            "9 corn tortillas",
+            "Salt, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Meatless crumbles"
+            },
+            {
+                "name": "Chipotle chile"
+            },
+            {
+                "name": "Adobo sauce"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Vegan cream cheese"
+            },
+            {
+                "name": "Yeast"
+            },
+            {
+                "name": "Corn tortillas"
+            },
+            {
+                "name": "Salt"
+            }
+        ],
+        "instructions": [
+            "Heat olive oil in a large skillet over medium heat. Add onion and garlic and cook for 3 minutes.",
+            "Add vegetarian beef crumbles, chipotle peppers, adobo sauce, cumin, and onion powder. Cook and stir for 5 minutes.",
+            "Add cream cheese, nutritional yeast, and salt. Cook until cheese is melted and everything is evenly combined, about 2 minutes. Remove from heat.",
+            "Preheat an air fryer to 400°F.",
+            "Spoon a heaping tablespoon of mixture into the middle of each tortilla and roll up.",
+            "Working in batches, place a single layer of taquitos in the air fryer basket, seam-side down.",
+            "Spray the tops with cooking spray. Air fry for 6 minutes. Transfer to a paper towel-lined plate. Repeat with remaining taquitos."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/dabfe8dedc5a4ce096a39934666da8c8.jpg"
+    },
+    {
+        "name": "Beef Yaki Udon Noodels",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "20 minutes",
+        "totalTimeInSeconds": 1200,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1222.445162221,
+        "nutrientsPerServing": {
+            "calories": 429.81,
+            "protein": 19.06,
+            "carbs": 58.59,
+            "fiber": 4.65,
+            "fat": 13.25,
+            "sugar": 5.58,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "13 oz udon",
+            "2 cups mixed vegetables",
+            "4 tbsp chopped scallions",
+            "½ lb ground meat",
+            "1 tbsp olive oil",
+            "2½ tbsp dark soy sauce",
+            "2 tbsp oyster sauce",
+            "1 tbsp mirin",
+            "½ tsp rice wine vinegar"
+        ],
+        "ingredients": [
+            {
+                "name": "Udon"
+            },
+            {
+                "name": "Vegetables"
+            },
+            {
+                "name": "Scallions"
+            },
+            {
+                "name": "Meat"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Oyster sauce"
+            },
+            {
+                "name": "Mirin"
+            },
+            {
+                "name": "Rice wine vinegar"
+            }
+        ],
+        "instructions": [
+            "Mix all the ingredients for the sauce in a small bowl and set aside.",
+            "Remove your udon noodles from its package and add it to a pot of boiling water.",
+            "Frozen udon noodles can be added directly to the pot of boiling water. Stir gently until your udon noodles are separated and pliable.",
+            "Rinse and drain your noodles under cold water. If not using right away, drizzle on a little bit of oil to keep them from sticking.",
+            "Heat your pan over high heat and add the oil. Add in the ground meat and stir fry for 1 minute before adding the rest of your vegetables.",
+            "Stir fry together for 2 to 3 minutes and then add in the noodles and sauce. Continue stir frying for about 3 minutes or until well combined.",
+            "Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/0ec73c2ee66b4c0bafdf3241314d4da6.jpg"
+    },
+    {
+        "name": "Blue Cheese Burgers",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 811.7396341888325,
+        "nutrientsPerServing": {
+            "calories": 418.51,
+            "protein": 30.47,
+            "carbs": 32.58,
+            "fiber": 2.09,
+            "fat": 18.48,
+            "sugar": 5.14,
+            "cholesterol": 77.02
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "3/4 lb ground beef",
+            "1 oz blue cheese",
+            "2 tbsp minced chives",
+            "1/2 tsp hot pepper sauce",
+            "1/4 tsp Worcestershire sauce",
+            "1/4 tsp ground black pepper",
+            "1/2 tsp salt",
+            "1/4 tsp dry mustard",
+            "3 hamburger buns",
+            "1 tomato, sliced",
+            "1/4 onion, sliced",
+            "1 cup lettuce"
+        ],
+        "ingredients": [
+            {
+                "name": "Beef"
+            },
+            {
+                "name": "Blue cheese"
+            },
+            {
+                "name": "Chives"
+            },
+            {
+                "name": "Pepper sauce"
+            },
+            {
+                "name": "Worchestire sauce"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Mustard"
+            },
+            {
+                "name": "Hamburger buns"
+            },
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Lettuce"
+            }
+        ],
+        "instructions": [
+            "In a large bowl, mix the ground beef, blue cheese, chives, hot pepper sauce, Worcestershire sauce, black pepper, salt, and mustard. Cover, and refrigerate for 2 hours.",
+            "Preheat grill for high heat. Gently form the burger mixture into about 12 patties.",
+            "Oil the grill grate. Grill patties 5 minutes per side, or until well done. Serve on rolls with lettuce, tomato and onion."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/31b4fc910c774f9aa6227d89b1bea885.jpg"
+    },
+    {
+        "name": "Broccoli Omelette",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": 8,
+        "numberOfServings": 2,
+        "weightInGrams": 512.8133285416667,
+        "nutrientsPerServing": {
+            "calories": 286.27,
+            "protein": 23.37,
+            "carbs": 11.78,
+            "fiber": 2.74,
+            "fat": 16.19,
+            "sugar": 4.37,
+            "cholesterol": 475.08
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "5 eggs",
+            "7 oz broccoli florets",
+            "4 tbsp cheddar cheese",
+            "1/2 tsp garlic powder",
+            "1/2 tsp onion powder",
+            "Salt, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Salt"
+            }
+        ],
+        "instructions": [
+            "Crack open the eggs and put it directly into your microwave safe dish.",
+            "Add sea salt, garlic powder, and onion powder to the same bowl. Gently whisk with a fork.",
+            "Add the broccoli florets to the egg mixture. Stir gently.",
+            "Microwave this broccoli omelette for 3 minutes until cooked.",
+            "Top with shredded mild cheddar cheese and head for the door."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/1d34f95c5ff2452eb5a58b5e4e46cda3.jpg"
+    },
+    {
+        "name": "Brussels Sprouts And Bacon",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 439.0461850000001,
+        "nutrientsPerServing": {
+            "calories": 233.99,
+            "protein": 30.15,
+            "carbs": 12.1,
+            "fiber": 3.63,
+            "fat": 7.22,
+            "sugar": 2.97,
+            "cholesterol": 66.62
+        },
+        "ingredientsCount": 5,
+        "ingredientLines": [
+            "1/2 lb bacon, sliced",
+            "2 cups Brussels sprouts, trimmed and halved",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "2 tbsp grated Parmesan"
+        ],
+        "ingredients": [
+            {
+                "name": "Bacon"
+            },
+            {
+                "name": "Brussels sprouts"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Parmesan cheese"
+            }
+        ],
+        "instructions": [
+            "Fry the bacon in a skillet over medium-high heat until crispy.",
+            "Add the Brussels sprouts to the pan, stir and cover the pan with a lid. Reduce the heat and cook for 5 minutes.",
+            "Season with salt and pepper if needed. Serve garnished with some Parmesan."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/804ebfaf237e40619092c95063deda12.jpg"
+    },
+    {
+        "name": "Bean And Potato Vegan Enchiladas",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "60 minutes",
+        "totalTimeInSeconds": 3600,
+        "favoritesCount": 4,
+        "numberOfServings": 2,
+        "weightInGrams": 671.3609441666666,
+        "nutrientsPerServing": {
+            "calories": 431.44,
+            "protein": 11.6,
+            "carbs": 54.83,
+            "fiber": 11.61,
+            "fat": 18.41,
+            "sugar": 4.91,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 14,
+        "ingredientLines": [
+            "½ sweet potato, chopped",
+            "½ potato, chopped",
+            "2 tbsp olive oil, divided",
+            "Salt, to taste",
+            "Freshly ground black pepper, to taste",
+            "½ yellow onion, chopped",
+            "1 garlic clove, minced",
+            "1 jalapeno, seeded and chopped",
+            "1 tsp chili powder",
+            "1 tsp cumin",
+            "1 tsp smoked paprika",
+            "6 oz can diced tomatoes",
+            "6 oz canned white beans, rinsed",
+            "4 corn tortillas"
+        ],
+        "ingredients": [
+            {
+                "name": "Sweet potatoes"
+            },
+            {
+                "name": "Potato"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Yellow onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Jalapeno"
+            },
+            {
+                "name": "Chili powder"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Smoked paprika"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "White beans"
+            },
+            {
+                "name": "Corn tortillas"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F.",
+            "Toss the potatoes in 1 tbso of olive oil, some salt, and some black pepper. Distribute evenly on a baking sheet and roast for 20 minutes.",
+            "In a large saucepan, heat the remaining olive oil. Cook the onion over moderate heat until soft and translucent, about 2 minutes.",
+            "Add the garlic, jalapeno, chili, cumin, paprika, salt and pepper and cook, stirring, for 1 minute. Stir in the tomatoes and remove from heat.",
+            "Blend in a food processor or blender until smooth. Return the tomato mixture to heat and simmer for 15 minutes.",
+            "In a large bowl, combine the potatoes, beans, and 1 cup of the sauce. Spread a thin layer of sauce on the bottom of a 9-by-13-inch glass baking dish.",
+            "Arrange the tortillas on a work surface. Spoon a heaping ½ cup of the potato mixture onto each tortilla. Roll the tortillas up and line up in the baking dish.",
+            "Top the enchiladas evenly with the remaining sauce, spreading. Bake for 15 minutes. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/d60224e192c04efd87b7ec6bec0391fd.jpg"
+    },
+    {
+        "name": "Boneless Chicken Wings",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 674.4590371276648,
+        "nutrientsPerServing": {
+            "calories": 311.22,
+            "protein": 34.63,
+            "carbs": 22.39,
+            "fiber": 1.17,
+            "fat": 9.24,
+            "sugar": 7.17,
+            "cholesterol": 110.13
+        },
+        "ingredientsCount": 14,
+        "ingredientLines": [
+            "1/3 cup tapioca starch",
+            "1 tsp salt",
+            "1/2 tsp ground black pepper",
+            "1/2 garlic powder",
+            "1/2 tsp ground paprika",
+            "1 lb skinless, boneless chicken breasts, cubed",
+            "1/2 tbsp coconut oil",
+            "1 tsp ghee",
+            "1 clove garlic minced",
+            "1/2 tsp grated ginger",
+            "1 tsp Sriracha sauce",
+            "1 scallion, sliced",
+            "1/2 tsp sesame oil",
+            "3 tbsp coconut aminos"
+        ],
+        "ingredients": [
+            {
+                "name": "Tapioca starch"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Paprika"
+            },
+            {
+                "name": "Chicken breasts"
+            },
+            {
+                "name": "Coconut oil"
+            },
+            {
+                "name": "Ghee"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Ginger"
+            },
+            {
+                "name": "Sriracha sauce"
+            },
+            {
+                "name": "Scallions"
+            },
+            {
+                "name": "Sesame oil"
+            },
+            {
+                "name": "Coconut aminos"
+            }
+        ],
+        "instructions": [
+            "Mix tapioca starch, salt, pepper, garlic powder, cayenne pepper, and paprika together in a large bowl with a fork.",
+            "Add chicken cubes; toss with your hands until coated on all sides.",
+            "Heat coconut oil and butter in a large skillet over medium-high heat until melted and hot.",
+            "Add some of the chicken cubes using tongs; cook until browned, about 2 minutes per side.",
+            "Transfer to a plate lined with paper towels. Repeat with remaining chicken, heating up more coconut oil and butter as needed.",
+            "Reduce heat to medium and whisk garlic and ginger into the grease in the skillet.",
+            "Reduce heat to medium and whisk garlic and ginger into the grease in the skillet. Whisk in coconut aminos and sriracha sauce.",
+            "Simmer over low heat until flavors combine, about 5 minutes. Stir in chicken, cook until sauce thickens and coats chicken, 5 to 7 minutes.",
+            "Garnish chicken with scallions and sesame oil and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/5dc296063dd549c3bacc353f1ad86a9e.jpg"
+    },
+    {
+        "name": "Braised Octopus And Potatoes",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "75 minutes",
+        "totalTimeInSeconds": 4500,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 471.543800625,
+        "nutrientsPerServing": {
+            "calories": 392.05,
+            "protein": 9.15,
+            "carbs": 63.62,
+            "fiber": 3.39,
+            "fat": 11.22,
+            "sugar": 11.34,
+            "cholesterol": 9.07
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "2 garlic cloves, peeled",
+            "2 tbsp olive oil",
+            "2 oz whole octopus",
+            "3 oz white wine",
+            "1/2 lb potatoes, peeled and chopped",
+            "1 cup flat-leaf parsley leaves, chopped",
+            "Juice of 1 lemon"
+        ],
+        "ingredients": [
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Octopus"
+            },
+            {
+                "name": "White wine"
+            },
+            {
+                "name": "Potatoes"
+            },
+            {
+                "name": "Parsley leaves"
+            },
+            {
+                "name": "Lemon"
+            }
+        ],
+        "instructions": [
+            "Place the garlic and ¼ cup (2 fl oz) oil in a large saucepan over low heat.",
+            "Cook, swirling pan occasionally, for 2 minutes to infuse.",
+            "Increase heat to high, then add the octopus.",
+            "Cook octopus, turning, for 2 minutes or until evenly coloured.",
+            "Add the wine and bring to the boil, then cover and reduce heat to low.",
+            "Simmer for 45 minutes or until octopus is tender.",
+            "Remove from the heat and set aside in the pan until cool enough to handle.",
+            "Meanwhile, place potato in a large pan of cold salted water and bring to the boil over high heat.",
+            "Reduce heat to medium and simmer for 12-15 minutes or until tender.",
+            "Drain, then return to pan and cover to keep warm.",
+            "Remove the octopus from saucepan using a slotted spoon and drain on paper towel. (If using a large octopus, you may need to peel the ‘skin’ by rubbing or scraping it gently – the ‘skin’ of small octopuses can stay on.)",
+            "Cut the octopus into 2 inch pieces and return to the pan.",
+            "Add the potato, parsley, lemon juice and remaining 1 tbsp olive oil, and stir to combine.",
+            "Serve together in a large dish, warm or cold."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/a66b2ce665954f56b4e07288c797350c.jpg"
+    },
+    {
+        "name": "Broccoli Muffins",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": null,
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 16,
+        "numberOfServings": 2,
+        "weightInGrams": 556.7507509812499,
+        "nutrientsPerServing": {
+            "calories": 559.86,
+            "protein": 30.77,
+            "carbs": 8.6,
+            "fiber": 1.39,
+            "fat": 44.71,
+            "sugar": 3.41,
+            "cholesterol": 642.88
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "1 cup broccoli florets",
+            "1 tsp olive oil",
+            "6 eggs",
+            "1/4 cup heavy cream",
+            "1 cup shredded cheddar cheese",
+            "1 tsp onion powder",
+            "1 tsp salt",
+            "1/4 tsp black pepper"
+        ],
+        "ingredients": [
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Heavy cream"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F. Spray muffin molds with olive oil.",
+            "Fill saucepan with water and bring to a boil. Add the broccoli and boil for 3 minutes, then drain well and cool.",
+            "Beat together eggs and cream in a large bowl. Whisk in the cheddar, onion powder, broccoli florets, salt, and black pepper.",
+            "Divide the mixture between the 12 muffin wells and bake until the eggs are set, about 15 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/e0ebfff7ff2f49ebb0b52db46b62a9a2.jpg"
+    },
+    {
+        "name": "Beef And Broccoli Fajitas",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 5,
+        "numberOfServings": 2,
+        "weightInGrams": 916.2399856249999,
+        "nutrientsPerServing": {
+            "calories": 469.08,
+            "protein": 26.29,
+            "carbs": 24.08,
+            "fiber": 6.66,
+            "fat": 29.73,
+            "sugar": 10.42,
+            "cholesterol": 71.44
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "9 oz sirloin steak, thinly sliced",
+            "2 tbsp olive oil",
+            "1 tbsp fajita seasoning",
+            "6 oz broccoli florets",
+            "1 red bell pepper, chopped",
+            "1 yellow bell pepper, chopped",
+            "1 onion, sliced",
+            "6 oz green beans",
+            "Salt, to taste",
+            "Black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Sirloin steak"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Fajita seasoning"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Yellow bell pepper"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Green beans"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Blanch the broccoli and beans for 2 minutes in a large pan of lightly salted boiling water, then drain well.",
+            "Drizzle the steak with oil, season really well and sprinkle over the fajita seasoning, patting to coat.",
+            "Heat a non-stick pan over a high heat and cook the steak for 3 minutes on each side.",
+            "Add the blanched broccoli, onion, beans and the peppers to the pan and fry for 3 minutes until the broccoli is starting to char. Serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/e95a7928dcad4e8f9ee9e214d1188930.jpg"
+    },
+    {
+        "name": "Baked Tomato And Mozzarella Orzo",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 651.3228420833334,
+        "nutrientsPerServing": {
+            "calories": 418.65,
+            "protein": 17.8,
+            "carbs": 55.31,
+            "fiber": 4.11,
+            "fat": 14.02,
+            "sugar": 4.97,
+            "cholesterol": 24.57
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "6 oz orzo",
+            "1 tbsp olive oil",
+            "1 tsp oregano",
+            "6 oz canned crushed tomatoes, chopped",
+            "4 oz shredded mozzarella",
+            "6 oz tomato sauce",
+            "Salt, to taste",
+            "Black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Orzo"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Oregano"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Mozzarella cheese"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Heat oven to 350°F.",
+            "Tip the orzo into a medium casserole dish, then stir in the oil and oregano.",
+            "Tip in the chopped tomatoes, then refill the can halfway with water and pour that in too.",
+            "Give everything a good mix, season, then cover and bake for 20 minutes until the pasta is almost cooked.",
+            "Take it out of the oven and give the orzo a stir. Remove the foil and return to the oven for a further 5 minutes.",
+            "Take the orzo out of the oven and tear the mozzarella over the top, then grill until melted and bubbling."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/9213c13ccb2744c780c0ac9a0b2496bf.jpg"
+    },
+    {
+        "name": "Balsamic Grilled Zucchini",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "Mediterranean"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": 2,
+        "numberOfServings": 2,
+        "weightInGrams": 225.43333333333334,
+        "nutrientsPerServing": {
+            "calories": 276.73,
+            "protein": 7.45,
+            "carbs": 10.27,
+            "fiber": 6.31,
+            "fat": 22.88,
+            "sugar": 2.11,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "1 zucchini, sliced",
+            "1 tsp olive oil",
+            "¼ tsp garlic powder",
+            "½ tsp italian seasoning",
+            "Salt, to taste",
+            "1 tbsp balsamic vinegar",
+            "¼ tsp flaxseed oil",
+            "4 tbsp sesame seeds",
+            "2 tbsp pomegranate seeds"
+        ],
+        "ingredients": [
+            {
+                "name": "Zucchini"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Italian seasoning blend"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Balsamic vinegar"
+            },
+            {
+                "name": "Flaxseed oil"
+            },
+            {
+                "name": "Sesame seeds"
+            },
+            {
+                "name": "Pomegranate seeds"
+            }
+        ],
+        "instructions": [
+            "Preheat grill for medium-low heat and lightly oil the grate.",
+            "Brush zucchini with olive oil. Sprinkle garlic powder, Italian seasoning, and salt over zucchini.",
+            "Cook on grill until beginning to brown, 3 minutes per side. Brush balsamic vinegar over the zucchini and continue cooking 1 minute more.",
+            "Serve immediately, drizzled with flaxseed oil and sprinkled with sesame seeds and pomegranate."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/6f08c72faf194aab964d6a90c91ae706.jpg"
+    },
+    {
+        "name": "Black Bean & Tomato Chili",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": 4,
+        "numberOfServings": 2,
+        "weightInGrams": 664.9026108333333,
+        "nutrientsPerServing": {
+            "calories": 334.57,
+            "protein": 9.71,
+            "carbs": 37.77,
+            "fiber": 13.97,
+            "fat": 16.07,
+            "sugar": 9.47,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "2 tbsp olive oil",
+            "1 onion, chopped",
+            "1 red bell pepper, chopped",
+            "1 yellow bell pepper, chopped",
+            "12 oz canned black beans, rinsed and drained",
+            "1/2 tsp dried oregano",
+            "1/2 tsp dried cumin",
+            "3 tbsp chopped fresh cilantro",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "1 chili, chopped"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Yellow bell pepper"
+            },
+            {
+                "name": "Black beans"
+            },
+            {
+                "name": "Oregano"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Cilantro"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Chili"
+            }
+        ],
+        "instructions": [
+            "In a large skillet, heat oil over medium-high heat. Add peppers, onion and garlic. Cook and stir 10 minutes or until tender.",
+            "Add beans, chili, cumin and oregano. Heat through. Sprinkle with cilantro and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/5540ba90a39247b99ab24d8b1adb224b.jpg"
+    },
+    {
+        "name": "Broccoli Cheese Soup",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 712.0875,
+        "nutrientsPerServing": {
+            "calories": 396.87,
+            "protein": 11.2,
+            "carbs": 20.32,
+            "fiber": 6.32,
+            "fat": 30.09,
+            "sugar": 8.32,
+            "cholesterol": 63.61
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "2 cups broccoli florets",
+            "1 carrot, grated",
+            "1 garlic clove, chopped",
+            "1/4 cup almond flour",
+            "1 tbsp butter",
+            "1 tbsp vegetable stock",
+            "1/2 cup cooking cream",
+            "1/2 cup almond milk",
+            "1/2 cup grated cheddar cheese",
+            "Salt, to taste",
+            "Black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Almond flour"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Vegetable stock"
+            },
+            {
+                "name": "Cream"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Melt butter in a medium size pot. Add chopped garlic.\nSaute until garlic turn slightly golden in colour.",
+            "Add flour and stir until flour is bubbly and cook through.\nAdd stock and bring to a boil.",
+            "Add carrots, broccoli, cream and milk. Season with salt and pepper. Bring to a quick boil.",
+            "Add cheese, stir and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/89174451744743058a2395d19e1010ae.jpg"
+    },
+    {
+        "name": "Blueberry Smoothie Bowl",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": 19,
+        "numberOfServings": 1,
+        "weightInGrams": 464.548569375,
+        "nutrientsPerServing": {
+            "calories": 402.54,
+            "protein": 24.14,
+            "carbs": 51.99,
+            "fiber": 10.89,
+            "fat": 10.89,
+            "sugar": 26.15,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "2 oz blueberries",
+            "1 banana, sliced",
+            "2 tbsp granola",
+            "1 tbsp chia seeds",
+            "1 oz pea protein powder",
+            "1 cup almond milk"
+        ],
+        "ingredients": [
+            {
+                "name": "Blueberries"
+            },
+            {
+                "name": "Banana"
+            },
+            {
+                "name": "Granola"
+            },
+            {
+                "name": "Chia seeds"
+            },
+            {
+                "name": "Pea protein powder"
+            },
+            {
+                "name": "Almond milk"
+            }
+        ],
+        "instructions": [
+            "In a blender mix together 4 oz blueberries, 1 tbsp chia seeds, almond milk, 1 banana and pea proteins.",
+            "Pour the smoothie in bowls and top with some granola, blueberries, sliced banana and chia seeds."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/439a73ae2f994ea1be3b329d03aae996.jpg"
+    },
+    {
+        "name": "Beefy Chinese Dumplings",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Chinese",
+            "Asian",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "35 minutes",
+        "totalTimeInSeconds": 2100,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 773.1244316666666,
+        "nutrientsPerServing": {
+            "calories": 438.13,
+            "protein": 30.09,
+            "carbs": 46.77,
+            "fiber": 1.22,
+            "fat": 14.52,
+            "sugar": 2.43,
+            "cholesterol": 124.49
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "2/3 lb ground beef",
+            "1/2 cup shredded Chinese cabbage",
+            "1/2 carrot, shredded",
+            "1/2 onion, minced",
+            "1 egg",
+            "1/6 tsp salt",
+            "1 tsp soy sauce",
+            "1 tsp vegetable oil",
+            "8 oz wonton wrappers"
+        ],
+        "ingredients": [
+            {
+                "name": "Beef"
+            },
+            {
+                "name": "Chinese cabbage"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Vegetable oil"
+            },
+            {
+                "name": "Wonton wrappers"
+            }
+        ],
+        "instructions": [
+            "In a large bowl, mix together beef, cabbage, carrot, and onion. Stir in the egg, salt, soy sauce, and vegetable oil.",
+            "Place a large teaspoonful of filling in the center of a dumpling skin. Moisten the edges of a wonton with a few drops of water.",
+            "Then fold the dumpling in half, and pinch the edges together to seal.",
+            "Create a ripple pattern along the pinched edge by pinching and gently pushing together small segments of it. Repeat with remaining dumplings.",
+            "Boil the dumplings in water until they float to the top, about 5 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/c28c7ce65dc04208824902602caa31e2.jpg"
+    },
+    {
+        "name": "Balsamic Ravioli",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Mediterranean"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 261.08463874999995,
+        "nutrientsPerServing": {
+            "calories": 299.85,
+            "protein": 12.25,
+            "carbs": 19.05,
+            "fiber": 0.51,
+            "fat": 19.4,
+            "sugar": 3.33,
+            "cholesterol": 119.82
+        },
+        "ingredientsCount": 4,
+        "ingredientLines": [
+            "6 oz ravioli, meat-filled",
+            "1 tbsp butter",
+            "2 tbsp balsamic vinegar",
+            "3 tbsp grated Parmesan cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Ravioli"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Balsamic vinegar"
+            },
+            {
+                "name": "Parmesan cheese"
+            }
+        ],
+        "instructions": [
+            "Bring a large pot of lightly salted water to a boil. Cook ravioli according to package instructions. Drain and set aside.",
+            "Warm butter in a skillet over medium heat until slightly brown, about 1 minute. Add balsamic vinegar. Cook and stir until melted and combined, about 1 minute.",
+            "Divide ravioli between plates and drizzle with the balsamic-butter mixture. Top with Parmesan cheese and serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/25ea39a97ec94fc9a736129abc33b6ca.jpg"
+    },
+    {
+        "name": "Blackened Chicken",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "Cajun & Creole"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 1,
+        "numberOfServings": 2,
+        "weightInGrams": 325.6118979166667,
+        "nutrientsPerServing": {
+            "calories": 279.6,
+            "protein": 30.3,
+            "carbs": 3.24,
+            "fiber": 1.05,
+            "fat": 16.16,
+            "sugar": 1.85,
+            "cholesterol": 83.63
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "½ tsp paprika",
+            "Salt, to taste",
+            "½ tsp cayenne pepper",
+            "1 tsp ground cumin",
+            "1 tsp dried thyme",
+            "½ tsp ground white pepper",
+            "1 tsp onion powder",
+            "2 tbsp olive oil",
+            "10 oz skinless, boneless chicken breasts, halved"
+        ],
+        "ingredients": [
+            {
+                "name": "Paprika"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Cayenne pepper"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Thyme"
+            },
+            {
+                "name": "White pepper"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Chicken breasts"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F. Lightly grease a baking sheet. Heat a cast iron skillet over high heat for 5 minutes until it is smoking hot.",
+            "Mix together the paprika, salt, cayenne, cumin, thyme, white pepper, and onion powder.",
+            "Oil the chicken breasts with olive oil on both sides, then coat the chicken breasts evenly with the spice mixture.",
+            "Place the chicken in the hot pan, and cook for 1 minute. Turn, and cook 1 minute on other side. Place the breasts on the prepared baking sheet.",
+            "Bake in the preheated oven until no longer pink in the center and the juices run clear, about 5 minutes. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/b4f746f9bccc4d158843c16792575f09.jpg"
+    },
+    {
+        "name": "Bbq Prawns In Orange Sauce",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Mediterranean"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": 2,
+        "numberOfServings": 2,
+        "weightInGrams": 389.49523125,
+        "nutrientsPerServing": {
+            "calories": 324.98,
+            "protein": 21.71,
+            "carbs": 27.92,
+            "fiber": 0.21,
+            "fat": 14.05,
+            "sugar": 13.07,
+            "cholesterol": 210.04
+        },
+        "ingredientsCount": 5,
+        "ingredientLines": [
+            "10 oz prawn",
+            "2 oranges, zested and juiced",
+            "2 tbsp chopped parsley",
+            "1 tbsp olive oil",
+            "1 tbsp chopped garlic"
+        ],
+        "ingredients": [
+            {
+                "name": "Prawn"
+            },
+            {
+                "name": "Oranges"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Garlic"
+            }
+        ],
+        "instructions": [
+            "Preheat barbecue to high heat and cook prawns for about 3 minutes on each side or until cooked through.",
+            "Remove from hotplate and place in a bowl.",
+            "Sprinkle zest, garlic, and parsley over, drizzle with orange juice and season to taste."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/a9df283c61544977b83a20aee011bbdb.jpg"
+    },
+    {
+        "name": "Broccoli Soup",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 3,
+        "numberOfServings": 2,
+        "weightInGrams": 707.2980925,
+        "nutrientsPerServing": {
+            "calories": 325.15,
+            "protein": 25.23,
+            "carbs": 19.66,
+            "fiber": 5.67,
+            "fat": 16.18,
+            "sugar": 6.96,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "1/2 onion, diced",
+            "3 cloves garlic, minced",
+            "1 carrot, peeled and chopped",
+            "2 oz celery, chopped",
+            "1 cup1 broccoli florets",
+            "1/2 cup vegetable stock",
+            "1/2 cup almond milk",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "2 oz pea protein powder",
+            "2 tbsp olive oil"
+        ],
+        "ingredients": [
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Vegetable stock"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Pea protein powder"
+            },
+            {
+                "name": "Olive oil"
+            }
+        ],
+        "instructions": [
+            "Add the onion, garlic, carrot and celery to a pot with a few tablespoons of the vegetable stock, oil and cook until they start to soften, 5 minutes.",
+            "Add the broccoli, stock and milk and simmer over medium heat until all the veggies are soft and tender, about 15 minutes.",
+            "Carefully pour the soup into a blender, add proteins, and process until smooth.",
+            "Season with salt and pepper, if needed. Serve right away."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/65b3f91a2da44e4d8d144cf1f41129e9.jpg"
+    },
+    {
+        "name": "Black Bean And Corn Salad",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": null,
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 1,
+        "numberOfServings": 2,
+        "weightInGrams": 939.4628516666667,
+        "nutrientsPerServing": {
+            "calories": 408.95,
+            "protein": 13.06,
+            "carbs": 42.12,
+            "fiber": 15.87,
+            "fat": 20.92,
+            "sugar": 9.81,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "2 tbsp lime juice",
+            "2 tbsp olive oil",
+            "1 garlic clove, minced",
+            "Salt, to taste",
+            "1 tsp cayenne pepper",
+            "5 oz canned black beans, drained",
+            "½ cup frozen corn kernels",
+            "½ avocado, peeled, pitted and diced",
+            "3 oz red bell pepper, chopped",
+            "½ tomato, chopped",
+            "3 green onions, chopped",
+            "Parsley, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Lime juice"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Cayenne pepper"
+            },
+            {
+                "name": "Black beans"
+            },
+            {
+                "name": "Corn kernels"
+            },
+            {
+                "name": "Avocado"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Green onions"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Place lime juice, olive oil, garlic, salt, and cayenne pepper in a small jar. Cover with lid, and shake until ingredients are well mixed.",
+            "In a salad bowl, combine beans, corn, avocado, bell pepper, tomatoes, green onions, and parsley.",
+            "Shake lime dressing, and pour it over the salad. Stir salad to coat vegetables and beans with dressing, and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/2043d47cc0c946c780b8103a34a2e535.jpg"
+    },
+    {
+        "name": "Bourbon Chicken",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 473.2961850000001,
+        "nutrientsPerServing": {
+            "calories": 387.45,
+            "protein": 31.14,
+            "carbs": 61.94,
+            "fiber": 4.1,
+            "fat": 1.68,
+            "sugar": 8.51,
+            "cholesterol": 50.15
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "2 skinless, boneless chicken breasts",
+            "½ tsp ground ginger",
+            "4 oz soy sauce",
+            "2 tbsp onion powder",
+            "3 tbsp bourbon",
+            "1 tsp garlic powder",
+            "4 oz Arborio rice",
+            "2 tbsp chopped parsley"
+        ],
+        "ingredients": [
+            {
+                "name": "Chicken breasts"
+            },
+            {
+                "name": "Ginger"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Bourbon"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Arborio rice"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Place chicken breasts in a 9x13 inch baking dish. In a small bowl combine the ginger, soy sauce, onion powder, bourbon and garlic powder.",
+            "Mix together and pour mixture over chicken. Cover dish and place in refrigerator. Marinate overnight.",
+            "Preheat the oven to 325°F.",
+            "Bring a large pot of lightly salted water to a boil. Cook pasta according to package instructions. Set aside.",
+            "Remove dish from refrigerator and remove cover. Bake in the preheated oven, basting frequently, for 30 minutes. Serve immediately with rice and parsley."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/93f4a5cb1b58484faf1eb3ba16df90f7.jpg"
+    },
+    {
+        "name": "Broccoli Quesadilla",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 5,
+        "numberOfServings": 3,
+        "weightInGrams": 788.7904625000001,
+        "nutrientsPerServing": {
+            "calories": 390.82,
+            "protein": 13.3,
+            "carbs": 46,
+            "fiber": 7.32,
+            "fat": 17.07,
+            "sugar": 6.4,
+            "cholesterol": 16.25
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "2 tbsp olive oil",
+            "1 zucchini, peeled and sliced",
+            "6 oz canned corn, drained and rinsed",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "6 oz tortillas",
+            "2 cloves garlic, minced",
+            "8 oz broccoli florets",
+            "4 tbsp grated vegan Parmesan cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Zucchini"
+            },
+            {
+                "name": "Corn"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Tortillas"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Parmesan cheese"
+            }
+        ],
+        "instructions": [
+            "Heat the oil in a large frying pan. Cook the zucchini in two batches over high heat until it’s browned and tender. Add broccoli and corn.",
+            "Reduce the heat to medium-low, add the garlic and cook, stirring, for 30 seconds. Season to taste with salt and pepper.",
+            "Spoon some of the filling on one half of a tortilla, sprinkle with cheese and fold it over.",
+            "Heat a small amount of oil in a large frying pan, place two quesadillas in the pan and cook them over medium heat until golden on both sides."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/feca5ca29dc34b72bdf2aa4231b86ba0.jpg"
+    },
+    {
+        "name": "Blueberry Bread Pudding",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 577.7814258333333,
+        "nutrientsPerServing": {
+            "calories": 387.93,
+            "protein": 13.63,
+            "carbs": 49.05,
+            "fiber": 4.74,
+            "fat": 15.25,
+            "sugar": 21.46,
+            "cholesterol": 248
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "4 eggs",
+            "¾ cup oat milk",
+            "1¾ tbsp coconut sugar",
+            "1 tsp vanilla extract",
+            "¾ tsp ground cinnamon",
+            "4 oz wholegrain bread",
+            "4 tbsp raisins",
+            "2 tbsp pumpkin seeds"
+        ],
+        "ingredients": [
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Oatmilk"
+            },
+            {
+                "name": "Coconut sugar"
+            },
+            {
+                "name": "Vanilla extract"
+            },
+            {
+                "name": "Cinnamon"
+            },
+            {
+                "name": "Multigrain bread"
+            },
+            {
+                "name": "Raisins"
+            },
+            {
+                "name": "Pumpkin seeds"
+            }
+        ],
+        "instructions": [
+            "Prehet the oven to 350°F.",
+            "In a medium bowl add the eggs, milk, sugar, vanilla extract and ground cinnamon. Mix until fully combined.",
+            "Add bread that has been torn into 1 inch pieces, raisins and seeds. Mix until you see that all the bread pieces are in touch with the liquid.",
+            "Brush a small baking mould with oil or give it a light coating with oil spray. Transfer the bread pudding mix and spread evenly.",
+            "Bake for 10 minutes in the middle rack of the oven. Then transfer to the highest rack, turn on the broiler setting at high and bake about 3 minutes. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f2f59f4272094029ab5da237ba8d2f3e.jpg"
+    },
+    {
+        "name": "Black Bean Burger",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 2,
+        "numberOfServings": 3,
+        "weightInGrams": 1291.785275515625,
+        "nutrientsPerServing": {
+            "calories": 480.42,
+            "protein": 19.96,
+            "carbs": 71.45,
+            "fiber": 13.62,
+            "fat": 12.75,
+            "sugar": 8.21,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 18,
+        "ingredientLines": [
+            "12 oz black beans",
+            "1/4 cup chopped onion",
+            "1/2 tbsp minced garlic",
+            "2 baby carrots, grated",
+            "3 tbsp minced green bell pepper",
+            "1/2 tbsp cornstarch",
+            "1/2 tbsp warm water",
+            "2 tbsp Sriracha",
+            "1 tsp chili powder",
+            "1 tsp ground cumin",
+            "1 tsp seafood seasoning",
+            "1/6 tsp salt",
+            "3 burger buns",
+            "1 tomato, sliced",
+            "1/2 red onion, sliced",
+            "3 oz lettuce",
+            "1/2 cup oat flour",
+            "2 oz whole wheat bread"
+        ],
+        "ingredients": [
+            {
+                "name": "Black beans"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Baby carrots"
+            },
+            {
+                "name": "Green bell pepper"
+            },
+            {
+                "name": "Cornstarch"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Sriracha"
+            },
+            {
+                "name": "Chili powder"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Seafood seasoning"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Burger buns"
+            },
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Lettuce"
+            },
+            {
+                "name": "Oat flour"
+            },
+            {
+                "name": "Wheat bread"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350°F. Grease a baking sheet.",
+            "Mash black beans in a bowl; add onion, garlic, carrots, and green bell pepper. Mix.",
+            "Whisk cornstarch, water, chile-garlic sauce, chili powder, cumin, seafood seasoning, salt, and black pepper together in a separate small bowl.",
+            "Stir cornstarch mixture into black bean mixture. Mix whole-wheat bread into bean mixture.",
+            "Stir flour, 1/4 cup at a time, into bean mixture until a sticky batter forms.",
+            "Spoon 'burger-sized' mounds of batter onto the prepared baking sheet, about a 3/4-inch thickness per mound. Shape into burgers.",
+            "Bake in the preheated oven until cooked in the center and crisp in the outside, about 10 minutes on each side.",
+            "Serve patties on top of buns with tomato, lettuce and onion."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/c0ff5127a2a14567b0b7b8726dc30b45.jpg"
+    },
+    {
+        "name": "Broccoli Hazelnut Spread",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "35 minutes",
+        "totalTimeInSeconds": 2100,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 474.67535189716574,
+        "nutrientsPerServing": {
+            "calories": 452.61,
+            "protein": 18.61,
+            "carbs": 61.52,
+            "fiber": 9.08,
+            "fat": 14.68,
+            "sugar": 1.63,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "1 tbsp olive oil",
+            "1/2 shallot, minced",
+            "1/3 cup chopped hazelnut",
+            "2 cup broccoli florets",
+            "1/2 tbsp chopped parsley",
+            "1 tsp chopped dill",
+            "1/4 tsp salt",
+            "1/4 tsp ground nutmeg",
+            "1/4 tsp ground black pepper",
+            "6 oz crackers, vegan",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Shallots"
+            },
+            {
+                "name": "Hazelnuts"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Dill"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Nutmeg"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Crackers"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Heat 1 tablespoon olive oil in a skillet and cook shallot until soft and translucent, about 5 minutes.",
+            "Add hazelnuts and cook until toasted, about 2 minutes. Remove from heat and cool for 10 minutes.",
+            "Meanwhile, bring a pot of lightly salted water to a boil and cook broccoli until softened, about 3 minutes. Drain and rinse under cold water. Drain well.",
+            "Combine shallot-hazelnut mixture, nutritional yeast, broccoli, parsley, and dill in the bowl of a food processor, pulse until blended.",
+            "Pour 2 tablespoons olive oil in slowly, with the processor running, until spread is smooth.",
+            "Add more olive oil if needed. Season with salt, pepper, and nutmeg. Serve with crackers or bread."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/3a46e182b0b34cad9999d1ac443a4086.jpg"
+    },
+    {
+        "name": "Beef And Bean Burritos",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 16,
+        "numberOfServings": 3,
+        "weightInGrams": 817.2380781250001,
+        "nutrientsPerServing": {
+            "calories": 481.03,
+            "protein": 33.06,
+            "carbs": 36.98,
+            "fiber": 10.28,
+            "fat": 22.32,
+            "sugar": 2.36,
+            "cholesterol": 67
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "1 tbsp olive oil",
+            "1/2 cup chopped onions",
+            "1 jalapeno pepper, diced",
+            "8 oz ground beef",
+            "10 oz canned black beans, drained and rinsed",
+            "4 oz tortillas",
+            "3 oz mozzarella cheese, shredded"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onions"
+            },
+            {
+                "name": "Jalapeno pepper"
+            },
+            {
+                "name": "Beef"
+            },
+            {
+                "name": "Black beans"
+            },
+            {
+                "name": "Tortillas"
+            },
+            {
+                "name": "Mozzarella cheese"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350°F.",
+            "In a medium skillet, saute the onions and diced jalapenos until slightly soft.",
+            "Add ground beef, and cook until brown. Add water and black beans, cover and cook on medium heat for about 5 minutes or until water is mostly absorbed.",
+            "Warm large tortillas on griddle, if desired, and fill each with small amount of beef and bean mixture and desired toppings. Roll up.",
+            "Garnish burritos with some cheese and bake for 10 minutes in oven."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/1ab2a29507ef4d98a1afd95ea6595561.jpg"
+    },
+    {
+        "name": "Brussels Sprouts Gratin",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": 2,
+        "numberOfServings": 3,
+        "weightInGrams": 1193.2399856249997,
+        "nutrientsPerServing": {
+            "calories": 438.43,
+            "protein": 20.24,
+            "carbs": 28.85,
+            "fiber": 6.5,
+            "fat": 26.89,
+            "sugar": 4.81,
+            "cholesterol": 71.14
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "1 lb brussels sprouts, trimmed",
+            "3 tbsp vegan butter",
+            "3 tbsp all-purpose flour",
+            "2 cups almond milk",
+            "5 oz grated vegan Parmesan",
+            "Salt, to taste",
+            "Black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Brussels sprouts"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "All purpose flour"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Parmesan cheese"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F.",
+            "Boil the Brussels sprouts until bright green and beginning to soften but not mushy, 5 minutes.",
+            "Drop the sprouts into the ice water to stop the cooking, then drain and pat them dry.",
+            "Melt the butter and flour in a saucepan over medium heat. Cook, stirring, until smooth and bubbling, about 1 minute. Whisking constantly, slowly stir in the milk.",
+            "Continue to cook, whisking frequently, until thick and creamy, 3 minutes. Add 3/4 of the cheese and stir until melted and smooth.",
+            "Remove the pan from the heat and season the sauce well with salt and heavily with pepper.",
+            "Place the sprouts in an even layer in a baking dish, pour the sauce evenly over the top, and sprinkle with the remaining cheese.",
+            "Bake until golden and bubbling on top, 10 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/e32c4d6ef2604a109ca63f60657bc4ce.jpg"
+    },
+    {
+        "name": "Cauliflower And Broccoli Gratin",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 5,
+        "numberOfServings": 5,
+        "weightInGrams": 986.59904625,
+        "nutrientsPerServing": {
+            "calories": 348.54,
+            "protein": 14.47,
+            "carbs": 24.13,
+            "fiber": 1.41,
+            "fat": 21.57,
+            "sugar": 6.59,
+            "cholesterol": 68.6
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "1 cup cauliflower florets",
+            "1 cup broccoli florets",
+            "2 oz butter",
+            "½ cup flour",
+            "2 cups milk",
+            "½ cup grated Parmesan cheese",
+            "½ cup grated Gouda cheese",
+            "½ cup breadcrumbs"
+        ],
+        "ingredients": [
+            {
+                "name": "Cauliflower florets"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Flour"
+            },
+            {
+                "name": "Milk"
+            },
+            {
+                "name": "Parmesan cheese"
+            },
+            {
+                "name": "Gouda cheese"
+            },
+            {
+                "name": "Breadcrumbs"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 390°F.",
+            "Place cauliflower and broccoli into a large saucepan. Cover with water. Bring to the boil. Reduce heat to simmer, covered, for 8 minutes. Drain well. Place in prepared dish.",
+            "Meanwhile, to make sauce, melt butter in a saucepan over medium heat. Blend in flour. Cook, stirring with a wooden spoon, for 1 minute. Do not brown. Remove from heat. Gradually blend in milk, until smooth.",
+            "Return to heat. Cook on high, stirring constantly, until sauce boils and thickens. Reduce heat to low and simmer for 3 minutes. Season to taste.",
+            "Pour sauce over vegetables. Sprinkle with combined cheeses and breadcrumbs. Bake for 20 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/a399347cb47e42f88fe729436c69f774.jpg"
+    }
+]

@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 
 
 const SUGGESTIC_API = "https://production.suggestic.com/graphql";
-const PER_PAGE = 1; // maximum is 100
+const PER_PAGE = 100; // maximum is 100
 const DIR_PATH = path.join(
   path.dirname(fileURLToPath(import.meta.url)), 
   "json_data"
@@ -15,7 +15,7 @@ const DIR_PATH = path.join(
 
 
 const recipeSearchQueryString = (params_string) => `{
-  recipeSearch(${params_string} first: ${PER_PAGE}) {
+  recipeSearch(${params_string} first: ${PER_PAGE} hasInstructions: true hasImage: true) {
     pageInfo {
       endCursor
       hasNextPage
@@ -24,6 +24,7 @@ const recipeSearchQueryString = (params_string) => `{
     edges {
       node {
         name
+        cuisines
         ingredients {
           name
         }
@@ -47,7 +48,7 @@ async function getData(params, query_func=recipeSearchQueryString) {
       headers: {
         'Content-Type': 'application/json',
         'Content-Length': data.length,
-        Authorization: 'Token f8871d20ca0de98760a97a0e61fb62f9845653a7',
+        Authorization: 'Token 491ab08b6da19be1d67d218e4c21aaf9a1284679',
         'User-Agent': 'Node',
       },
     }
@@ -71,9 +72,28 @@ async function getRecipewithIngredientData(total=1) {
   let all_ingredient_name = {};
   let unique_ingredient_name = new Set();
 
+  /* 
+  Mexican: 100
+  American: 265
+  Japanese: 22
+  Korean: 29
+  Chinese: 54
+  Asian: 76
+  Italian: 161
+  World: 133
+  Kid-Friendly: 407
+  Spanish: 21
+  Mediterranean: 118
+  Greek: 21
+   */
+  const cuisine = "Polish";
+
   // loop reverse-paginating
   for (let i = 0; i < total; i++) {
-    let response = await getData(`cuisines: "Asian" after: "${endCusor}"`);
+    let response = await getData(`cuisines: "${cuisine}" after: "${endCusor}"`);
+
+    console.log(">>>>>>>>>>>>>..")
+    console.log(response)
     let res_recipe_search = response.data["recipeSearch"];
 
     let paging = res_recipe_search["pageInfo"]; // get the pagination info
@@ -103,15 +123,15 @@ async function getRecipewithIngredientData(total=1) {
 
   }
   
-  writeJson(all_recipes, `${total * PER_PAGE}_recipes.json`);
-  writeJson(all_recipe_name, `${total * PER_PAGE}_recipe_name.json`);
-  writeJson(all_ingredient_name, `${total * PER_PAGE}_ingredient_name.json`);
+  writeJson(all_recipes, `${cuisine}/${total * PER_PAGE}_recipes.json`);
+  writeJson(all_recipe_name, `${cuisine}/${total * PER_PAGE}_recipe_name.json`);
+  writeJson(all_ingredient_name, `${cuisine}/${total * PER_PAGE}_ingredient_name.json`);
 
-  writeJson(Array.from(unique_ingredient_name), `${total * PER_PAGE}_ingredient_unique_name.json`);
+  writeJson(Array.from(unique_ingredient_name).sort(), `${cuisine}/${total * PER_PAGE}_ingredient_unique_name.json`);
 }
 
 // get recipe and its unique ingredients
-// getRecipewithIngredientData(100)
+// getRecipewithIngredientData(2)
 
 async function getIngredientCount(filename, upto=1) {
 
@@ -341,7 +361,7 @@ async function getFinalRecipeByIngredients(upto=2) {
 // =============================== Get the recipe and its properties =========================================
 
 const recipePropertiesQueryString = (recipe_name) => `{
-  recipeSearch(query: "${recipe_name}") {
+  recipeSearch(query: "${recipe_name}" hasInstructions: true hasImage: true) {
     edges {
       node {
         name
@@ -378,23 +398,69 @@ const recipePropertiesQueryString = (recipe_name) => `{
 }`
 
 async function getRecipeProperties() {
-  const recipes_filename = "final/final_recipe_name.json"
-  const content = fs.readFileSync(path.resolve(DIR_PATH, recipes_filename), {encoding: "utf8"});
-  let recipes = JSON.parse(content);
 
-  let recipe_response = []
+  // loop each 20 files
+  for (let i=18; i<1000/50; i++) {
+  // for (let i=0; i<1; i++) {
+    const recipes_filename = `v2/all_recipes/each50recipes/r${i}_recipes.json`;
+    const content = fs.readFileSync(path.resolve(DIR_PATH, recipes_filename), {encoding: "utf8"});
+    let recipes = JSON.parse(content);
+
+    let recipe_response = []
+    // loop every key to get the value (recipe name)
+    // let forEachRecipe = await Promise.all(Object.keys(recipes).map(async key => {
+    let forEachRecipe = await Promise.all(recipes.map(async recipe => {
+      let response = await getData(recipe, recipePropertiesQueryString)
+      // console.log(response.data["recipeSearch"]["edges"][0]["node"]);
+      console.log(response)
+
+      let content = response.data["recipeSearch"]["edges"][0]["node"];
+      recipe_response.push(content);
+    }));
+    if (!forEachRecipe) console.log("Something went wrong");
+
+    console.log(recipe_response.length)
+
+    let write_filename = `v2/all_recipes/raw50recipes/r${i}_recipes.json`;
+    fs.openSync(
+      path.resolve(DIR_PATH, write_filename),
+      'w'
+    );
+    writeJson(
+      Array.from(recipe_response), 
+      write_filename
+    );
+  }
+
+
+  // const recipes_filename = "final/final_recipe_name.json"
+  /* const recipes_filename = "v2/all_recipes/unique_recipe_names.json"
+  const content = fs.readFileSync(path.resolve(DIR_PATH, recipes_filename), {encoding: "utf8"});
+  let recipes = JSON.parse(content); */
+
+
+  /* let recipe_response = []
   // loop every key to get the value (recipe name)
   let forEachRecipe = await Promise.all(Object.keys(recipes).map(async key => {
     let response = await getData(recipes[key], recipePropertiesQueryString)
     // console.log(response.data["recipeSearch"]["edges"][0]["node"]);
-    recipe_response.push(response.data["recipeSearch"]["edges"][0]["node"]);
+    console.log(response)
+
+    let content = response.data["recipeSearch"]["edges"][0]["node"];
+    recipe_response.push(content);
+    fs.writeFileSync(
+      path.resolve(
+        DIR_PATH, `v2/all_recipes/raw/appended_recipes.json`
+      ),
+      JSON.stringify(Array.from(recipe_response))
+    )
   }));
   if (!forEachRecipe) console.log("Something went wrong");
 
   console.log(recipe_response.length)
-  writeJson(Array.from(recipe_response), `all_recipes.json`);
+  writeJson(Array.from(recipe_response), `v2/all_recipes/raw/all_recipes.json`); */
 
 }
 
 // request all properties of all recipes
-// getRecipeProperties()
+getRecipeProperties()

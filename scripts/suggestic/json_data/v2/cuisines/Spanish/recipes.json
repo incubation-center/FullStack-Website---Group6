@@ -1,0 +1,853 @@
+[
+    {
+        "node": {
+            "name": "Gnocchi With Chorizo And Peas",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Prosciutto"
+                },
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Chorizo"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Chili",
+            "cuisines": [
+                "Spanish",
+                "Mexican"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Kidney beans"
+                },
+                {
+                    "name": "Red beans"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Mushroom"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Orange bell pepper"
+                },
+                {
+                    "name": "Chili powder"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baked Cod In Roasted Red Pepper Sauce",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cod fillets"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Cayenne pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Garlic Chili Prawns In Tomato Sauce",
+            "cuisines": [
+                "Italian",
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Spring onions"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Prawn"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomato pure"
+                },
+                {
+                    "name": "Tabasco sauce"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spanish Tortilla With Chorizo And Peppers",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Red potatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Chorizo"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spanish Garlic Shrimp",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Sopa De Ajo",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Bacon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Spanish Omelette",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Chickpea flour"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chimichangas",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Chicken"
+                },
+                {
+                    "name": "Cheese"
+                },
+                {
+                    "name": "Mild green chiles"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Taco seasoning"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Flour tortilla"
+                },
+                {
+                    "name": "Mexican cheese blend"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Beefy Vegan Taquitos",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Meatless crumbles"
+                },
+                {
+                    "name": "Chipotle chile"
+                },
+                {
+                    "name": "Adobo sauce"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Vegan cream cheese"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Corn tortillas"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Albondigas",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Celery seed"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Cinnamon"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomato sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Taquitos",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Mild green chiles"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Chicken"
+                },
+                {
+                    "name": "Cheese"
+                },
+                {
+                    "name": "Corn tortillas"
+                },
+                {
+                    "name": "Avocado oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Turkey Fajitas",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mexican",
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chili powder"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Turkey breast"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cucumber-Melon Gazpacho",
+            "cuisines": [
+                "Spanish",
+                "Mexican"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Watermelon"
+                },
+                {
+                    "name": "Yogurt"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Pea protein powder"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Low Carb Jambalaya",
+            "cuisines": [
+                "Cajun & Creole",
+                "American",
+                "Spanish",
+                "French"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Sausages"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Bell peppers"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Cajun seasoning"
+                },
+                {
+                    "name": "Pepper sauce"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Shrimp"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spinach And Chickpeas",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Chickpeas"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Baby spinach leaves"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Taquitos",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potato"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Corn tortillas"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Garlic"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spanish Omelette",
+            "cuisines": [
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Air Fryer Beef Taco Bowls",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly",
+                "American"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Red chilies"
+                },
+                {
+                    "name": "Beans"
+                },
+                {
+                    "name": "Chili powder"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Tortilla bowl"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tacos El Pastor",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Chili pepper"
+                },
+                {
+                    "name": "Chili pepper"
+                },
+                {
+                    "name": "Pineapple"
+                },
+                {
+                    "name": "Orange juice"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Chipotle peppers"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Cloves"
+                },
+                {
+                    "name": "Cumin seed"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Pork loin"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Cilantro"
+                },
+                {
+                    "name": "Corn tortillas"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Fajitas",
+            "cuisines": [
+                "Mexican",
+                "Spanish",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Fajita seasoning"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    }
+]

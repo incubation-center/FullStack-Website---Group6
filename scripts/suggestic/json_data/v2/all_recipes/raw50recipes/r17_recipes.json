@@ -1,0 +1,4099 @@
+[
+    {
+        "name": "Tonkatsu",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Japanese"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1084.27700875,
+        "nutrientsPerServing": {
+            "calories": 467.19,
+            "protein": 44.68,
+            "carbs": 39.02,
+            "fiber": 2.95,
+            "fat": 14.71,
+            "sugar": 9.22,
+            "cholesterol": 223.79
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "1 lb pork loin chops, sliced",
+            "2 eggs, beaten",
+            "1/2 cup almond flour",
+            "1 cup panko breadcrumbs",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "1 tbsp olive oil",
+            "1/4 cup ketchup",
+            "1 tbsp Worcestershire sauce",
+            "1 tsp oyster sauce",
+            "1 tsp soy sauce",
+            "6 oz shredded cabbage"
+        ],
+        "ingredients": [
+            {
+                "name": "Pork loin chops"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Almond flour"
+            },
+            {
+                "name": "Panko breadcrumbs"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Ketchup"
+            },
+            {
+                "name": "Worchestire sauce"
+            },
+            {
+                "name": "Oyster sauce"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Cabbage"
+            }
+        ],
+        "instructions": [
+            "Season pork chops with pepper and salt. Dredge the meat into the flour, shake excess flour and then dip it into the beaten egg, shake excess.",
+            "Dredge in panko, then cover the meat evenly with panko breadcrumbs by patting with your hands to make the meat is throughly covered.",
+            "Working in batches, deep fry the cutlet, until golden on the bottom for about 3 minutes. Flip and cook on the other side for 3 minutes.",
+            "In a medium bowl stir ketchup, Worcestershire, soy and oyster sauce.",
+            "Serve sauce and pork chops with shredded cabbage."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/fe0a77ca058249bfb94db844dcfbf281.jpg"
+    },
+    {
+        "name": "Tomato And Cheese Salad",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 306.41746743512977,
+        "nutrientsPerServing": {
+            "calories": 303.9,
+            "protein": 8.82,
+            "carbs": 10.9,
+            "fiber": 1.16,
+            "fat": 25,
+            "sugar": 1.75,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "3 tbsp walnuts",
+            "5 oz cherry tomatoes, halved",
+            "3 oz vegan cheese, cubed",
+            "3 tbsp black olives, sliced",
+            "1 tsp chopped parsley",
+            "1 tsp chopped dill",
+            "2 tbsp olive oil",
+            "Salt, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Walnuts"
+            },
+            {
+                "name": "Cherry tomatoes"
+            },
+            {
+                "name": "Vegan cheese"
+            },
+            {
+                "name": "Black olives"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Dill"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Salt"
+            }
+        ],
+        "instructions": [
+            "Mix all ingredients together. Season with salt, and olive oil, and toss. Serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/ff2eeb3c176b4747a48820be8ba18366.jpg"
+    },
+    {
+        "name": "Turkey Wraps",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "20 minutes",
+        "totalTimeInSeconds": 1200,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 695.9271339583333,
+        "nutrientsPerServing": {
+            "calories": 493.61,
+            "protein": 26.66,
+            "carbs": 19.47,
+            "fiber": 4.29,
+            "fat": 34.34,
+            "sugar": 2.39,
+            "cholesterol": 124.47
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "4 oz cream cheese",
+            "1 tbsp Dijon mustard",
+            "3 tortillas",
+            "1/2 cup shredded iceberg lettuce",
+            "6 oz deli turkey",
+            "1/3 cup shredded Swiss cheese",
+            "1/2 tomato, diced",
+            "1/2 avocado, sliced",
+            "3 oz bacon, crumbled"
+        ],
+        "ingredients": [
+            {
+                "name": "Cream cheese"
+            },
+            {
+                "name": "Dijon style mustard"
+            },
+            {
+                "name": "Tortillas"
+            },
+            {
+                "name": "Iceberg lettuce"
+            },
+            {
+                "name": "Turkey"
+            },
+            {
+                "name": "Swiss cheese"
+            },
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Avocado"
+            },
+            {
+                "name": "Bacon"
+            }
+        ],
+        "instructions": [
+            "Mix together the cream cheese and Dijon mustard until smooth.",
+            "Spread each tortilla with about 2 tablespoons of the cream cheese mixture, spreading to within 1/4 inch of the edge of the tortillas.",
+            "Arrange about 1/4 cup of shredded lettuce on each tortilla, and press the lettuce down into the cream cheese mixture.",
+            "Place 2 turkey slices per tortilla over the lettuce, and sprinkle with 2 tablespoons of shredded Swiss cheese.",
+            "Top each tortilla evenly with tomato, avocado slices, and crumbled bacon",
+            "Roll each tortilla up tightly, and cut in half across the middle with a slightly diagonal cut."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/8362ad71ab9442e4b2751b8628ce85fb.jpg"
+    },
+    {
+        "name": "Tomato Risotto With Burrata",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 987.7692775,
+        "nutrientsPerServing": {
+            "calories": 470.52,
+            "protein": 10.88,
+            "carbs": 60.42,
+            "fiber": 3.88,
+            "fat": 20.59,
+            "sugar": 4.66,
+            "cholesterol": 47.17
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "1 onion, chopped",
+            "2 tbsp vegan butter",
+            "1 tbsp olive oil",
+            "1 cup arborio rice",
+            "8 oz canned tomatoes, chopped",
+            "1 cup vegetable stock",
+            "4 oz burrata",
+            "Salt, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Butter"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Arborio rice"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Vegetable stock"
+            },
+            {
+                "name": "Burrata"
+            },
+            {
+                "name": "Salt"
+            }
+        ],
+        "instructions": [
+            "Heat the onion with the olive oil and butter until the onion is translucent and soft, 5 minutes.",
+            "Add the rice and stir to toast until it makes a squeaking sound, 5 minutes.",
+            "Add 1/3 cup stock and stir until it evaporates. Add the tomatoes, salt, and another 1/3 cup stock.",
+            "When all the broth is absorbed, add remainingr. Keep enough liquid in the pan and stir continuously so that the rice does not stick.",
+            "Remove the rice from the heat. Serve topped with burrata cheese and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/e64d5d02983c461fa52c5d3032311e87.jpg"
+    },
+    {
+        "name": "Tuna Tostadas",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Mediterranean",
+            "Mexican",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 684.8087378490992,
+        "nutrientsPerServing": {
+            "calories": 429.91,
+            "protein": 20.78,
+            "carbs": 19.51,
+            "fiber": 4.62,
+            "fat": 29.86,
+            "sugar": 1.83,
+            "cholesterol": 35.97
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "6 oz tuna",
+            "3 tbsp mayonnaise",
+            "3 tbsp salsa",
+            "2 tbsp olive oil",
+            "3 tortillas",
+            "1 tomato, diced",
+            "1/3 cup chopped spinach",
+            "1/3 cup diced onion",
+            "3 tbsp shredded cheddar cheese",
+            "1/2 avocado, sliced"
+        ],
+        "ingredients": [
+            {
+                "name": "Tuna"
+            },
+            {
+                "name": "Mayonnaise"
+            },
+            {
+                "name": "Salsa"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Tortillas"
+            },
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Spinach"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Cheese cheddar"
+            },
+            {
+                "name": "Avocado"
+            }
+        ],
+        "instructions": [
+            "Mix tuna, mayonnaise, and salsa together in a bowl. Set aside.",
+            "Heat vegetable oil over medium-high heat in a frying pan.",
+            "Add tortillas in batches and fry until golden and slightly crisp, 2 to 3 minutes.",
+            "Spread tuna mixture over tortillas evenly. Top with tomato, spinach, and onions.",
+            "Sprinkle with Cheddar cheese and top with avocado slices."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/0fc9cd0322a0423da30f75c615b59f1e.jpg"
+    },
+    {
+        "name": "Tuna Egg Sandwich",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Mediterranean",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 596.3128516666667,
+        "nutrientsPerServing": {
+            "calories": 546.36,
+            "protein": 39.61,
+            "carbs": 38.54,
+            "fiber": 2.86,
+            "fat": 25.97,
+            "sugar": 4.78,
+            "cholesterol": 532.66
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "4 oz tuna in oil, drained",
+            "2 hard boiled eggs, peeled and sliced",
+            "1/2 cup corn",
+            "1 tbsp mayonnaise",
+            "Salt, to taste",
+            "1 tsp ground black pepper",
+            "4 oz bread"
+        ],
+        "ingredients": [
+            {
+                "name": "Tuna"
+            },
+            {
+                "name": "Eggs"
+            },
+            {
+                "name": "Corn"
+            },
+            {
+                "name": "Mayonnaise"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Bread, cut french into loaf"
+            }
+        ],
+        "instructions": [
+            "In a medium bowl, stir together the tuna, eggs, corn and mayonnaise. Season with salt and pepper to taste.",
+            "Place half of the mixture onto 1 slice of bread and the other half on another slice of bread. Top with remaining slices of bread. Serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/75a955c06a314b169b99568dc0668b36.jpg"
+    },
+    {
+        "name": "Vegan Cabbage Soup",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 2659.991893125,
+        "nutrientsPerServing": {
+            "calories": 262.18,
+            "protein": 17.53,
+            "carbs": 45.39,
+            "fiber": 15.8,
+            "fat": 1.17,
+            "sugar": 17.03,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "5 cups chopped green cabbage",
+            "3 cups vegetable broth",
+            "15 oz diced tomatoes",
+            "3 carrots, chopped",
+            "3 stalks celery, chopped",
+            "1 1/2 onion, chopped",
+            "2 cloves garlic",
+            "4 tbsp apple cider vinegar",
+            "1 tbsp lemon juice",
+            "2 tsp dried sage",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Green cabbage"
+            },
+            {
+                "name": "Vegetable broth"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Rib of celery"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Apple cider vinegar"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Sage"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Combine cabbage, vegetable broth, yeast, diced tomatoes, carrots, celery, onion, garlic, apple cider vinegar, lemon juice, and sage in a multi-functional pressure cooker.",
+            "Close and lock the lid. Select high pressure according to manufacturer's instructions; set timer for 15 minutes. Allow 10 to 15 minutes for pressure to build",
+            "Release pressure using the natural-release method according to manufacturer's instructions, 25 minutes. Unlock and remove lid."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/569cfd7297174579951ea8ad51d11d34.jpg"
+    },
+    {
+        "name": "Tuna Pickle Boats",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1178.1596387499999,
+        "nutrientsPerServing": {
+            "calories": 153.32,
+            "protein": 18.14,
+            "carbs": 14.35,
+            "fiber": 6.24,
+            "fat": 2.59,
+            "sugar": 6.05,
+            "cholesterol": 24.84
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "5 oz tuna in water, drained",
+            "1/4 cup chopped carrots",
+            "1/4 cup chopped celery",
+            "3 tbsp greek yogurt",
+            "2 tbsp diced red onion",
+            "1 tbsp mayonnaise",
+            "6 pickles, havled lengtwise and holowed",
+            "1 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Tuna"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Greek yogurt"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Mayonnaise"
+            },
+            {
+                "name": "Pickles"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Mix tuna, nutritional yeast, carrot, celery, yogurt, red onion, and mayonnaise together in a bowl.",
+            "Spread into the pickle halves."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/d8dea23007364dafa970bcb2e7cf91bf.png"
+    },
+    {
+        "name": "Tomato-Shrimp Pasta",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 1008.9938006250002,
+        "nutrientsPerServing": {
+            "calories": 429.65,
+            "protein": 30.49,
+            "carbs": 54.48,
+            "fiber": 6.64,
+            "fat": 9.98,
+            "sugar": 5.82,
+            "cholesterol": 151.01
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "4 oz spaghetti (or other pasta)",
+            "1 garlic clove, minced",
+            "¼ sweet onion, cut into wedges",
+            "1½ tbsp fresh oregano leaves",
+            "1 tsp olive oil",
+            "1 ripe tomato, chopped",
+            "1 tbsp chopped basil",
+            "Salt, to taste",
+            "Freshly ground black pepper, to taste",
+            "½ lb cooked shrimp, peeled and deveined",
+            "1 oz mozzarella cheese, diced",
+            "2 tbsp grated Parmesan cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Spaghetti"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Sweet onion"
+            },
+            {
+                "name": "Oregano leaves"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Basil"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Shrimp"
+            },
+            {
+                "name": "Mozzarella cheese"
+            },
+            {
+                "name": "Parmesan cheese"
+            }
+        ],
+        "instructions": [
+            "Bring a large pot of lightly salted water to a boil. Cook pasta according to package instructions. Drain and set aside.",
+            "In the container of a food processor, combine the garlic, onion and oregano. Pulse until finely chopped.",
+            "Heat the olive oil in a large skillet over medium heat. Add the onion mixture and cook for 2 minutes. Mix in the tomatoes, basil, salt and pepper.",
+            "Simmer for about 5 minutes while the pasta is cooking, stirring occasionally. Just before the pasta is done, stir in the shrimp. Cook until heated through.",
+            "Toss with pasta in a large serving bowl, and mix in mozzarella cheese and Parmesan cheese. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/81498baf849f4129a6378d4e1cc7c614.jpg"
+    },
+    {
+        "name": "Turkey Fajitas",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "Mexican",
+            "Spanish"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": 1,
+        "numberOfServings": 2,
+        "weightInGrams": 741.3088612943317,
+        "nutrientsPerServing": {
+            "calories": 302.17,
+            "protein": 27.02,
+            "carbs": 27.57,
+            "fiber": 6.62,
+            "fat": 9.31,
+            "sugar": 10.02,
+            "cholesterol": 66.34
+        },
+        "ingredientsCount": 14,
+        "ingredientLines": [
+            "1/2 tbsp chili powder",
+            "1/2 tbsp ground cumin",
+            "1 tsp paprika",
+            "1 tsp dried oregano",
+            "1/2 tsp ground black pepper",
+            "1/2 tsp garlic powder",
+            "1/4 tsp onion powder",
+            "1 lime, divided",
+            "3/4 lb skinless, boneless turkey breast, sliced",
+            "1/2 tbsp vegetable oil",
+            "1/2 red bell pepper, sliced",
+            "1/2 yellow bell pepper, sliced",
+            "1/2 green bell pepper, sliced",
+            "1/2 onion, sliced"
+        ],
+        "ingredients": [
+            {
+                "name": "Chili powder"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Paprika"
+            },
+            {
+                "name": "Oregano"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Lime"
+            },
+            {
+                "name": "Turkey breast"
+            },
+            {
+                "name": "Vegetable oil"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Yellow bell pepper"
+            },
+            {
+                "name": "Green bell pepper"
+            },
+            {
+                "name": "Onion"
+            }
+        ],
+        "instructions": [
+            "Mix chili powder, cumin, paprika, oregano, pepper, garlic powder, and onion powder together in a small bowl.",
+            "Squeeze the juice of 1 lime over the turkey breast. Sprinkle seasoning mixture over the meat. Add 1 tablespoon oil. Toss to coat and set aside.",
+            "Place bell peppers and onion into a bowl and cover with remaining oil. Toss to coat.",
+            "Preheat an air fryer to 375°F according to manufacturer's instructions.",
+            "Cook the bell peppers and onion in the preheated air fryer for 8 minutes. Shake and cook another 5 minutes.",
+            "Open the basket, shake, and place turkey strips in one single layer on top of the vegetables. Close the basket and cook, 7 to 8 minutes.",
+            "Open, shake the basket to distribute mixture, and continue to cook until turkey strips are a bit crispy, about 5 minutes more.",
+            "Remove the basket and place the fajitas in a bowl or on a platter. Squeeze juice of remaining lime over."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/2b900913e2c847c19f33096cb03e5c1e.jpg"
+    },
+    {
+        "name": "Tuscan Ribollita",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": 7,
+        "numberOfServings": 2,
+        "weightInGrams": 787.69332375,
+        "nutrientsPerServing": {
+            "calories": 331.63,
+            "protein": 7.74,
+            "carbs": 27.63,
+            "fiber": 10.36,
+            "fat": 21.13,
+            "sugar": 7.42,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "2 garlic cloves, smashed",
+            "1 red onion, sliced",
+            "1 carrot, peeled and chopped",
+            "1 celery stalk, chopped",
+            "3 tbsp olive oil",
+            "6 oz canned tomatoes, chopped",
+            "6 oz cannellini",
+            "1/2 cup vegetable broth",
+            "2 oz kale, roughly chopped"
+        ],
+        "ingredients": [
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Cannellini beans"
+            },
+            {
+                "name": "Vegetable broth"
+            },
+            {
+                "name": "Kale"
+            }
+        ],
+        "instructions": [
+            "In a large pot over medium heat, saute garlic, onion, carrot, and celery on olive oil for 5 minutes.",
+            "Add the tomatoes and their juices, along with the beans, broth, and rosemary. Simmer, covered, for 30 minuntes.",
+            "Add the kale and cook for 5 minutes more, then serve, garnished with some slices of red onion."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/4fc6ca72a5be48d192d9f8a05ec66341.jpg"
+    },
+    {
+        "name": "Vegan 'Meat' Sauce On Polenta",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "35 minutes",
+        "totalTimeInSeconds": 2100,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 1461.2161658333332,
+        "nutrientsPerServing": {
+            "calories": 386.21,
+            "protein": 30.88,
+            "carbs": 51.77,
+            "fiber": 11.03,
+            "fat": 6.18,
+            "sugar": 12.03,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "1 tbsp olive oil",
+            "1 onion, diced",
+            "12 oz meatless crumbles",
+            "8 oz chopped mushrooms",
+            "1 cup tomato sauce",
+            "1/2 tbsp dried oregano",
+            "1 tsp garlic powder",
+            "16 oz polenta",
+            "Salt, to taste",
+            "Ground black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Meatless crumbles"
+            },
+            {
+                "name": "Mushrooms"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Oregano"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Polenta"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Heat a large skillet over medium heat and spray with cooking spray. Add onions, cook and stir until golden, 5 to 7 minutes.",
+            "Add soy crumbles and mushroom,; cook until browned and softened, about 5 minutes.",
+            "Stir in tomato sauce, oregano, garlic powder, salt, and pepper. Reduce heat to low, cook until sauce is heated through, about 2 minutes.",
+            "Oil a skillet. Cook polenta over medium heat until golden, aaccording to the intrcutions on the packaging. Serve and top woth sauce."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/c48f7884d13347298492cd36e21a6162.jpg"
+    },
+    {
+        "name": "Vegan Asparagus-Mushroom Pasta",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": 3,
+        "numberOfServings": 2,
+        "weightInGrams": 898.6047447916667,
+        "nutrientsPerServing": {
+            "calories": 343.48,
+            "protein": 15.38,
+            "carbs": 35.16,
+            "fiber": 8.99,
+            "fat": 15.7,
+            "sugar": 6.08,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "4 oz penne (or other pasta)",
+            "2 tsp olive oil",
+            "1 lb asparagus, chopped",
+            "5 oz mushrooms, sliced",
+            "2 garlic cloves, minced",
+            "1 tsp vegetable bouillon",
+            "2 tsp dried basil",
+            "2 tbsp nutritional yeast",
+            "½ cup almond milk",
+            "2 tsp arrowroot powder"
+        ],
+        "ingredients": [
+            {
+                "name": "Penne"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Asparagus"
+            },
+            {
+                "name": "Mushrooms"
+            },
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Vegetable bouillon"
+            },
+            {
+                "name": "Basil"
+            },
+            {
+                "name": "Yeast"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Arrowroot powder"
+            }
+        ],
+        "instructions": [
+            "Bring a large pot of lightly salted water to a boil. Cook pasta according to package instructions. Drain, reserve 1 cup of the pasta water and set aside.",
+            "Heat oil in a large covered skillet over medium heat. Add the asparagus and cook for a minute or two. Add ¼ cup water and quickly cover.",
+            "Allow the asparagus to steam for 2 minutes. Uncover and add the mushrooms. Add a splash of water if it seems dry and cover. Cook for about 2 minutes.",
+            "Uncover, add the garlic, and cook for a minute or two. Add the vegetables to the pasta and combine well. Keep warm on the lowest heat setting.",
+            "Put pasta water into a small saucepan. Place it over medium high heat and add the bouillion, basil and nutritional yeast.",
+            "As it comes to a boil, whisk together the milk and arrowroot in a small bowl and add it to the saucepan. Cook, stirring, until it boils and thickens slightly.",
+            "Pour it over the pasta and vegetables, and stir to coat. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/8c558a6643fc4a6e896d58dcb2ac2f7a.jpg"
+    },
+    {
+        "name": "Tofu Scramble",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": null,
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 1,
+        "weightInGrams": 667.7730925,
+        "nutrientsPerServing": {
+            "calories": 495.37,
+            "protein": 29.05,
+            "carbs": 28.66,
+            "fiber": 9.22,
+            "fat": 29.39,
+            "sugar": 12.13,
+            "cholesterol": 372
+        },
+        "ingredientsCount": 13,
+        "ingredientLines": [
+            "1 tsp chili powder",
+            "1 tsp ground cumin",
+            "Salt, to taste",
+            "¾ tsp turmeric",
+            "¼ tsp garlic powder",
+            "1 tbsp olive oil",
+            "1 cup sliced button mushrooms",
+            "1 red pepper, diced",
+            "½ yellow onion, diced",
+            "2 cloves garlic, minced",
+            "4 oz tofu",
+            "2 shallots, chopped",
+            "2 eggs"
+        ],
+        "ingredients": [
+            {
+                "name": "Chili powder"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Turmeric"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Button mushrooms"
+            },
+            {
+                "name": "Red pepper"
+            },
+            {
+                "name": "Yellow onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Shallots"
+            },
+            {
+                "name": "Eggs"
+            }
+        ],
+        "instructions": [
+            "Add all of the spice mix ingredients into a bowl and stir to combine.",
+            "Heat a large skillet over medium-high heat and add the olive oil.",
+            "When hot, add the mushrooms, pepper, onion, and garlic and saute for about 10 minutes until everything just starts to brown.",
+            "Add the eggs and tofu blocks and break it apart with your spoon until you get a nice scramble texture with lots of chunks.",
+            "Stir in the spice mix. Heat through for another 5 minutes until hot, garnish with shallots and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/d1fef2bb7e674314aab9a4f9ed34a7c5.jpg"
+    },
+    {
+        "name": "Tomato Pasta With Beef",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 801.6752264583333,
+        "nutrientsPerServing": {
+            "calories": 373.67,
+            "protein": 23.19,
+            "carbs": 28,
+            "fiber": 3.68,
+            "fat": 18.77,
+            "sugar": 2.46,
+            "cholesterol": 69.83
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "3 oz blue cheese, cubed",
+            "1 tbsp olive oil",
+            "8 oz lean beef, cubed",
+            "1/4 cup diced onion",
+            "1 tsp minced garlic",
+            "1 tsp dried oregano",
+            "Salt, to taste",
+            "1 cup tomato sauce",
+            "6 oz penne",
+            "2 tbsp chopped parsley"
+        ],
+        "ingredients": [
+            {
+                "name": "Blue cheese"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lean beef"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Oregano"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Penne"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Heat oil in a Dutch oven over medium-high heat. Add beef, onion, garlic, oregano and salt and cook 10 minutes until beef is browned.",
+            "Add tomatoes and 2 cups water. Bring to a boil. Add pasta and simmer on medium heat about 15 minutes, stirring occasionally, until pasta is tender.",
+            "Season to taste with salt and pepper. Stir in blue cheese, parsley and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/3a4ab506548b44bf9625da47007bfd76.jpg"
+    },
+    {
+        "name": "Vegan Blueberry Basil Smoothie",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "5 minutes",
+        "totalTimeInSeconds": 300,
+        "favoritesCount": 3,
+        "numberOfServings": 1,
+        "weightInGrams": 859.749523125,
+        "nutrientsPerServing": {
+            "calories": 322.34,
+            "protein": 26.28,
+            "carbs": 46.63,
+            "fiber": 10.36,
+            "fat": 3.41,
+            "sugar": 26.49,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 5,
+        "ingredientLines": [
+            "1 1/2 cup blueberries",
+            "1 1/2 cup cold water",
+            "10 basil leaves",
+            "1 tbsp lime juice",
+            "1 oz pea protein powder"
+        ],
+        "ingredients": [
+            {
+                "name": "Blueberries"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Basil leaves"
+            },
+            {
+                "name": "Lime juice"
+            },
+            {
+                "name": "Pea protein powder"
+            }
+        ],
+        "instructions": [
+            "Combine blueberries, water, basil, lime juice, and protein powder in a blender, blend until smooth."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/7ac67364469844e4a2dd5bf7dec07be3.jpg"
+    },
+    {
+        "name": "Turkey Pesto Meatballs",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly",
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "50 minutes",
+        "totalTimeInSeconds": 3000,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 615.042846875,
+        "nutrientsPerServing": {
+            "calories": 430.15,
+            "protein": 24.57,
+            "carbs": 50.55,
+            "fiber": 3.57,
+            "fat": 14.41,
+            "sugar": 4.47,
+            "cholesterol": 56.32
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "1/2 tbsp olive oil",
+            "1/2 onion, minced",
+            "1/2 clove garlic, minced",
+            "1/2 cup frozen spinach",
+            "1/2 lb ground turkey",
+            "2 tbsp pesto",
+            "1 egg white",
+            "1 oz oatmeal",
+            "2 tbsp Parmesan cheese",
+            "6 oz fusilli",
+            "Salt, to taste",
+            "Ground black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Spinach"
+            },
+            {
+                "name": "Turkey"
+            },
+            {
+                "name": "Pesto"
+            },
+            {
+                "name": "Egg whites"
+            },
+            {
+                "name": "Oatmeal"
+            },
+            {
+                "name": "Parmesan cheese"
+            },
+            {
+                "name": "Fusilli"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Cook pasta in a pot of water for 10 to 12 minutes or by the instructions on the packaging.",
+            "Preheat the oven to 375°F. Grease a large baking pan with cooking spray.",
+            "Heat olive oil in a large skillet over medium heat. Add onion and garlic; cook and stir until browned, about 5 minutes.",
+            "Add spinach; mix until fully cooked, 3 to 5 minutes.",
+            "In the meantime, combine turkey, pesto, egg whites, oatmeal, Parmesan cheese, salt, and pepper in a large mixing bowl.",
+            "Add onion-spinach mixture and mix well. Shape mixture into balls using an ice cream scoop. Place in the prepared pan.",
+            "Bake in the preheated oven until no longer pink in the center, 30 to 35 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/8a2d0d29030b417eb684cb1a938c4fc3.jpg"
+    },
+    {
+        "name": "Tomato And Cucumber Salad",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "20 minutes",
+        "totalTimeInSeconds": 1200,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 736.4000069149736,
+        "nutrientsPerServing": {
+            "calories": 250.28,
+            "protein": 2.64,
+            "carbs": 17.03,
+            "fiber": 2.26,
+            "fat": 19.07,
+            "sugar": 6.07,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "2 cucumbers, diced",
+            "2 tomatoes, diced",
+            "1/4 red onion, diced",
+            "1/2 red bell pepper, diced",
+            "1 tbsp chopped garlic",
+            "1/2 cup chopped parsley",
+            "1 1/2 tbsp chopped mint",
+            "1/4 cup olive oil",
+            "1 tbsp lemon juice",
+            "1/2 tbsp salt",
+            "1/2 tbsp ground black pepper"
+        ],
+        "ingredients": [
+            {
+                "name": "Cucumbers"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Mint leaves"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Toss cucumbers, tomatoes, onion, bell pepper, garlic, parsley, and mint together in a bowl.",
+            "Drizzle olive oil and lemon juice over the salad and toss to coat; season with salt and pepper."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/ad8b5ae7e016479ebd42a00250db6b60.jpg"
+    },
+    {
+        "name": "Tumeric-Mango Smoothie",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": 1,
+        "numberOfServings": 2,
+        "weightInGrams": 937.0907129166667,
+        "nutrientsPerServing": {
+            "calories": 367.71,
+            "protein": 20.28,
+            "carbs": 50.32,
+            "fiber": 4.59,
+            "fat": 9.48,
+            "sugar": 24.76,
+            "cholesterol": 3.4
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "2 bananas",
+            "1 cup mango chunks",
+            "2 tbsp cashew butter",
+            "1/8 tsp ground tumeric",
+            "2 oz protein powder",
+            "2 cups water"
+        ],
+        "ingredients": [
+            {
+                "name": "Bananas"
+            },
+            {
+                "name": "Mango chunks"
+            },
+            {
+                "name": "Cashew butter"
+            },
+            {
+                "name": "Turmeric"
+            },
+            {
+                "name": "Protein powder"
+            },
+            {
+                "name": "Water"
+            }
+        ],
+        "instructions": [
+            "Combine bananas, mango, protein powder, cashew butter, and turmeric powder in a blender, add water. Blend mixture until smooth."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/b2b4015b50a2400b8111999480ae760b.jpg"
+    },
+    {
+        "name": "Vegan Alfredo Pasta",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "20 minutes",
+        "totalTimeInSeconds": 1200,
+        "favoritesCount": 6,
+        "numberOfServings": 3,
+        "weightInGrams": 329.27023125,
+        "nutrientsPerServing": {
+            "calories": 383.77,
+            "protein": 9.85,
+            "carbs": 52.27,
+            "fiber": 1.91,
+            "fat": 15.03,
+            "sugar": 1.4,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "Salt, to taste",
+            "6 oz fettucine",
+            "1 tsp olive oil",
+            "2 garlic cloves, chopped",
+            "4 oz vegan cream cheese",
+            "1 tbsp nutritional yeast",
+            "1 tsp lemon juice",
+            "1/8 tsp ground nutmeg",
+            "Black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Fettuccine"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Vegan cream cheese"
+            },
+            {
+                "name": "Yeast"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Nutmeg"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Bring a large pot of salted water to a boil. Add the pasta and cook according to package instructions.",
+            "Heat the oil, add garlic and cook for 1 minute. Transfer the garlic into the blender, add cream cheese, yeast, lemon juice, nutmeg, water, salt and blend.",
+            "When the pasta is ready, drain it and return it to the pot over low heat.",
+            "Stir in the sauce and heat the pasta until well coated and warmed through. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/dcf1b29dae3a43bfb3d92f8b72b378a0.jpg"
+    },
+    {
+        "name": "Turkey Zoodles",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1032.4609443971656,
+        "nutrientsPerServing": {
+            "calories": 321.92,
+            "protein": 25.17,
+            "carbs": 7.74,
+            "fiber": 1.01,
+            "fat": 21.14,
+            "sugar": 6.85,
+            "cholesterol": 82.4
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "1/2 tsp olive oil",
+            "3/4 lb ground turkey",
+            "1/2 cup diced green bell pepper",
+            "1/2 tbsp minced garlic",
+            "1 tsp Italian seasoning",
+            "1/4 tsp groudn black pepper",
+            "1/4 tsp salt",
+            "1/4 tsp red pepper flakes",
+            "2 cups marinara sauce",
+            "1 cup baby spinach leaves",
+            "3 zucchini, spiralized",
+            "2 tbsp grated Parmesan cheese"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Turkey"
+            },
+            {
+                "name": "Green bell pepper"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Italian seasoning blend"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Red pepper flakes"
+            },
+            {
+                "name": "Marinara sauce"
+            },
+            {
+                "name": "Baby spinach leaves"
+            },
+            {
+                "name": "Zucchini"
+            },
+            {
+                "name": "Parmesan cheese"
+            }
+        ],
+        "instructions": [
+            "Heat olive oil in a large skillet over medium heat. Add turkey breast, green pepper, garlic, Italian seasoning, ground black pepper, salt, and red pepper flakes,",
+            "Cook and stir until turkey is lightly browned, 4 to 5 minutes.",
+            "Stir marinara sauce and baby spinach into the turkey mixture, cook and stir until marinara sauce is warm through, about 3 minutes.",
+            "Stir zucchini noodles into the sauce with tongs; cook and stir until the zucchini is slightly tender, 2 to 3 minutes.",
+            "Serve and top with grated Parmesan."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/3fbfaedb47c342619741c576980caa61.jpg"
+    },
+    {
+        "name": "Tofu Lasagna",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": 3,
+        "numberOfServings": 3,
+        "weightInGrams": 1857.9871004166664,
+        "nutrientsPerServing": {
+            "calories": 399.16,
+            "protein": 33.35,
+            "carbs": 27.95,
+            "fiber": 10.63,
+            "fat": 17.11,
+            "sugar": 8.88,
+            "cholesterol": 33.78
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "8 oz lasagna noodles",
+            "8 oz spinach",
+            "10 oz soft tofu",
+            "10 oz firm tofu",
+            "1/4 cup soy milk",
+            "2 tbsp lemon juice",
+            "1/2 tsp garlic powder",
+            "Salt, to taste",
+            "1 lb canned tomato sauce",
+            "Basil leaves, to garnish",
+            "10 oz spinach"
+        ],
+        "ingredients": [
+            {
+                "name": "Lasagna noodles"
+            },
+            {
+                "name": "Spinach"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Soy milk"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Basil leaves"
+            },
+            {
+                "name": "Spinach"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350°F.",
+            "Bring a water to a boil and prepare lasagna noodled according to package directions. Drain carefully and set aside on a towel.",
+            "Place the tofu, soymilk, garlic powder, lemon juice, basil, and salt in a food processor or blender and blend until smooth.",
+            "Cover the bottom of a baking pan with a thin layer of tomato sauce, then a layer of noodles.",
+            "Follow that with a layer of half the tofu and half the spinach. Continue, using half the remaining tomato sauce and noodles and the rest.",
+            "End with the remaining noodles covered by the remaining tomato sauce. Bake for 20 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f35c8924ccb145d5965bb6435fc5f330.jpg"
+    },
+    {
+        "name": "Vegan Cashew Alfredo",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "35 minutes",
+        "totalTimeInSeconds": 2100,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 831.2947552969963,
+        "nutrientsPerServing": {
+            "calories": 372.47,
+            "protein": 20.27,
+            "carbs": 42.4,
+            "fiber": 7.08,
+            "fat": 13.53,
+            "sugar": 2.29,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "1/3 cup raw cashews",
+            "2/3 cup water",
+            "1 cup almond milk",
+            "2 tbsp minced garlic",
+            "2 oz nutritional yeast",
+            "1 tbsp lemon juice",
+            "1 tsp salt",
+            "1 tsp ground black pepper",
+            "1 tbsp chopped parsley",
+            "9 oz penne"
+        ],
+        "ingredients": [
+            {
+                "name": "Cashews"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Yeast"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Penne"
+            }
+        ],
+        "instructions": [
+            "Cook the pasta in a pot of water according to the instructions on the packaging.",
+            "Soak cashews in 1 1/2 cups water until softened in a bowl, at least 20 minutes.",
+            "Drain water, add almond milk. Blend mixture in an electric blender or food processor until smooth, 30 seconds to 1 minute.",
+            "Add water until sauce is slightly thinner than you want it for the final product, as it thickens when heated.",
+            "Add garlic, nutritional yeast, lemon juice, salt, and pepper, blend until smooth.",
+            "Pour mixture into a saucepan. Heat on medium-low heat, stirring occasionally until heated through and desired thickness is achieved, about 5 minutes.",
+            "You can add additional water or almond milk if sauce becomes too thick."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/d9df4016d30b451db000531dc6600e10.jpg"
+    },
+    {
+        "name": "Turkey Kabobs",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 2,
+        "numberOfServings": 3,
+        "weightInGrams": 518.7798700000001,
+        "nutrientsPerServing": {
+            "calories": 293.61,
+            "protein": 32.85,
+            "carbs": 0.98,
+            "fiber": 0.09,
+            "fat": 17.59,
+            "sugar": 0.13,
+            "cholesterol": 108.86
+        },
+        "ingredientsCount": 5,
+        "ingredientLines": [
+            "2 tbsp olive oil",
+            "1 garlic clove, minced",
+            "1 tsp mustard",
+            "1 lb turkey, cubed",
+            "1 red bell pepper, chopped"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Mustard"
+            },
+            {
+                "name": "Turkey"
+            },
+            {
+                "name": "Red bell pepper"
+            }
+        ],
+        "instructions": [
+            "Mix olive oil, garlic, and mustard and toss turkey in this sauce.",
+            "On wooden skewers thread turkey and bell pepper. Place in a pan and ccok for 10 minutes on each side."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/d154884f016a45a89b23ef06cce5229a.jpg"
+    },
+    {
+        "name": "Vegan Bean Stew",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 1146.69237,
+        "nutrientsPerServing": {
+            "calories": 377.97,
+            "protein": 12.16,
+            "carbs": 49.64,
+            "fiber": 10.41,
+            "fat": 14.53,
+            "sugar": 12.61,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "2 tbsp olive oil",
+            "1 onion, diced",
+            "3 garlic cloves, minced",
+            "1 carrot, grated",
+            "2 tbsp tomato paste",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "1/3 cup red wine",
+            "1 cup vegetable broth",
+            "8 oz canned chopped tomatoes",
+            "8 oz canned white beans",
+            "1 tbsp chopped parsley"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Tomato paste"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Red wine"
+            },
+            {
+                "name": "Vegetable broth"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "White beans"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Heat some oil and saute onion for 2 minutes. Add garlic and saute for 30 seconds.",
+            "Add celery, carrots, and saute for 2 minutes. Add tomato paste, salt and black pepper. Deglaze with red wine and boil.",
+            "Add vegetable broth, chopped tomatoes and bring to a boil. Cover with a lid and simmer for 15 minutes.",
+            "Add beans and simmer for another 5 minutes. Garnish with cilantro and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/27723e6c231d42b3a62a37ab3508f4c6.jpg"
+    },
+    {
+        "name": "Tuscan Tuna And White Bean Salad",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "World"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 696.0914162500001,
+        "nutrientsPerServing": {
+            "calories": 412.54,
+            "protein": 34.64,
+            "carbs": 34.27,
+            "fiber": 12.29,
+            "fat": 15.21,
+            "sugar": 7.68,
+            "cholesterol": 53.3
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "4 cups arugula",
+            "10 oz cannellini beans, rinsed and drained",
+            "1/2 cup sliced red onion",
+            "2 tbsp olive oil",
+            "1/2 lemon, juiced",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "8 oz canned tuna, drained"
+        ],
+        "ingredients": [
+            {
+                "name": "Arugula"
+            },
+            {
+                "name": "Cans of cannellini beans"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lemon"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Tuna"
+            }
+        ],
+        "instructions": [
+            "In a large bowl combine the arugula, white beans, tuna,  and red onion.",
+            "Drizzle with the olive oil and the juice from the lemon. Toss to combine.",
+            "Season with salt and pepper, and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/9da3e1735bf64cada38ea289b683c95f.jpg"
+    },
+    {
+        "name": "Vegan Coconut Tofu Curry",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "Indian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "65 minutes",
+        "totalTimeInSeconds": 3900,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1004.4076905681818,
+        "nutrientsPerServing": {
+            "calories": 500.48,
+            "protein": 22.61,
+            "carbs": 39.04,
+            "fiber": 8.33,
+            "fat": 28.21,
+            "sugar": 8.3,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "2 sweet potatoes, cubed",
+            "1 tbsp olive oil",
+            "1 onion, diced",
+            "9 oz extra frim tofu, cubed",
+            "1 tbsp curry powder",
+            "1 tsp groudn cumin",
+            "1 tsp groudn cinnamon",
+            "1/2 tsp salt",
+            "4 leaves basil, sliced",
+            "11 oz coconut milk",
+            "1/4 cup chopped cilantro",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Sweet potatoes"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Curry powder"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Cinnamon"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Basil"
+            },
+            {
+                "name": "Unsweetened coconut milk"
+            },
+            {
+                "name": "Cilantro"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer.",
+            "Bring water to a boil. Add sweet potatoes, cover, and steam until cooked through but slightly firm, 10 to 15 minutes.",
+            "Heat oil in a wok or frying pan over medium-high heat. Add onion and saute until tender, about 5 minutes.",
+            "Add tofu and saute until browned, 5 to 7 minutes. Add sweet potatoes followed by nutritional yeast, curry powder, cumin, cinnamon, and salt.",
+            "Add basil. Pour in coconut milk, slowly, while stirring. Reduce heat and let simmer until thickened, about 20 minutes. Serve with cilantro."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/52889af7e512404a81afe0df8f23f90a.jpg"
+    },
+    {
+        "name": "Vegan Creamy Oatmeal",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 6,
+        "numberOfServings": 3,
+        "weightInGrams": 852.3333333333335,
+        "nutrientsPerServing": {
+            "calories": 429.25,
+            "protein": 14.81,
+            "carbs": 49.24,
+            "fiber": 16.91,
+            "fat": 19.23,
+            "sugar": 9.83,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "1 1/2 cups almond milk",
+            "1 cup rolled oats",
+            "1 banana mashed",
+            "1/4 cup hemp seeds",
+            "1/4 cup chia seeds",
+            "1/4 cup ground flax seeds",
+            "1 pear, chopped",
+            "1 1/2 tbsp cinnamon",
+            "1 tsp salt",
+            "1 tsp vanilla extract"
+        ],
+        "ingredients": [
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Oats"
+            },
+            {
+                "name": "Banana"
+            },
+            {
+                "name": "Hemp seeds"
+            },
+            {
+                "name": "Chia seeds"
+            },
+            {
+                "name": "Flax seeds"
+            },
+            {
+                "name": "Pear"
+            },
+            {
+                "name": "Cinnamon"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Vanilla extract"
+            }
+        ],
+        "instructions": [
+            "Combine almond milk, oats, banana, hemp seeds, chia seeds, ground flax seeds, pear cinnamon, sea salt, and vanilla extract in a pot, mix until well combined with a wooden spoon.",
+            "Cook over low heat, stirring frequently, 20 to 30 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/b17fa7f4e31d458ab5e113b32a226a0a.jpg"
+    },
+    {
+        "name": "Vegan Corn Chowder",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "60 minutes",
+        "totalTimeInSeconds": 3600,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 3841.521888333333,
+        "nutrientsPerServing": {
+            "calories": 393.31,
+            "protein": 22.47,
+            "carbs": 60.33,
+            "fiber": 10.28,
+            "fat": 6.9,
+            "sugar": 18.57,
+            "cholesterol": 8.13
+        },
+        "ingredientsCount": 13,
+        "ingredientLines": [
+            "1 stalk celery, chopped",
+            "1/2 clove garlic, chopped",
+            "1 cup water",
+            "1 cube vegetable bouillon",
+            "1 cup soy milk",
+            "1 cup diced potatoes",
+            "1/2 onion , chopped",
+            "16 oz creamed corn",
+            "6 oz corn",
+            "1/2 tsp dried parsley",
+            "1/4 tsp paprika",
+            "Ground black pepper, to taste",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Vegetable bouillon"
+            },
+            {
+                "name": "Soy milk"
+            },
+            {
+                "name": "Potatoes"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Corn"
+            },
+            {
+                "name": "Corn"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Paprika"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Heat a skillet over medium-high heat. Add celery and garlic; saute until slightly softened, about 4 minutes.",
+            "Add water and bouillon cubes; stir until bouillon dissolves. Add soy milk, nutritional yeast, potatoes, and onion. Simmer for 15 to 20 minutes.",
+            "Add all corn, parsley, paprika, and pepper. Simmer until potatoes are soft and flavors have blended, 30 to 40 minutes more."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/c8ae65ab2fb04b73888d2026554d0517.jpg"
+    },
+    {
+        "name": "Vegan Chili",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Spanish",
+            "Mexican"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "55 minutes",
+        "totalTimeInSeconds": 3300,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1358.8190270833334,
+        "nutrientsPerServing": {
+            "calories": 431.54,
+            "protein": 27.5,
+            "carbs": 76.19,
+            "fiber": 24.5,
+            "fat": 1.87,
+            "sugar": 7.8,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 13,
+        "ingredientLines": [
+            "14 oz diced tomatoes",
+            "1 1/2 cup water",
+            "5 oz kidney beans",
+            "5 oz red beans",
+            "1/2 onion, diced",
+            "3 oz tomato paste",
+            "3 oz mushroom, chopped",
+            "1/4 yellow bell pepper, diced",
+            "1/4 orange bell pepper. diced",
+            "1 1/2 tbsp chili powder",
+            "1 tbsp garlic powder",
+            "1/4 tsp salt",
+            "1/2 tbs chopped parsley"
+        ],
+        "ingredients": [
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Kidney beans"
+            },
+            {
+                "name": "Red beans"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Tomato paste"
+            },
+            {
+                "name": "Mushroom"
+            },
+            {
+                "name": "Yellow bell pepper"
+            },
+            {
+                "name": "Orange bell pepper"
+            },
+            {
+                "name": "Chili powder"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Combine diced tomatoes, water, kidney beans, red beans, onion, tomato paste, mushrooms, yellow bell pepper, orange bell pepper, chili powder, garlic powder, and salt in a large saucepan over high heat.",
+            "Bring to a boil, stirring occasionally. Reduce heat to medium-low and simmer, stirring occasionally, until all vegetables are tender, about 30 minutes. Ganrish with parsley."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f7f27565d265489787c8c1e764e22a90.jpg"
+    },
+    {
+        "name": "Vegan Coconut Rice Pudding",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 6,
+        "numberOfServings": 3,
+        "weightInGrams": 1282.3573795833333,
+        "nutrientsPerServing": {
+            "calories": 378.57,
+            "protein": 17.62,
+            "carbs": 64.21,
+            "fiber": 8.99,
+            "fat": 5.69,
+            "sugar": 6.82,
+            "cholesterol": 3.4
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "3 cups water",
+            "1 1/2 cup white rice",
+            "1/3 cup cashew milk",
+            "1/3 cup coconut milk",
+            "3 tbsp coconut flakes",
+            "1 tsp chia seeds",
+            "1 tsp ground cinnamon",
+            "1/2 tsp vanilla extract",
+            "2 oz vanilla protein powder",
+            "1/2 cup blueberries",
+            "1/2 cup raspberries"
+        ],
+        "ingredients": [
+            {
+                "name": "Water"
+            },
+            {
+                "name": "White rice"
+            },
+            {
+                "name": "Cashew milk"
+            },
+            {
+                "name": "Coconut milk"
+            },
+            {
+                "name": "Coconut flakes"
+            },
+            {
+                "name": "Chia seeds"
+            },
+            {
+                "name": "Cinnamon"
+            },
+            {
+                "name": "Vanilla extract"
+            },
+            {
+                "name": "Vanilla protein powder"
+            },
+            {
+                "name": "Blueberries"
+            },
+            {
+                "name": "Raspberries"
+            }
+        ],
+        "instructions": [
+            "Bring water and rice to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer for 20 to 25 minutes.",
+            "Combine cooked rice, protein powder, cashew milk, coconut milk, coconut flakes, maple syrup, chia seeds, cinnamon, and vanilla extract in a bowl, mix well.",
+            "Serve topped with blueberries and raspberries"
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/28496ca1419142c5afc04f8ee0d06819.jpg"
+    },
+    {
+        "name": "Vegan Coconut Curry",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Indian",
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 837.7595135416667,
+        "nutrientsPerServing": {
+            "calories": 327.13,
+            "protein": 22.68,
+            "carbs": 34.94,
+            "fiber": 8.81,
+            "fat": 10.74,
+            "sugar": 2.95,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "1 tbsp olive oil",
+            "6 oz extra firm tofu, cubed",
+            "1/4 yellow onion, sliced",
+            "1/2 tbsp panag curry paste",
+            "7 oz coconut milk",
+            "1 sweet potato, peeled and cubed",
+            "1/2 cup vegetable broth",
+            "1/3 cup garbanzo beans",
+            "1 red bell pepper, diced",
+            "2 oz nutritional yeast",
+            "2 tbsp chopped parsley"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Yellow onion"
+            },
+            {
+                "name": "Curry paste"
+            },
+            {
+                "name": "Coconut milk"
+            },
+            {
+                "name": "Sweet potatoes"
+            },
+            {
+                "name": "Vegetable broth"
+            },
+            {
+                "name": "Garbanzo beans"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Yeast"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Heat 1 tablespoon oil in a nonstick frying pan over medium-high heat.",
+            "Add tofu and fry on all sides until golden, 5 to 7 minutes. Remove from heat.",
+            "While tofu is frying, heat remaining oil in a separate pan over medium heat.",
+            "Saute onion and red bell pepper until soft, 5 to 7 minutes.",
+            "Stir in curry paste and nutritional yeast. Pour in coconut milk and vegetable broth, bring to a boil.",
+            "Add potatoes, reduce heat, and simmer, covering the pot loosely, until potatoes are halfway cooked, about 10 minutes.",
+            "Stir in beans and continue to simmer until potatoes are almost soft, about 5 minutes more.",
+            "Stir in tofu and heat through, about 5 minutes. Serve in individual bowls. Garnish with parsley."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f44daeeadcab4c0b801e8584ceeb7913.jpg"
+    },
+    {
+        "name": "Vegan Chunky Chili",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "90 minutes",
+        "totalTimeInSeconds": 5400,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 1687.7666666666667,
+        "nutrientsPerServing": {
+            "calories": 312.01,
+            "protein": 19.16,
+            "carbs": 46.82,
+            "fiber": 13.9,
+            "fat": 5.35,
+            "sugar": 4.4,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 18,
+        "ingredientLines": [
+            "1/4 cup kidney beans",
+            "1/4 cup white beans",
+            "1/4 cup brown lentils, soaked",
+            "3 cups chopped tomatoes",
+            "3 cups water",
+            "1/2 cup corn",
+            "1/4 cup chopped green bell pepper",
+            "1/4 cup chopped red bell pepper",
+            "1/4 cup green beans",
+            "1/4 cup chopped celery",
+            "1/4 onion, chopped",
+            "1/4 red onion, chopped",
+            "1/3 cup firm tofu, crumbled",
+            "Salt, to taste",
+            "Ground black pepper, to taste",
+            "Onion powder, to taste",
+            "Garlic powder, to taste",
+            "Chili powder, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Kidney beans"
+            },
+            {
+                "name": "White beans"
+            },
+            {
+                "name": "Brown lentils"
+            },
+            {
+                "name": "Tomatoes"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Corn"
+            },
+            {
+                "name": "Green bell pepper"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Green beans"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Chili powder"
+            }
+        ],
+        "instructions": [
+            "Drain and rinse kidney beans, white beans and lentils.",
+            "Combine in a large pot and cover with water, boil over medium-high to high heat for 1 hour, or until tender.",
+            "Meanwhile, in a large saucepan over high heat, combine tomatoes and water, bring to a boil. Cook on high for 5 minutes.",
+            "Stir the tomatoes into the beans and add corn, green bell pepper, red bell pepper, green beans, celery, onions and tofu.",
+            "Season with salt, pepper, onion powder, garlic powder and chili powder to taste. Cook for 1 hour."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/31bbd4c8a2e940eface226fb05fe36b5.jpg"
+    },
+    {
+        "name": "Tomato Beef Gnocchi",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "25 minutes",
+        "totalTimeInSeconds": 1500,
+        "favoritesCount": 6,
+        "numberOfServings": 3,
+        "weightInGrams": 980.38760125,
+        "nutrientsPerServing": {
+            "calories": 353.1,
+            "protein": 20.57,
+            "carbs": 25.01,
+            "fiber": 3.03,
+            "fat": 18.97,
+            "sugar": 5.98,
+            "cholesterol": 80.64
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "8 oz ground beef",
+            "1/2 onion, chopped",
+            "3 cloves garlic, minced",
+            "1 tsp Italian seasoning",
+            "10 oz canned tomato sauce",
+            "1/4 cup chicken broth",
+            "1/4 cup cooking cream",
+            "8 oz potato gnocchi",
+            "Salt, to taste",
+            "Black pepper, to taste",
+            "1/4 cup grated Parmesan"
+        ],
+        "ingredients": [
+            {
+                "name": "Beef"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Italian seasoning blend"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Chicken broth"
+            },
+            {
+                "name": "Cream"
+            },
+            {
+                "name": "Potato gnocchi"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Parmesan cheese"
+            }
+        ],
+        "instructions": [
+            "Brown the ground beef and onion in a skillet over medium-high heat for 10 minutes.",
+            "Stir in the garlic and Italian seasoning. Add the tomato sauce, chicken broth, cream, and gnocchi to the pan, and give it a good stir.",
+            "Once the sauce starts to bubble again, cover the pan and reduce the heat to medium. Cook for 5 minutes.",
+            "Uncover the pan, stir it, and let it cook for another few minutes, or until the gnocchi has cooked through and is nice and soft and the sauce has thickened.",
+            "Stir in the Parmesan cheese and salt and pepper as needed. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/7aecd2a31c9245cb917e0a14065b1412.jpg"
+    },
+    {
+        "name": "Vegan Butternut Squash Soup",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "60 minutes",
+        "totalTimeInSeconds": 3600,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 1728.48760125,
+        "nutrientsPerServing": {
+            "calories": 278.29,
+            "protein": 13.83,
+            "carbs": 42.29,
+            "fiber": 8.7,
+            "fat": 5.98,
+            "sugar": 18.64,
+            "cholesterol": 14.17
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "1 lb butternut squash, diced",
+            "2 cups vegetable broth",
+            "2 potatoes, peeled and diced",
+            "1 onion, sliced",
+            "2 carrots, diced",
+            "1/2 clove garlic, minced",
+            "10 oz coconut milk",
+            "Salt, to taste",
+            "Ground black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Butternut squash"
+            },
+            {
+                "name": "Vegetable broth"
+            },
+            {
+                "name": "Potatoes"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Coconut milk"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Combine butternut squash, vegetable broth, potatoes, onion, carrots, and garlic in a 5-quart pot.",
+            "Cover and cook over medium-high heat until the diced squash is easily pierced with a fork, about 45 minutes. Remove from heat.",
+            "Use an immersion blender to blend soup thoroughly in the pot. Add coconut milk.",
+            "Heat over medium-high heat until warmed through, about 5 minutes. Remove from heat and season with salt and pepper."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/cc6220f2bfc740b982506381ed75d25b.jpg"
+    },
+    {
+        "name": "Tilapia With Veggies",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Mediterranean"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 855.1090366666667,
+        "nutrientsPerServing": {
+            "calories": 400.31,
+            "protein": 44.02,
+            "carbs": 10.63,
+            "fiber": 2.03,
+            "fat": 20.19,
+            "sugar": 5.84,
+            "cholesterol": 111.13
+        },
+        "ingredientsCount": 8,
+        "ingredientLines": [
+            "1 lb tilapia fillets",
+            "2 cloves garlic, diced",
+            "2 tbsp olive oil",
+            "1 tbsp lemon juice",
+            "1 tsp red paprika",
+            "1 red bell pepper, sliced",
+            "1 yellow bell pepper, sliced",
+            "Salt, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Tilapia fillets"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Red paprika"
+            },
+            {
+                "name": "Red bell pepper"
+            },
+            {
+                "name": "Yellow bell pepper"
+            },
+            {
+                "name": "Salt"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 400°F.",
+            "Heat olive oil medium heat in a small pan. Add garlic and saute on low for about 1 minute.",
+            "Remove from heat and add lemon juice, bell peppers, and salt.",
+            "Arrange fish and veggies in a single layer on a sheet pan. Season fish with some paprika. Bake for 15 minutes or until golden."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/ac2640bcc8cc4e2cb1d9056220b3e3aa.jpg"
+    },
+    {
+        "name": "Vegan Artichoke Potato Gratin",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 889.8228420833333,
+        "nutrientsPerServing": {
+            "calories": 355.88,
+            "protein": 8.95,
+            "carbs": 46.44,
+            "fiber": 7.89,
+            "fat": 14.92,
+            "sugar": 3.41,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "6 oz artichoke hearts, roughly chopped",
+            "1 lb potatoes, thinly sliced",
+            "1 tsp olive oil",
+            "1 onion, chopped",
+            "4 garlic cloves, crushed",
+            "2 tbsp thyme",
+            "¼ cup cashews",
+            "1 tsp garlic powder",
+            "Salt, to taste",
+            "Freshly ground black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Artichoke hearts"
+            },
+            {
+                "name": "Potatoes"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Thyme"
+            },
+            {
+                "name": "Cashews"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 425°F.",
+            "Heat oil in a large skillet. Add the onions and garlic and season with salt and pepper. Cook, stirring, until onions are softened.",
+            "Add the artichoke hearts and the thyme and continue to cook another 5 minutes. Check seasoning and turn off heat.",
+            "Place the cashews in the blender with garlic powder, salt and ground black pepper to taste and 1 cup water. Blend until smooth.",
+            "To assemble the gratin, layer half the potatoes in the bottom of a baking dish. Spoon the artichoke mixture on top. Cover with the remaining potatoes.",
+            "Pour the cashew mixture over the gratin evenly. Press down on the potatoes with a spatula.",
+            "Cover the baking dish tightly foil. Place in the oven and bake 30 minutes or until the potatoes are tender. Serve immediately."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/7bff5ded030445e4bfe2ecba7ceb5baf.jpg"
+    },
+    {
+        "name": "Tuna Bean Pasta",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": 1,
+        "numberOfServings": 3,
+        "weightInGrams": 690.9090366666667,
+        "nutrientsPerServing": {
+            "calories": 457.21,
+            "protein": 25.72,
+            "carbs": 57.39,
+            "fiber": 6.25,
+            "fat": 13.87,
+            "sugar": 4.84,
+            "cholesterol": 20.41
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "6 oz tuna",
+            "6 oz fusilli",
+            "4 oz canellini beans",
+            "2 cloves garlic, diced",
+            "1 tsp chili flakes",
+            "Salt, to taste",
+            "Cayenne pepper, to taste",
+            "2 tbsp olive oil",
+            "1 tbsp lemon juice",
+            "2 leeks, sliced",
+            "1 tsp chopped parsley"
+        ],
+        "ingredients": [
+            {
+                "name": "Tuna"
+            },
+            {
+                "name": "Fusilli"
+            },
+            {
+                "name": "Cannellini beans"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Chili flakes"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Cayenne pepper"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Leeks"
+            },
+            {
+                "name": "Parsley"
+            }
+        ],
+        "instructions": [
+            "Drizzle the olive oil into a pan on a medium heat. Add the parsley stalks along with the chilli flakes. Give it a good stir and add the garlic and leek.",
+            "Pour the cannellini beans including the bean water into the pan and mix.",
+            "In a separate saucepan, cook the pasta. Add about a cup of the pasta water to the bean-leek mix to thicken up the sauce.",
+            "Break the tuna into chunks and add to the sauce with the chopped parsley leaves and lemon juice. Add salt and pepper to taste.",
+            "Add cooked pasta and serve."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/3d5cbdc3d45b4838866e87851a38e751.jpg"
+    },
+    {
+        "name": "Vegan Chickpea Pasta",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "50 minutes",
+        "totalTimeInSeconds": 3000,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 1162.610944281916,
+        "nutrientsPerServing": {
+            "calories": 465.91,
+            "protein": 15.7,
+            "carbs": 79.61,
+            "fiber": 10.29,
+            "fat": 9.41,
+            "sugar": 19.63,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 14,
+        "ingredientLines": [
+            "1 tbsp olive oil",
+            "1 carrot, chopped",
+            "1 stalk celery, chopped",
+            "1/2 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 cup vegetable broth",
+            "1 cup tomato sauce",
+            "1/2 tsp herbes de Provence",
+            "1 bay leaf",
+            "1/8 tsp ground black pepper",
+            "6 oz penne",
+            "6 oz chickpeas",
+            "2 tbsp chopped parsley",
+            "1 tsp lemon juice"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Vegetable broth"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Herbes de provence"
+            },
+            {
+                "name": "Bay leaf"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Penne"
+            },
+            {
+                "name": "Chickpeas"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Lemon juice"
+            }
+        ],
+        "instructions": [
+            "Warm olive oil in large, heavy pot over medium-high heat.",
+            "Add carrots, celery, and onion and cook, about 10 minutes. Stir in garlic and cook 1 minute more.",
+            "Add broth, herbes de Provence, bay leaves, and black pepper to the pot with the vegetables and bring to a boil.",
+            "Add tomato sauce and simmer, uncovered, for 10 minutes.",
+            "While broth simmers, bring a pot of well-salted water to a boil and cook pasta until tender but still firm to the bite, about 7 minutes.",
+            "Drain and toss pasta with a small amount of oil to prevent sticking.",
+            "Remove soup from heat and stir in chickpeas, parsley, and lemon juice.",
+            "Combine pasta witn sauce and ladle into bowls."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/0ba4f3add28d4af884f2267cf4e95323.jpg"
+    },
+    {
+        "name": "Vegan Chive Cream Cheese",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 272.19344895833336,
+        "nutrientsPerServing": {
+            "calories": 365.47,
+            "protein": 19.8,
+            "carbs": 31.38,
+            "fiber": 6.18,
+            "fat": 17.86,
+            "sugar": 2.47,
+            "cholesterol": 0.66
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "1/2 cup raw cashews",
+            "2 oz nutritional yeast",
+            "1/6 tsp salt",
+            "1 tbsp vegan yogurt",
+            "1 tsp chopped chives",
+            "3 oz sourdough bread"
+        ],
+        "ingredients": [
+            {
+                "name": "Cashews"
+            },
+            {
+                "name": "Yeast"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Yogurt"
+            },
+            {
+                "name": "Chives"
+            },
+            {
+                "name": "Sourdough bread"
+            }
+        ],
+        "instructions": [
+            "Soak cashews in a bowl of water, 8 hours to overnight.",
+            "Drain cashews and discard water. Place cashews, nutritional yeast, and salt in the bowl of a food processor.",
+            "Blend until smooth and creamy, 10 to 15 minutes. Add yogurt, mix until well combined. Stir in chopped chives. Serve on top of sourdough bread."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/6cd047bb47ff4a0d8213e8b60c3a3484.jpg"
+    },
+    {
+        "name": "Vegan Breaded Tofu",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "50 minutes",
+        "totalTimeInSeconds": 3000,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 553.8001866458334,
+        "nutrientsPerServing": {
+            "calories": 443.29,
+            "protein": 21.1,
+            "carbs": 15.04,
+            "fiber": 4.94,
+            "fat": 33.19,
+            "sugar": 1.4,
+            "cholesterol": 10.27
+        },
+        "ingredientsCount": 6,
+        "ingredientLines": [
+            "2 tbsp olive oil",
+            "1/3 cup vegan mayonnaise",
+            "2 tbsp water",
+            "1/4 cup bread crumbs",
+            "12 oz tofu, sliced",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Mayonnaise"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Bread crumbs"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 350°F. Coat the inside of baking dish with olive oil.",
+            "Stir mayonnaise and water together in a bowl. Place bread crumbs and nutirional yeast in a separate bowl.",
+            "Dip tofu slices in the mayonnaise mixture, press tofu into the bread crumbs until fully coated.",
+            "Place coated tofu in the prepared baking dish.",
+            "Bake in the preheated oven until tofu is fully cooked and breading is browned, about 30 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/03cded0a79c54553919ed6d0070c6986.jpg"
+    },
+    {
+        "name": "Vegan Chickpea Meatloaf",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "American",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "60 minutes",
+        "totalTimeInSeconds": 3600,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 658.4638056471658,
+        "nutrientsPerServing": {
+            "calories": 269.34,
+            "protein": 6.23,
+            "carbs": 22.43,
+            "fiber": 6.36,
+            "fat": 17.19,
+            "sugar": 4.03,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 14,
+        "ingredientLines": [
+            "3 tbsp olive oil, divided",
+            "1/2 onion, diced",
+            "1 carrot, diced",
+            "1 stalk celery, chopped",
+            "1 cloves garlic, minced",
+            "6 oz chickpeas",
+            "1/2 cup bread crumbs",
+            "1/4 cup almond milk",
+            "4 tbsp tomato sauce, divided",
+            "1 tbsp flaxseed meal",
+            "1 tbsp soy sauce",
+            "1/4 tsp salt",
+            "1/4 tsp ground black pepper",
+            "1/4 tsp dried sage"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Carrots"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Chickpeas"
+            },
+            {
+                "name": "Bread crumbs"
+            },
+            {
+                "name": "Almond milk"
+            },
+            {
+                "name": "Tomato sauce"
+            },
+            {
+                "name": "Flax seed meal"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Sage"
+            }
+        ],
+        "instructions": [
+            "Preheat oven to 375°F. Grease a loaf pan with oil.",
+            "Heat 1 tablespoon oil in a skillet over medium heat, stir in onion. Cook and stir until the onion has softened and turned translucent, about 3 minutes.",
+            "Add carrots, celery, and garlic, cook and stir until tender, about 4 minutes.",
+            "Combine the remaining 2 tbsp olive oil, onion mixture, chickpeas, bread crumbs, almond milk, half tomato sauce, flaxseed meal, soy sauce, salt, pepper, and sage in the bowl of a food processor.",
+            "Pulse until just combined, do not over-blend. Work in batches if needed. Press mixture into the prepared loaf pan. Brush top with remaining tomato sauce.",
+            "Bake in the preheated oven until golden, about 45 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/e4a54523326645d2892216b17b90441b.jpg"
+    },
+    {
+        "name": "Tofu Kale Stir Fry",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Kid-Friendly",
+            "Chinese"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "40 minutes",
+        "totalTimeInSeconds": 2400,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 940.9739716666667,
+        "nutrientsPerServing": {
+            "calories": 343.92,
+            "protein": 20.68,
+            "carbs": 19.7,
+            "fiber": 5.97,
+            "fat": 20.27,
+            "sugar": 8.34,
+            "cholesterol": 11.34
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "12 oz coconut milk",
+            "3 tbsp peanut butter",
+            "1 1/2 tbsp soy sauce",
+            "1/2 tbsp lime juice",
+            "1 tsp Sriracha sauce",
+            "1/2 tsp chile pepper",
+            "1/2 tbsp olive oil",
+            "12 oz firm tofu, cubed",
+            "5 cups sliced kale",
+            "3 garlic cloves, minced",
+            "1 1/2 tbsp minced ginger",
+            "2 tbsp sesame seeds"
+        ],
+        "ingredients": [
+            {
+                "name": "Coconut milk"
+            },
+            {
+                "name": "Peanut butter"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "Lime juice"
+            },
+            {
+                "name": "Sriracha sauce"
+            },
+            {
+                "name": "Chile pepper"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Tofu"
+            },
+            {
+                "name": "Kale"
+            },
+            {
+                "name": "Garlic cloves"
+            },
+            {
+                "name": "Ginger"
+            },
+            {
+                "name": "Sesame seeds"
+            }
+        ],
+        "instructions": [
+            "Whisk coconut milk, peanut butter, soy sauce, lime juice, sriracha sauce, and ground chile powder in a bowl until a smooth sauce forms.",
+            "Heat oil in a large skillet over medium-high heat. Add Kale and saute for 1 to 2 minutes.",
+            "Add tofu, saute until lightly browned, about 4 minutes per side. Add garlic and ginger, cook and stir until fragrant, about 30 seconds.",
+            "Pour sauce into the skillet, stir to coat tofu and kale. Cook until flavors combine, about 5 minutes. Sprinkle with sesame seeds."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/b0716fc2b41343439da7720b077f1064.jpg"
+    },
+    {
+        "name": "Vegan Coffee Cake Carrot Muffins",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "American"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "45 minutes",
+        "totalTimeInSeconds": 2700,
+        "favoritesCount": 4,
+        "numberOfServings": 3,
+        "weightInGrams": 529.5211874898952,
+        "nutrientsPerServing": {
+            "calories": 392.56,
+            "protein": 8.12,
+            "carbs": 52.22,
+            "fiber": 4.49,
+            "fat": 16.8,
+            "sugar": 2.64,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 13,
+        "ingredientLines": [
+            "1¼ cup all-purpose flour",
+            "2 tsp baking powder",
+            "1 tsp baking soda",
+            "½ tsp grated nutmeg",
+            "¼ cup walnuts, chopped",
+            "½ tsp salt",
+            "2 tbsp flaxseed meal",
+            "6 tbsp water",
+            "¼ cup applesauce",
+            "1 tbsp grated ginger",
+            "2 tbsp olive oil",
+            "1 tsp vanilla extract",
+            "1 cup grated carrots"
+        ],
+        "ingredients": [
+            {
+                "name": "All purpose flour"
+            },
+            {
+                "name": "Baking powder"
+            },
+            {
+                "name": "Baking soda"
+            },
+            {
+                "name": "Nutmeg"
+            },
+            {
+                "name": "Walnuts"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Flax seed meal"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Applesauce"
+            },
+            {
+                "name": "Ginger"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Vanilla extract"
+            },
+            {
+                "name": "Carrots"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F. Spray a 12-cup muffin tin with oil, or line it with cupcake liners.",
+            "Mix the flour, baking powder, baking soda, nutmeg, walnuts and salt and whisk well together.",
+            "In a larger bowl, place all remaining ingredients and use a whisk to beat the mixture for 2 minutes or until well-integrated.",
+            "Add half the flour mixture, mix well, using a rubber spatula to scrape the bottom and sides of the bowl, and then add the remaining half. Mix well.",
+            "Using an ice cream scoop or a tablespoon, divide the batter equally into the cups. Bake in the preheated oven 25 minutes.",
+            "Let the muffins cool in the tin on a rack for five minutes, then unmold them and let them continue cooling on the rack."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/6494f36672d64214a5a9bfc2060138ac.jpg"
+    },
+    {
+        "name": "Tuscan Panzanella Salad",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Dinner",
+            "Lunch"
+        ],
+        "cuisines": [
+            "Italian"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "10 minutes",
+        "totalTimeInSeconds": 600,
+        "favoritesCount": 3,
+        "numberOfServings": 3,
+        "weightInGrams": 952.2942775,
+        "nutrientsPerServing": {
+            "calories": 344.35,
+            "protein": 10.55,
+            "carbs": 39.21,
+            "fiber": 8.88,
+            "fat": 16.15,
+            "sugar": 6.79,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 10,
+        "ingredientLines": [
+            "8 oz cherry tomatoes",
+            "1 red onion, sliced",
+            "1 cucumber, sliced",
+            "4 oz ciabatta bread, diced",
+            "Basil leaves, to garnish",
+            "3 tbsp olive oil",
+            "1 tbsp vinegar",
+            "Salt, to taste",
+            "1 tbsp white vinegar",
+            "Black pepper, to taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Cherry tomatoes"
+            },
+            {
+                "name": "Red onion"
+            },
+            {
+                "name": "Cucumber"
+            },
+            {
+                "name": "Bread ciabatta"
+            },
+            {
+                "name": "Basil leaves"
+            },
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Vinegar"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "White vinegar"
+            },
+            {
+                "name": "Black pepper"
+            }
+        ],
+        "instructions": [
+            "In a large bowl combine red cherry tomatoes, onion, cucumber, ciabatta bread and basil leaves.",
+            "Make dressing with black pepper, olive oil, white wine vinegar and salt, mix until combined.",
+            "Add the dressing to the salad and toss gentnly."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/7c0041e3c1344a639344df50322a5195.jpg"
+    },
+    {
+        "name": "Tso'S Shrimp And Broccoli",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Chinese"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "20 minutes",
+        "totalTimeInSeconds": 1200,
+        "favoritesCount": null,
+        "numberOfServings": 2,
+        "weightInGrams": 473.88368500000007,
+        "nutrientsPerServing": {
+            "calories": 307.78,
+            "protein": 28.42,
+            "carbs": 28.29,
+            "fiber": 5.17,
+            "fat": 8.99,
+            "sugar": 5.08,
+            "cholesterol": 170.1
+        },
+        "ingredientsCount": 11,
+        "ingredientLines": [
+            "1 garlic clove, grated",
+            "2 tbsp soy sauce",
+            "2 tbsp white vinegar",
+            "¼ cup tomato paste",
+            "1 tsp dry mustard",
+            "½ cup broccoli florets",
+            "½ lb shrimp, peeled and deveined",
+            "Salt, to taste",
+            "Freshly ground black pepper, to taste",
+            "¼ cup arrowroot powder",
+            "1 tbsp olive oil"
+        ],
+        "ingredients": [
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Soy sauce"
+            },
+            {
+                "name": "White vinegar"
+            },
+            {
+                "name": "Tomato paste"
+            },
+            {
+                "name": "Mustard"
+            },
+            {
+                "name": "Broccoli"
+            },
+            {
+                "name": "Shrimp"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Arrowroot powder"
+            },
+            {
+                "name": "Olive oil"
+            }
+        ],
+        "instructions": [
+            "In a skillet over medium-low heat, combine garlic, soy sauce, vinegar, tomato paste, and mustard. Bring to a boil and turn off heat.",
+            "Steam broccoli until tender in a large pot fitted with a rack. Meanwhile, in a medium mixing bowl, season shrimp with salt and pepper, dredge in arrowroot.",
+            "Preheat a large skillet over medium-high heat with oil and cook shrimp until golden and cooked through.",
+            "Spoon sauce over shrimp and stir-fry until slightly caramelized. Serve on top of steamed broccoli."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/dc1bd89264264959b42ddea04ee3f7d7.jpg"
+    },
+    {
+        "name": "Vegan Crispy Baked Zucchini",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "30 minutes",
+        "totalTimeInSeconds": 1800,
+        "favoritesCount": null,
+        "numberOfServings": 3,
+        "weightInGrams": 497.1990471719964,
+        "nutrientsPerServing": {
+            "calories": 466.51,
+            "protein": 18.74,
+            "carbs": 34.59,
+            "fiber": 8.28,
+            "fat": 28.13,
+            "sugar": 1.12,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 9,
+        "ingredientLines": [
+            "1/4 cup olive oil",
+            "1/2 cup oat flour",
+            "1/2 cup cornmeal",
+            "1/2 tbsp Italian seasoning",
+            "1 tsp salt",
+            "1 tsp ground black pepper",
+            "1 tsp garlic powder",
+            "2 zucchini, sliced",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Olive oil"
+            },
+            {
+                "name": "Oat flour"
+            },
+            {
+                "name": "Cornmeal"
+            },
+            {
+                "name": "Italian seasoning blend"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Black pepper"
+            },
+            {
+                "name": "Garlic powder"
+            },
+            {
+                "name": "Zucchini"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 375°F. Coat 2 baking sheets lightly with olive oil.",
+            "Mix flour, yeast, cornmeal, Italian seasoning, salt, black pepper, and garlic powder together in a bowl.",
+            "Lightly spray both sides of zucchini rounds with cooking spray. Dredge rounds in flour mixture, slightly pressing it into the zucchini.",
+            "Arrange coated rounds in a single layer on the prepared baking sheets.",
+            "Bake in the preheated oven until browned on the bottom, 5 to 10 minutes. Flip and bake until browned on the second side, 5 to 10 minutes more."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/5b48fe3167bc41be9b6b46950a02c0e8.jpg"
+    },
+    {
+        "name": "Vegan Biryani",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Lunch",
+            "Dinner"
+        ],
+        "cuisines": [
+            "Asian",
+            "Indian",
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "50 minutes",
+        "totalTimeInSeconds": 3000,
+        "favoritesCount": 2,
+        "numberOfServings": 3,
+        "weightInGrams": 1128.6126826136363,
+        "nutrientsPerServing": {
+            "calories": 434.56,
+            "protein": 17.54,
+            "carbs": 69.28,
+            "fiber": 8.51,
+            "fat": 9.7,
+            "sugar": 4.29,
+            "cholesterol": 0
+        },
+        "ingredientsCount": 21,
+        "ingredientLines": [
+            "1 tomato, chopped",
+            "1 onion, chopped",
+            "7 cloves garlic, minced",
+            "2 red chile peppers",
+            "1 tbsp ginger",
+            "1 cup basmati rice",
+            "1 1/2 cup water",
+            "1/2 cup finely chopped cilantro",
+            "2 tbsp chopped potatoes",
+            "2 tbsp chopped green beans",
+            "2 tbsp vegetable oil",
+            "1/4 tsp ground cumin",
+            "1/4 tsp ground coriander",
+            "Salt, to taste",
+            "2 oz nutritional yeast"
+        ],
+        "ingredients": [
+            {
+                "name": "Tomato"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Red chili peppers"
+            },
+            {
+                "name": "Ginger"
+            },
+            {
+                "name": "Basmati rice"
+            },
+            {
+                "name": "Water"
+            },
+            {
+                "name": "Cilantro"
+            },
+            {
+                "name": "Potatoes"
+            },
+            {
+                "name": "Green beans"
+            },
+            {
+                "name": "Vegetable oil"
+            },
+            {
+                "name": "Cumin"
+            },
+            {
+                "name": "Coriander"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Yeast"
+            }
+        ],
+        "instructions": [
+            "Combine tomatoes, onions, garlic, dried peppers, ginger, and salt together in a food processor. Grind to a fine paste and transfer to a bowl.",
+            "Place rice in a bowl with water to cover. Soak for 15 minutes. Bring 2 cups water to a boil in a saucepan and add drained rice and 1 pinch of salt.",
+            "Cook until rice is starting to soften but still firm to the bite, about 10 minutes.",
+            "Drain and transfer to a bowl. Mix in cilantro, nutritional yeast and salt to taste.",
+            "Bring 1 cup water and 1 pinch salt to a boil in a saucepan. Add potatoes and green beans.",
+            "Cook until vegetables are just starting to become tender, 3 to 5 minutes. Drain.",
+            "Heat oil in a pan over medium heat. Add 1 tablespoon mixed masala paste and fry for 1 minute. Add partially cooked vegetables and 1 pinch of salt, stir gently.",
+            "Add cumin, coriander, and 1/2 teaspoon of the masala paste. Mix well and add a splash of water.",
+            "Cook for 5 minutes. Cover and cook until vegetables are tender, about 3 minutes more.",
+            "Spread partially cooked rice evenly and loosely over the vegetables in the pan, leaving small gaps for steam to escape.",
+            "Cover and cook until rice is tender, about 10 minutes."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/f2794d436fd44d11b1ab7412ff6050fd.jpg"
+    },
+    {
+        "name": "Vegan Dilly Ranch",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Snack"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "5 minutes",
+        "totalTimeInSeconds": 300,
+        "favoritesCount": 14,
+        "numberOfServings": 3,
+        "weightInGrams": 1418.2666666666667,
+        "nutrientsPerServing": {
+            "calories": 150.45,
+            "protein": 9.83,
+            "carbs": 17.55,
+            "fiber": 6.75,
+            "fat": 4.55,
+            "sugar": 4.12,
+            "cholesterol": 2.03
+        },
+        "ingredientsCount": 12,
+        "ingredientLines": [
+            "1/4 cup cashew milk",
+            "1 tbsp cashews",
+            "1 tsp lemon juice",
+            "1 tsp chia seeds",
+            "1/2 tsp onion powder",
+            "1/2 tsp salt",
+            "1/2 tsp granulated garlic",
+            "1/2 tsp dried onion",
+            "1/2 tsp dried dill",
+            "1/2 tsp dried parsley",
+            "6 cups sliced celery",
+            "6 cups baby carrots"
+        ],
+        "ingredients": [
+            {
+                "name": "Cashew milk"
+            },
+            {
+                "name": "Cashews"
+            },
+            {
+                "name": "Lemon juice"
+            },
+            {
+                "name": "Chia seeds"
+            },
+            {
+                "name": "Onion powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Garlic"
+            },
+            {
+                "name": "Onion"
+            },
+            {
+                "name": "Dill"
+            },
+            {
+                "name": "Parsley"
+            },
+            {
+                "name": "Celery"
+            },
+            {
+                "name": "Baby carrots"
+            }
+        ],
+        "instructions": [
+            "Combine cashew milk, cashews, lemon juice, chia seeds, onion powder, salt, and granulated garlic in a blender.",
+            "Blend on high speed until smooth. Add dried onion, dill, and parsley; pulse a few times more. Serve with celery and carrots."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/de478c3a0c0b4e89ba32d1ea06afab50.jpg"
+    },
+    {
+        "name": "Vegan Banana Oatmeal",
+        "cleanName": null,
+        "text": null,
+        "mealTags": [
+            "Breakfast"
+        ],
+        "cuisines": [
+            "Kid-Friendly"
+        ],
+        "courses": [],
+        "rating": null,
+        "totalTime": "15 minutes",
+        "totalTimeInSeconds": 900,
+        "favoritesCount": 1,
+        "numberOfServings": 1,
+        "weightInGrams": 298.3828564583334,
+        "nutrientsPerServing": {
+            "calories": 376.01,
+            "protein": 27.34,
+            "carbs": 47.8,
+            "fiber": 6.28,
+            "fat": 8.38,
+            "sugar": 17.18,
+            "cholesterol": 21.7
+        },
+        "ingredientsCount": 7,
+        "ingredientLines": [
+            "3/4 cup cashew milk",
+            "1/4 cup oats",
+            "1 tsp cocoa powder",
+            "1/3 tsp salt",
+            "1/3 tsp cinnamon",
+            "1/2 banana sliced",
+            "1 oz protein powder"
+        ],
+        "ingredients": [
+            {
+                "name": "Cashew milk"
+            },
+            {
+                "name": "Oats"
+            },
+            {
+                "name": "Cocoa powder"
+            },
+            {
+                "name": "Salt"
+            },
+            {
+                "name": "Cinnamon"
+            },
+            {
+                "name": "Banana"
+            },
+            {
+                "name": "Protein powder"
+            }
+        ],
+        "instructions": [
+            "Pour cashew milk into a saucepan and bring to a boil over medium-high heat. Add oats and reduce heat to a simmer.",
+            "Stir in cocoa powder, salt, and cinnamon until well combined. Add protein powder and stir once more.",
+            "Cook until oatmeal has desired consistency, 1 to 2 minutes more. Pour oatmeal into a bowl and top with banana."
+        ],
+        "mainImage": "https://storage.googleapis.com/sg-uploads/69554a376be0487cbac6cdeb56cd74bb.jpg"
+    }
+]

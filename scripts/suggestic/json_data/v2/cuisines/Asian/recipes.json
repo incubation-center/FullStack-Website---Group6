@@ -1,0 +1,3059 @@
+[
+    {
+        "node": {
+            "name": "Chinese Shrimp Wonton",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Rice wine"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "White pepper"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Wonton wrappers"
+                },
+                {
+                    "name": "Chicken stock"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shandong Chinese Chicken",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Horseradish"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Chicken wings"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Steamed Garlic Prawns",
+            "cuisines": [
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tiger prawn"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Brandy"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Bulgogi",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Coconut sugar"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Beef roast"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "White rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pineapple Baked Rice",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Jasmine rice"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Pineapple"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Chinese sausage"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Corn"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Smashed Cucumbers",
+            "cuisines": [
+                "Asian",
+                "Chinese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chili"
+                },
+                {
+                    "name": "White sesame seeds"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Chili oil"
+                },
+                {
+                    "name": "Sesame oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Crispy Chicken",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice wine vinegar"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Chicken drumsticks"
+                },
+                {
+                    "name": "Apple cider vinegar"
+                },
+                {
+                    "name": "Gochujang"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Garlic"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Hoisin Glazed Salmon",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mediterranean",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Hoisin sauce"
+                },
+                {
+                    "name": "Chilegarlic sauce"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Jasmine rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Tofu And Vegetable Soup",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef stock"
+                },
+                {
+                    "name": "Soy bean paste"
+                },
+                {
+                    "name": "Dashi"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Napa cabbage"
+                },
+                {
+                    "name": "Daikon"
+                },
+                {
+                    "name": "Yellow squash"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Red pepper"
+                },
+                {
+                    "name": "White rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Kalbi",
+            "cuisines": [
+                "Asian",
+                "Korean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Short ribs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Miso Eggplant",
+            "cuisines": [
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "White miso"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Green onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cha Siu Bao",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Oat flour"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Baking powder"
+                },
+                {
+                    "name": "Shortening"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Hoisin sauce"
+                },
+                {
+                    "name": "Oyster sauce"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "White pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Chicken Dumplings",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice wine"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Ginger paste"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Wonton wrappers"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Gochujang"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Garlic paste"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Korean Ribs",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork ribs"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Gochujang"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "White sesame seeds"
+                },
+                {
+                    "name": "Black sesame seeds"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Inspired Grilled Chicken",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "American",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Coconut sugar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "White rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "5-Ingredient Tofu Soup",
+            "cuisines": [
+                "Kid-Friendly",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Vegetable bouillon"
+                },
+                {
+                    "name": "Scallions"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Tofu"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Egg Dumplings",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Cornstarch"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Chestnuts"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Air Fryer Sweet And Sour Pork",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork fillet"
+                },
+                {
+                    "name": "Oat flour"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Coconut sugar"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Braised Spare Ribs",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork spareribs"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Cinnamon"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice wine"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asian Tofu Stir-Fry",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice noodles"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Pork Fried Rice",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice wine"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Cornstarch"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Peanut oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Curry powder"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Jasmine rice"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fried Rice With Broccoli",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Korean Chicken",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken wings"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Gochujang"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Gochugaru"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asian Pilaf",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Beef steak"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Turmeric"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Basmati rice"
+                },
+                {
+                    "name": "Garlic cloves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Bean Curd Soup",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Miso paste"
+                },
+                {
+                    "name": "Garlic paste"
+                },
+                {
+                    "name": "Dashi"
+                },
+                {
+                    "name": "Gochujang"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Potato"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Tofu"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Keto Beef And Broccoli Stir Fry",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Avocado oil"
+                },
+                {
+                    "name": "Beef steak"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger paste"
+                },
+                {
+                    "name": "Beef broth"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Coconut Poached Cod With Ginger And Lime",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cod fillets"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Red chilies"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Unsweetened coconut milk"
+                },
+                {
+                    "name": "Fish sauce"
+                },
+                {
+                    "name": "Baby bok choy"
+                },
+                {
+                    "name": "Cilantro"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baked Tofu",
+            "cuisines": [
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Agave nectar"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Corn Soup",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cream corn"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Cornstarch"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Yeast"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Glass Noodle Soup",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cellophane noodles"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Lemongrass"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Fish sauce"
+                },
+                {
+                    "name": "Green onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Low Carb Keto Egg Drop Soup",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Biryani",
+            "cuisines": [
+                "Asian",
+                "Indian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red chili peppers"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Basmati rice"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Cilantro"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Green beans"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Yeast"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Char Siu",
+            "cuisines": [
+                "Kid-Friendly",
+                "Chinese",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Wine"
+                },
+                {
+                    "name": "Hoisin sauce"
+                },
+                {
+                    "name": "Kiwi"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Chili sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Oyster sauce"
+                },
+                {
+                    "name": "Chinese five-spice powder"
+                },
+                {
+                    "name": "Pork belly"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Wontons",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Soybean sprouts"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Scallions"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Wonton wrappers"
+                },
+                {
+                    "name": "Vegetable oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Dong Po",
+            "cuisines": [
+                "Asian",
+                "Chinese",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork belly"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice cooking wine"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Spring onions"
+                },
+                {
+                    "name": "Yeast"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tak Toritang",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Gochujang"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegetarian Chinese Fried Noodles",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Chinese cabbage"
+                },
+                {
+                    "name": "Shiitake mushroom"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Egg noodles"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Soy bean paste"
+                },
+                {
+                    "name": "Oyster sauce"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Air Fryer Kfc",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tapioca flour"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Gochujang"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Smoked Salmon Sushi Roll",
+            "cuisines": [
+                "Japanese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sushi rice"
+                },
+                {
+                    "name": "Rice wine vinegar"
+                },
+                {
+                    "name": "Nori"
+                },
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Wasabi paste"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Beefy Chinese Dumplings",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Chinese cabbage"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Wonton wrappers"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Kongnamool",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soybean sprouts"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Korean chili flakes"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Rice wine vinegar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Prawn Toast",
+            "cuisines": [
+                "Chinese",
+                "Kid-Friendly",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Prawn"
+                },
+                {
+                    "name": "Chestnuts"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Egg whites"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Sweet chili sauce"
+                },
+                {
+                    "name": "Yeast"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Cucumber Salad",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Carrots"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asian Steak Roll Ups",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Steak"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Sesame Chicken",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sriracha sauce"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Steamed Tuna",
+            "cuisines": [
+                "Mediterranean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna steaks"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Katsu",
+            "cuisines": [
+                "Japanese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Worchestire sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Bread crumbs"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Pie",
+            "cuisines": [
+                "Asian",
+                "Chinese",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "White sauce"
+                },
+                {
+                    "name": "Corn"
+                },
+                {
+                    "name": "Cheese cheddar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Meatballs",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pan Fried Chinese Dumplings",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Prawn"
+                },
+                {
+                    "name": "Rice vermicelli"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Chives"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Wonton wrappers"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Noodles With Tofu And Vegetables",
+            "cuisines": [
+                "Kid-Friendly",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Ramen noodles"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Serrano"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Steamed Buns",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Oat flour"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Baking powder"
+                },
+                {
+                    "name": "Yeast"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Marinated Hard Boiled Eggs",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Sesame oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Seaweed Soup",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Seaweed"
+                },
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Garlic"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Mabo Tofu",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cornstarch"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Bean sauce"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Sesame oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Raspberry And Blueberry Bowl",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Coconut chips"
+                },
+                {
+                    "name": "Blueberries"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Banana"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Chia seeds"
+                },
+                {
+                    "name": "Raspberries"
+                },
+                {
+                    "name": "Pea protein powder"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Spicy Hot And Sour Soup",
+            "cuisines": [
+                "Chinese",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shiitake mushroom"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Bamboo shoots"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "White pepper"
+                },
+                {
+                    "name": "Red wine vinegar"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Green onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asian Cucumber-Zucchini Salad",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice vinegar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Poo Cha",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Crab shells"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Crab meat"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Fish sauce"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Eggs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Fried Rice",
+            "cuisines": [
+                "Kid-Friendly",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "White rice"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Corn"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Carrots"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Egg Soup",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Shiitake"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Poached Black Cod",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Hot Wings",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Barbeque sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Rice wine vinegar"
+                },
+                {
+                    "name": "Sriracha"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Peanut oil"
+                },
+                {
+                    "name": "Chicken wings"
+                },
+                {
+                    "name": "Lemon pepper seasoning"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Galbi",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Boneless beef short ribs"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Asian pear"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Coconut sugar"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Squash",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Coconut sugar"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Korean Beef",
+            "cuisines": [
+                "Korean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Coconut sugar"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Scallions"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Mirin"
+                },
+                {
+                    "name": "Rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chinese Pork Ribs",
+            "cuisines": [
+                "Kid-Friendly",
+                "Chinese",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Pork ribs"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegetable-Tofu, Bok Choy Stir Fry",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Coconut oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Bok choy"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Scallions"
+                },
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Button mushrooms"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Thai Noodle Soup",
+            "cuisines": [
+                "Thai",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Black peppercorns"
+                },
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Beef chuck"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Lemongrass"
+                },
+                {
+                    "name": "Star anise"
+                },
+                {
+                    "name": "Cinnamon"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice noodles"
+                },
+                {
+                    "name": "Bok choy"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Red chilies"
+                },
+                {
+                    "name": "Bean sprouts"
+                },
+                {
+                    "name": "Pork"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Chili powder"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lamb Biryani",
+            "cuisines": [
+                "Indian",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Vegetable oil"
+                },
+                {
+                    "name": "Onions"
+                },
+                {
+                    "name": "Greek yogurt"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red chili powder"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Cardamom seeds"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Mint leaves"
+                },
+                {
+                    "name": "Green chili"
+                },
+                {
+                    "name": "Lamb"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Saffron threads"
+                },
+                {
+                    "name": "Basmati rice"
+                },
+                {
+                    "name": "Eggs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Chinese Mustard Green Beans",
+            "cuisines": [
+                "Chinese",
+                "Kid-Friendly",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Green beans"
+                },
+                {
+                    "name": "Mustard powder"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asian Keto Chicken Stir-Fry With Broccoli",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chickpea Tikka Masala",
+            "cuisines": [
+                "Indian",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Garam masala"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Curry powder"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Chickpeas"
+                },
+                {
+                    "name": "Coconut milk"
+                },
+                {
+                    "name": "Cilantro"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chana Masala",
+            "cuisines": [
+                "Asian",
+                "Indian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Bay leaves"
+                },
+                {
+                    "name": "Chili powder"
+                },
+                {
+                    "name": "Ground coriander"
+                },
+                {
+                    "name": "Garam masala"
+                },
+                {
+                    "name": "Turmeric powder"
+                },
+                {
+                    "name": "Chickpeas"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Lamb Skewers",
+            "cuisines": [
+                "Chinese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Lamb"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Lettuce Wraps",
+            "cuisines": [
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Pepper sauce"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Iceberg lettuce"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    }
+]

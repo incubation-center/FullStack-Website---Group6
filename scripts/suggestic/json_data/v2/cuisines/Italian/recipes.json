@@ -1,0 +1,6442 @@
+[
+    {
+        "node": {
+            "name": "Paleo Zucchini-Beef Meatballs",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Marinara sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Pasta Pomodoro",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Cashews"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Mac&Cheese",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Coconut milk"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Peppercorns"
+                },
+                {
+                    "name": "Elbow macaroni"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Protein Omelette",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Corn"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Egg whites"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Calzone Rolls",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Ricotta cheese"
+                },
+                {
+                    "name": "Pizza dough"
+                },
+                {
+                    "name": "Eggs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Mushroom And Zucchini Frittata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Goat cheese"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Dill"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Chicken Spinach Farfalle",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Farfalle"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Gnocchi With Spinach And Tomatoes",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Tomatoes And Beans",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cannellini beans"
+                },
+                {
+                    "name": "Elbow pasta"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lasagna Soup With Ground Beef",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Lasagna sheets"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Ricotta cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Farinata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chickpea flour"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Ravioli With Spinach Pesto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cheese ravioli"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Baby spinach leaves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Arugula"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Au Gratin Potatoes",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Russet potatoes"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Thyme"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Marsala",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Marsala wine"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Crimini mushrooms"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pineapple Pasta Salad",
+            "cuisines": [
+                "Italian",
+                "Hawaiian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cheese cheddar"
+                },
+                {
+                    "name": "Ham"
+                },
+                {
+                    "name": "Elbow pasta"
+                },
+                {
+                    "name": "Pineapple chunks"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Apple cider vinegar"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Greek yogurt"
+                },
+                {
+                    "name": "Pineapple juice"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Insalata Casprese",
+            "cuisines": [
+                "Italian",
+                "Eastern europe",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "One Pan Orecchiette Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Italian sausage"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Orecchiette"
+                },
+                {
+                    "name": "Arugula"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Tuna, Tomato And Olives",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Rigatoni"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chili"
+                },
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Lemon Spinach Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Linguine"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Red Lentil Stew",
+            "cuisines": [
+                "American",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Green peas"
+                },
+                {
+                    "name": "Red lentils"
+                },
+                {
+                    "name": "Coconut oil"
+                },
+                {
+                    "name": "Potato"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Swiss chard"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Yeast"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Risotto With Almonds And Spinach",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Arborio rice"
+                },
+                {
+                    "name": "Miso paste"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Sage"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Pumpkin purée"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Almonds"
+                },
+                {
+                    "name": "Pumpkin"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Garlic-Lemon Fettucine",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Fettuccine"
+                },
+                {
+                    "name": "Coconut milk"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Baby spinach leaves"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Penne Arrabbiata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Peppercorns"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Rosemary leaves"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Bay leaf"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Penne"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Scrambled Eggs With Kale And Parmesan",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Arroz Con Pollo",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red pepper"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Arborio rice"
+                },
+                {
+                    "name": "Leek"
+                },
+                {
+                    "name": "Peas"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spinach Fettucine",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Fettuccine"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Asparagus"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta Fagioli",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Cans of cannellini beans"
+                },
+                {
+                    "name": "Elbow pasta"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tomato-Shrimp Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sweet onion"
+                },
+                {
+                    "name": "Oregano leaves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Roasted Italian Herb Chicken",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Caprese",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Red bell pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Parsley-Walnut Pesto Fusilli",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Walnuts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Francaise",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Spaghetti"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Garlic Chili Prawns In Tomato Sauce",
+            "cuisines": [
+                "Italian",
+                "Spanish"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Spring onions"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Prawn"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomato pure"
+                },
+                {
+                    "name": "Tabasco sauce"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Mozzarella-Eggplant Parmesan",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Almond meal"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Rice flour"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spinach-Artichoke Penne",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Artichoke hearts"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Penne"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Chickpea Pasta",
+            "cuisines": [
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Herbes de provence"
+                },
+                {
+                    "name": "Bay leaf"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Chickpeas"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Stracciatella Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Chives"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "5 Minute Pesto",
+            "cuisines": [
+                "Italian",
+                "Kid-Friendly",
+                "American"
+            ],
+            "ingredients": [
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Asparagus-Mushroom Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Asparagus"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Vegetable bouillon"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Arrowroot powder"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Breakfast Casserole",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Italian sausage"
+                },
+                {
+                    "name": "Artichoke"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Sundried tomatoes"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Coconut cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Eggs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Eggplant With Tomato And Pesto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Mushrooms, Chickpea, Spinach Stir-Fry",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Chickpeas"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Vegetables Ragout",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pasta shells"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tuscan Ribollita",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Cannellini beans"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Kale"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Penne With Zucchini And Tomatoes",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cauliflower Omelet In A Baking Dish",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Sour cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Cheese cheddar"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Milk"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tomato Risotto With Burrata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Arborio rice"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Burrata"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pumpkin Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Pumpkin"
+                },
+                {
+                    "name": "Coconut cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Pea protein powder"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tomato Beef Gnocchi",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Potato gnocchi"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Pasta Alla Puttanesca",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Kalamata olives"
+                },
+                {
+                    "name": "Passata"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Lemon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Speedy Mussel Spaghetti",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Mussels"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baked Cheesy Gnocchi",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef"
+                },
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Bucatini All'Amatriciana",
+            "cuisines": [
+                "Italian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Bucatini"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Pecorino romano cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Zucchini Egg Bake",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Mustard"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Basil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asparagus Risotto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Arborio rice"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Asparagus"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Truffles",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Truffles"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Seafood Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Mussels"
+                },
+                {
+                    "name": "Calamari"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Chili flakes"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Tagliatelle"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cauliflower Pizza Crust",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Marinara sauce"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cheesy Brussels Sprouts And Ham Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Brussels sprouts"
+                },
+                {
+                    "name": "Ham"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Eggs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Pasta Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Cannellini beans"
+                },
+                {
+                    "name": "Elbow pasta"
+                },
+                {
+                    "name": "Carrots"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tofu Lasagna",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Lasagna noodles"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Soy milk"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Spinach"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Quinoa And Kale Minestrone Soup",
+            "cuisines": [
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cans of cannellini beans"
+                },
+                {
+                    "name": "Kidney beans"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Quinoa"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Rosemary leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Carrot And Leek",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Leeks"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Keto Salmon Alfredo",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cheesy Zucchini Casserole",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Green onions"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta Mollicata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Anchovy filets"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Breadcrumbs"
+                },
+                {
+                    "name": "Red wine"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Rustic Omelet",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Green beans"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Meatballs With Zoodles",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Turkey"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Marinara sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Keto Chicken Parm",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Marinara sauce"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spaghetti With Sun-Dried-Tomato-Flax Pesto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sundried tomatoes"
+                },
+                {
+                    "name": "Flax seeds"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Bread crumbs"
+                },
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Saucy Chicken Puttanesca",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Anchovy"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Bay leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Pasta Alla Norma",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Tomatoes"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Italian Vegetable Soup",
+            "cuisines": [
+                "Italian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Green beans"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Pearl onions"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Bay leaf"
+                },
+                {
+                    "name": "Bouillon"
+                },
+                {
+                    "name": "Macaroni"
+                },
+                {
+                    "name": "Kidney beans"
+                },
+                {
+                    "name": "Zucchini"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Pasta Fagioli",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Elbow macaroni"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "White beans"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Rosemary leaves"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Basil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Avocado Pasta With Smoky Pecans",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Pecans"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Oregano"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Halibut Tomato Soup",
+            "cuisines": [
+                "American",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Anchovies"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Halibut"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pesto Bruschetta Chicken",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fusilli With Peas And Sausage",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sweet italian sausage"
+                },
+                {
+                    "name": "Green peas"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Kale Pesto Chicken",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Flaxseed oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spaghetti With Mussels",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chili"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Mussels"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Focaccia Muffins",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Sundried tomatoes"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Baking powder"
+                },
+                {
+                    "name": "Apple cider"
+                },
+                {
+                    "name": "Chickpea flour"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Pesto Rigatoni",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rigatoni"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Gnocchi Alla Sorrentina",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "All purpose flour"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Passata"
+                },
+                {
+                    "name": "Soy milk"
+                },
+                {
+                    "name": "Corn starch"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Soup With Meatballs ",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Breadcrumbs"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Rib of celery"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Pepe pasta"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Carrots"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Panzanella Salad With Bread Crumbs",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Vinegar"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Arugula"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Turkey Pesto Meatballs",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Turkey"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Egg whites"
+                },
+                {
+                    "name": "Oatmeal"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Broccoli And Salmon",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta Puttanesca",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Kalamata olives"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Tamari"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegat Spaghetti Marinara",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onions"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Basil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lemon And Basil Spaghetti",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Alfredo Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Fettuccine"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Vegan cream cheese"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Zucchini Tomato Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Oregano"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fettuccine With Sweet Pepper-Cayenne Sauce",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fettuccine"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Sour cream"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Burrata Caprese Salad",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Burrata"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Pinenuts"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Potato Gratin ",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Grilled Chicken Parmesan",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Marinara sauce"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Pasta Salad",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Fusilli"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Caprese Tomato-Basil Soup",
+            "cuisines": [
+                "Mediterranean",
+                "Greek",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Greek yogurt"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Stuffed Zucchini With Ham ",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Ham"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cauliflower Casserole",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Greek yogurt"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Cheese cheddar"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Bread Pavese Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Butter"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cauliflower & Mushroom Gratin",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Leeks"
+                },
+                {
+                    "name": "Portabello mushroom"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "All purpose flour"
+                },
+                {
+                    "name": "Soy milk"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Nutmeg"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tuscan Panzanella Salad",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Bread ciabatta"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Vinegar"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Jalapeno Tagliatelle",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Sour cream"
+                },
+                {
+                    "name": "Tagliatelle"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Orange"
+                },
+                {
+                    "name": "Arugula"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Tomato Bean Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beans"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Bay leaf"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Vegetable stock"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Caponata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Rib of celery"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Green olives"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Pinenuts"
+                },
+                {
+                    "name": "White wine vinegar"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tagliatelle With Asparagus Pesto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Asparagus"
+                },
+                {
+                    "name": "Walnuts"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Hemp seeds"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Tagliatelle"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Shrimp And Cabbage",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Penne"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Burrata With Cherry Tomato Confit",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Burrata"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pea And Broccoli Risotto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Arborio rice"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "White wine"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Paleo Chicken Marsala",
+            "cuisines": [
+                "Italian",
+                "American",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Crimini mushrooms"
+                },
+                {
+                    "name": "Marsala wine"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Paleo Fish Piccata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "White fish"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Garlic-Shrimp Linguine",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Linguine"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Shrimp"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Adobo With Rice",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Honey"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Bay leaves"
+                },
+                {
+                    "name": "Black peppercorns"
+                },
+                {
+                    "name": "Chicken drumsticks"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "White rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Squash Lasagna",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Squash"
+                },
+                {
+                    "name": "Ricotta cheese"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lasagna sheets"
+                },
+                {
+                    "name": "Mushrooms"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Panzanella Bread Salad",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Avocado oil"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Red wine vinegar"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Garlic"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salad With Mushrooms And Veggies",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Crimini mushrooms"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Zucchini"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Sausage And Broccoli Frittata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Italian sausage"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Fettuccine Alfredo",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fettuccine"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Ricotta cheese"
+                },
+                {
+                    "name": "Lemon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lemon-Parmesan Chicken",
+            "cuisines": [
+                "American",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Lasagna",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Lasagna sheets"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Marinara sauce"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Hummus"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Gnocchi With Tomato Sauce",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potato gnocchi"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Chili flakes"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tagliatelle With Cauliflower",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Bread crumbs"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Tagliatelle"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Walnuts"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Pesto Pasta",
+            "cuisines": [
+                "Mediterranean",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta And Cheese Casserole",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Elbow pasta"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Mushroom soup"
+                },
+                {
+                    "name": "Green onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "One-Pot Shrimp Scampi Orzo",
+            "cuisines": [
+                "Italian",
+                "American",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Orzo"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Baked Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Farfalle"
+                },
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Red chilies"
+                },
+                {
+                    "name": "Passata"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baked Tomato And Mozzarella Orzo",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Orzo"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tomato Pasta With Beef",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Blue cheese"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lean beef"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Risotto With Shrimp And Zucchini",
+            "cuisines": [
+                "Mediterranean",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Zucchini"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Crispy Gnocchi With Mushrooms",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Italian Omelette With Zucchini",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Almond flour"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Keto Zuppa Toscana",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Italian sausage"
+                },
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tagliatelle With Tomato And Chickpeas",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tagliatelle"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Chickpeas"
+                },
+                {
+                    "name": "Passata"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fried Eggs With Truffles",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lettuce"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Truffle"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Artichoke-Pea Rigatoni",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Artichoke hearts"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Rigatoni"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Kale Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Linguine"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Risotto",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Arborio rice"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Bacon Alfredo Pasta Casserole",
+            "cuisines": [
+                "Italian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Alfredo sauce"
+                },
+                {
+                    "name": "Cheese"
+                },
+                {
+                    "name": "White cheddar cheese"
+                },
+                {
+                    "name": "Penne pasta"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Baby peas"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Bacon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Napolitan Spaghetti",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Sausages"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ketchup"
+                },
+                {
+                    "name": "Worchestire sauce"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Moussaka",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Lentils"
+                },
+                {
+                    "name": "Passata"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Bay leaves"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Coconut oil"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Cornstarch"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Mushroom And Spinach Tagliatelle",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Tagliatelle"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Coconut cream"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Spinach"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cheese, Zucchini And Cauliflower Gnocchi",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "All purpose flour"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Pecorino cheese"
+                },
+                {
+                    "name": "Nutmeg"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Soup With Chicken And Gnocchi",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Coconut cream"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Carrots"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tuna Bean Pasta",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Cannellini beans"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chili flakes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Leeks"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fresh Vegan Pasta Salad",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Lettuce"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Orzo Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Yellow onion"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Orzo"
+                },
+                {
+                    "name": "Cans of cannellini beans"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Carbonara",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Egg yolks"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Egg noodles"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "One-Pan Creamy Chicken & Gnocchi",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Thyme leaves"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Chicken broth"
+                },
+                {
+                    "name": "Half and half milk"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Gnocchi"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Spinach"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken And Pumpkin Pasta Bake",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butternut squash"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Rigatoni"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Flour"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fava Beans Fettucine",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fettuccine"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Fava beans"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Hemp seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tagliatelle With Tuna, Capers And Tomatoes",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tagliatelle"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Tuna"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spaghetti Aglio E Olio",
+            "cuisines": [
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Ham And Pesto Crostini",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "French baguette"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Ham"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Prosciutto E Melone",
+            "cuisines": [
+                "Italian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cantaloupe"
+                },
+                {
+                    "name": "Prosciutto"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cauliflower Frittata",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Goat cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baked Cod",
+            "cuisines": [
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Black olives"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Cod fillets"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Asparagus"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Minestrone Soup",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fusilli"
+                },
+                {
+                    "name": "Green beans"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Corn"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Potato"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "White beans"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Garlic"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lentil Bolognese",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Peppercorns"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Red lentils"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Penne"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baked Cod",
+            "cuisines": [
+                "Kid-Friendly",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Black olives"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Cod fillets"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pizza Pe Blat De Lipie Cu Legume",
+            "cuisines": [
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pita bread"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "White mushrooms"
+                },
+                {
+                    "name": "Black olives"
+                },
+                {
+                    "name": "Sweet corn"
+                }
+            ]
+        }
+    }
+]

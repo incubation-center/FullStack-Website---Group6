@@ -1,0 +1,855 @@
+[
+    {
+        "node": {
+            "name": "Japanese Chicken-Egg Rice Bowl",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Dashi"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Mirin"
+                },
+                {
+                    "name": "Eggs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Paleo Slow Cooker Teriyaki Chicken",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Coconut aminos"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Rice wine vinegar"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Miso Grilled Salmon",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Miso paste"
+                },
+                {
+                    "name": "Sake"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice vinegar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Sesame Seared Tuna",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Mirin"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Tuna steaks"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cabbage Pancakes",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Almond flour"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Rice Noodles With Chicken And Cucumbers",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice noodles"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Honey"
+                },
+                {
+                    "name": "Garlic paste"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Teriyaki",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Mirin"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Sashimi",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Noodle Pancit With Chicken",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice noodles"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Soy sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Miso Soup",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Turmeric"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Miso paste"
+                },
+                {
+                    "name": "Green onions"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tonkatsu",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork loin chops"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Panko breadcrumbs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ketchup"
+                },
+                {
+                    "name": "Worchestire sauce"
+                },
+                {
+                    "name": "Oyster sauce"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Cabbage"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Savory Coconut Rice",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Coconut oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Basmati rice"
+                },
+                {
+                    "name": "Coconut water"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Cinnamon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Japanese Okonomiyaki Pancake",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "All purpose flour"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Sausage"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Cheese cheddar"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Bread crumbs"
+                },
+                {
+                    "name": "Mayonnaise"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Smoked Salmon Sushi Roll",
+            "cuisines": [
+                "Japanese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sushi rice"
+                },
+                {
+                    "name": "Rice wine vinegar"
+                },
+                {
+                    "name": "Nori"
+                },
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Wasabi paste"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Quick And Easy Vegetable Ramen Soup",
+            "cuisines": [
+                "Japanese",
+                "American",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Ramen noodles"
+                },
+                {
+                    "name": "Shiitake mushroom"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Chili pepper"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Carrots"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Katsu",
+            "cuisines": [
+                "Japanese",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Worchestire sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Bread crumbs"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Air Fryer Chicken Katsu",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Bread crumbs"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Yakisoba Chicken",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soba noodles"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Chili paste"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Cabbage"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Green onions"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Sesame Miso Roasted Potatoes",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Miso"
+                },
+                {
+                    "name": "Mirin"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Water"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Rice With Zucchini And Rice",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan White Bean And Shiitake Korokke",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Flax seed"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "White beans"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Shiitake"
+                },
+                {
+                    "name": "Vegan cheese"
+                },
+                {
+                    "name": "All purpose flour"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Panko"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Vegan Soba Noodles",
+            "cuisines": [
+                "Japanese"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soba noodles"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    }
+]

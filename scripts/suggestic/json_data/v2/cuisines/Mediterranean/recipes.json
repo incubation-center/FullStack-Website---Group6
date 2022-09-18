@@ -1,0 +1,4255 @@
+[
+    {
+        "node": {
+            "name": "Steak Pizzaiola",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork steaks"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Oregano"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Simple Tuna Melt",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Dill pickles"
+                },
+                {
+                    "name": "Cheese cheddar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Ceviche",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Cilantro"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cod-Stuffed Piquillo Peppers",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Piquillo peppers"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Milk"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Calamari Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Salad mix"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Squid"
+                },
+                {
+                    "name": "Red wine vinegar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spinach-Stuffed Chicken",
+            "cuisines": [
+                "World",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Brussels sprouts"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pasta With Shrimp And Mozzarella",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Farfalle"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Mozzarella balls"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Hoisin Glazed Salmon",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mediterranean",
+                "Asian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Hoisin sauce"
+                },
+                {
+                    "name": "Chilegarlic sauce"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Jasmine rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon With Mashed Sweet Potato",
+            "cuisines": [
+                "American",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sweet potatoes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Pesto Chicken Skillet",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Cream"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Caponata",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Celery stick"
+                },
+                {
+                    "name": "Passata"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Vinegar"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olives"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Bbq Prawns In Orange Sauce",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Prawn"
+                },
+                {
+                    "name": "Oranges"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon-Artichoke Kebabs",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Artichoke hearts"
+                },
+                {
+                    "name": "Smoked salmon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Seafood Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Seafood"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Salad mix"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lobster With Butter And Garlic",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Lobster tails"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Scrambled Eggs With Kale And Parmesan",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Kale"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Lime Grilled Shrimp",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cajun seasoning"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon And Eggs Scramble",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Dill"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Smoked Salmon Spread",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Dill"
+                },
+                {
+                    "name": "Whipping cream"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Grilled Chicken Zucchini Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Arugula"
+                },
+                {
+                    "name": "Lettuce"
+                },
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Air Fryer Spicy Bay Scallops",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Bay scallops"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Chili powder"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cayenne pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Roasted Italian Herb Chicken",
+            "cuisines": [
+                "Mediterranean",
+                "Italian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lobster Bisque",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Seafood stock"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Lobster"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Mozzarella-Eggplant Parmesan",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Almond meal"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Rice flour"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Butter Sauce Shrimp",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Apricot Chicken With Balsamic Vinegar",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Chicken breasts"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Apricots"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Apricot preserves"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Scallions"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tuna Egg Sandwich",
+            "cuisines": [
+                "American",
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Corn"
+                },
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp And Crab Chowder",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery stick"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Crab meat"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Seafood stock"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lobster Bisque Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Seafood stock"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Lobster"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Speedy Mussel Spaghetti",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Mussels"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Leek"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Fish stock"
+                },
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Coconut cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Asparagus Soup And Prawn",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Asparagus"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Prawn"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Balsamic Ravioli",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Ravioli"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Pita",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Artichoke hearts"
+                },
+                {
+                    "name": "Feta cheese"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Pita bread"
+                },
+                {
+                    "name": "Chicken breast"
+                },
+                {
+                    "name": "Cucumber"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Caprese Stuffed Avocados",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Mozzarella cheese"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tilapia With Veggies",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tilapia fillets"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Red paprika"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Ceviche",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Cilantro"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Scrambled Eggs With Salmon",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Zippy Tuna",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Yellow mustard"
+                },
+                {
+                    "name": "Horseradish"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Garlic Salmon",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red chili peppers"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Mustard"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Basil Pesto Grilled Shrimp",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Shrimp"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Garlic And Herb Shirmp",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Basil leaves"
+                },
+                {
+                    "name": "Lemon zest"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Oregano leaves"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Thyme"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Snack",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Paprika"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon And Guacamole Bruschetta",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Avocado"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Couscous And Tofu Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Couscous"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tofu"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Mint leaves"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Lemon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Florentine",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Cream"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Red pepper flakes"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "One Pot Lemon Garlic Butter Shrimp",
+            "cuisines": [
+                "Kid-Friendly",
+                "American",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Chili sauce"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Lemon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp With Tomatoes And Feta",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Red pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Feta cheese"
+                },
+                {
+                    "name": "Basil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Grilled Cilantro Salmon",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cilantro"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Molasses"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Sicilian Citrus Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Oranges"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red wine vinegar"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Radicchio"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cucumber-Radish Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Radishes"
+                },
+                {
+                    "name": "Green onions"
+                },
+                {
+                    "name": "Dill"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Sesame seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Seafood Pasta",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Mussels"
+                },
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Cream"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Carpaccio",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Arugula"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Salmon"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Semolina \"Spaghetti\"",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Yellow summer squash"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Pasta Salad",
+            "cuisines": [
+                "Italian",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red chili flake"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Fusilli"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Parmesan Zucchini Crisps",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parmesan cheese"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Caprese Tomato-Basil Soup",
+            "cuisines": [
+                "Mediterranean",
+                "Greek",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Yeast"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Greek yogurt"
+                },
+                {
+                    "name": "Salt"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Salad In Lettuce Wraps",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Yogurt"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Horseradish"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Scallions"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Dill"
+                },
+                {
+                    "name": "Lettuce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Steak With Orange Sauce ",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon steaks"
+                },
+                {
+                    "name": "Orange"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Honey"
+                },
+                {
+                    "name": "Orange juice"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Grilled Tilapia With Veggies",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tilapia fillets"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Onion powder"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Vinegar"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fried Salmon And Orange Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Oranges"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Egg yolks"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Honey Garlic Salmon",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cayenne pepper"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Honey"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Ghee"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Seafood Paella",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "Smoked paprika"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Tomato sauce"
+                },
+                {
+                    "name": "Seafood mix"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Seafood stock"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lemon-Pepper Cod",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Cod fillets"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Low Carb Chicken And Vegetable Soup",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Chicken thighs"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Rib of celery"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Green beans"
+                },
+                {
+                    "name": "Cauliflower"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Chicken bouillon"
+                },
+                {
+                    "name": "Bay leaf"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Cauliflower Fried Rice",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sesame oil"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Cauliflower"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Rice vinegar"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Steamed Tuna",
+            "cuisines": [
+                "Mediterranean",
+                "Asian",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna steaks"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Sherry"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Bacon Wrapped Scallops",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Sriracha sauce"
+                },
+                {
+                    "name": "Scallops"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Bacon"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Teriyaki Chicken",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Teriyaki sauce"
+                },
+                {
+                    "name": "Tuna steaks"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Calamari Rings",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Squid"
+                },
+                {
+                    "name": "Heavy cream"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Almond flour"
+                },
+                {
+                    "name": "Parmesan cheese"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Mineral water"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomato sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Balsamic Roasted Mushrooms",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Mushrooms"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fish And Artichoke",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Artichoke hearts"
+                },
+                {
+                    "name": "Chicken stock"
+                },
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pineapple Salmon",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Pineapple rings"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Honey"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chile Garlic Bbq Salmon",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Soy sauce"
+                },
+                {
+                    "name": "Chile sauce"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Lime"
+                },
+                {
+                    "name": "Green onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Shrimp Pesto Pasta",
+            "cuisines": [
+                "Mediterranean",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Penne"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Pesto"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fried Mussels Skewers",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Mussels"
+                },
+                {
+                    "name": "Flour"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Beer"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon juice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Surf And Turf For Two",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Worchestire sauce"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Seafood seasoning"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Filet mignon steaks"
+                },
+                {
+                    "name": "Steak seasoning"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Risotto With Shrimp And Zucchini",
+            "cuisines": [
+                "Mediterranean",
+                "Italian"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "White wine"
+                },
+                {
+                    "name": "Vegetable broth"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Zucchini"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Stuffed Tomatoes With Shrimp",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Green onion"
+                },
+                {
+                    "name": "Yellow bell pepper"
+                },
+                {
+                    "name": "Rice"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lobster Bisque",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Rib of celery"
+                },
+                {
+                    "name": "Coconut milk"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Lobster tails"
+                },
+                {
+                    "name": "Seafood stock"
+                },
+                {
+                    "name": "Arrowroot powder"
+                },
+                {
+                    "name": "Tomato sauce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Red Fish Cutlets",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Almond milk"
+                },
+                {
+                    "name": "Carrots"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Breadcrumbs"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "The Denver Omelette",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Ghee"
+                },
+                {
+                    "name": "Ham"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Green bell pepper"
+                },
+                {
+                    "name": "Cheddar cheese"
+                },
+                {
+                    "name": "Ham"
+                },
+                {
+                    "name": "Cayenne powder"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Feta, Watermelon, And Mint Salad",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Feta cheese"
+                },
+                {
+                    "name": "Watermelon"
+                },
+                {
+                    "name": "Mint leaves"
+                },
+                {
+                    "name": "Onion"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Balsamic Grilled Zucchini",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Flaxseed oil"
+                },
+                {
+                    "name": "Sesame seeds"
+                },
+                {
+                    "name": "Pomegranate seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chicken Paleo Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Zucchini"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Pine nuts"
+                },
+                {
+                    "name": "Chicken fillets"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Basil leaves"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Summer Salad",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "White vinegar"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Radishes"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Mediterranean Cauliflower Rice",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Hemp seeds"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cinnamon Curry Tuna Salad",
+            "cuisines": [
+                "Mediterranean",
+                "American",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Sweet pickle relish"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Cinnamon"
+                },
+                {
+                    "name": "Curry powder"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Bread, cut french into loaf"
+                },
+                {
+                    "name": "Lettuce"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Stuffed Mushrooms",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "White button mushrooms"
+                },
+                {
+                    "name": "Scallions"
+                },
+                {
+                    "name": "Cream cheese"
+                },
+                {
+                    "name": "Cheese cheddar"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Butternut Squash Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Butternut squash"
+                },
+                {
+                    "name": "Red bell pepper"
+                },
+                {
+                    "name": "Yellow onion"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Sugar"
+                },
+                {
+                    "name": "Heavy cream"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Marinated Mushroom Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Mushrooms"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cranberry-Crusted Salmon",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cranberries"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Agave nectar"
+                },
+                {
+                    "name": "Whole grain mustard"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Steamed Cod With Potatoes",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chilled Parsley And Pea Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Coconut oil"
+                },
+                {
+                    "name": "Onions"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Simple Polenta",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Polenta"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Eggs"
+                },
+                {
+                    "name": "Dark leafy greens"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Tuna Tostadas",
+            "cuisines": [
+                "Mediterranean",
+                "Mexican",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna"
+                },
+                {
+                    "name": "Mayonnaise"
+                },
+                {
+                    "name": "Salsa"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Tortillas"
+                },
+                {
+                    "name": "Tomato"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Cheese cheddar"
+                },
+                {
+                    "name": "Avocado"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spaghetti With Clam Sauce",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Clam"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Basil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Spicy Hot Pepper Salmon",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Chipotle powder"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Jalapeno peppers"
+                },
+                {
+                    "name": "Habanero pepper"
+                },
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fish In Foil",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rainbow trout"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Jalapeno"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Rice"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Agave-Lime Shrimp",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Agave nectar"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Lime zest"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon With Spinach And Roquefort",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Spinach"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Roquefort"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Fennel And Cucumber Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Fennel bulb"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Cucumbers"
+                },
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Mint leaves"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Sugar"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Salmon Coconut Curry",
+            "cuisines": [
+                "Mediterranean",
+                "Thai"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Ginger"
+                },
+                {
+                    "name": "Garam masala"
+                },
+                {
+                    "name": "Cardamom"
+                },
+                {
+                    "name": "Turmeric"
+                },
+                {
+                    "name": "Coriander"
+                },
+                {
+                    "name": "Paprika"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Tomato paste"
+                },
+                {
+                    "name": "Unsweetened coconut milk"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Salmon"
+                },
+                {
+                    "name": "Olive oil"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Creamy Broccoli-Cauliflower Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Onion"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Potatoes"
+                },
+                {
+                    "name": "Broccoli"
+                },
+                {
+                    "name": "Cauliflower florets"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Thyme"
+                },
+                {
+                    "name": "Bay leaves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Chili Tomato Mediterranean Shrimp Stew",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Chilies"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Water"
+                },
+                {
+                    "name": "Cumin"
+                },
+                {
+                    "name": "Caraway seeds"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Shrimp"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Smoked Salmon Pasta",
+            "cuisines": [
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Spaghetti"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Heavy whipping cream"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Lemon zest"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Smoked salmon"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Arugula"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Grilled Tuna",
+            "cuisines": [
+                "Mediterranean",
+                "Kid-Friendly"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tuna steaks"
+                },
+                {
+                    "name": "Sour cream"
+                },
+                {
+                    "name": "Italian seasoning blend"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Scampi With Butter And Lemon",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Butter"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Shrimp"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Parsley"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cod With Olives And Capers",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Olives"
+                },
+                {
+                    "name": "Capers"
+                },
+                {
+                    "name": "Garlic cloves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Garlic powder"
+                },
+                {
+                    "name": "Paprika"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Baccala Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Kalamata olives"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Dark leafy greens"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Lemon And Sage Cod",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cod"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lemon"
+                },
+                {
+                    "name": "Sage leaves"
+                },
+                {
+                    "name": "Coriander"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Dakos",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Whole wheat bread"
+                },
+                {
+                    "name": "Tomatoes"
+                },
+                {
+                    "name": "Feta cheese"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Black pepper"
+                },
+                {
+                    "name": "Oregano"
+                },
+                {
+                    "name": "Black olives"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Cajun Air Fryer Salmon",
+            "cuisines": [
+                "American",
+                "Kid-Friendly",
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Salmon fillets"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Cajun seasoning"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Keto Shrimp Salad ",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Sour cream"
+                },
+                {
+                    "name": "Lemon juice"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Dijon style mustard"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Peppercorns"
+                },
+                {
+                    "name": "Celery"
+                },
+                {
+                    "name": "Cucumber"
+                },
+                {
+                    "name": "Red onion"
+                },
+                {
+                    "name": "Shrimp"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Pea And Mint Soup",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Shallots"
+                },
+                {
+                    "name": "Mint leaves"
+                },
+                {
+                    "name": "Garlic"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Peas"
+                },
+                {
+                    "name": "Vegetable stock"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Marinated Cherry Tomato And Herb Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Balsamic vinegar"
+                },
+                {
+                    "name": "Parsley"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Rosemary leaves"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    },
+    {
+        "node": {
+            "name": "Watermelon, Tomato And Feta Salad",
+            "cuisines": [
+                "Mediterranean"
+            ],
+            "ingredients": [
+                {
+                    "name": "Olive oil"
+                },
+                {
+                    "name": "Lime juice"
+                },
+                {
+                    "name": "Curry powder"
+                },
+                {
+                    "name": "Cherry tomatoes"
+                },
+                {
+                    "name": "Watermelon"
+                },
+                {
+                    "name": "Feta cheese"
+                },
+                {
+                    "name": "Arugula"
+                },
+                {
+                    "name": "Basil"
+                },
+                {
+                    "name": "Salt"
+                },
+                {
+                    "name": "Black pepper"
+                }
+            ]
+        }
+    }
+]
