@@ -29,12 +29,7 @@ module.exports = {
   },
   darkMode: "class",
   theme: {
-    extend: {
-      fontFamily: {
-        display: ["Mervale Script"],
-        body: ["Salsa"],
-      },
-    },
+    extend: {},
   },
   plugins: [
     require("@tailwindcss/forms"),
