@@ -6,6 +6,7 @@ import Router, { useRouter } from "next/router";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { authentication } from "../firebase.config";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { inject, observer } from "mobx-react";
 
 const variants = {
   fadeIn: {
@@ -34,7 +35,8 @@ const variants = {
   },
 };
 
-function Login() {
+function Login({ userStore }) {
+  const { setUser } = userStore;
   const router = useRouter();
   const shouldReduceMotion = useReducedMotion();
   const [showPassword, setShowPassword] = useState(false);
@@ -49,6 +51,8 @@ function Login() {
     signInWithPopup(authentication, provider)
       .then((res) => {
         console.log(res);
+        console.log(res.user);
+        setUser(res.user);
         router.push("/");
       })
       .catch((err) => {
@@ -216,4 +220,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default inject("userStore")(observer(Login));

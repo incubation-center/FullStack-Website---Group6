@@ -2,20 +2,29 @@ import Link from "next/link";
 import Image from "next/image";
 import DarkMode from "../components/dark-mode";
 import { motion } from "framer-motion";
+import { inject, observer } from "mobx-react";
+import Router, { useRouter } from "next/router";
 
-function Navbar ()
-{
+function Navbar({ userStore }) {
   const icon = {
     hidden: {
       opacity: 0,
       pathLength: 0,
-      fill: "rgba(255, 255, 255, 0)"
+      fill: "rgba(255, 255, 255, 0)",
     },
     visible: {
       opacity: 1,
       pathLength: 1,
-      fill: "rgba(255, 255, 255, 1)"
-    }
+      fill: "rgba(255, 255, 255, 1)",
+    },
+  };
+
+  const router = useRouter();
+  const { user } = userStore;
+
+  const Logout = () => {
+    userStore.clearUser();
+    router.replace("/login");
   };
 
   return (
@@ -35,13 +44,13 @@ function Navbar ()
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-                variants={ icon }
+                variants={icon}
                 initial="hidden"
                 animate="visible"
-                transition={ {
+                transition={{
                   default: { duration: 1, ease: "easeInOut" },
-                  fill: { duration: 1, ease: [ 1, 0, 0.8, 1 ] }
-                } }
+                  fill: { duration: 1, ease: [1, 0, 0.8, 1] },
+                }}
               />
             </motion.svg>
           </label>
@@ -70,7 +79,13 @@ function Navbar ()
         </motion.div>
         <Link href="/">
           <a>
-            <Image src="/logo.png" className="hover:scale-95 cursor-pointer" width={ 185 } height={ 45 } alt="Logo" />
+            <Image
+              src="/logo.png"
+              className="hover:scale-95 cursor-pointer"
+              width={185}
+              height={45}
+              alt="Logo"
+            />
           </a>
         </Link>
       </div>
@@ -92,19 +107,40 @@ function Navbar ()
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/login">
-          {/* <svg className="bi bi-person-circle color: white w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="white" />
-            <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" fill="white" />
-          </svg> */}
-          <a className="btn border-accent bg-transparent text-accent hover:border-accent hover:bg-accent hover:text-primary hidden md:flex">
-            login
-          </a>
-        </Link>
+        {!user ? (
+          <Link href="/login">
+            <a className="btn border-accent bg-transparent text-accent hover:border-accent hover:bg-accent hover:text-primary hidden md:flex">
+              login
+            </a>
+          </Link>
+        ) : (
+          <div className="flex items-center">
+            <svg
+              className="bi bi-person-circle color: white w-10 h-10"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="white" />
+              <path
+                fillRule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                fill="white"
+              />
+            </svg>
+            <a
+              className="ml-4 btn border-accent bg-transparent text-accent hover:border-accent hover:bg-accent hover:text-primary hidden md:flex"
+              onClick={Logout}
+            >
+              Logout
+            </a>
+          </div>
+        )}
+
         <DarkMode />
       </div>
     </div>
   );
 }
 
-export default Navbar;
+export default inject("userStore")(observer(Navbar));
