@@ -13,7 +13,7 @@ function Bookmarks ( { bookmarkStore } )
   return (
     <>
       <Head>
-        <title>Bookmarked Recipes</title>
+        <title>Bookmarks</title>
         <meta name="description" content="Bookmarked Recipes" />
         <link rel="icon" href="/bookmarks.ico?" />
       </Head>

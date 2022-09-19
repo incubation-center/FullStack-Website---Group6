@@ -64,7 +64,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
   return (
     <>
       <Head>
-        <title>Recipes</title>
+        <title>Cookbooks</title>
         <meta name="description" content="Recipes" />
         <link rel="icon" href="/cookbooks.ico?" />
       </Head>
