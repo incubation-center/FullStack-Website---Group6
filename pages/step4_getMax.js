@@ -38,8 +38,6 @@ function getMax({
                       }
                     )}
                   </tr>
-                 {/* ))
-               }} */}
             </tbody>
         </table>
       </div>
@@ -70,15 +68,13 @@ function getMax({
                       }
                     )}
                   </tr>
-                 {/* ))
-               }} */}
             </tbody>
         </table>
       </div>
 
       {/* Count all recipes of each ingredients */}
       <div className="overflow-x-auto">
-        <h2 className="card-title">Count Recipe of All Cuisines</h2>
+        <h2 className="card-title">Count Recipe of All Ingredients</h2>
         <table className="table w-full">
             <tbody>
               <tr>
@@ -102,8 +98,6 @@ function getMax({
                       }
                     )}
                   </tr>
-                 {/* ))
-               }} */}
             </tbody>
         </table>
       </div>
@@ -127,20 +121,6 @@ export const getServerSideProps = async () => {
   const ingredientRecipeCount = await fetch(`${url}/api/aggregate/ingredient/countRecipe`, {
     method: "GET",
   }).then(data => data.json());
-
-  // console.log(cuisineRecipeCount)
-
-  // console.log(cuisineRecipeCount)
-  
-  /* const dbIngredientCategory = await prisma.ingredientCategory.findMany({
-    include: {
-      ingredients: {
-        select: {
-          name: true
-        }
-      },
-    }
-  }); */
   
   return {
     props: { 
