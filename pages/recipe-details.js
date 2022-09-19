@@ -32,7 +32,6 @@ function RecipeDetails ( props )
       <div className="flex-1 grid grid-cols-1 md:grid-cols-4 dark:bg-neutral">
         <div className="row-span-6 justify-around sm:pt-10">
           <figure className="flex justify-around m-5 md:m-2 lg:ml-5 xl:m-0">
-            {/* <Image src="/kokos_curry.png" width={ 390 } height={ 390 } alt="Kokos Curry" /> */}
             <img src= {item.imageLink} style={{width: 390, height: 390, objectFit: 'cover'}} alt={item.name}/>
           </figure>
           <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold text-center m-5 pt-5">{item.name}</h1>
