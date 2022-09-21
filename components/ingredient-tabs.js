@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React, { useState, useEffect, Fragment } from "react";
 import { inject, observer } from "mobx-react";
-import { Tooltip } from "@nextui-org/react";
 import { fetchIngredient, makeFieldFilter, makeRelatedFilterMany } from "../lib/helpers";
 
 function IngredientTabs ( {
@@ -37,16 +36,15 @@ function IngredientTabs ( {
 
   const handleSwitchTab = ( id ) =>
   {
-    /* TODO:
+    /* NOTE:
       - When changing tab, have a loading bar until state is set. 
-      problem: no_ingredient.png is shown when the data is being queried
+      - problem: no_ingredient.png is shown when the data is being queried
     */
     setCurrentPage( 1 );
     setIngredFilter(
       makeRelatedFilterMany( "categories", [ id ] )
     );
     setActiveTab( id );
-    // setActiveCat( name );
   };
 
   const chooseIngredient = ( checked, ingredient ) =>
@@ -267,7 +265,6 @@ function IngredientTabs ( {
               </div>
             ) }
           </div>
-          // <IngredientTab />
         ) }
 
         {/* Pagination button */ }

@@ -1,5 +1,7 @@
-import Link from "next/link";
 import { inject, observer } from "mobx-react";
+import Link from "next/link";
+import { useEffect } from "react";
+
 
 function IngredientList(props) {
   const {
@@ -8,6 +10,8 @@ function IngredientList(props) {
     removeIngredient,
     clearAll,
   } = props.ingredientStore;
+
+  useEffect(() => {}, [selectedIngredientIds])
 
   return (
     <div>
@@ -18,7 +22,7 @@ function IngredientList(props) {
       >
         <div className="indicator-item badge badge-primary btn-circle btn-sm text-accent">         
           {/* <span className="animate-ping absolute h-full w-full rounded-full bg-primary" /> */}
-          20
+          { selectedIngredientIds.length }
         </div>
         
         <svg className="bi bi-basket color: rgb(48, 213, 200); w-10 h-10 animate-pulse" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">

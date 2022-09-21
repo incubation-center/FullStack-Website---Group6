@@ -203,7 +203,10 @@ export async function getServerSideProps ()
       name: true
     }
   }
-  const allCuisines = await prisma.cuisine.findMany( queryContaineRecipeSelect );
+  const allCuisines = await prisma.cuisine.findMany({ 
+    ...queryContaineRecipeSelect, 
+    orderBy: { recipeCount: 'desc' }
+  });
   const allRecipeCategories = await prisma.recipeCategory.findMany( queryContaineRecipeSelect );
 
   return {
