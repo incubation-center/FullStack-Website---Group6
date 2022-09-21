@@ -152,14 +152,14 @@ function IngredientTabs ( {
         { keyword === "" ? (
           // The user is not searching
           <Fragment>
-            <ul className="grid grid-cols-3 md:flex text-center md:border-b border-base-200">
+            <ul className="grid grid-cols-3 lg:flex text-center lg:border-b border-base-200">
               { categories.map( ( category ) =>
               {
                 return (
                   <li
                     key={ category.id }
-                    className={ `flex-1 flex-wrap block rounded-t-lg capitalize font-bold sm:text-lg p-3 cursor-pointer ${ activeTab === category.id
-                      ? "relative bg-accent dark:bg-neutral dark:text-accent border-b-2 border-b-primary md:border-b-0 md:border-t md:border-l md:border-r border-base-200"
+                    className={ `flex-1 flex-wrap block rounded-t-lg capitalize font-bold md:text-lg p-3 cursor-pointer ${ activeTab === category.id
+                      ? "relative bg-accent dark:bg-neutral dark:text-accent border-b-2 border-b-primary lg:border-b-0 lg:border-t lg:border-l lg:border-r border-base-200"
                       : "text-neutral/50 dark:text-accent/50"
                       }` }
                     onClick={ () => handleSwitchTab( category.id ) }
@@ -176,10 +176,9 @@ function IngredientTabs ( {
 
             {/* <TabContent /> */ }
             <div
-              className={ `grid gap-2 form-control lg:border lg:border-t-0 p-2 md:p-5 lg:p-10 lg:px-20
-                ${ allIngredients.length > 0
-                ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-                  : "items-center grid-cols-1"
+              className={ `grid gap-2 form-control xl:border xl:border-t-0 p-2 md:p-5 lg:p-10 xl:px-20 ${ allIngredients.length > 0
+                ? "items-start grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
+                : "items-center grid-cols-1"
                 }` }
             >
               { allIngredients.length > 0 ? (
@@ -187,11 +186,11 @@ function IngredientTabs ( {
                 {
                   return (
                     <div key={ index } className="flex items-start">
-                      <label className="label card flex-1 lg:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] lg:shadow-none dark:shadow-accent/25 md:mx-10 lg:mx-0 my-2 md:my-1 p-4 cursor-pointer">
+                      <label className="label card flex-1 xl:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] xl:shadow-none dark:shadow-accent/25 md:mx-5 lg:mx-10 xl:mx-0 my-2 md:my-1 p-4 cursor-pointer">
                         <input
                           type="checkbox"
                           checked={ selectedIngredientIds.includes( ingredient.id ) }
-                          className="checkbox order-last lg:order-none dark:checkbox-accent"
+                          className="checkbox order-last xl:order-none dark:checkbox-accent"
                           onChange={ ( e ) => chooseIngredient(
                             e.target.checked,
                             [ ingredient.id, ingredient.name ]
@@ -229,8 +228,8 @@ function IngredientTabs ( {
         ) : (
           // Searched ingredients filtered by keyword
           <div
-              className={ `grid gap-2 form-control lg:border border-t-0 p-2 md:p-5 lg:p-10 lg:px-20 ${ allIngredients.length > 0
-              ? "items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              className={ `grid gap-2 form-control xl:border border-t-0 p-2 md:p-5 xl:p-10 xl:px-20 ${ allIngredients.length > 0
+              ? "items-start grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"
               : "items-center grid-cols-1"
               } ` }
           >
@@ -239,11 +238,11 @@ function IngredientTabs ( {
               {
                 return (
                   <div key={ index } className="flex items-start">
-                    <label className="label card flex-auto lg:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] lg:shadow-none dark:shadow-accent/25 md:mx-10 lg:mx-0 my-2 md:my-1 p-4 cursor-pointer">
+                    <label className="label card flex-auto xl:flex-none flex-row bg-accent dark:bg-neutral rounded-lg shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] xl:shadow-none dark:shadow-accent/25 md:mx-5 lg:mx-10 xl:mx-0 my-2 md:my-1 p-4 cursor-pointer">
                       <input
                         type="checkbox"
                         checked={ selectedIngredientIds.includes( ingredient.id ) }
-                        className="checkbox order-last lg:order-none dark:checkbox-accent"
+                        className="checkbox order-last xl:order-none dark:checkbox-accent"
                         onChange={ ( e ) => chooseIngredient(
                           e.target.checked,
                           [ ingredient.id, ingredient.name ]
