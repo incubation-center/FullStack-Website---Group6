@@ -107,6 +107,12 @@ These are the additional commands related to the services inside the docker cont
         root@postgres:/# psql -U postgres ingredeck < /var/lib/postgresql/data/exported_file.pgsql
         ```
 
+- Importing The Database Dump file Into The Hosting Database
+
+    ```bash
+        psql -d {database_uri} < exported_file.pgsql
+    ```
+
 - Migrating The Database:
 
     In case the database container is not up-to-date with the migrations, we can use this command to manually migrate the database with the specified migration versions in `prisma/migrations/`
