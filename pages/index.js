@@ -63,18 +63,23 @@ export default Home;
 
 export const getServerSideProps = async () =>
 {
-  const dbIngredientCategory = await prisma.ingredientCategory.findMany( {
+  const SORT_FIRST = "Meats";
+  const dbIngCate = await prisma.ingredientCategory.findMany( {
     select: {
       name: true,
       id: true,
+    },
+    orderBy: {
+      id: "asc"
     }
   } );
 
   return {
     props: {
-      dbIngredientCategory: JSON.parse(
-        JSON.stringify( dbIngredientCategory )
-      ).sort( ( _, b ) => ( b[ "name" ] == "Others" ? -1 : 0 ) ),
+      dbIngredientCategory: [
+        ...dbIngCate.filter(ic => ic.name === SORT_FIRST),
+        ...dbIngCate.filter(ic => ic.name !== SORT_FIRST)
+      ],
     },
   };
 };
