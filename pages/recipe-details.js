@@ -6,18 +6,11 @@ import RecipeTags from "../components/recipe-tags";
 import RecipeNutrients from "../components/recipe-nutrients";
 import Ingredients from "../components/ingredients";
 import Instructions from "../components/instructions";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+import { prisma } from "../lib/prisma";
 
-function RecipeDetails ( props ) 
+
+function RecipeDetails ({recipe}) 
 {
-  const router = useRouter()
-  const item = JSON.parse(router.query.item)
-  
-  useEffect(()=> {
-    console.log(item);
-  },[item])
-
   return (
     <>
       <Head>
@@ -32,9 +25,9 @@ function RecipeDetails ( props )
       <div className="flex-1 grid grid-cols-1 md:grid-cols-4 dark:bg-neutral">
         <div className="row-span-6 justify-around sm:pt-10">
           <figure className="flex justify-around m-5 md:m-2 lg:ml-5 xl:m-0">
-            <img src= {item.imageLink} style={{width: 390, height: 390, objectFit: 'cover'}} alt={item.name}/>
+            <img src= {recipe.imageLink} style={{width: 390, height: 390, objectFit: 'cover'}} alt={recipe.name}/>
           </figure>
-          <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold text-center m-5 pt-5">{item.name}</h1>
+          <h1 className="text-2xl lg:text-3xl dark:text-accent font-bold text-center m-5 pt-5">{recipe.name}</h1>
 
           <div className="divider dark:before:bg-accent/10 dark:after:bg-accent/10">
             <svg className="bi bi-tags color: rgb(48, 213, 200); w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
@@ -44,21 +37,21 @@ function RecipeDetails ( props )
           </div>
 
           <div className="mx-10 md:mx-4 lg:mx-10 ">
-            <RecipeTags item={item} />
+            <RecipeTags recipe={recipe} />
           </div>
     
         </div>
 
         <div className="col-span-3 pt-0 md:pt-10 xl:p-10">
-          <RecipeNutrients item={item} />
+          <RecipeNutrients item={recipe} />
         </div>
 
         <div className="grid grid-cols-1 col-span-2 md:grid-cols-2 md:col-span-3 gap-5 p-5">
           <div>
-            <Ingredients item={item} />
+            <Ingredients item={recipe} />
           </div>
           <div>
-            <Instructions item={item} />
+            <Instructions item={recipe} />
           </div>
         </div>
       </div>
@@ -68,5 +61,27 @@ function RecipeDetails ( props )
     </>
   )
 }
+
+
+export async function getServerSideProps (ctx) {
+  const query = ctx.query;
+  const recipe = await prisma.recipe.findFirst({
+    include: {
+      cuisines: true,
+      categories: true,
+      ingredients: true
+    },
+    where: {
+        id: parseInt(query.id)
+    }
+  });
+
+  return {
+    props: {
+      recipe: JSON.parse( JSON.stringify( recipe ) ),
+    },
+  }
+}
+
 
 export default RecipeDetails;

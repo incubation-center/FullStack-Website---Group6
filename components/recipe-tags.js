@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 
-function RecipeTags(props) {
-  const categoriesTag = props.item.categories
-  const cuisines = props.item.cuisines
+
+function RecipeTags({recipe}) {
+  const categoriesTag = recipe.categories
+  const cuisines = recipe.cuisines
   var cuisinesTag = ""
 
   cuisines.map((cuisine) => {
@@ -13,10 +14,10 @@ function RecipeTags(props) {
   cuisinesTag = cuisinesTag.slice(0,-3)
 
 
-  useEffect(()=> {
-    // console.log(props.item.categories);
-    console.log(cuisines);
-  },[cuisines])
+  useEffect(
+    ()=> {},
+    [recipe, cuisines]
+  )
   return (
     <div className="flex flex-col items-start">
       {/* Meal Tags */}
