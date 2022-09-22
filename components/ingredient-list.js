@@ -1,7 +1,6 @@
-import { inject, observer } from "mobx-react";
 import Link from "next/link";
 import { useEffect } from "react";
-
+import { inject, observer } from "mobx-react";
 
 function IngredientList(props) {
   const {
