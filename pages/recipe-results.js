@@ -63,7 +63,7 @@ function RecipesResult ( {
           <AllRecipes filter={ recipeFilter } currentPage={ 1 } />
 
           {/* Ingredient List */ }
-          <div className="fixed bottom-10 left-5 sm:left-10">
+          <div className="fixed bottom-5 sm:bottom-7 left-5 sm:left-10">
             <IngredientList text="Select Ingredients" />
           </div>
         </main>
