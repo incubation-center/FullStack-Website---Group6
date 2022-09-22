@@ -24,7 +24,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
         className="cursor-pointer"
         onClick={() => router.push({
           pathname: "/recipe-details",
-          query: {item: JSON.stringify(item)}
+          query: {id: item.id}
         })}
       >
         <img
@@ -86,7 +86,7 @@ function RecipesCard({ bookmarkStore, recipe }) {
           className="card w-full h-full cursor-pointer"
           onClick={() => router.push({
             pathname: "/recipe-details",
-            query: {item: JSON.stringify(item)}
+            query: {id: item.id}
           })}
         >
           <h2 className="sm:text-lg lg:text-xl dark:text-accent font-bold mx-1 sm:mx-px line-clamp-1">

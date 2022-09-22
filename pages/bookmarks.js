@@ -13,7 +13,7 @@ function Bookmarks ( { bookmarkStore } )
   return (
     <>
       <Head>
-        <title>Bookmarked Recipes</title>
+        <title>Bookmarks</title>
         <meta name="description" content="Bookmarked Recipes" />
         <link rel="icon" href="/bookmarks.ico?" />
       </Head>
@@ -21,6 +21,7 @@ function Bookmarks ( { bookmarkStore } )
       <div className="flex flex-col min-h-screen">
         <Navbar />
 
+        {/* Add pagination here */}
         <main className="flex-1 flex-col dark:bg-neutral">
           <div className="flex flex-row px-5 pt-5">
             <motion.div

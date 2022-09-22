@@ -55,6 +55,7 @@ model Cuisine {
   description String?
   createdAt DateTime @default(now())
   updatedAt DateTime?
+  recipeCount Int @default(0)
   recipes Recipe[]
 }
 
@@ -75,6 +76,7 @@ model Ingredient {
   icon String?
   createdAt DateTime @default(now())
   updatedAt DateTime?
+  recipeCount Int @default(0)
   recipes Recipe[]
   categories IngredientCategory[] 
 }
@@ -83,8 +85,21 @@ model Ingredient {
 model IngredientCategory {
   id Int @id @default(autoincrement())
   name String
+  icon String?
   description String?
   createdAt DateTime @default(now())
   updatedAt DateTime?
   ingredients Ingredient[]
+}
+
+model MaxRecipeProperty {
+  id Int @id @default(autoincrement())
+  durationSecond Int @default(0)
+  calories Float @default(0)
+  protein Float @default(0)
+  carb Float @default(0)
+  fiber Float @default(0)
+  fat Float @default(0)
+  sugar Float @default(0)
+  cholesterol Float @default(0)
 }

@@ -64,7 +64,7 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
   return (
     <>
       <Head>
-        <title>Recipes</title>
+        <title>Cookbooks</title>
         <meta name="description" content="Recipes" />
         <link rel="icon" href="/cookbooks.ico?" />
       </Head>
@@ -203,7 +203,10 @@ export async function getServerSideProps ()
       name: true
     }
   }
-  const allCuisines = await prisma.cuisine.findMany( queryContaineRecipeSelect );
+  const allCuisines = await prisma.cuisine.findMany({ 
+    ...queryContaineRecipeSelect, 
+    orderBy: { recipeCount: 'desc' }
+  });
   const allRecipeCategories = await prisma.recipeCategory.findMany( queryContaineRecipeSelect );
 
   return {
