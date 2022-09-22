@@ -19,7 +19,7 @@ function IngredientList(props) {
         htmlFor="my-modal-4"
         className=" indicator btn btn-square btn-accent dark:btn-active btn-lg rounded-2xl modal-button shadow-[0px_0px_5px_0px_rgba(0,0,0,0.5)] dark:shadow-accent/50"
       >
-        <div className="indicator-item badge badge-primary btn-circle btn-sm text-accent">         
+        <div className="indicator-item badge badge-primary btn-circle btn-sm border-2 border-accent dark:border-neutral text-accent">         
           {/* <span className="animate-ping absolute h-full w-full rounded-full bg-primary" /> */}
           { selectedIngredientIds.length }
         </div>
