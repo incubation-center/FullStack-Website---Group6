@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { inject, observer } from "mobx-react";
 import Router, { useRouter } from "next/router";
 
-function Navbar({ userStore }) {
+function Navbar({ userStore, bookmarkStore }) {
   const icon = {
     hidden: {
       opacity: 0,
@@ -21,10 +21,12 @@ function Navbar({ userStore }) {
 
   const router = useRouter();
   const { user } = userStore;
+  const { clearBookmarks } = bookmarkStore;
 
   const Logout = () => {
     userStore.clearUser();
-    router.replace("/login");
+    clearBookmarks();
+    // router.replace("/login");
   };
 
   return (
@@ -143,4 +145,4 @@ function Navbar({ userStore }) {
   );
 }
 
-export default inject("userStore")(observer(Navbar));
+export default inject("bookmarkStore", "userStore")(observer(Navbar));
