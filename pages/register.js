@@ -4,6 +4,9 @@ import Image from "next/image";
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { authentication } from "../firebase.config";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { inject, observer } from "mobx-react";
 
 const variants = {
   in: {
@@ -11,52 +14,65 @@ const variants = {
     y: 100,
     x: "100%",
     transition: {
-      duration: 0.4
-    }
+      duration: 0.4,
+    },
   },
   center: {
     x: 0,
     scale: 0.8,
     transformOrigin: "top",
     transition: {
-      duration: 0.4
-    }
+      duration: 0.4,
+    },
   },
   scaleUp: {
     scale: 1,
     y: 0,
     transition: {
       duration: 0.4,
-      delay: 0.5
-    }
+      delay: 0.5,
+    },
   },
   scaleDown: {
     scale: 0.8,
     y: 100,
     transition: {
-      duration: 0.4
-    }
+      duration: 0.4,
+    },
   },
   out: {
     opacity: 0,
     x: "-100%",
     transition: {
       duration: 0.4,
-      delay: 0.5
-    }
-  }
+      delay: 0.5,
+    },
+  },
 };
 
-function Register (props)
-{
+function Register({ userStore }) {
+  const { setUser } = userStore;
   const router = useRouter();
   const shouldReduceMotion = useReducedMotion();
-  const [ showPassword, setShowPassword ] = useState( false );
+  const [showPassword, setShowPassword] = useState(false);
 
-  const onSubmit = ( e ) =>
-  {
+  const onSubmit = (e) => {
     e.preventDefault();
-    router.push( "/" );
+    router.push("/");
+  };
+
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(authentication, provider)
+      .then((res) => {
+        console.log(res);
+        console.log(res.user);
+        setUser(res.user);
+        router.push("/");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
@@ -66,16 +82,15 @@ function Register (props)
         <meta name="description" content="Register" />
         <link rel="icon" href="/register.ico?" />
       </Head>
-      
+
       <AnimatePresence mode="wait">
         <motion.section
           className="relative flex flex-wrap items-center h-screen"
-          variants={ !shouldReduceMotion ? variants : null }
+          variants={!shouldReduceMotion ? variants : null}
           initial="in"
-          animate={ [ "center", "scaleUp" ] }
-          exit={ [ "scaleDown", "out" ] }
+          animate={["center", "scaleUp"]}
+          exit={["scaleDown", "out"]}
         >
-
           <div className="relative lg:w-1/2 lg:h-full">
             <Image
               className="absolute inset-0 object-cover w-full h-full"
@@ -91,16 +106,19 @@ function Register (props)
                 className="absolute inset-0 object-cover w-full h-full"
                 src="https://source.unsplash.com/random/?food"
                 layout="fill"
-                alt="Random Food Images"     
+                alt="Random Food Images"
               />
             </div>
 
             <form className="relative bg-accent/70 rounded-lg p-5 space-y-5">
               <div className="max-w-lg mx-auto text-center text-neutral/80 mb-10">
-                <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+                <h1 className="text-2xl font-bold sm:text-3xl">
+                  Get started today!
+                </h1>
 
                 <p className="mt-5">
-                  In order to save the recipes that you like, register here with us.
+                  In order to save the recipes that you like, register here with
+                  us.
                 </p>
               </div>
 
@@ -141,14 +159,14 @@ function Register (props)
                 </label>
                 <div className="relative">
                   <input
-                    type={ showPassword ? "text" : "password" }
+                    type={showPassword ? "text" : "password"}
                     className="w-full p-4 pr-12 text-sm border-base-200 focus:border-primary rounded-lg shadow-sm"
                     placeholder="Enter your Password"
                   />
 
                   <span
                     className="absolute inset-y-0 inline-flex items-center right-4 cursor-pointer"
-                    onClick={ () => setShowPassword( !showPassword ) }
+                    onClick={() => setShowPassword(!showPassword)}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -174,25 +192,41 @@ function Register (props)
                 </div>
               </div>
 
-              <motion.div className="flex items-center justify-between max-w-md mx-auto" key="/login">
+              <motion.div
+                className="flex items-center justify-between max-w-md mx-auto"
+                key="/login"
+              >
                 <p className="text-sm text-neutral/80">
                   Already have an account?
                   <Link href="/login">
-                    <a className="font-bold hover:text-primary underline mx-1">Sign in</a>
+                    <a className="font-bold hover:text-primary underline mx-1">
+                      Sign in
+                    </a>
                   </Link>
                 </p>
 
                 <motion.button
                   // type="submit"
-                  onClick={ onSubmit }
+                  onClick={onSubmit}
                   className="inline-block px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg"
-                  whileHover={ { scale: 1.1 } }
-                  whileTap={ { scale: 0.9 } }
-                  transition={ { type: "spring", stiffness: 400, damping: 17 } }
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 >
                   Register
                 </motion.button>
               </motion.div>
+
+              <motion.button
+                type="button"
+                onClick={signInWithGoogle}
+                className="inline-block px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              >
+                Sign In with Google
+              </motion.button>
             </form>
           </div>
         </motion.section>
@@ -201,4 +235,4 @@ function Register (props)
   );
 }
 
-export default Register;
+export default inject("userStore")(observer(Register));
