@@ -18,7 +18,7 @@ function Home ( { dbIngredientCategory }, props )
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Ingredeck</title>
         <meta name="description" content="Ingredient Checklists" />
         <link rel="icon" href="/favicon.ico?" />
       </Head>
