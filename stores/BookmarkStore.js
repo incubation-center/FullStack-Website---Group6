@@ -21,6 +21,10 @@ class BookmarkStore {
     this.bookmarks = this.bookmarks.filter((b) => b.id !== bookmark.id);
   };
 
+  @action clearBookmarks = () => {
+    this.bookmarks = [];
+  };
+
   @computed
   get bookmarkCount() {
     return this.bookmarks.length;
