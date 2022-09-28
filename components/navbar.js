@@ -2,10 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import DarkMode from "../components/dark-mode";
 import { motion } from "framer-motion";
-import { inject, observer } from "mobx-react";
-import Router, { useRouter } from "next/router";
+import useAuth from "../lib/hook/AuthProvider";
 
-function Navbar({ userStore, bookmarkStore }) {
+function Navbar ()
+{
+  const { user, logout } = useAuth();
   const icon = {
     hidden: {
       opacity: 0,
@@ -18,17 +19,7 @@ function Navbar({ userStore, bookmarkStore }) {
       fill: "rgba(255, 255, 255, 1)",
     },
   };
-
-  const router = useRouter();
-  const { user } = userStore;
-  const { clearBookmarks } = bookmarkStore;
-
-  const Logout = () => {
-    userStore.clearUser();
-    clearBookmarks();
-    // router.replace("/login");
-  };
-
+  
   return (
     <div className="navbar bg-primary dark:bg-teal-500 shadow-lg shadow-primary/25 dark:shadow-teal-500/50">
       <div className="navbar-start">
@@ -132,7 +123,7 @@ function Navbar({ userStore, bookmarkStore }) {
             </svg>
             <a
               className="ml-4 btn border-accent bg-transparent text-accent hover:border-accent hover:bg-accent hover:text-primary hidden md:flex"
-              onClick={Logout}
+              onClick={logout}
             >
               Logout
             </a>
@@ -145,4 +136,4 @@ function Navbar({ userStore, bookmarkStore }) {
   );
 }
 
-export default inject("bookmarkStore", "userStore")(observer(Navbar));
+export default Navbar;
