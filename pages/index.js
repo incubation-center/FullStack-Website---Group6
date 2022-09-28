@@ -14,8 +14,6 @@ function Home ( { dbIngredientCategory }, props )
 {
   const [ ingreFilter, setIngreFilter ] = useState( {} );
 
-  useEffect( () => { }, [] );
-
   return (
     <>
       <Head>
