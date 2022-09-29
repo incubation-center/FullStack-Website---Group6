@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Router, { useRouter } from "next/router";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { authentication } from "../firebase.config";
+// import { authentication } from "../firebase.config";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { inject, observer } from "mobx-react";
 

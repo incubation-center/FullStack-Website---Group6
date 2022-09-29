@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React, { useState, useEffect } from "react";
-
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import AllRecipes from "../components/recipe/allRecipe";
@@ -9,7 +8,6 @@ import SliderFilter from "../components/slider-filter";
 import { makeFieldFilter, makeRelatedFilterMany } from "../lib/helpers";
 import useAuth from "../lib/hook/AuthProvider";
 import { prisma } from "../lib/prisma";
-
 
 function Cookbooks ( { allRecipeCategories, allCuisines } )
 {
@@ -45,7 +43,6 @@ function Cookbooks ( { allRecipeCategories, allCuisines } )
 
   useEffect( () =>
   {
-    
     // get bookmark list from Firestore
     const setBookmarkProp = async () => {
       const userDoc = await getDocument();
