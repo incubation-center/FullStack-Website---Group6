@@ -194,16 +194,14 @@ function Login() {
               <motion.button
                 type="button"
                 onClick={signInWithGoogle}
-                className="px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg flex items-center justify-center"
+                className="px-5 py-2 text-sm font-medium text-accent bg-primary rounded-lg flex items-center justify-center"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
                 <svg
-                  className="bi bi-google text-white w-7 h-7 text-center"
+                  className="bi bi-google w-7 h-7 mt-2"
                   xmlns="http://www.w3.org/2000/svg"
-                  // width="24"
-                  // height="24"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
