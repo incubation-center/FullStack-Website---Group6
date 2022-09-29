@@ -2,11 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import Router, { useRouter } from "next/router";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { authentication } from "../firebase.config";
-import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { inject, observer } from "mobx-react";
+import { useRouter } from "next/router";
+import { motion, AnimatePresence} from "framer-motion";
+import useAuth from "../lib/hook/AuthProvider";
 
 const variants = {
   fadeIn: {
@@ -35,10 +33,8 @@ const variants = {
   },
 };
 
-function Login({ userStore }) {
-  const { setUser } = userStore;
+function Login() {
   const router = useRouter();
-  const shouldReduceMotion = useReducedMotion();
   const [showPassword, setShowPassword] = useState(false);
 
   const onSubmit = (e) => {
@@ -46,19 +42,12 @@ function Login({ userStore }) {
     router.push("/");
   };
 
-  const signInWithGoogle = () => {
-    const provider = new GoogleAuthProvider();
-    signInWithPopup(authentication, provider)
-      .then((res) => {
-        console.log(res);
-        console.log(res.user);
-        setUser(res.user);
-        router.push("/");
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  const { loginWithGoogle } = useAuth();
+
+  const signInWithGoogle = async () => {
+    await loginWithGoogle();
+    router.push("/");
+  }
 
   return (
     <>
@@ -205,7 +194,7 @@ function Login({ userStore }) {
               <motion.button
                 type="button"
                 onClick={signInWithGoogle}
-                className="inline-block px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg flex items-center justify-center"
+                className="px-5 py-3 text-sm font-medium text-accent bg-primary rounded-lg flex items-center justify-center"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -233,4 +222,4 @@ function Login({ userStore }) {
   );
 }
 
-export default inject("userStore")(observer(Login));
+export default Login;
