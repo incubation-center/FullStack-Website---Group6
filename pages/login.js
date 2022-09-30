@@ -52,7 +52,7 @@ function Login() {
 
   useEffect(()=> {
     setError("")
-  },[])
+  },[setError])
 
   const signInWithGoogle = async () => {
     await loginWithGoogle();
@@ -184,7 +184,7 @@ function Login() {
                 </div>
               </div>
 
-              {error ? <div>{error}</div>: <></>}
+              {error ? <div className="font-bold text-error px-3">{error}</div>: <></>}
 
               <motion.div
                 className="flex items-center justify-between max-w-md mx-auto"
