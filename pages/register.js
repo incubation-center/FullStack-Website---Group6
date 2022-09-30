@@ -199,7 +199,7 @@ function Register ( { userStore } )
                 </div>
               </div>
               
-              {error ? <div>{error}</div>: <></>}
+              {error ? <div className="font-bold text-error px-1">{error}</div>: <></>}
 
               <motion.div
                 className="flex items-center justify-between max-w-md mx-auto"
