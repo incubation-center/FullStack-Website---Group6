@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Router, { useRouter } from "next/router";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { inject, observer } from "mobx-react";
+import useAuth from "../lib/hook/AuthProvider";
 
 const variants = {
   in: {
@@ -50,16 +51,28 @@ const variants = {
 
 function Register ( { userStore } )
 {
-  // const { setUser } = userStore;
   const router = useRouter();
   const shouldReduceMotion = useReducedMotion();
   const [ showPassword, setShowPassword ] = useState( false );
 
-  const onSubmit = ( e ) =>
-  {
+  const {registerWithEmailPassword, user, error, setError} = useAuth()
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("")
+
+  const onSubmit = async (e) => {
     e.preventDefault();
-    router.push( "/login" );
+    const data = await registerWithEmailPassword(email, password)
+    
+    setEmail("")
+    setPassword("")
+    if(!data.error) {
+      router.push( "/" );
+    }
   };
+
+  useEffect(()=> {
+    setError("")
+  },[])
 
   return (
     <>
@@ -72,7 +85,7 @@ function Register ( { userStore } )
       <AnimatePresence mode="wait">
         <motion.section
           className="relative flex flex-wrap items-center h-screen"
-          variants={ !shouldReduceMotion ? variants : null }
+          variants={ variants }
           initial="in"
           animate={ [ "center", "scaleUp" ] }
           exit={ [ "scaleDown", "out" ] }
@@ -115,6 +128,10 @@ function Register ( { userStore } )
 
                 <div className="relative">
                   <input
+                  value={email}
+                    onChange={(e)=> {
+                      setEmail(e.target.value)
+                    }}
                     type="email"
                     className="w-full p-4 pr-12 text-sm border-base-200 focus:border-primary rounded-lg shadow-sm"
                     placeholder="Enter your Email"
@@ -145,6 +162,10 @@ function Register ( { userStore } )
                 </label>
                 <div className="relative">
                   <input
+                  value={password}
+                    onChange={(e)=> {
+                      setPassword(e.target.value)
+                    }}
                     type={ showPassword ? "text" : "password" }
                     className="w-full p-4 pr-12 text-sm border-base-200 focus:border-primary rounded-lg shadow-sm"
                     placeholder="Enter your Password"
@@ -177,6 +198,8 @@ function Register ( { userStore } )
                   </span>
                 </div>
               </div>
+              
+              {error ? <div>{error}</div>: <></>}
 
               <motion.div
                 className="flex items-center justify-between max-w-md mx-auto"
